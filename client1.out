@@ -1,6 +1,6 @@
-setminus,31
-setplus,32
+setminus,20
+setplus,24
 gets,500
-transfer,18
+transfer,26
 commits,125
-aborts,47077
+aborts,28824

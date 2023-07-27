@@ -23,6 +23,14 @@ do
      for NOBJSERVER in 500;
      do
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        ./compileTRMIKarma.sh
+        for NCLIENT in 4;
+        do
+        NTRANS=$(($NTTRANS/$NCLIENT))
+        #echo "clients: $NCLIENT transacoes por client: $NTRANS, NTTRANS: $NTTRANS"
+        ./runTRMIKarma.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+        done 
+
         ./compileTRMIPolite.sh
         for NCLIENT in 4;
         do
