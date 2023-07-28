@@ -31,7 +31,7 @@ public class BackoffManager extends ContentionManager {
   private static final int MAX_DELAY = 512;//1024;
   Random random = new Random();
   ITransaction rival = null;
-  int delay = 64;
+  int delay = 256;
   int attempts = 0;
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
@@ -46,7 +46,7 @@ public class BackoffManager extends ContentionManager {
     //System.out.println(attempts);
     if (attempts < other.getPriority() - me.getPriority()) {            // be patient
       try {
-        Thread.sleep(random.nextInt(delay));
+        Thread.sleep(delay);
       } catch (InterruptedException ex) {
         Thread.currentThread().interrupt();
       }
