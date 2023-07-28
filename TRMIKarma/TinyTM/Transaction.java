@@ -34,6 +34,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
 //  public enum Status {ABORTED, ACTIVE, COMMITTED};
   static public final AtomicInteger commits = new AtomicInteger(0);
   static public final AtomicInteger aborts = new AtomicInteger(0);
+  public AtomicInteger priority = new AtomicInteger(0);
   public static final Transaction COMMITTED = initCOMMITTED();
   public static final Transaction ABORTED = initABORTED();
   public ContentionManager cm;
@@ -95,6 +96,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
 
  public void addRS(ITMObjServer x, Object y)throws RemoteException {
        readset.add(x,y); 
+      //priority.incrementAndGet();
+      //System.out.println("ADD RS: " + priority.get());
      }
   public int sizeRS()throws RemoteException
   { return readset.size();}
@@ -154,6 +157,12 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
       
     }
     throw new InterruptedException();
+  }
+
+  @Override
+  public int getPriority() throws RemoteException {
+    //System.out.println("GET: " + priority.get());
+    return priority.get();
   }
 
 }

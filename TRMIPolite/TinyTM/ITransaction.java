@@ -48,5 +48,6 @@ public interface ITransaction extends Remote{
 
   public void CMresolve(ITransaction enemy) throws RemoteException;
    
+  public int getPriority() throws RemoteException;
 
  }

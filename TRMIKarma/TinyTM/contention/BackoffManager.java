@@ -31,25 +31,25 @@ public class BackoffManager extends ContentionManager {
   private static final int MAX_DELAY = 512;//1024;
   Random random = new Random();
   ITransaction rival = null;
-  int delay = MIN_DELAY;
-  int priority = 0;
+  int delay = 64;
   int attempts = 0;
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
    if(rival!=null){
        if (other.hashCode() != rival.hashCode()) {
             rival = other;
-            delay = MIN_DELAY;
-            priority = 0;}
+      }
     }
     
-    if (attempts < other.sizeRS() - me.sizeRS()) {            // be patient
+    //System.out.println("OTHER: " + other.getPriority());
+    //System.out.println("ME: " + me.getPriority());
+    //System.out.println(attempts);
+    if (attempts < other.getPriority() - me.getPriority()) {            // be patient
       try {
         Thread.sleep(random.nextInt(delay));
       } catch (InterruptedException ex) {
         Thread.currentThread().interrupt();
       }
-      delay = 64;
       ++attempts;
     } else {                          // patience exhausted
       other.abort();
