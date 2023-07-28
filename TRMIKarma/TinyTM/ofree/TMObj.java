@@ -87,6 +87,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     //    System.out.println("openread cliente pedindo para abrir");  
         //ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
         T result = (T) server.openReadRemote(me);
+        me.priority.incrementAndGet();  //increments priority when opening an object to read
         //localRef = result;
         return result;
       default:
@@ -110,6 +111,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
         //  System.out.println("openwrite cliente pedindo para abrir");  
         //ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
         T result = (T) server.openWriteRemote(me);
+        me.priority.incrementAndGet();  //increments priority when opening an object to write
         //localRef = result;
         return result;
       default:
