@@ -78,6 +78,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
+        me.priority.set(0);
         return (T) server.openSequential();
       case ABORTED:
         throw new AbortedException();
@@ -100,6 +101,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
+        me.priority.set(0);
         return (T)server.openSequential();
       case ABORTED:
         throw new AbortedException();

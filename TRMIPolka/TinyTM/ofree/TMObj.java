@@ -32,7 +32,7 @@ import TinyTM.*;
 import TinyTM.contention.ContentionManager;
 import TinyTM.exceptions.AbortedException;
 import TinyTM.exceptions.PanicException;
-import TinyTM.Copyable;
+
 import java.util.concurrent.atomic.AtomicReference;
 
 public class TMObj<T extends Copyable<T>>{ // extends TinyTM.AtomicObject<T> {
@@ -78,6 +78,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
+        me.priority.set(0);
         return (T) server.openSequential();
       case ABORTED:
         throw new AbortedException();
@@ -100,6 +101,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
+        me.priority.set(0);
         return (T)server.openSequential();
       case ABORTED:
         throw new AbortedException();
