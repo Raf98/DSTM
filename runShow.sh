@@ -23,6 +23,15 @@ do
      for NOBJSERVER in 500;
      do
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        ./compileTRMITimestamp.sh
+        for NCLIENT in 4;
+        do
+        NTRANS=$(($NTTRANS/$NCLIENT))
+        #echo "clients: $NCLIENT transacoes por client: $NTRANS, NTTRANS: $NTTRANS"
+        ./runTRMITimestamp.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+        done
+
+        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         ./compileTRMIKindergarten.sh
         for NCLIENT in 4;
         do
