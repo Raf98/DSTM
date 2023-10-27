@@ -75,7 +75,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
     super();
     status = new AtomicReference<Status>(Status.ACTIVE);
     cm = new BackoffManager();
-    timestamp = new AtomicLong(System.currentTimeMillis());
+    timestamp = new AtomicLong(GlobalClock.getCurrentTime());
   }
   private Transaction(Transaction.Status myStatus) throws RemoteException {
    

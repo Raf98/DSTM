@@ -27,7 +27,7 @@ import java.rmi.*;
  */
 public class BackoffManager extends ContentionManager {
   private static final int MIN_DELAY = 128;//64;//32;
-  private static final int MAX_DELAY = 4096;//2048;//1024;
+  private static final int MAX_DELAY = 2048;//2048;//1024;
   Random random = new Random();
   ITransaction rival = null;
   int delay = 64;
