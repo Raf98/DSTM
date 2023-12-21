@@ -172,7 +172,7 @@ class DHTTransaction implements ExecuteTransaction {
     @Override
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int op) throws Exception {
         Random rng = new Random();
-        TMObj<IHTMachine>[] TMObjects = new TMObj[nObjects];
+        TMObj<IHashTable>[] TMObjects = new TMObj[nObjects];
         int[] keys = new int[TMObjects.length];
         for (int i = 0; i < TMObjects.length; i++) {
             keys[i] = rng.nextInt();
@@ -180,7 +180,7 @@ class DHTTransaction implements ExecuteTransaction {
             String port = 1700 + String.valueOf(machineNum);
             String machineAddress = "object" + machineNum;
 
-            TMObjects[i] = (TMObj<IHTMachine>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + machineAddress);
+            TMObjects[i] = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + machineAddress);
         }
 
         int donewithdraw = 0;
@@ -190,12 +190,12 @@ class DHTTransaction implements ExecuteTransaction {
                 int localwithdraw = 0;
                 Random rng = new Random();
                 if (op == 0) {
-                    IHTMachine iht = TMObjects[0].openWrite();
+                    IHashTable iht = TMObjects[0].openWrite();
                     iht.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
                 }
 
                 else if (op == 1) {
-                    IHTMachine iht = TMObjects[0].openRead();
+                    IHashTable iht = TMObjects[0].openRead();
                     iht.get(rng.nextInt(10*100));
                 }
                 return localwithdraw;

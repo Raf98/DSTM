@@ -19,7 +19,7 @@ public class DHTServer {
         int id = Integer.parseInt(args[0]);
         int numberObj = Integer.parseInt(args[1]);
 
-        Remote hashTable = new TMObjServer(new SHTMachine("object" + id));
+        Remote hashTable = new TMObjServer(new SHashTable("object" + id));
 
         ServerApp server = new ServerApp();
         try {

@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
 import TinyTM.Transaction;
 import TinyTM.ofree.TMObj;
 
-public class SHTMachine extends UnicastRemoteObject implements IHTMachine {
+public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
     int key, value;
     String addressName;
@@ -19,14 +19,14 @@ public class SHTMachine extends UnicastRemoteObject implements IHTMachine {
     private HashTable hashTable;
     private Map<Integer, String> routingTable;              //armazena para cada valor de e
 
-    protected SHTMachine(String addressName) throws RemoteException {
+    protected SHashTable(String addressName) throws RemoteException {
         super();
         this.addressName = addressName;
         hashTable = new HashTable();
         routingTable = Collections.synchronizedMap(new HashMap<Integer, String>());
     }
 
-    protected SHTMachine(int key, int value, String addressName) throws RemoteException {
+    protected SHashTable(int key, int value, String addressName) throws RemoteException {
         super();
         this.key = key;
         this.value = value;
@@ -35,7 +35,7 @@ public class SHTMachine extends UnicastRemoteObject implements IHTMachine {
     }
 
     @Override
-    public void copyTo(IHTMachine target) throws RemoteException {
+    public void copyTo(IHashTable target) throws RemoteException {
         // ((IHTMachine)target).setField0(this.field0);
     }
 
