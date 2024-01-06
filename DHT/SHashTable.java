@@ -16,12 +16,14 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     int key, value;
     String addressName;
     public static int NUMBER_OF_MACHINES = 10;
+    private TMObj<INode<Integer>> ht[];
     private HashTable hashTable;
     private Map<Integer, String> routingTable;              //armazena para cada valor de e
 
     protected SHashTable(String addressName) throws RemoteException {
         super();
         this.addressName = addressName;
+        ht = new TMObj[NUMBER_OF_MACHINES];
         hashTable = new HashTable();
         routingTable = Collections.synchronizedMap(new HashMap<Integer, String>());
     }
@@ -40,7 +42,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @Override
-    public LinkedList<Integer> get(int key) throws RemoteException {
+    public TMObj<INode<Integer>> get(int key) throws RemoteException {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'get'");
     }

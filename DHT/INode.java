@@ -1,8 +1,10 @@
 package DHT;
 
+import java.rmi.RemoteException;
 import java.util.concurrent.atomic.AtomicReference;
 
 import TinyTM.Copyable;
+import TinyTM.ofree.TMObj;
 
 interface INode<T> extends Copyable<INode<T>> {
     public int getKey();
@@ -13,7 +15,13 @@ interface INode<T> extends Copyable<INode<T>> {
 
     public void setItem(T item);
 
-    public AtomicReference<Node<T>> getNext();
+    public TMObj<INode<T>> getNext();
 
-    public void setNext(AtomicReference<Node<T>> next);
+    public void setNext(TMObj<INode<T>> next);
+
+    public INode<T> get(int key);
+
+    public boolean contains(int key) throws Exception;
+
+    public TMObj<INode<T>> insert(int key, int value) throws Exception;
 }

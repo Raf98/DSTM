@@ -30,6 +30,7 @@ public class DHTClient {
         int writes = Integer.parseInt(args[3]);
         int transactions = Integer.parseInt(args[4]);
         int objectsPerTransaction = Integer.parseInt(args[5]);
+        int hashTablesEntries = Integer.parseInt(args[6]);
 
         ClientApp app = new ClientApp();
         DHTTransaction transaction = new DHTTransaction();
@@ -48,7 +49,7 @@ public class DHTClient {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
             op = cop.chooseOP(writes, random);
             //transaction.execTransaction(robjects, op);
-            transaction.execTransaction(servers, objects, objectsPerTransaction, op);
+            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
         }
 
         // App Ends
@@ -170,17 +171,30 @@ class DHTTransaction implements ExecuteTransaction {
     }*/ 
 
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int op) throws Exception {
+    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
-        TMObj<IHashTable>[] TMObjects = new TMObj[nObjects];
+        TMObj<INode<Integer>>[] TMObjects = new TMObj[nObjects];
         int[] keys = new int[TMObjects.length];
         for (int i = 0; i < TMObjects.length; i++) {
-            keys[i] = rng.nextInt();
-            int machineNum = keys[i] % nServers;
-            String port = 1700 + String.valueOf(machineNum);
-            String machineAddress = "object" + machineNum;
+            int bound = 1000;
+            keys[i] = rng.nextInt(bound);
+            
+            int inc = bound / nServers;
+            int count = 0;
+            int j = 0;
+            for (; j < nServers; j++) {
+                count += inc;
+                if(keys[i] < count) {
+                    break;
+                }
+            }
 
-            TMObjects[i] = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + machineAddress);
+            int machineNum = j; // esquema de descobrir máquina deve ser repensado?
+
+            String port = 1700 + String.valueOf(machineNum);
+            String nodeName = "ht" + machineNum + "_node" + keys[i] % hashTablesEntries;
+
+            TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
         }
 
         int donewithdraw = 0;
@@ -190,13 +204,13 @@ class DHTTransaction implements ExecuteTransaction {
                 int localwithdraw = 0;
                 Random rng = new Random();
                 if (op == 0) {
-                    IHashTable iht = TMObjects[0].openWrite();
-                    iht.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
+                    INode<Integer> iNode = TMObjects[0].openWrite();
+                    iNode.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
                 }
 
                 else if (op == 1) {
-                    IHashTable iht = TMObjects[0].openRead();
-                    iht.get(rng.nextInt(10*100));
+                    INode<Integer> iNode = TMObjects[0].openRead();
+                    iNode.get(rng.nextInt(10*100));
                 }
                 return localwithdraw;
             }

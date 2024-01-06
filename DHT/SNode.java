@@ -1,16 +1,26 @@
 package DHT;
 
-import java.util.concurrent.atomic.AtomicReference;
+import java.rmi.AccessException;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+import TinyTM.ofree.TMObj;
+import TinyTM.ofree.TMObjServer;
 
 class SNode<T> implements INode<T> {
-    T item;
     int key;
-    AtomicReference<Node<T>> next;
+    T item;
+    String name;
+    TMObj<INode<T>> next;
 
     public SNode() {}
-    public SNode(int key, T item) {
+    public SNode(int key, T item, String name) {
         this.key = key;
         this.item = item;
+        this.name = name;
+        this.next = null;
     }
     
     @Override
@@ -30,13 +40,67 @@ class SNode<T> implements INode<T> {
         this.item = item;
     }
     @Override
-    public AtomicReference<Node<T>> getNext() { return next; }
+    public TMObj<INode<T>> getNext() { return next; }
     @Override
-    public void setNext(AtomicReference<Node<T>> next) { this.next = next; }
+    public void setNext(TMObj<INode<T>> next) { this.next = next; }
     @Override
     public void copyTo(INode<T> target) {
         ((INode<T>)target).setNext(next);
         ((INode<T>)target).setKey(key);
         ((INode<T>)target).setItem(item);
+    }
+    @Override
+    public boolean contains(int key) throws Exception {
+        if (this.key == -1) {
+            return false;
+        }
+
+        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+            INode<T> node;
+                node = tmObjNode.openRead();
+                if (node.getKey() == key) {
+                    return true;
+                }
+
+                tmObjNode = node.getNext();
+        }
+
+        return false;
+    }
+    
+    @Override
+    public TMObj<INode<T>> insert(int key, int value) throws Exception {
+        String newNodeName = name + "_key" + key;
+        SNode<T> newNode = new SNode(-1, 0, newNodeName);
+        Integer id = Integer.parseInt(name.split("ht", 3)[1]);
+        Integer port = 1700 + id;
+        Registry registry = LocateRegistry.createRegistry(port);
+        Remote newNodeRemote = new TMObjServer(newNode);
+        registry.rebind("object" + id, newNodeRemote);
+
+        TMObj<INode<T>> newTmObjNode = TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
+         
+        if (this.key == -1) {
+            this.setNext(newTmObjNode);
+        }
+
+        for (TMObj<INode<T>> tmObjNode = this.next; ;) {
+            INode<T> node;
+            node = tmObjNode.openRead();
+
+            if (node.getNext() == null) {
+                node.setNext(newTmObjNode);
+                break;
+            }
+
+            tmObjNode = node.getNext();
+        }
+
+        return newTmObjNode;
+    }
+    @Override
+    public INode<T> get(int key) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'get'");
     }
 }
