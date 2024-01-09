@@ -2,7 +2,6 @@ package DHT;
 
 import java.io.FileWriter;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.Callable;
@@ -10,14 +9,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.ChooseOP;
-import DSTMBenchmark.ChooseObjects;
 import DSTMBenchmark.ClientApp;
-import DSTMBenchmark.ExecTransaction;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
-import DSTMBenchmark.SaveData;
 import TinyTM.Transaction;
-import TinyTM.DBank.IConta;
 import TinyTM.ofree.TMObj;
 
 public class DHTClient {

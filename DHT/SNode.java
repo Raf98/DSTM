@@ -70,6 +70,10 @@ class SNode<T> implements INode<T> {
 
     @Override
     public TMObj<INode<T>> insert(int key, int value) throws Exception {
+        if (this.contains(key)) {
+            return this.get(key);
+        }
+
         String newNodeName = name + "_key" + key;
         SNode<T> newNode = new SNode(-1, 0, newNodeName);
         Integer id = Integer.parseInt(name.split("ht", 3)[1]);
