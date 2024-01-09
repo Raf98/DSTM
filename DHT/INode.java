@@ -19,7 +19,7 @@ interface INode<T> extends Copyable<INode<T>> {
 
     public void setNext(TMObj<INode<T>> next);
 
-    public INode<T> get(int key);
+    public TMObj<INode<T>> get(int key) throws Exception;
 
     public boolean contains(int key) throws Exception;
 

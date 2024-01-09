@@ -51,7 +51,7 @@ class SNode<T> implements INode<T> {
     }
     @Override
     public boolean contains(int key) throws Exception {
-        if (this.key == -1) {
+        if (this.getNext() == null) {
             return false;
         }
 
@@ -67,7 +67,7 @@ class SNode<T> implements INode<T> {
 
         return false;
     }
-    
+
     @Override
     public TMObj<INode<T>> insert(int key, int value) throws Exception {
         String newNodeName = name + "_key" + key;
@@ -89,6 +89,7 @@ class SNode<T> implements INode<T> {
             node = tmObjNode.openRead();
 
             if (node.getNext() == null) {
+                node = tmObjNode.openWrite();
                 node.setNext(newTmObjNode);
                 break;
             }
@@ -99,8 +100,18 @@ class SNode<T> implements INode<T> {
         return newTmObjNode;
     }
     @Override
-    public INode<T> get(int key) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'get'");
+    public TMObj<INode<T>> get(int key) throws Exception {
+
+        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+            INode<T> node;
+                node = tmObjNode.openRead();
+                if (node.getKey() == key) {
+                    return tmObjNode;
+                }
+
+                tmObjNode = node.getNext();
+        }
+
+        return null;
     }
 }

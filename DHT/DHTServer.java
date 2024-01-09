@@ -19,7 +19,7 @@ public class DHTServer {
         int id = Integer.parseInt(args[0]);
         int numberHTEntries = Integer.parseInt(args[1]);
 
-        IHashTable hashTableImp = new SHashTable("ht" + id);
+        //IHashTable hashTableImp = new SHashTable("ht" + id);
         Remote hashTable = new TMObjServer(new SHashTable("ht" + id));
         Remote[] nodes = new Remote[numberHTEntries];
         // TENHO QUE REGISTRAR CADA UMA DAS CABEÇAS DE NODOS EM UM DETERMINADA MÁQUINA, ASSIM REPRESENTANDO A HASHTABLE?

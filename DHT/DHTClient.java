@@ -204,13 +204,21 @@ class DHTTransaction implements ExecuteTransaction {
                 int localwithdraw = 0;
                 Random rng = new Random();
                 if (op == 0) {
-                    INode<Integer> iNode = TMObjects[0].openWrite();
-                    iNode.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
-                }
 
-                else if (op == 1) {
-                    INode<Integer> iNode = TMObjects[0].openRead();
-                    iNode.get(rng.nextInt(10*100));
+                    for (int i = 0; i < TMObjects.length; i++) {
+                        INode<Integer> iNode = TMObjects[i].openWrite();
+                        iNode.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
+                        inserts.getAndIncrement();
+                    }
+
+                } else if (op == 1) {
+                    
+                    for (int i = 0; i < TMObjects.length; i++) {
+                        INode<Integer> iNode = TMObjects[i].openRead();
+                        iNode.get(keys[i]);
+                        gets.getAndIncrement();
+                    }
+
                 }
                 return localwithdraw;
             }
@@ -219,13 +227,13 @@ class DHTTransaction implements ExecuteTransaction {
         // SANITY CHECK:
         commits.getAndIncrement();
 
-        if (op == 0) {
+        /*if (op == 0) {
             inserts.getAndIncrement();
         }
 
         if (op == 1) {
             gets.getAndIncrement();
-        }
+        }*/
     }
 }
 
