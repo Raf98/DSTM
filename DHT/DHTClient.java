@@ -43,6 +43,7 @@ public class DHTClient {
         for (int i = 0; i < transactions; i++) {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
             op = cop.chooseOP(writes, random);
+            op = 0;
             //transaction.execTransaction(robjects, op);
             transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
         }
@@ -186,8 +187,11 @@ class DHTTransaction implements ExecuteTransaction {
 
             int machineNum = j; // esquema de descobrir máquina deve ser repensado?
 
-            String port = 1700 + String.valueOf(machineNum);
+            String port = String.valueOf(1700 + machineNum);
             String nodeName = "ht" + machineNum + "_node" + keys[i] % hashTablesEntries;
+
+            System.out.println("NODE NAME: " + nodeName);
+            System.out.println("rmi://localhost:" + port + "/" + nodeName);
 
             TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
         }
@@ -202,6 +206,7 @@ class DHTTransaction implements ExecuteTransaction {
 
                     for (int i = 0; i < TMObjects.length; i++) {
                         INode<Integer> iNode = TMObjects[i].openWrite();
+                        System.out.println("WRITING...");
                         iNode.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
                         inserts.getAndIncrement();
                     }
@@ -210,6 +215,7 @@ class DHTTransaction implements ExecuteTransaction {
                     
                     for (int i = 0; i < TMObjects.length; i++) {
                         INode<Integer> iNode = TMObjects[i].openRead();
+                        System.out.println("READING...");
                         iNode.get(keys[i]);
                         gets.getAndIncrement();
                     }

@@ -1,12 +1,14 @@
 package DHT;
 
+import java.io.Serializable;
+import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.concurrent.atomic.AtomicReference;
 
 import TinyTM.Copyable;
 import TinyTM.ofree.TMObj;
 
-interface INode<T> extends Copyable<INode<T>> {
+public interface INode<T> extends Serializable, Copyable<INode<T>> {
     public int getKey();
 
     public void setKey(int key);
@@ -14,6 +16,10 @@ interface INode<T> extends Copyable<INode<T>> {
     public T getItem();
 
     public void setItem(T item);
+
+    public String getName();
+
+    public void setName(String name);
 
     public TMObj<INode<T>> getNext();
 

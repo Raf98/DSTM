@@ -9,7 +9,7 @@ import java.rmi.registry.Registry;
 import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
-class SNode<T> implements INode<T> {
+public class SNode<T> implements INode<T> {
     int key;
     T item;
     String name;
@@ -39,6 +39,16 @@ class SNode<T> implements INode<T> {
     public void setItem(T item) {
         this.item = item;
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public TMObj<INode<T>> getNext() { return next; }
     @Override
@@ -74,8 +84,13 @@ class SNode<T> implements INode<T> {
             return this.get(key);
         }
 
-        String newNodeName = name + "_key" + key;
+        System.out.println(getKey());
+        System.out.println(getItem());
+        System.out.println(getName());
+        String newNodeName = this.name + "_key" + key;
         SNode<T> newNode = new SNode(-1, 0, newNodeName);
+        System.out.println(newNodeName);
+        System.out.println(name);
         Integer id = Integer.parseInt(name.split("ht", 3)[1]);
         Integer port = 1700 + id;
         Registry registry = LocateRegistry.createRegistry(port);
