@@ -1,22 +1,24 @@
 package DHT;
 
+import java.io.Serializable;
 import java.rmi.AccessException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
 
 import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
-public class SNode<T> implements INode<T> {
+public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     int key;
     T item;
     String name;
     TMObj<INode<T>> next;
 
-    public SNode() {}
-    public SNode(int key, T item, String name) {
+    public SNode() throws RemoteException {}
+    public SNode(int key, T item, String name) throws RemoteException {
         this.key = key;
         this.item = item;
         this.name = name;
@@ -54,10 +56,11 @@ public class SNode<T> implements INode<T> {
     @Override
     public void setNext(TMObj<INode<T>> next) { this.next = next; }
     @Override
-    public void copyTo(INode<T> target) {
+    public void copyTo(INode<T> target) throws RemoteException {
         ((INode<T>)target).setNext(next);
         ((INode<T>)target).setKey(key);
         ((INode<T>)target).setItem(item);
+        ((INode<T>)target).setName(name);
     }
     @Override
     public boolean contains(int key) throws Exception {
@@ -79,41 +82,49 @@ public class SNode<T> implements INode<T> {
     }
 
     @Override
-    public TMObj<INode<T>> insert(int key, int value) throws Exception {
+    public TMObj<INode<T>> insert(int machineId, int key, int value) throws Exception {
         if (this.contains(key)) {
             return this.get(key);
         }
 
         System.out.println(getKey());
         System.out.println(getItem());
-        System.out.println(getName());
-        String newNodeName = this.name + "_key" + key;
-        SNode<T> newNode = new SNode(-1, 0, newNodeName);
+        System.out.println("NAME: " + getName());
+        System.out.println(getNext());
+        String newNodeName =  "ht" + machineId + "_node" + this.item + "_key" + key;
         System.out.println(newNodeName);
-        System.out.println(name);
-        Integer id = Integer.parseInt(name.split("ht", 3)[1]);
-        Integer port = 1700 + id;
-        Registry registry = LocateRegistry.createRegistry(port);
-        Remote newNodeRemote = new TMObjServer(newNode);
-        registry.rebind("object" + id, newNodeRemote);
+        SNode<T> newNode = new SNode(-1, 0, newNodeName);
+        //System.out.println(name);
 
-        TMObj<INode<T>> newTmObjNode = TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
+        Integer port = 1700 + machineId;
+        Registry registry = LocateRegistry.getRegistry(port);
+        Remote newNodeRemote = new TMObjServer<>(newNode);
+        registry.rebind(newNodeName, newNodeRemote);
+
+        TMObj<INode<T>> newTmObjNode =  TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
          
-        if (this.key == -1) {
+
+        System.out.println("LOOKED UP");
+
+        if (this.next == null) {
+            System.out.println("FIRST INSERT");
             this.setNext(newTmObjNode);
-        }
-
-        for (TMObj<INode<T>> tmObjNode = this.next; ;) {
-            INode<T> node;
-            node = tmObjNode.openRead();
-
-            if (node.getNext() == null) {
-                node = tmObjNode.openWrite();
-                node.setNext(newTmObjNode);
-                break;
+        } else {
+            for (TMObj<INode<T>> tmObjNode = this.next; ;) {
+                INode<T> node;
+                node = tmObjNode.openRead();
+    
+                System.out.println("NEXT:" + node.getNext());
+    
+                if (node.getNext() == null) {
+                    System.out.println("NEXT INSERT");
+                    node = tmObjNode.openWrite();
+                    node.setNext(newTmObjNode);
+                    break;
+                }
+    
+                tmObjNode = node.getNext();
             }
-
-            tmObjNode = node.getNext();
         }
 
         return newTmObjNode;

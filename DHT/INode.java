@@ -1,33 +1,30 @@
 package DHT;
 
-import java.io.Serializable;
-import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.util.concurrent.atomic.AtomicReference;
 
 import TinyTM.Copyable;
 import TinyTM.ofree.TMObj;
 
-public interface INode<T> extends Serializable, Copyable<INode<T>> {
-    public int getKey();
+public interface INode<T> extends Copyable<INode<T>> {
+    public int getKey() throws RemoteException;
 
-    public void setKey(int key);
+    public void setKey(int key) throws RemoteException;
 
-    public T getItem();
+    public T getItem() throws RemoteException;
 
-    public void setItem(T item);
+    public void setItem(T item) throws RemoteException;
 
-    public String getName();
+    public String getName() throws RemoteException;
 
-    public void setName(String name);
+    public void setName(String name) throws RemoteException;
 
-    public TMObj<INode<T>> getNext();
+    public TMObj<INode<T>> getNext() throws RemoteException;
 
-    public void setNext(TMObj<INode<T>> next);
+    public void setNext(TMObj<INode<T>> next) throws RemoteException;
 
     public TMObj<INode<T>> get(int key) throws Exception;
 
     public boolean contains(int key) throws Exception;
 
-    public TMObj<INode<T>> insert(int key, int value) throws Exception;
+    public TMObj<INode<T>> insert(int machineId, int key, int value) throws Exception;
 }

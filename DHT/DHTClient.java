@@ -170,6 +170,7 @@ class DHTTransaction implements ExecuteTransaction {
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
         TMObj<INode<Integer>>[] TMObjects = new TMObj[nObjects];
+        int[] machinesIds = new int[nObjects];
         int[] keys = new int[TMObjects.length];
         for (int i = 0; i < TMObjects.length; i++) {
             int bound = 1000;
@@ -194,6 +195,7 @@ class DHTTransaction implements ExecuteTransaction {
             System.out.println("rmi://localhost:" + port + "/" + nodeName);
 
             TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+            machinesIds[i] = machineNum;
         }
 
         int donewithdraw = 0;
@@ -207,7 +209,7 @@ class DHTTransaction implements ExecuteTransaction {
                     for (int i = 0; i < TMObjects.length; i++) {
                         INode<Integer> iNode = TMObjects[i].openWrite();
                         System.out.println("WRITING...");
-                        iNode.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
+                        iNode.insert(machinesIds[i], keys[i], rng.nextInt(Integer.MAX_VALUE));
                         inserts.getAndIncrement();
                     }
 
