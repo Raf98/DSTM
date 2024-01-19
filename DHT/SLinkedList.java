@@ -64,8 +64,11 @@ public class SLinkedList<T> extends UnicastRemoteObject implements ILinkedList<T
 
         for (INode<T> node = this.head.getNext(); node != null; node = node.getNext()) {
             if (node.getKey() == key) {
+                System.out.println("CONTAINS: " + key);
+                System.out.println(node.toString());
                 return true;
             }
+            System.out.println(node.toString());
         }
 
         return false;
@@ -74,7 +77,7 @@ public class SLinkedList<T> extends UnicastRemoteObject implements ILinkedList<T
     @Override
     public INode<T> insert(int key, T value) throws RemoteException {
         if (this.contains(key)) {
-            return this.get(key);
+            return null;
         }
 
         System.out.println(this.head.getKey());
@@ -82,22 +85,26 @@ public class SLinkedList<T> extends UnicastRemoteObject implements ILinkedList<T
         System.out.println("NAME: " + this.head.getName());
         System.out.println(this.head.getNext());
 
-        String newNodeName =  this.head.getName() + "_key" + key;
+        String newNodeName =  this.name + "_key" + key;
         System.out.println(newNodeName);
-        INode<T> newNode = new SNode(-1, 0, newNodeName);
+        INode<T> newNode = new SNode(key, value, newNodeName);
 
-        if (this.head == null) {
+        if (this.head.getNext() == null) {
             System.out.println("FIRST INSERT");
             this.head.setNext(newNode);
+            System.out.println("FIRST:" + newNode.toString());
         } else {
             for (INode<T> node = this.head.getNext(); node != null; node = node.getNext()) {
-                System.out.println("NEXT:" + node.getNext());
+
     
                 if (node.getNext() == null) {
                     System.out.println("NEXT INSERT");
                     node.setNext(newNode);
                     break;
                 }
+
+                System.out.println("NEXT:" + node.getNext().toString());
+
             }
         }
 

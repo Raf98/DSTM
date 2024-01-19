@@ -39,13 +39,13 @@ public class DHTClient {
         Random random = new Random();
         RObject[] robjects;
         int op;
-        for (int i = 0; i < transactions; i++) {
+        //for (int i = 0; i < transactions; i++) {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
             op = cop.chooseOP(writes, random);
             op = 0;
             //transaction.execTransaction(robjects, op);
-            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
-        }
+            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op, clientid);
+        //}
 
         // App Ends
         barrier.await();
@@ -56,7 +56,7 @@ public class DHTClient {
         barrier.await();
         // waits for all servers to process data
         barrier.await();
-        // System.out.println("Acabei");
+        System.out.println("Stopping clients...");
 
         // app returns when all clients were executed
         // now it is time to save data for sanity check
@@ -74,8 +74,8 @@ class DHTSaveData implements NewSaveData {
 
         List<List<String>> rows = Arrays.asList(
                 Arrays.asList("commits", DHTTransaction.commits.get() + ""),
-                Arrays.asList("commits", DHTTransaction.inserts.get() + ""),
-                Arrays.asList("commits", DHTTransaction.gets.get() + ""),
+                Arrays.asList("inserts", DHTTransaction.inserts.get() + ""),
+                Arrays.asList("gets", DHTTransaction.gets.get() + ""),
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
                 Arrays.asList("aborts", Transaction.aborts.get() + ""));
 
@@ -166,14 +166,16 @@ class DHTTransaction implements ExecuteTransaction {
     }*/ 
 
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int clientId) throws Exception {
         Random rng = new Random();
-        TMObj<ILinkedList<Integer>>[] TMObjects = new TMObj[nObjects];
-        int[] machinesIds = new int[nObjects];
+        TMObj<ILinkedList<Integer>>[] TMObjects = new TMObj[nObjectsServers];
+        int[] machinesIds = new int[TMObjects.length];
         int[] keys = new int[TMObjects.length];
+        int[] values = new int[TMObjects.length];
         for (int i = 0; i < TMObjects.length; i++) {
             int bound = 1000;
             keys[i] = rng.nextInt(bound);
+            values[i] = rng.nextInt(Integer.MAX_VALUE);
             
             int inc = bound / nServers;
             int count = 0;
@@ -190,10 +192,11 @@ class DHTTransaction implements ExecuteTransaction {
             String port = String.valueOf(1700 + machineNum);
             String linkedListName = "ht" + machineNum + "_ll" + keys[i] % hashTablesEntries;
 
+            System.out.println("CLIENT ID: " + clientId);
             System.out.println("NODE NAME: " + linkedListName);
             System.out.println("rmi://localhost:" + port + "/" + linkedListName);
 
-            System.out.println(TMObj.lookupTMObj("rmi://localhost:" + port + "/" + linkedListName));
+            //System.out.println(TMObj.lookupTMObj("rmi://localhost:" + port + "/" + linkedListName));
             TMObjects[i] = (TMObj<ILinkedList<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + linkedListName);
             machinesIds[i] = machineNum;
         }
@@ -203,14 +206,16 @@ class DHTTransaction implements ExecuteTransaction {
         donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
             public Integer call() throws Exception {
                 int localwithdraw = 0;
-                Random rng = new Random();
+                ILinkedList<Integer>[] iLinkedLists = new ILinkedList[TMObjects.length];
+                //Random rng = new Random();
                 if (op == 0) {
-
                     for (int i = 0; i < TMObjects.length; i++) {
                         ILinkedList<Integer> iLinkedList = TMObjects[i].openWrite();
-                        System.out.println("WRITING...");
-                        iLinkedList.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
+                        System.out.println("TRANSACTION CLIENT ID " + clientId);
+                        System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                        iLinkedList.insert(keys[i], values[i]);
                         inserts.getAndIncrement();
+                        System.out.println("INSERTS: " + inserts.get());
                     }
 
                 } else if (op == 1) {

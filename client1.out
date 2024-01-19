@@ -1,5 +1,5 @@
-commits,100
-commits,200
-commits,0
-commitsrts,100
+commits,1
+inserts,10
+gets,0
+commitsrts,1
 aborts,0

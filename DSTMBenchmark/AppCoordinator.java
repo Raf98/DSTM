@@ -64,7 +64,8 @@ public class AppCoordinator {
                 
                 System.exit(0);
              }catch (Exception e)
-                 {System.out.println(e);}
+                 {System.out.println(e);
+                  e.printStackTrace();}
 	}
 
     public static IDBarrier connectToBarrier(String barrierName) throws Exception

@@ -55,6 +55,11 @@ public class SNode<T> implements INode<T> {
     public INode<T> getNext() { return next; }
     @Override
     public void setNext(INode<T> next) { this.next = next; }
+
+    @Override
+    public String toString() {
+        return "{ KEY: " + key + ", ITEM: " + item + ", NAME: " + name + ", NEXT: " + next + " }";
+    }
    
     /*
     @Override
