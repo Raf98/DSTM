@@ -1,48 +1,118 @@
 package DHT;
 
 import java.rmi.RemoteException;
-import java.util.concurrent.atomic.AtomicReference;
+import java.rmi.*;
+import java.rmi.server.UnicastRemoteObject;
 
-public class SLinkedList<T, U extends INode<T>> implements ILinkedList<T, U> {
+public class SLinkedList<T> extends UnicastRemoteObject implements ILinkedList<T> {
 
-    final U head;
-    final U tail;
+    INode<T> head;
+    int machineId;
+    String name;
 
-    public SLinkedList() {
+    public SLinkedList() throws RemoteException {
         head = null;
-        tail = null;
     }
 
-    public void add(T newValue) {
-        /*Node<T>[] preds = (Node<T>[]) new Node[MAX_HEIGHT];
-        Node<T>[] succs = (Node<T>[]) new Node[MAX_HEIGHT];
-        if (find(v, preds, succs) != -1) {
+    public SLinkedList(int machineId, String name, INode<T> headNode) throws RemoteException {
+        this.machineId = machineId;
+        this.name = name;
+        head = headNode;
+    }
+
+    @Override
+    public INode<T> getHead() throws RemoteException {
+       return head;
+    }
+
+    @Override
+    public void setHead(INode<T> head) throws RemoteException {
+        this.head = head;
+    }
+
+    @Override
+    public String getName() throws RemoteException {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) throws RemoteException {
+        this.name = name;
+    }
+
+    @Override
+    public int getMachineId() throws RemoteException {
+        return machineId;
+    }
+
+    @Override
+    public void setMachineId(int machineId) throws RemoteException {
+        this.machineId = machineId;
+    }
+
+    @Override
+    public void copyTo(ILinkedList<T> target) throws RemoteException {
+        ((ILinkedList<T>)target).setHead(head);
+        ((ILinkedList<T>)target).setName(name);
+    }
+
+    @Override
+    public boolean contains(int key) throws RemoteException {
+        if (this.head.getNext() == null) {
             return false;
         }
-        Node<T> newNode = new Node<T>(topLevel + 1, v);
-        for (int level = 0; level <= topLevel; level++) {
-            newNode.getNext().set(level, succs[level]);
-            preds[level].getNext().set(level, newNode);
+
+        for (INode<T> node = this.head.getNext(); node != null; node = node.getNext()) {
+            if (node.getKey() == key) {
+                return true;
+            }
         }
-        return true;*/
+
+        return false;
     }
 
     @Override
-    public void copyTo(ILinkedList<T, U> target) throws RemoteException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'copyTo'");
-    }
+    public INode<T> insert(int key, T value) throws RemoteException {
+        if (this.contains(key)) {
+            return this.get(key);
+        }
 
-    @Override
-    public U get(T value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'get'");
-    }
+        System.out.println(this.head.getKey());
+        System.out.println(this.head.getItem());
+        System.out.println("NAME: " + this.head.getName());
+        System.out.println(this.head.getNext());
 
+        String newNodeName =  this.head.getName() + "_key" + key;
+        System.out.println(newNodeName);
+        INode<T> newNode = new SNode(-1, 0, newNodeName);
+
+        if (this.head == null) {
+            System.out.println("FIRST INSERT");
+            this.head.setNext(newNode);
+        } else {
+            for (INode<T> node = this.head.getNext(); node != null; node = node.getNext()) {
+                System.out.println("NEXT:" + node.getNext());
+    
+                if (node.getNext() == null) {
+                    System.out.println("NEXT INSERT");
+                    node.setNext(newNode);
+                    break;
+                }
+            }
+        }
+
+        return newNode;
+    }
     @Override
-    public boolean contains(T value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'contains'");
+    public INode<T> get(int key) throws RemoteException {
+
+        for (INode<T> node = this.head.getNext(); node != null; node = node.getNext()) {
+            if (node.getKey() == key) {
+                return node;
+            }
+        }
+
+        return null;
     }
 
 }

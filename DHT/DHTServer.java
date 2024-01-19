@@ -21,14 +21,15 @@ public class DHTServer {
 
         //IHashTable hashTableImp = new SHashTable("ht" + id);
         //Remote hashTable = new TMObjServer(new SHashTable("ht" + id));
-        Remote[] nodes = new Remote[numberHTEntries];
+        Remote[] linkedLists = new Remote[numberHTEntries];
+        //INode<Integer> nodes = new INode[numberHTEntries];
         // TENHO QUE REGISTRAR CADA UMA DAS CABEÇAS DE NODOS EM UM DETERMINADA MÁQUINA, ASSIM REPRESENTANDO A HASHTABLE?
         for(int i = 0; i < numberHTEntries; ++i) {
-            SNode<Integer> newNode = new SNode<Integer>(-1, i, "ht" + id + "_node" + i);
-            System.out.println("NEW NODE NAME CREATED: " + newNode.name);
-            System.out.println("NEW NODE NAME CREATED: " + newNode.getName());
+            INode<Integer> headNode = new SNode<Integer>(-1, id, "ht" + id + "_ll_head" + i);
+            System.out.println("NEW LL HEAD NODE NAME CREATED: " + headNode.getName());
             //hashTableImp.insert(i, 0);
-            nodes[i] = new TMObjServer<>(newNode);
+            //nodes[i] =  new TMObjServer<>(newNode);
+            linkedLists[i] = new TMObjServer<>(new SLinkedList<>(id, "ht" + id + "_ll" + i, headNode));
         }
 
         ServerApp server = new ServerApp();
@@ -37,8 +38,8 @@ public class DHTServer {
             //registry.rebind("ht" + id, hashTable);
 
             for (int i = 0; i < numberHTEntries; i++) {
-                registry.rebind("ht" + id + "_node" + i, nodes[i]);
-                System.out.println("NODE NAME ON SERVER: " + (1700 + id) + "/ht" + id + "_node" + i);
+                registry.rebind("ht" + id + "_ll" + i, linkedLists[i]);
+                System.out.println("LINKED LIST NAME ON SERVER: " + (1700 + id) + "/ht" + id + "_ll" + i);
             }
 
             IDBarrier barrier = AppCoordinator.connectToBarrier("serverbarrier");// (IDBarrier)

@@ -1,13 +1,25 @@
 package DHT;
 
-import java.util.concurrent.atomic.AtomicReference;
+import java.rmi.RemoteException;
 
 import TinyTM.Copyable;
 
-public interface ILinkedList<T, U extends INode<T>> extends Copyable<ILinkedList<T, U>> {
-    public void add(T value);
+public interface ILinkedList<T> extends Copyable<ILinkedList<T>> {
+    public INode<T> getHead() throws RemoteException;
 
-    public U get(T value);
+    public void setHead(INode<T> head) throws RemoteException;
 
-    public boolean contains(T value);
+    public String getName() throws RemoteException;
+
+    public void setName(String name) throws RemoteException;
+
+    public int getMachineId() throws RemoteException;
+
+    public void setMachineId(int machineId) throws RemoteException;
+
+    public INode<T> insert(int key, T value) throws RemoteException;
+
+    public INode<T> get(int key) throws RemoteException;
+
+    public boolean contains(int key) throws RemoteException;
 }

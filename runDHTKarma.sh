@@ -65,6 +65,7 @@ do
   for i in $(seq 0 $(($NCLIENT-1)));
   do
 	#-Djava.rmi.server.logCalls=true
+	#-verbose:class
 	taskset -c $i java -classpath .:./TRMIKarma DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
  done
  wait $pid

@@ -55,7 +55,7 @@ class DHTProcessData implements ProcessData {
 
         int total = 0;
 
-        TMObj<INode<Integer>> objtemp;
+        TMObj<ILinkedList<Integer>> objtemp;
 
         /*
          * System.out.println("before list!");
@@ -72,8 +72,8 @@ class DHTProcessData implements ProcessData {
             for (int j = 0; j < numberOfObjects; j++) {
                 // System.out.println("//localhost:"+(1666+i)+"/object"+j);
                 String port = 1700 + String.valueOf(i);
-                String nodeName = "ht" + i + "_node" + j;// + keys[j] % hashTablesEntries;
-                objtemp = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+                String nodeName = "ht" + i + "_ll" + j;// + keys[j] % hashTablesEntries;
+                objtemp = (TMObj<ILinkedList<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
                 //total = total + objtemp.openRead().sumAll();
 
             }

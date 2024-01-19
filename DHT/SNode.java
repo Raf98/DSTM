@@ -11,11 +11,11 @@ import java.rmi.server.UnicastRemoteObject;
 import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
-public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
+public class SNode<T> implements INode<T> {
     int key;
     T item;
     String name;
-    TMObj<INode<T>> next;
+    INode<T> next;
 
     public SNode() throws RemoteException {}
     public SNode(int key, T item, String name) throws RemoteException {
@@ -52,16 +52,11 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     }
 
     @Override
-    public TMObj<INode<T>> getNext() { return next; }
+    public INode<T> getNext() { return next; }
     @Override
-    public void setNext(TMObj<INode<T>> next) { this.next = next; }
-    @Override
-    public void copyTo(INode<T> target) throws RemoteException {
-        ((INode<T>)target).setNext(next);
-        ((INode<T>)target).setKey(key);
-        ((INode<T>)target).setItem(item);
-        ((INode<T>)target).setName(name);
-    }
+    public void setNext(INode<T> next) { this.next = next; }
+   
+    /*
     @Override
     public boolean contains(int key) throws Exception {
         if (this.getNext() == null) {
@@ -144,4 +139,5 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
 
         return null;
     }
+    */
 }

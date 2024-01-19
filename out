@@ -1,404 +1,3806 @@
 TRMIKarma	2	começa
 começa
-NEW NODE NAME CREATED: ht6_node0
-NEW NODE NAME CREATED: ht6_node0
-NEW NODE NAME CREATED: ht3_node0
-NEW NODE NAME CREATED: ht3_node0
-NEW NODE NAME CREATED: ht0_node0
-NEW NODE NAME CREATED: ht0_node0
-NEW NODE NAME CREATED: ht8_node0
-NEW NODE NAME CREATED: ht7_node0
-NEW NODE NAME CREATED: ht7_node0
-NEW NODE NAME CREATED: ht8_node0
-NEW NODE NAME CREATED: ht5_node0
-NEW NODE NAME CREATED: ht5_node0
-NEW NODE NAME CREATED: ht2_node0
-NEW NODE NAME CREATED: ht2_node0
-NEW NODE NAME CREATED: ht4_node0
-NEW NODE NAME CREATED: ht4_node0
-NEW NODE NAME CREATED: ht8_node1
-NEW NODE NAME CREATED: ht8_node1
-NEW NODE NAME CREATED: ht8_node2
-NEW NODE NAME CREATED: ht8_node2
-NEW NODE NAME CREATED: ht7_node1
-NEW NODE NAME CREATED: ht7_node1
-NEW NODE NAME CREATED: ht0_node1
-NEW NODE NAME CREATED: ht0_node1
-NEW NODE NAME CREATED: ht8_node3
-NEW NODE NAME CREATED: ht0_node2
-NEW NODE NAME CREATED: ht0_node2
-NEW NODE NAME CREATED: ht8_node3NEW NODE NAME CREATED: ht7_node2NEW NODE NAME CREATED: ht0_node3
-NEW NODE NAME CREATED: ht0_node3
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head0NEW LL HEAD NODE NAME CREATED: ht3_ll_head0
+
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head0NEW LL HEAD NODE NAME CREATED: ht9_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head0
+
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head0
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head1NEW LL HEAD NODE NAME CREATED: ht3_ll_head1
+
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head1
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head3NEW LL HEAD NODE NAME CREATED: ht4_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head1
+
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head2NEW LL HEAD NODE NAME CREATED: ht4_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head3NEW LL HEAD NODE NAME CREATED: ht2_ll_head2
+
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head1
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head3NEW LL HEAD NODE NAME CREATED: ht0_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head4
+
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht4_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head5NEW LL HEAD NODE NAME CREATED: ht3_ll_head6
 
 
-NEW NODE NAME CREATED: ht0_node4
-NEW NODE NAME CREATED: ht0_node4
-NEW NODE NAME CREATED: ht0_node5
-NEW NODE NAME CREATED: ht0_node5
-NEW NODE NAME CREATED: ht7_node2
-NEW NODE NAME CREATED: ht0_node6
-NEW NODE NAME CREATED: ht0_node6
-NEW NODE NAME CREATED: ht0_node7
-NEW NODE NAME CREATED: ht0_node7
-NEW NODE NAME CREATED: ht8_node4NEW NODE NAME CREATED: ht7_node3
-NEW NODE NAME CREATED: ht7_node3
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht3_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head4NEW LL HEAD NODE NAME CREATED: ht0_ll_head6
 
-NEW NODE NAME CREATED: ht8_node4
-NEW NODE NAME CREATED: ht7_node4
-NEW NODE NAME CREATED: ht7_node4
-NEW NODE NAME CREATED: ht3_node1
-NEW NODE NAME CREATED: ht3_node1
-NEW NODE NAME CREATED: ht3_node2
-NEW NODE NAME CREATED: ht3_node2
-NEW NODE NAME CREATED: ht7_node5
-NEW NODE NAME CREATED: ht7_node5
-NEW NODE NAME CREATED: ht3_node3
-NEW NODE NAME CREATED: ht3_node3
-NEW NODE NAME CREATED: ht7_node6
-NEW NODE NAME CREATED: ht6_node1
-NEW NODE NAME CREATED: ht7_node6NEW NODE NAME CREATED: ht6_node1
-NEW NODE NAME CREATED: ht3_node4
-NEW NODE NAME CREATED: ht3_node4
-NEW NODE NAME CREATED: ht3_node5
-NEW NODE NAME CREATED: ht3_node5
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht0_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht5_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head1
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head7NEW LL HEAD NODE NAME CREATED: ht7_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head1NEW LL HEAD NODE NAME CREATED: ht8_ll_head1
 
-NEW NODE NAME CREATED: ht6_node2NEW NODE NAME CREATED: ht3_node6
-NEW NODE NAME CREATED: ht3_node6
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head5
 
-NEW NODE NAME CREATED: ht6_node2
-NEW NODE NAME CREATED: ht7_node7
-NEW NODE NAME CREATED: ht7_node7
-NEW NODE NAME CREATED: ht0_node8
-NEW NODE NAME CREATED: ht0_node8
-NEW NODE NAME CREATED: ht0_node9
-NEW NODE NAME CREATED: ht0_node9NEW NODE NAME CREATED: ht5_node1NEW NODE NAME CREATED: ht4_node1
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht7_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht2_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht9_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head1
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head1
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head4
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head2
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head3
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head5NEW LL HEAD NODE NAME CREATED: ht6_ll_head3
 
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head6NEW LL HEAD NODE NAME CREATED: ht1_ll_head4
 
-NEW NODE NAME CREATED: ht4_node1NEW NODE NAME CREATED: ht5_node1
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head5
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head4NEW LL HEAD NODE NAME CREATED: ht1_ll_head7
 
-NEW NODE NAME CREATED: ht6_node3
-NEW NODE NAME CREATED: ht6_node3
-NEW NODE NAME CREATED: ht4_node2NEW NODE NAME CREATED: ht5_node2
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht1_ll_head9
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head7NEW LL HEAD NODE NAME CREATED: ht6_ll_head5
 
-NEW NODE NAME CREATED: ht5_node2NEW NODE NAME CREATED: ht4_node2
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head6
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head7
+NEW LL HEAD NODE NAME CREATED: ht6_ll_head8
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head8NEW LL HEAD NODE NAME CREATED: ht6_ll_head9
 
-NEW NODE NAME CREATED: ht7_node8
-NEW NODE NAME CREATED: ht7_node8
-NEW NODE NAME CREATED: ht4_node3NEW NODE NAME CREATED: ht5_node3
+NEW LL HEAD NODE NAME CREATED: ht8_ll_head9
+LINKED LIST NAME ON SERVER: 1703/ht3_ll0
+LINKED LIST NAME ON SERVER: 1703/ht3_ll1
+LINKED LIST NAME ON SERVER: 1703/ht3_ll2
+LINKED LIST NAME ON SERVER: 1703/ht3_ll3
+LINKED LIST NAME ON SERVER: 1703/ht3_ll4
+LINKED LIST NAME ON SERVER: 1703/ht3_ll5
+LINKED LIST NAME ON SERVER: 1703/ht3_ll6
+LINKED LIST NAME ON SERVER: 1703/ht3_ll7
+LINKED LIST NAME ON SERVER: 1703/ht3_ll8
+LINKED LIST NAME ON SERVER: 1703/ht3_ll9
+LINKED LIST NAME ON SERVER: 1705/ht5_ll0
+LINKED LIST NAME ON SERVER: 1705/ht5_ll1
+LINKED LIST NAME ON SERVER: 1705/ht5_ll2
+LINKED LIST NAME ON SERVER: 1705/ht5_ll3LINKED LIST NAME ON SERVER: 1704/ht4_ll0
+LINKED LIST NAME ON SERVER: 1704/ht4_ll1
+LINKED LIST NAME ON SERVER: 1704/ht4_ll2
+LINKED LIST NAME ON SERVER: 1704/ht4_ll3
+LINKED LIST NAME ON SERVER: 1700/ht0_ll0
+LINKED LIST NAME ON SERVER: 1700/ht0_ll1
 
-NEW NODE NAME CREATED: ht5_node3NEW NODE NAME CREATED: ht4_node3
+LINKED LIST NAME ON SERVER: 1700/ht0_ll2
+LINKED LIST NAME ON SERVER: 1700/ht0_ll3
+LINKED LIST NAME ON SERVER: 1700/ht0_ll4
+LINKED LIST NAME ON SERVER: 1700/ht0_ll5
+LINKED LIST NAME ON SERVER: 1705/ht5_ll4LINKED LIST NAME ON SERVER: 1700/ht0_ll6
 
-NEW NODE NAME CREATED: ht3_node7
-NEW NODE NAME CREATED: ht3_node7
-NEW NODE NAME CREATED: ht7_node9
-NEW NODE NAME CREATED: ht7_node9
-NEW NODE NAME CREATED: ht5_node4NEW NODE NAME CREATED: ht4_node4
+LINKED LIST NAME ON SERVER: 1700/ht0_ll7LINKED LIST NAME ON SERVER: 1705/ht5_ll5
 
-NEW NODE NAME CREATED: ht4_node4NEW NODE NAME CREATED: ht5_node4
+LINKED LIST NAME ON SERVER: 1700/ht0_ll8LINKED LIST NAME ON SERVER: 1705/ht5_ll6
 
-NEW NODE NAME CREATED: ht6_node4
-NEW NODE NAME CREATED: ht6_node4
-NEW NODE NAME CREATED: ht4_node5NEW NODE NAME CREATED: ht5_node5
+LINKED LIST NAME ON SERVER: 1700/ht0_ll9LINKED LIST NAME ON SERVER: 1705/ht5_ll7
 
-NEW NODE NAME CREATED: ht5_node5NEW NODE NAME CREATED: ht4_node5
+LINKED LIST NAME ON SERVER: 1705/ht5_ll8
+LINKED LIST NAME ON SERVER: 1704/ht4_ll4LINKED LIST NAME ON SERVER: 1705/ht5_ll9
 
-NEW NODE NAME CREATED: ht8_node5
-NEW NODE NAME CREATED: ht8_node5
-NEW NODE NAME CREATED: ht4_node6NEW NODE NAME CREATED: ht5_node6NEW NODE NAME CREATED: ht3_node8
+LINKED LIST NAME ON SERVER: 1704/ht4_ll5
+LINKED LIST NAME ON SERVER: 1704/ht4_ll6
+LINKED LIST NAME ON SERVER: 1704/ht4_ll7
+LINKED LIST NAME ON SERVER: 1704/ht4_ll8
+LINKED LIST NAME ON SERVER: 1704/ht4_ll9
+LINKED LIST NAME ON SERVER: 1702/ht2_ll0
+LINKED LIST NAME ON SERVER: 1702/ht2_ll1
+LINKED LIST NAME ON SERVER: 1702/ht2_ll2
+LINKED LIST NAME ON SERVER: 1702/ht2_ll3
+LINKED LIST NAME ON SERVER: 1702/ht2_ll4
+LINKED LIST NAME ON SERVER: 1702/ht2_ll5
+LINKED LIST NAME ON SERVER: 1702/ht2_ll6
+LINKED LIST NAME ON SERVER: 1702/ht2_ll7
+LINKED LIST NAME ON SERVER: 1702/ht2_ll8
+LINKED LIST NAME ON SERVER: 1702/ht2_ll9
+LINKED LIST NAME ON SERVER: 1709/ht9_ll0
+LINKED LIST NAME ON SERVER: 1709/ht9_ll1
+LINKED LIST NAME ON SERVER: 1709/ht9_ll2
+LINKED LIST NAME ON SERVER: 1709/ht9_ll3
+LINKED LIST NAME ON SERVER: 1709/ht9_ll4
+LINKED LIST NAME ON SERVER: 1709/ht9_ll5
+LINKED LIST NAME ON SERVER: 1709/ht9_ll6
+LINKED LIST NAME ON SERVER: 1709/ht9_ll7
+LINKED LIST NAME ON SERVER: 1709/ht9_ll8
+LINKED LIST NAME ON SERVER: 1709/ht9_ll9
+LINKED LIST NAME ON SERVER: 1701/ht1_ll0
+LINKED LIST NAME ON SERVER: 1701/ht1_ll1
+LINKED LIST NAME ON SERVER: 1701/ht1_ll2
+LINKED LIST NAME ON SERVER: 1701/ht1_ll3
+LINKED LIST NAME ON SERVER: 1701/ht1_ll4
+LINKED LIST NAME ON SERVER: 1701/ht1_ll5
+LINKED LIST NAME ON SERVER: 1701/ht1_ll6
+LINKED LIST NAME ON SERVER: 1701/ht1_ll7
+LINKED LIST NAME ON SERVER: 1701/ht1_ll8
+LINKED LIST NAME ON SERVER: 1701/ht1_ll9
+LINKED LIST NAME ON SERVER: 1707/ht7_ll0
+LINKED LIST NAME ON SERVER: 1707/ht7_ll1
+LINKED LIST NAME ON SERVER: 1707/ht7_ll2
+LINKED LIST NAME ON SERVER: 1707/ht7_ll3
+LINKED LIST NAME ON SERVER: 1707/ht7_ll4
+LINKED LIST NAME ON SERVER: 1707/ht7_ll5
+LINKED LIST NAME ON SERVER: 1707/ht7_ll6
+LINKED LIST NAME ON SERVER: 1707/ht7_ll7
+LINKED LIST NAME ON SERVER: 1707/ht7_ll8
+LINKED LIST NAME ON SERVER: 1707/ht7_ll9
+LINKED LIST NAME ON SERVER: 1706/ht6_ll0
+LINKED LIST NAME ON SERVER: 1706/ht6_ll1
+LINKED LIST NAME ON SERVER: 1706/ht6_ll2
+LINKED LIST NAME ON SERVER: 1706/ht6_ll3
+LINKED LIST NAME ON SERVER: 1706/ht6_ll4
+LINKED LIST NAME ON SERVER: 1706/ht6_ll5
+LINKED LIST NAME ON SERVER: 1706/ht6_ll6
+LINKED LIST NAME ON SERVER: 1706/ht6_ll7
+LINKED LIST NAME ON SERVER: 1706/ht6_ll8
+LINKED LIST NAME ON SERVER: 1706/ht6_ll9
+LINKED LIST NAME ON SERVER: 1708/ht8_ll0
+LINKED LIST NAME ON SERVER: 1708/ht8_ll1
+LINKED LIST NAME ON SERVER: 1708/ht8_ll2
+LINKED LIST NAME ON SERVER: 1708/ht8_ll3
+LINKED LIST NAME ON SERVER: 1708/ht8_ll4
+LINKED LIST NAME ON SERVER: 1708/ht8_ll5
+LINKED LIST NAME ON SERVER: 1708/ht8_ll6
+LINKED LIST NAME ON SERVER: 1708/ht8_ll7
+LINKED LIST NAME ON SERVER: 1708/ht8_ll8
+LINKED LIST NAME ON SERVER: 1708/ht8_ll9
+NODE NAME: ht0_ll9NODE NAME: ht7_ll4
 
-
-NEW NODE NAME CREATED: ht3_node8NEW NODE NAME CREATED: ht5_node6NEW NODE NAME CREATED: ht4_node6
-
-
-NEW NODE NAME CREATED: ht6_node5
-NEW NODE NAME CREATED: ht6_node5
-NEW NODE NAME CREATED: ht2_node1
-NEW NODE NAME CREATED: ht2_node1
-NEW NODE NAME CREATED: ht4_node7
-NEW NODE NAME CREATED: ht4_node7
-NEW NODE NAME CREATED: ht6_node6
-NEW NODE NAME CREATED: ht6_node6NEW NODE NAME CREATED: ht2_node2
-NEW NODE NAME CREATED: ht2_node2
-NEW NODE NAME CREATED: ht3_node9
-NEW NODE NAME CREATED: ht3_node9
-NEW NODE NAME CREATED: ht4_node8
-NEW NODE NAME CREATED: ht4_node8
-NEW NODE NAME CREATED: ht2_node3
-
-NEW NODE NAME CREATED: ht2_node3
-NEW NODE NAME CREATED: ht4_node9
-NEW NODE NAME CREATED: ht4_node9
-NEW NODE NAME CREATED: ht2_node4
-NEW NODE NAME CREATED: ht2_node4
-NEW NODE NAME CREATED: ht2_node5
-NEW NODE NAME CREATED: ht2_node5
-NEW NODE NAME CREATED: ht8_node6NEW NODE NAME CREATED: ht6_node7
-NEW NODE NAME CREATED: ht6_node7NEW NODE NAME CREATED: ht2_node6
-
-NEW NODE NAME CREATED: ht2_node6
-
-NEW NODE NAME CREATED: ht8_node6NEW NODE NAME CREATED: ht2_node7
-NEW NODE NAME CREATED: ht2_node7
-NEW NODE NAME CREATED: ht2_node8
-NEW NODE NAME CREATED: ht2_node8
-NEW NODE NAME CREATED: ht2_node9
-NEW NODE NAME CREATED: ht2_node9
-NEW NODE NAME CREATED: ht6_node8
-NEW NODE NAME CREATED: ht6_node8
-
-NEW NODE NAME CREATED: ht6_node9
-NEW NODE NAME CREATED: ht6_node9
-NEW NODE NAME CREATED: ht8_node7
-NEW NODE NAME CREATED: ht8_node7
-NEW NODE NAME CREATED: ht5_node7
-NEW NODE NAME CREATED: ht5_node7
-NEW NODE NAME CREATED: ht9_node0
-NEW NODE NAME CREATED: ht5_node8
-NEW NODE NAME CREATED: ht5_node8
-NEW NODE NAME CREATED: ht8_node8NEW NODE NAME CREATED: ht9_node0
-
-NEW NODE NAME CREATED: ht8_node8
-NEW NODE NAME CREATED: ht5_node9
-NEW NODE NAME CREATED: ht5_node9
-NEW NODE NAME CREATED: ht8_node9
-NEW NODE NAME CREATED: ht8_node9
-NEW NODE NAME CREATED: ht1_node0
-NEW NODE NAME CREATED: ht1_node0
-NEW NODE NAME CREATED: ht9_node1NODE NAME ON SERVER: 1703/ht3_node0
-NODE NAME ON SERVER: 1703/ht3_node1
-NODE NAME ON SERVER: 1703/ht3_node2
-NODE NAME ON SERVER: 1703/ht3_node3
-NODE NAME ON SERVER: 1703/ht3_node4
-NODE NAME ON SERVER: 1703/ht3_node5
-
-NEW NODE NAME CREATED: ht9_node1
-NODE NAME ON SERVER: 1703/ht3_node6
-NODE NAME ON SERVER: 1703/ht3_node7
-NODE NAME ON SERVER: 1703/ht3_node8
-NODE NAME ON SERVER: 1703/ht3_node9
-NEW NODE NAME CREATED: ht9_node2
-NEW NODE NAME CREATED: ht9_node2
-NODE NAME ON SERVER: 1706/ht6_node0
-NODE NAME ON SERVER: 1706/ht6_node1
-NODE NAME ON SERVER: 1706/ht6_node2NEW NODE NAME CREATED: ht9_node3
-
-NEW NODE NAME CREATED: ht9_node3NODE NAME ON SERVER: 1706/ht6_node3
-NODE NAME ON SERVER: 1706/ht6_node4
-NODE NAME ON SERVER: 1706/ht6_node5
-
-NODE NAME ON SERVER: 1706/ht6_node6
-NODE NAME ON SERVER: 1706/ht6_node7
-NODE NAME ON SERVER: 1706/ht6_node8
-NODE NAME ON SERVER: 1706/ht6_node9
-NEW NODE NAME CREATED: ht9_node4NODE NAME ON SERVER: 1705/ht5_node0
-NODE NAME ON SERVER: 1705/ht5_node1
-NODE NAME ON SERVER: 1705/ht5_node2
-NEW NODE NAME CREATED: ht9_node4
-NEW NODE NAME CREATED: ht9_node5
-NODE NAME ON SERVER: 1705/ht5_node3
-NODE NAME ON SERVER: 1705/ht5_node4
-NODE NAME ON SERVER: 1705/ht5_node5
-
-NODE NAME ON SERVER: 1705/ht5_node6
-NODE NAME ON SERVER: 1705/ht5_node7
-NODE NAME ON SERVER: 1705/ht5_node8
-NODE NAME ON SERVER: 1705/ht5_node9
-NEW NODE NAME CREATED: ht9_node5
-NEW NODE NAME CREATED: ht9_node6NODE NAME ON SERVER: 1707/ht7_node0
-NODE NAME ON SERVER: 1707/ht7_node1
-NODE NAME ON SERVER: 1707/ht7_node2
-NODE NAME ON SERVER: 1707/ht7_node3
-NODE NAME ON SERVER: 1707/ht7_node4
-NODE NAME ON SERVER: 1707/ht7_node5
-NODE NAME ON SERVER: 1707/ht7_node6
-NODE NAME ON SERVER: 1707/ht7_node7
-NODE NAME ON SERVER: 1707/ht7_node8
-NODE NAME ON SERVER: 1707/ht7_node9
-
-NEW NODE NAME CREATED: ht9_node6
-NEW NODE NAME CREATED: ht9_node7
-NEW NODE NAME CREATED: ht9_node7
-NODE NAME ON SERVER: 1700/ht0_node0
-NODE NAME ON SERVER: 1700/ht0_node1
-NODE NAME ON SERVER: 1700/ht0_node2
-NODE NAME ON SERVER: 1700/ht0_node3
-NODE NAME ON SERVER: 1700/ht0_node4
-NODE NAME ON SERVER: 1700/ht0_node5
-NODE NAME ON SERVER: 1700/ht0_node6
-NODE NAME ON SERVER: 1700/ht0_node7
-NODE NAME ON SERVER: 1700/ht0_node8
-NODE NAME ON SERVER: 1700/ht0_node9
-NEW NODE NAME CREATED: ht1_node1
-NEW NODE NAME CREATED: ht1_node1
-NEW NODE NAME CREATED: ht1_node2
-NEW NODE NAME CREATED: ht1_node2
-NEW NODE NAME CREATED: ht1_node3
-NEW NODE NAME CREATED: ht1_node3
-NODE NAME ON SERVER: 1702/ht2_node0
-NODE NAME ON SERVER: 1702/ht2_node1
-NODE NAME ON SERVER: 1702/ht2_node2NEW NODE NAME CREATED: ht1_node4
-
-NODE NAME ON SERVER: 1702/ht2_node3
-NEW NODE NAME CREATED: ht1_node4
-NODE NAME ON SERVER: 1702/ht2_node4
-NODE NAME ON SERVER: 1702/ht2_node5
-NODE NAME ON SERVER: 1702/ht2_node6
-NODE NAME ON SERVER: 1702/ht2_node7
-NODE NAME ON SERVER: 1702/ht2_node8
-NODE NAME ON SERVER: 1702/ht2_node9
-NEW NODE NAME CREATED: ht1_node5
-NEW NODE NAME CREATED: ht1_node5
-NODE NAME ON SERVER: 1704/ht4_node0
-NODE NAME ON SERVER: 1704/ht4_node1
-NODE NAME ON SERVER: 1704/ht4_node2
-NODE NAME ON SERVER: 1704/ht4_node3
-NEW NODE NAME CREATED: ht1_node6NODE NAME ON SERVER: 1704/ht4_node4
-
-NEW NODE NAME CREATED: ht1_node6NODE NAME ON SERVER: 1704/ht4_node5
-
-NEW NODE NAME CREATED: ht9_node8
-NEW NODE NAME CREATED: ht1_node7
-NEW NODE NAME CREATED: ht1_node7
-NODE NAME ON SERVER: 1704/ht4_node6
-NODE NAME ON SERVER: 1704/ht4_node7
-NODE NAME ON SERVER: 1704/ht4_node8
-NODE NAME ON SERVER: 1704/ht4_node9
-NEW NODE NAME CREATED: ht1_node8
-NEW NODE NAME CREATED: ht1_node8
-NEW NODE NAME CREATED: ht9_node8
-NEW NODE NAME CREATED: ht1_node9
-NEW NODE NAME CREATED: ht1_node9
-NEW NODE NAME CREATED: ht9_node9
-NEW NODE NAME CREATED: ht9_node9
-NODE NAME ON SERVER: 1708/ht8_node0
-NODE NAME ON SERVER: 1708/ht8_node1
-NODE NAME ON SERVER: 1708/ht8_node2
-NODE NAME ON SERVER: 1708/ht8_node3
-NODE NAME ON SERVER: 1708/ht8_node4
-NODE NAME ON SERVER: 1708/ht8_node5
-NODE NAME ON SERVER: 1708/ht8_node6
-NODE NAME ON SERVER: 1708/ht8_node7
-NODE NAME ON SERVER: 1708/ht8_node8
-NODE NAME ON SERVER: 1708/ht8_node9
-NODE NAME ON SERVER: 1701/ht1_node0
-NODE NAME ON SERVER: 1701/ht1_node1
-NODE NAME ON SERVER: 1701/ht1_node2
-NODE NAME ON SERVER: 1701/ht1_node3
-NODE NAME ON SERVER: 1701/ht1_node4
-NODE NAME ON SERVER: 1701/ht1_node5
-NODE NAME ON SERVER: 1701/ht1_node6
-NODE NAME ON SERVER: 1701/ht1_node7
-NODE NAME ON SERVER: 1701/ht1_node8
-NODE NAME ON SERVER: 1701/ht1_node9
-NODE NAME ON SERVER: 1709/ht9_node0
-NODE NAME ON SERVER: 1709/ht9_node1
-NODE NAME ON SERVER: 1709/ht9_node2
-NODE NAME ON SERVER: 1709/ht9_node3
-NODE NAME ON SERVER: 1709/ht9_node4
-NODE NAME ON SERVER: 1709/ht9_node5
-NODE NAME ON SERVER: 1709/ht9_node6
-NODE NAME ON SERVER: 1709/ht9_node7
-NODE NAME ON SERVER: 1709/ht9_node8
-NODE NAME ON SERVER: 1709/ht9_node9
-NODE NAME: ht2_node1
-NODE NAME: ht4_node0
-rmi://localhost:1704/ht4_node0
-rmi://localhost:1702/ht2_node1
-NODE NAME: ht5_node3
-rmi://localhost:1705/ht5_node3
-NODE NAME: ht4_node5
-rmi://localhost:1704/ht4_node5
+rmi://localhost:1707/ht7_ll4
+rmi://localhost:1700/ht0_ll9
+TinyTM.ofree.TMObj@3d8c7aca
+NODE NAME: ht6_ll7
+rmi://localhost:1706/ht6_ll7
+TinyTM.ofree.TMObj@3d8c7aca
+NODE NAME: ht3_ll4
+rmi://localhost:1703/ht3_ll4
+TinyTM.ofree.TMObj@73f792cf
+TinyTM.ofree.TMObj@73f792cf
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
 WRITING...
 -1
 0
-NAME: ht4_node0
+NAME: ht0_ll_head9
 null
-ht4_node0_key490
+ht7_ll_head4_key784
+ht0_ll_head9_key69
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head4
+null
+-1
+6
+NAME: ht6_ll_head7
+null
+ht3_ll_head4_key374
+ht6_ll_head7_key657
+NODE NAME: ht9_ll4
+rmi://localhost:1709/ht9_ll4
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@6cc4c815
+NODE NAME: ht1_ll1
+rmi://localhost:1701/ht1_ll1
+TinyTM.ofree.TMObj@6cc4c815
+NODE NAME: ht0_ll2
+rmi://localhost:1700/ht0_ll2
+TinyTM.ofree.TMObj@51081592
+WRITING...
+TinyTM.ofree.TMObj@51081592
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key535
+WRITING...
+-1
+9
+NAME: ht9_ll_head4
+null
+WRITING...
+-1
+0
+NAME: ht0_ll_head2
+null
+ht0_ll_head2_key72
+NODE NAME: ht1_ll1
+rmi://localhost:1701/ht1_ll1
+TinyTM.ofree.TMObj@5c7fa833
+ht9_ll_head4_key914
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
 WRITING...
 -1
 1
-NAME: ht2_node1
+NAME: ht1_ll_head1
 null
-LOOKED UP
-FIRST INSERT
-ht2_node1_key221
-Exception in thread "main" TinyTM.exceptions.PanicException: java.rmi.UnmarshalException: error unmarshalling return; nested exception is: 
-	java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at TinyTM.Transaction.atomic(Transaction.java:154)
-	at DHT.DHTTransaction.execTransaction(DHTClient.java:203)
-	at DHT.DHTClient.main(DHTClient.java:48)
-Caused by: java.rmi.UnmarshalException: error unmarshalling return; nested exception is: 
-	java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:197)
-	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:217)
-	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:162)
-	at com.sun.proxy.$Proxy3.insert(Unknown Source)
-	at DHT.DHTTransaction$1.call(DHTClient.java:212)
-	at DHT.DHTTransaction$1.call(DHTClient.java:203)
-	at TinyTM.Transaction.atomic(Transaction.java:144)
-	... 2 more
-Caused by: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1694)
-	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:489)
-	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:447)
-	at java.rmi/sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:327)
-	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:177)
-	... 8 more
-Caused by: java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1175)
-	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
-	at java.rmi/sun.rmi.server.UnicastRef.marshalValue(UnicastRef.java:293)
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:369)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-LOOKED UP
-FIRST INSERT
-Exception in thread "main" TinyTM.exceptions.PanicException: java.rmi.UnmarshalException: error unmarshalling return; nested exception is: 
-	java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at TinyTM.Transaction.atomic(Transaction.java:154)
-	at DHT.DHTTransaction.execTransaction(DHTClient.java:203)
-	at DHT.DHTClient.main(DHTClient.java:48)
-Caused by: java.rmi.UnmarshalException: error unmarshalling return; nested exception is: 
-	java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:197)
-	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:217)
-	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:162)
-	at com.sun.proxy.$Proxy3.insert(Unknown Source)
-	at DHT.DHTTransaction$1.call(DHTClient.java:212)
-	at DHT.DHTTransaction$1.call(DHTClient.java:203)
-	at TinyTM.Transaction.atomic(Transaction.java:144)
-	... 2 more
-Caused by: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1694)
-	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:489)
-	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:447)
-	at java.rmi/sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:327)
-	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:177)
-	... 8 more
-Caused by: java.io.NotSerializableException: TinyTM.ofree.TMObj
-	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1175)
-	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
-	at java.rmi/sun.rmi.server.UnicastRef.marshalValue(UnicastRef.java:293)
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:369)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
+TinyTM.ofree.TMObj@18be83e4
+ht1_ll_head1_key131
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+TinyTM.ofree.TMObj@5c7fa833
+NODE NAME: ht9_ll8
+rmi://localhost:1709/ht9_ll8
+TinyTM.ofree.TMObj@18be83e4
+WRITING...
+-1
+1
+NAME: ht1_ll_head1
+null
+ht1_ll_head1_key151
+WRITING...
+-1
+0
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key35
+WRITING...
+-1
+9
+NAME: ht9_ll_head8
+null
+ht9_ll_head8_key928
+NODE NAME: ht8_ll6
+rmi://localhost:1708/ht8_ll6
+WRITING...
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key475
+NODE NAME: ht9_ll8
+rmi://localhost:1709/ht9_ll8
+TinyTM.ofree.TMObj@6f7fd0e6
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
+TinyTM.ofree.TMObj@3bfdc050
+TinyTM.ofree.TMObj@6f7fd0e6
+NODE NAME: ht4_ll7
+rmi://localhost:1704/ht4_ll7
+WRITING...
+-1
+9
+NAME: ht9_ll_head8
+null
+ht9_ll_head8_key918
+WRITING...
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key425
+NODE NAME: ht8_ll2
+rmi://localhost:1708/ht8_ll2
+TinyTM.ofree.TMObj@604ed9f0
+TinyTM.ofree.TMObj@e25b2fe
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+WRITING...
+-1
+8
+NAME: ht8_ll_head6
+null
+TinyTM.ofree.TMObj@57fffcd7
+ht8_ll_head6_key846
+WRITING...
+-1
+8
+NAME: ht8_ll_head2
+null
+ht8_ll_head2_key822
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key449
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+WRITING...
+-1
+4
+NAME: ht4_ll_head7
+null
+ht4_ll_head7_key437
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@1e397ed7
+TinyTM.ofree.TMObj@464bee09
+NODE NAME: ht0_ll8
+rmi://localhost:1700/ht0_ll8
+NODE NAME: ht8_ll4
+rmi://localhost:1708/ht8_ll4
+TinyTM.ofree.TMObj@5f341870
+TinyTM.ofree.TMObj@13805618
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key820
+WRITING...
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key966
+WRITING...
+-1
+8
+NAME: ht8_ll_head4
+null
+ht8_ll_head4_key894
+NODE NAME: ht9_ll8
+rmi://localhost:1709/ht9_ll8
+TinyTM.ofree.TMObj@1e397ed7
+NODE NAME: ht6_ll5
+rmi://localhost:1706/ht6_ll5
+WRITING...
+-1
+0
+NAME: ht0_ll_head8
+null
+ht0_ll_head8_key28
+NODE NAME: ht8_ll8
+rmi://localhost:1708/ht8_ll8
+TinyTM.ofree.TMObj@7e0b0338
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+TinyTM.ofree.TMObj@13805618
+TinyTM.ofree.TMObj@21213b92
+WRITING...
+-1
+9
+NAME: ht9_ll_head8
+null
+ht9_ll_head8_key958
+WRITING...
+-1
+8
+NAME: ht8_ll_head8
+null
+ht8_ll_head8_key828
+WRITING...
+-1
+6
+NAME: ht6_ll_head5
+null
+ht6_ll_head5_key625
+NODE NAME: ht3_ll8
+rmi://localhost:1703/ht3_ll8
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key396
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+TinyTM.ofree.TMObj@7e0b0338
+NODE NAME: ht7_ll2
+rmi://localhost:1707/ht7_ll2
+TinyTM.ofree.TMObj@6b09bb57
+NODE NAME: ht9_ll5
+rmi://localhost:1709/ht9_ll5
+TinyTM.ofree.TMObj@210366b4
+WRITING...
+TinyTM.ofree.TMObj@21213b92
+-1
+0
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key86
+WRITING...
+-1
+9
+NAME: ht9_ll_head5
+null
+ht9_ll_head5_key925
+NODE NAME: ht7_ll7
+rmi://localhost:1707/ht7_ll7
+WRITING...
+-1
+3
+NAME: ht3_ll_head8
+null
+ht3_ll_head8_key358
+TinyTM.ofree.TMObj@3dd4520b
+NODE NAME: ht3_ll4
+rmi://localhost:1703/ht3_ll4
+TinyTM.ofree.TMObj@578486a3
+WRITING...
+-1
+7
+NAME: ht7_ll_head2
+null
+ht7_ll_head2_key722
+NODE NAME: ht2_ll3
+rmi://localhost:1702/ht2_ll3
+WRITING...
+-1
+7
+NAME: ht7_ll_head7
+null
+ht7_ll_head7_key747
+WRITING...
+-1
+3
+NAME: ht3_ll_head4
+null
+ht3_ll_head4_key304
+NODE NAME: ht3_ll4
+rmi://localhost:1703/ht3_ll4
+TinyTM.ofree.TMObj@6737fd8f
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@6c49835d
+WRITING...
+-1
+3
+NAME: ht3_ll_head4
+null
+ht3_ll_head4_key304
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key800
+TinyTM.ofree.TMObj@6b09bb57
+NODE NAME: ht1_ll1
+rmi://localhost:1701/ht1_ll1
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@2d6eabae
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+TinyTM.ofree.TMObj@396f6598
+TinyTM.ofree.TMObj@210366b4
+WRITING...
+-1
+1
+NAME: ht1_ll_head1
+null
+ht1_ll_head1_key161
+WRITING...
+-1
+2
+NAME: ht2_ll_head3
+null
+WRITING...
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key972
+NODE NAME: ht1_ll3
+rmi://localhost:1701/ht1_ll3
+TinyTM.ofree.TMObj@1f57539
+NODE NAME: ht2_ll7
+rmi://localhost:1702/ht2_ll7
+ht2_ll_head3_key263
+TinyTM.ofree.TMObj@458c1321
+WRITING...
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key575
+NODE NAME: ht0_ll0
+rmi://localhost:1700/ht0_ll0
+TinyTM.ofree.TMObj@3dd4520b
+NODE NAME: ht0_ll7
+rmi://localhost:1700/ht0_ll7
+WRITING...
+-1
+1
+NAME: ht1_ll_head3
+null
+ht1_ll_head3_key183
+TinyTM.ofree.TMObj@578486a3
+WRITING...
+-1
+2
+NAME: ht2_ll_head7
+null
+ht2_ll_head7_key267
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+WRITING...
+-1
+0
+NAME: ht0_ll_head0
+null
+ht0_ll_head0_key80
+TinyTM.ofree.TMObj@2a742aa2
+NODE NAME: ht4_ll1
+rmi://localhost:1704/ht4_ll1
+WRITING...
+-1
+0
+NAME: ht0_ll_head7
+null
+ht0_ll_head7_key37
+TinyTM.ofree.TMObj@51e2adc7
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key410
+TinyTM.ofree.TMObj@7494e528
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+WRITING...
+TinyTM.ofree.TMObj@2a17b7b6
+-1
+4
+NAME: ht4_ll_head1
+null
+ht4_ll_head1_key411
+NODE NAME: ht2_ll5
+rmi://localhost:1702/ht2_ll5
+TinyTM.ofree.TMObj@7a9273a8
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key674
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@e874448
+WRITING...
+-1
+5
+NAME: ht5_ll_head6
+null
+ht5_ll_head6_key576
+NODE NAME: ht2_ll7
+rmi://localhost:1702/ht2_ll7
+TinyTM.ofree.TMObj@396f6598
+NODE NAME: ht5_ll1
+rmi://localhost:1705/ht5_ll1
+WRITING...
+-1
+2
+NAME: ht2_ll_head5
+null
+ht2_ll_head5_key285
+TinyTM.ofree.TMObj@1786dec2
+WRITING...
+-1
+2
+NAME: ht2_ll_head7
+null
+ht2_ll_head7_key267
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key840
+NODE NAME: ht1_ll3
+rmi://localhost:1701/ht1_ll3
+TinyTM.ofree.TMObj@5ed828d
+NODE NAME: ht6_ll6
+rmi://localhost:1706/ht6_ll6
+TinyTM.ofree.TMObj@76a3e297
+WRITING...
+WRITING...
+-1
+1
+NAME: ht1_ll_head3
+null
+ht1_ll_head3_key123
+-1
+5
+NAME: ht5_ll_head1
+null
+ht5_ll_head1_key531
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@458c1321
+NODE NAME: ht6_ll1
+rmi://localhost:1706/ht6_ll1
+TinyTM.ofree.TMObj@33c7e1bb
+WRITING...
+-1
+6
+NAME: ht6_ll_head6
+null
+ht6_ll_head6_key686
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+TinyTM.ofree.TMObj@37374a5e
+NODE NAME: ht8_ll7
+rmi://localhost:1708/ht8_ll7
+TinyTM.ofree.TMObj@569cfc36
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key470
+WRITING...
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key982
+WRITING...
+-1
+6
+NAME: ht6_ll_head1
+null
+ht6_ll_head1_key601
+NODE NAME: ht5_ll4
+rmi://localhost:1705/ht5_ll4
+WRITING...
+-1
+8
+NAME: ht8_ll_head7
+null
+ht8_ll_head7_key837
+NODE NAME: ht1_ll0
+rmi://localhost:1701/ht1_ll0
+TinyTM.ofree.TMObj@3891771e
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@12c8a2c0
+TinyTM.ofree.TMObj@51e2adc7
+NODE NAME: ht1_ll6
+rmi://localhost:1701/ht1_ll6
+TinyTM.ofree.TMObj@1a1d6a08
+WRITING...
+-1
+1
+NAME: ht1_ll_head0
+null
+ht1_ll_head0_key130
+WRITING...
+-1
+5
+NAME: ht5_ll_head4
+null
+ht5_ll_head4_key514
+WRITING...
+-1
+1
+NAME: ht1_ll_head6
+null
+ht1_ll_head6_key176
+NODE NAME: ht5_ll7
+rmi://localhost:1705/ht5_ll7
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key480
+TinyTM.ofree.TMObj@42d8062c
+NODE NAME: ht1_ll3
+rmi://localhost:1701/ht1_ll3
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@670b40af
+TinyTM.ofree.TMObj@67b467e9
+NODE NAME: ht8_ll8
+rmi://localhost:1708/ht8_ll8
+TinyTM.ofree.TMObj@149494d8
+WRITING...
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key957
+-1
+5
+NAME: ht5_ll_head7
+null
+ht5_ll_head7_key557
+WRITING...
+-1
+8
+NAME: ht8_ll_head8
+null
+ht8_ll_head8_key818
+NODE NAME: ht2_ll2
+rmi://localhost:1702/ht2_ll2
+TinyTM.ofree.TMObj@2fd66ad3
+WRITING...
+NODE NAME: ht7_ll5
+rmi://localhost:1707/ht7_ll5
+-1
+1
+NAME: ht1_ll_head3
+null
+ht1_ll_head3_key183
+NODE NAME: ht6_ll1
+rmi://localhost:1706/ht6_ll1
+TinyTM.ofree.TMObj@4eb7f003
+TinyTM.ofree.TMObj@5123a213
+NODE NAME: ht1_ll4
+rmi://localhost:1701/ht1_ll4
+TinyTM.ofree.TMObj@6a1aab78
+WRITING...
+-1
+2
+NAME: ht2_ll_head2
+null
+ht2_ll_head2_key232
+WRITING...
+-1
+6
+NAME: ht6_ll_head1
+null
+ht6_ll_head1_key621
+WRITING...
+-1
+7
+NAME: ht7_ll_head5
+null
+ht7_ll_head5_key755
+NODE NAME: ht7_ll1
+rmi://localhost:1707/ht7_ll1
+TinyTM.ofree.TMObj@2f8f5f62
+NODE NAME: ht5_ll3
+rmi://localhost:1705/ht5_ll3
+WRITING...
+TinyTM.ofree.TMObj@80169cf
+-1
+1
+NAME: ht1_ll_head4
+null
+ht1_ll_head4_key134
+NODE NAME: ht2_ll3
+rmi://localhost:1702/ht2_ll3
+TinyTM.ofree.TMObj@7a30d1e6
+NODE NAME: ht2_ll6
+rmi://localhost:1702/ht2_ll6
+TinyTM.ofree.TMObj@543c6f6d
+WRITING...
+-1
+7
+NAME: ht7_ll_head1
+null
+ht7_ll_head1_key701
+WRITING...
+-1
+2
+NAME: ht2_ll_head3
+null
+ht2_ll_head3_key263
+WRITING...
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key206
+NODE NAME: ht8_ll9
+rmi://localhost:1708/ht8_ll9
+WRITING...
+-1
+5
+NAME: ht5_ll_head3
+null
+ht5_ll_head3_key593
+NODE NAME: ht3_ll0
+rmi://localhost:1703/ht3_ll0
+TinyTM.ofree.TMObj@6ec8211c
+TinyTM.ofree.TMObj@2473b9ce
+NODE NAME: ht2_ll1
+NODE NAME: ht2_ll6rmi://localhost:1702/ht2_ll1
+
+rmi://localhost:1702/ht2_ll6
+TinyTM.ofree.TMObj@2bea5ab4
+TinyTM.ofree.TMObj@43a0cee9
+WRITING...
+-1
+8
+NAME: ht8_ll_head9
+null
+ht8_ll_head9_key879
+WRITING...
+-1
+3
+NAME: ht3_ll_head0
+null
+ht3_ll_head0_key390
+WRITING...
+-1
+2
+NAME: ht2_ll_head1
+null
+ht2_ll_head1_key281
+WRITING...
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key226
+NODE NAME: ht0_ll7
+rmi://localhost:1700/ht0_ll7
+TinyTM.ofree.TMObj@24a35978
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@27d415d9
+TinyTM.ofree.TMObj@1ee807c6
+NODE NAME: ht6_ll1
+rmi://localhost:1706/ht6_ll1
+TinyTM.ofree.TMObj@49c43f4e
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key744
+WRITING...
+-1
+0
+NAME: ht0_ll_head7
+null
+ht0_ll_head7_key67
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key450
+NODE NAME: ht7_ll0
+rmi://localhost:1707/ht7_ll0
+TinyTM.ofree.TMObj@4516af24
+NODE NAME: ht9_ll3
+rmi://localhost:1709/ht9_ll3
+TinyTM.ofree.TMObj@5a4041cc
+WRITING...
+-1
+6
+NAME: ht6_ll_head1
+null
+ht6_ll_head1_key621
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+WRITING...
+TinyTM.ofree.TMObj@3ffcd140
+-1
+7
+NAME: ht7_ll_head0
+null
+ht7_ll_head0_key770
+NODE NAME: ht9_ll4
+rmi://localhost:1709/ht9_ll4
+TinyTM.ofree.TMObj@21a947fe
+WRITING...
+-1
+9
+NAME: ht9_ll_head3
+null
+ht9_ll_head3_key953
+NODE NAME: ht1_ll2
+rmi://localhost:1701/ht1_ll2
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key341
+TinyTM.ofree.TMObj@17baae6e
+NODE NAME: ht2_ll5
+rmi://localhost:1702/ht2_ll5
+TinyTM.ofree.TMObj@133e16fd
+WRITING...
+-1
+9
+NAME: ht9_ll_head4
+null
+ht9_ll_head4_key994
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+TinyTM.ofree.TMObj@27c6e487
+NODE NAME: ht5_ll7
+rmi://localhost:1705/ht5_ll7
+TinyTM.ofree.TMObj@516be40f
+WRITING...
+-1
+1
+NAME: ht1_ll_head2
+null
+ht1_ll_head2_key152
+WRITING...
+-1
+2
+NAME: ht2_ll_head5
+null
+ht2_ll_head5_key225
+NODE NAME: ht8_ll2
+rmi://localhost:1708/ht8_ll2
+WRITING...
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key966
+TinyTM.ofree.TMObj@130f889
+NODE NAME: ht6_ll3
+rmi://localhost:1706/ht6_ll3
+WRITING...
+-1
+5
+NAME: ht5_ll_head7
+null
+ht5_ll_head7_key587
+TinyTM.ofree.TMObj@7181ae3f
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+TinyTM.ofree.TMObj@7ff2a664
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@69b794e2
+WRITING...
+-1
+8
+NAME: ht8_ll_head2
+null
+ht8_ll_head2_key892
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key356
+WRITING...
+-1
+6
+NAME: ht6_ll_head3
+null
+ht6_ll_head3_key613
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+WRITING...
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key595
+NODE NAME: ht2_ll2
+TinyTM.ofree.TMObj@32a068d1rmi://localhost:1702/ht2_ll2
+
+TinyTM.ofree.TMObj@64d2d351
+NODE NAME: ht1_ll2
+rmi://localhost:1701/ht1_ll2
+NODE NAME: ht6_ll0
+rmi://localhost:1706/ht6_ll0
+TinyTM.ofree.TMObj@51b7e5df
+TinyTM.ofree.TMObj@4df828d7
+WRITING...
+WRITING...
+-1
+2
+NAME: ht2_ll_head2
+null
+ht2_ll_head2_key262
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key976
+WRITING...
+-1
+1
+NAME: ht1_ll_head2
+null
+ht1_ll_head2_key192
+NODE NAME: ht5_ll9
+rmi://localhost:1705/ht5_ll9
+TinyTM.ofree.TMObj@2ea6137
+WRITING...
+NODE NAME: ht7_ll3
+rmi://localhost:1707/ht7_ll3
+-1
+6
+NAME: ht6_ll_head0
+null
+ht6_ll_head0_key640
+NODE NAME: ht0_ll8
+rmi://localhost:1700/ht0_ll8
+TinyTM.ofree.TMObj@16267862
+TinyTM.ofree.TMObj@400cff1a
+NODE NAME: ht5_ll2
+rmi://localhost:1705/ht5_ll2
+TinyTM.ofree.TMObj@6e38921c
+WRITING...
+-1
+5
+NAME: ht5_ll_head9
+null
+ht5_ll_head9_key599
+WRITING...
+-1
+0
+NAME: ht0_ll_head8
+null
+ht0_ll_head8_key98
+WRITING...
+-1
+5
+NAME: ht5_ll_head2
+null
+ht5_ll_head2_key592
+NODE NAME: ht3_ll5
+rmi://localhost:1703/ht3_ll5
+WRITING...
+-1
+7
+NAME: ht7_ll_head3
+null
+ht7_ll_head3_key703
+TinyTM.ofree.TMObj@70b0b186
+NODE NAME: ht6_ll9
+rmi://localhost:1706/ht6_ll9
+TinyTM.ofree.TMObj@105fece7
+NODE NAME: ht3_ll2
+rmi://localhost:1703/ht3_ll2
+TinyTM.ofree.TMObj@b7f23d9
+NODE NAME: ht1_ll9
+rmi://localhost:1701/ht1_ll9
+TinyTM.ofree.TMObj@5d740a0f
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head5
+null
+ht3_ll_head5_key315
+-1
+6
+NAME: ht6_ll_head9
+null
+ht6_ll_head9_key699
+WRITING...
+-1
+3
+NAME: ht3_ll_head2
+null
+ht3_ll_head2_key392
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+WRITING...
+-1
+1
+NAME: ht1_ll_head9
+null
+ht1_ll_head9_key199
+NODE NAME: ht8_ll5
+rmi://localhost:1708/ht8_ll5
+TinyTM.ofree.TMObj@3b2c72c2
+TinyTM.ofree.TMObj@4034c28c
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+TinyTM.ofree.TMObj@3ee0fea4
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+TinyTM.ofree.TMObj@c8e4bb0
+WRITING...
+-1
+8
+NAME: ht8_ll_head5
+null
+ht8_ll_head5_key805
+WRITING...
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key922
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key754
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+TinyTM.ofree.TMObj@f2f2cc1
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+TinyTM.ofree.TMObj@5ad851c9
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key489
+NODE NAME: ht2_ll2
+rmi://localhost:1702/ht2_ll2
+TinyTM.ofree.TMObj@57d5872c
+NODE NAME: ht7_ll0
+rmi://localhost:1707/ht7_ll0
+TinyTM.ofree.TMObj@55040f2f
+WRITING...
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key956
+WRITING...
+-1
+2
+NAME: ht2_ll_head2
+null
+ht2_ll_head2_key232
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key311
+NODE NAME: ht8_ll1
+rmi://localhost:1708/ht8_ll1
+TinyTM.ofree.TMObj@7a52f2a2
+NODE NAME: ht2_ll0
+rmi://localhost:1702/ht2_ll0
+TinyTM.ofree.TMObj@527e5409
+WRITING...
+-1
+7
+NAME: ht7_ll_head0
+null
+ht7_ll_head0_key760
+NODE NAME: ht6_ll7
+rmi://localhost:1706/ht6_ll7
+TinyTM.ofree.TMObj@40e6dfe1
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+WRITING...
+-1
+8
+NAME: ht8_ll_head1
+null
+ht8_ll_head1_key861
+TinyTM.ofree.TMObj@123f1134
+WRITING...
+-1
+6
+NAME: ht6_ll_head7
+null
+ht6_ll_head7_key697
+WRITING...
+WRITING...
+-1
+2
+NAME: ht2_ll_head0
+null
+ht2_ll_head0_key290
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+-1
+9
+NAME: ht9_ll_head2
+nullTinyTM.ofree.TMObj@5a955565
+
+ht9_ll_head2_key922
+NODE NAME: ht7_ll8
+NODE NAME: ht6_ll9rmi://localhost:1707/ht7_ll8
+
+rmi://localhost:1706/ht6_ll9
+TinyTM.ofree.TMObj@1e730495TinyTM.ofree.TMObj@16aa0a0a
+
+NODE NAME: ht8_ll1
+rmi://localhost:1708/ht8_ll1
+TinyTM.ofree.TMObj@53ca01a2
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key937
+WRITING...
+-1
+6
+NAME: ht6_ll_head9
+null
+ht6_ll_head9_key609
+WRITING...
+-1
+7
+NAME: ht7_ll_head8
+null
+ht7_ll_head8_key748
+NODE NAME: ht6_ll9
+rmi://localhost:1706/ht6_ll9
+TinyTM.ofree.TMObj@358ee631
+NODE NAME: ht8_ll6
+rmi://localhost:1708/ht8_ll6
+TinyTM.ofree.TMObj@14d3bc22
+WRITING...
+-1
+8
+NAME: ht8_ll_head1
+null
+ht8_ll_head1_key811
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+TinyTM.ofree.TMObj@2aa5fe93
+NODE NAME: ht3_ll9
+rmi://localhost:1703/ht3_ll9
+WRITING...
+-1
+6
+NAME: ht6_ll_head9TinyTM.ofree.TMObj@5db45159
+
+null
+ht6_ll_head9_key609
+WRITING...
+-1
+8
+NAME: ht8_ll_head6
+null
+ht8_ll_head6_key836
+NODE NAME: ht2_ll3
+rmi://localhost:1702/ht2_ll3
+TinyTM.ofree.TMObj@7a4ccb53
+NODE NAME: ht3_ll7
+rmi://localhost:1703/ht3_ll7
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key341
+TinyTM.ofree.TMObj@54c562f7
+WRITING...
+-1
+2
+NAME: ht2_ll_head3
+null
+ht2_ll_head3_key243
+WRITING...
+-1
+3
+NAME: ht3_ll_head9
+null
+ht3_ll_head9_key309
+NODE NAME: ht3_ll3
+rmi://localhost:1703/ht3_ll3
+WRITING...
+-1
+3
+NAME: ht3_ll_head7
+null
+ht3_ll_head7_key357
+NODE NAME: ht4_ll4
+rmi://localhost:1704/ht4_ll4
+TinyTM.ofree.TMObj@7fc229ab
+TinyTM.ofree.TMObj@1677d1
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+TinyTM.ofree.TMObj@2b6faea6
+NODE NAME: ht0_ll4
+rmi://localhost:1700/ht0_ll4
+TinyTM.ofree.TMObj@1d76aeea
+WRITING...
+-1
+4
+NAME: ht4_ll_head4
+null
+ht4_ll_head4_key464
+WRITING...
+-1
+3
+NAME: ht3_ll_head3
+null
+ht3_ll_head3_key333
+WRITING...
+-1
+0
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key25
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+TinyTM.ofree.TMObj@433d61fb
+NODE NAME: ht6_ll7
+rmi://localhost:1706/ht6_ll7
+WRITING...
+-1
+0
+NAME: ht0_ll_head4
+null
+ht0_ll_head4_key74
+NODE NAME: ht8_ll9
+rmi://localhost:1708/ht8_ll9
+TinyTM.ofree.TMObj@23986957
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+TinyTM.ofree.TMObj@1534f01bTinyTM.ofree.TMObj@60704c
+
+WRITING...
+-1WRITING...
+
+8
+NAME: ht8_ll_head9
+null
+ht8_ll_head9_key879
+-1
+0
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key75
+WRITING...
+-1
+5
+NAME: ht5_ll_head6
+null
+ht5_ll_head6_key546
+NODE NAME: ht5_ll1
+rmi://localhost:1705/ht5_ll1
+TinyTM.ofree.TMObj@60dcc9fe
+NODE NAME: ht5_ll3
+rmi://localhost:1705/ht5_ll3
+WRITING...
+-1
+6
+NAME: ht6_ll_head7
+null
+ht6_ll_head7_key607
+NODE NAME: ht2_ll0
+rmi://localhost:1702/ht2_ll0
+TinyTM.ofree.TMObj@1c93084c
+NODE NAME: ht4_ll6
+rmi://localhost:1704/ht4_ll6
+TinyTM.ofree.TMObj@7b227d8d
+TinyTM.ofree.TMObj@1d119efb
+WRITING...
+-1
+2
+NAME: ht2_ll_head0
+null
+ht2_ll_head0_key290
+WRITING...
+-1
+5
+NAME: ht5_ll_head1
+null
+ht5_ll_head1_key561
+WRITING...
+-1
+4
+NAME: ht4_ll_head6
+null
+ht4_ll_head6_key406
+NODE NAME: ht7_ll1
+rmi://localhost:1707/ht7_ll1
+WRITING...
+-1
+5
+NAME: ht5_ll_head3
+null
+ht5_ll_head3_key503
+TinyTM.ofree.TMObj@3e2e18f2
+NODE NAME: ht2_ll9
+rmi://localhost:1702/ht2_ll9
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+TinyTM.ofree.TMObj@1622f1b
+TinyTM.ofree.TMObj@18ce0030
+NODE NAME: ht7_ll6
+rmi://localhost:1707/ht7_ll6
+TinyTM.ofree.TMObj@3c9d0b9d
+WRITING...
+-1
+7
+NAME: ht7_ll_head1
+null
+ht7_ll_head1_key791
+WRITING...
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key946
+NODE NAME: ht6_ll5
+rmi://localhost:1706/ht6_ll5
+WRITING...
+-1
+2
+NAME: ht2_ll_head9
+null
+ht2_ll_head9_key299
+TinyTM.ofree.TMObj@9353778
+NODE NAME: ht0_ll9
+rmi://localhost:1700/ht0_ll9
+TinyTM.ofree.TMObj@1ddf84b8
+WRITING...
+-1
+7
+NAME: ht7_ll_head6
+null
+ht7_ll_head6_key756
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+WRITING...
+-1
+6
+NAME: ht6_ll_head5
+null
+TinyTM.ofree.TMObj@12e61fe6
+ht6_ll_head5_key645
+NODE NAME: ht3_ll7
+rmi://localhost:1703/ht3_ll7
+TinyTM.ofree.TMObj@7f010382
+WRITING...
+-1
+0
+NAME: ht0_ll_head9
+null
+ht0_ll_head9_key19
+NODE NAME: ht9_ll3
+rmi://localhost:1709/ht9_ll3
+TinyTM.ofree.TMObj@27ce24aa
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key489
+NODE NAME: ht6_ll2
+rmi://localhost:1706/ht6_ll2
+TinyTM.ofree.TMObj@c33b74f
+WRITING...
+-1
+3
+NAME: ht3_ll_head7
+null
+ht3_ll_head7_key397
+NODE NAME: ht8_ll8
+rmi://localhost:1708/ht8_ll8
+WRITING...
+-1
+9
+NAME: ht9_ll_head3
+null
+ht9_ll_head3_key953
+TinyTM.ofree.TMObj@65466a6a
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+TinyTM.ofree.TMObj@4386f16
+WRITING...
+-1
+6
+NAME: ht6_ll_head2
+null
+ht6_ll_head2_key692
+NODE NAME: ht6_ll2
+rmi://localhost:1706/ht6_ll2
+TinyTM.ofree.TMObj@7714e963
+NODE NAME: ht5_ll8
+rmi://localhost:1705/ht5_ll8
+WRITING...
+-1
+8
+NAME: ht8_ll_head8
+null
+ht8_ll_head8_key878
+TinyTM.ofree.TMObj@6973b51b
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key764
+NODE NAME: ht8_ll5
+rmi://localhost:1708/ht8_ll5
+TinyTM.ofree.TMObj@22a637e7
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+WRITING...
+-1
+6
+NAME: ht6_ll_head2
+null
+ht6_ll_head2_key682
+TinyTM.ofree.TMObj@2473d930
+WRITING...
+-1
+5
+NAME: ht5_ll_head8
+null
+ht5_ll_head8_key508
+NODE NAME: ht7_ll8
+rmi://localhost:1707/ht7_ll8
+WRITING...
+-1
+8
+NAME: ht8_ll_head5
+null
+ht8_ll_head5_key865
+TinyTM.ofree.TMObj@52e6fdee
+NODE NAME: ht8_ll8
+rmi://localhost:1708/ht8_ll8
+TinyTM.ofree.TMObj@15ff3e9e
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key321
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+TinyTM.ofree.TMObj@703580bf
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+TinyTM.ofree.TMObj@70e8f8e
+WRITING...
+-1
+7
+NAME: ht7_ll_head8
+null
+ht7_ll_head8_key748
+WRITING...
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key902
+WRITING...
+-1
+8
+NAME: ht8_ll_head8
+null
+ht8_ll_head8_key828
+NODE NAME: ht2_ll6
+rmi://localhost:1702/ht2_ll6
+TinyTM.ofree.TMObj@5ffead27
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+TinyTM.ofree.TMObj@4f6ee6e4
+WRITING...
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key489
+NODE NAME: ht6_ll5
+rmi://localhost:1706/ht6_ll5
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key246
+TinyTM.ofree.TMObj@7e0b85f9
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@635eaaf1
+WRITING...
+-1
+0
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key85
+NODE NAME: ht1_ll2
+rmi://localhost:1701/ht1_ll2
+TinyTM.ofree.TMObj@6b81ce95
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@515aebb0
+WRITING...
+-1
+6
+NAME: ht6_ll_head5
+null
+ht6_ll_head5_key635
+WRITING...
+-1
+1
+NAME: ht1_ll_head2
+null
+ht1_ll_head2_key172
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key997
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+TinyTM.ofree.TMObj@15eb5ee5
+NODE NAME: ht6_ll7
+rmi://localhost:1706/ht6_ll7
+TinyTM.ofree.TMObj@31c88ec8
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key764
+WRITING...
+-1
+6
+NAME: ht6_ll_head7
+null
+ht6_ll_head7_key637
+NODE NAME: ht4_ll8
+rmi://localhost:1704/ht4_ll8
+TinyTM.ofree.TMObj@1ea9f6af
+NODE NAME: ht0_ll7
+rmi://localhost:1700/ht0_ll7
+TinyTM.ofree.TMObj@3835c46
+WRITING...
+-1
+4
+NAME: ht4_ll_head8
+null
+ht4_ll_head8_key468
+WRITING...
+-1
+0
+NAME: ht0_ll_head7
+null
+ht0_ll_head7_key7
+NODE NAME: ht9_ll0
+rmi://localhost:1709/ht9_ll0
+TinyTM.ofree.TMObj@61862a7f
+NODE NAME: ht7_ll1
+rmi://localhost:1707/ht7_ll1
+TinyTM.ofree.TMObj@1a451d4d
+WRITING...
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key907
+-1NODE NAME: ht2_ll3
+
+rmi://localhost:1702/ht2_ll3
+9
+NAME: ht9_ll_head0
+null
+ht9_ll_head0_key930
+TinyTM.ofree.TMObj@16d04d3d
+NODE NAME: ht2_ll8
+rmi://localhost:1702/ht2_ll8
+TinyTM.ofree.TMObj@131774fe
+WRITING...
+-1
+7
+NAME: ht7_ll_head1
+null
+ht7_ll_head1_key781
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+TinyTM.ofree.TMObj@2e005c4b
+WRITING...
+-1
+2
+NAME: ht2_ll_head3
+null
+ht2_ll_head3_key253
+NODE NAME: ht8_ll1
+rmi://localhost:1708/ht8_ll1
+TinyTM.ofree.TMObj@359f7cdf
+WRITING...
+-1
+2
+NAME: ht2_ll_head8
+null
+ht2_ll_head8_key218
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@1a482e36
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key321
+NODE NAME: ht2_ll8
+rmi://localhost:1702/ht2_ll8
+TinyTM.ofree.TMObj@35e2d654
+WRITING...
+-1
+8
+NAME: ht8_ll_head1
+null
+ht8_ll_head1_key871
+NODE NAME: ht9_ll8
+rmi://localhost:1709/ht9_ll8
+TinyTM.ofree.TMObj@5b239d7d
+NODE NAME: ht8_ll5
+rmi://localhost:1708/ht8_ll5
+TinyTM.ofree.TMObj@52bf72b5
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key420
+WRITING...
+-1
+9
+NAME: ht9_ll_head8
+null
+ht9_ll_head8_key988
+WRITING...
+-1
+2
+NAME: ht2_ll_head8
+null
+ht2_ll_head8_key238
+WRITING...
+NODE NAME: ht2_ll4
+rmi://localhost:1702/ht2_ll4
+-1
+8
+NAME: ht8_ll_head5
+null
+ht8_ll_head5_key895
+TinyTM.ofree.TMObj@3023df74
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@6302bbb1
+NODE NAME: ht7_ll6
+rmi://localhost:1707/ht7_ll6
+TinyTM.ofree.TMObj@36bc55de
+NODE NAME: ht1_ll0
+rmi://localhost:1701/ht1_ll0
+TinyTM.ofree.TMObj@3febb011
+WRITING...
+-1
+2
+NAME: ht2_ll_head4
+null
+ht2_ll_head4_key224
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key860
+NODE NAME: ht0_ll3
+rmi://localhost:1700/ht0_ll3
+WRITING...
+-1
+7
+NAME: ht7_ll_head6
+null
+ht7_ll_head6_key796
+WRITING...
+-1
+1
+NAME: ht1_ll_head0
+null
+ht1_ll_head0_key160
+NODE NAME: ht1_ll0
+rmi://localhost:1701/ht1_ll0
+TinyTM.ofree.TMObj@77fbd92c
+NODE NAME: ht6_ll7
+rmi://localhost:1706/ht6_ll7
+TinyTM.ofree.TMObj@2f9f7dcf
+TinyTM.ofree.TMObj@77888435
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@34123d65
+WRITING...
+-1
+1
+NAME: ht1_ll_head0
+null
+ht1_ll_head0_key190
+WRITING...
+WRITING...
+-1
+0
+NAME: ht0_ll_head3
+null
+ht0_ll_head3_key33
+-1
+6
+NAME: ht6_ll_head7
+null
+ht6_ll_head7_key617
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+TinyTM.ofree.TMObj@4c371370
+NODE NAME: ht7_ll6
+rmi://localhost:1707/ht7_ll6
+TinyTM.ofree.TMObj@2a65fe7c
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key947
+WRITING...
+NODE NAME: ht1_ll7
+rmi://localhost:1701/ht1_ll7
+-1
+0
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key76
+TinyTM.ofree.TMObj@13c9d689
+NODE NAME: ht4_ll1
+rmi://localhost:1704/ht4_ll1
+TinyTM.ofree.TMObj@5bf0d49
+WRITING...
+-1
+7
+NAME: ht7_ll_head6
+null
+ht7_ll_head6_key756
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+WRITING...
+-1
+1
+NAME: ht1_ll_head7
+null
+ht1_ll_head7_key107
+TinyTM.ofree.TMObj@55182842
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+TinyTM.ofree.TMObj@76505305
+WRITING...
+-1
+4
+NAME: ht4_ll_head1
+null
+ht4_ll_head1_key451
+NODE NAME: ht2_ll0
+rmi://localhost:1702/ht2_ll0
+TinyTM.ofree.TMObj@6a6cb05c
+NODE NAME: ht1_ll3
+rmi://localhost:1701/ht1_ll3
+TinyTM.ofree.TMObj@4c402120
+WRITING...
+-1
+5
+NAME: ht5_ll_head6
+null
+ht5_ll_head6_key576
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key311
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+TinyTM.ofree.TMObj@74235045
+-1
+2
+NAME: ht2_ll_head0
+null
+ht2_ll_head0_key230
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+TinyTM.ofree.TMObj@6771beb3
+WRITING...
+-1
+1
+NAME: ht1_ll_head3
+null
+ht1_ll_head3_key123
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@139982de
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@77c2494c
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key480
+WRITING...
+WRITING...
+-1
+6
+-1
+NAME: ht6_ll_head45
+
+null
+NAME: ht5_ll_head6
+ht6_ll_head4_key684null
+
+ht5_ll_head6_key586
+NODE NAME: ht1_ll1
+rmi://localhost:1701/ht1_ll1
+TinyTM.ofree.TMObj@198b6731
+NODE NAME: ht3_ll2
+rmi://localhost:1703/ht3_ll2
+TinyTM.ofree.TMObj@302552ec
+WRITING...
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key952
+NODE NAME: ht6_ll0
+rmi://localhost:1706/ht6_ll0
+TinyTM.ofree.TMObj@c730b35
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@43bc63a3
+WRITING...
+-1
+1
+NAME: ht1_ll_head1
+null
+ht1_ll_head1_key151
+WRITING...
+-1
+6
+NAME: ht6_ll_head0
+null
+ht6_ll_head0_key680
+WRITING...
+-1
+3
+NAME: ht3_ll_head2
+null
+ht3_ll_head2_key392
+NODE NAME: ht7_ll8
+rmi://localhost:1707/ht7_ll8
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key909
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
+TinyTM.ofree.TMObj@2925bf5b
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@6989da5e
+TinyTM.ofree.TMObj@6ad82709
+NODE NAME: ht6_ll1
+rmi://localhost:1706/ht6_ll1
+TinyTM.ofree.TMObj@7dcf94f8
+WRITING...
+-1
+7
+WRITING...
+NAME: ht7_ll_head8
+null
+ht7_ll_head8_key788
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key425
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key870
+WRITING...
+NODE NAME: ht1_ll0
+rmi://localhost:1701/ht1_ll0
+-1
+6
+NAME: ht6_ll_head1
+null
+ht6_ll_head1_key631
+NODE NAME: ht2_ll0
+rmi://localhost:1702/ht2_ll0
+TinyTM.ofree.TMObj@38afe297
+NODE NAME: ht5_ll4
+rmi://localhost:1705/ht5_ll4
+TinyTM.ofree.TMObj@489115ef
+NODE NAME: ht2_ll1
+rmi://localhost:1702/ht2_ll1
+TinyTM.ofree.TMObj@3bf7ca37
+TinyTM.ofree.TMObj@6f4a47c7
+WRITING...
+-1
+2
+NAME: ht2_ll_head0
+null
+ht2_ll_head0_key210
+WRITING...
+-1
+2
+NAME: ht2_ll_head1
+null
+ht2_ll_head1_key271
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+WRITING...
+-1TinyTM.ofree.TMObj@24aed80c
+
+1
+NAME: ht1_ll_head0
+null
+ht1_ll_head0_key120
+NODE NAME: ht1_ll4
+rmi://localhost:1701/ht1_ll4
+TinyTM.ofree.TMObj@b3ca52e
+WRITING...
+-1
+5
+NAME: ht5_ll_head4
+null
+ht5_ll_head4_key564
+NODE NAME: ht0_ll8
+rmi://localhost:1700/ht0_ll8
+TinyTM.ofree.TMObj@79d8407f
+NODE NAME: ht2_ll6
+rmi://localhost:1702/ht2_ll6
+WRITING...
+TinyTM.ofree.TMObj@58a9760d
+-1
+0
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key26
+WRITING...
+-1
+1
+NAME: ht1_ll_head4
+null
+ht1_ll_head4_key164
+NODE NAME: ht8_ll6
+rmi://localhost:1708/ht8_ll6
+TinyTM.ofree.TMObj@7d20d0b
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+WRITING...
+-1
+0
+NAME: ht0_ll_head8
+null
+ht0_ll_head8_key98
+TinyTM.ofree.TMObj@131ef10
+WRITING...
+-1
+8
+NAME: ht8_ll_head6
+null
+ht8_ll_head6_key816
+WRITING...
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key206
+NODE NAME: ht3_ll9
+rmi://localhost:1703/ht3_ll9
+TinyTM.ofree.TMObj@1757cd72
+NODE NAME: ht3_ll7
+rmi://localhost:1703/ht3_ll7
+TinyTM.ofree.TMObj@687e99d8
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key830
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@4988d8b8
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+WRITING...
+-1
+3
+NAME: ht3_ll_head9
+null
+ht3_ll_head9_key349
+TinyTM.ofree.TMObj@bccb269
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head7
+null
+ht3_ll_head7_key307
+NODE NAME: ht2_ll7
+rmi://localhost:1702/ht2_ll7
+TinyTM.ofree.TMObj@2d2ffcb7
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key505
+TinyTM.ofree.TMObj@117e949d
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key999
+NODE NAME: ht3_ll5
+rmi://localhost:1703/ht3_ll5
+WRITING...
+-1
+2
+NAME: ht2_ll_head7
+null
+ht2_ll_head7_key277
+TinyTM.ofree.TMObj@6a2f6f80
+NODE NAME: ht1_ll6
+rmi://localhost:1701/ht1_ll6
+TinyTM.ofree.TMObj@5b94b04d
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head5
+null
+-1
+ht3_ll_head5_key3550
+
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key16
+NODE NAME: ht3_ll4
+rmi://localhost:1703/ht3_ll4
+TinyTM.ofree.TMObj@3098cf3b
+NODE NAME: ht9_ll1
+rmi://localhost:1709/ht9_ll1
+WRITING...
+-1
+1
+NAME: ht1_ll_head6
+null
+ht1_ll_head6_key116
+TinyTM.ofree.TMObj@11fc564b
+NODE NAME: ht9_ll5
+rmi://localhost:1709/ht9_ll5
+TinyTM.ofree.TMObj@37883b97
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+WRITING...
+-1
+3
+NAME: ht3_ll_head4
+null
+ht3_ll_head4_key354
+TinyTM.ofree.TMObj@5c90e579
+WRITING...
+-1
+9
+NAME: ht9_ll_head1
+null
+ht9_ll_head1_key961
+NODE NAME: ht1_ll0
+rmi://localhost:1701/ht1_ll0
+TinyTM.ofree.TMObj@65b3f4a4
+NODE NAME: ht7_ll1
+rmi://localhost:1707/ht7_ll1
+TinyTM.ofree.TMObj@5ab9e72c
+WRITING...
+-1
+1
+NAME: ht1_ll_head0
+null
+ht1_ll_head0_key150
+WRITING...
+-1
+7
+NAME: ht7_ll_head1
+null
+ht7_ll_head1_key731
+NODE NAME: ht3_ll8
+rmi://localhost:1703/ht3_ll8
+TinyTM.ofree.TMObj@1356d4d4
+NODE NAME: ht0_ll3
+rmi://localhost:1700/ht0_ll3
+TinyTM.ofree.TMObj@53aad5d5
+WRITING...
+-1
+9
+NAME: ht9_ll_head5
+null
+ht9_ll_head5_key955
+WRITING...
+-1
+0WRITING...
+
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key35
+-1
+3
+NAME: ht3_ll_head8
+nullNODE NAME: ht8_ll6
+
+rmi://localhost:1708/ht8_ll6
+ht3_ll_head8_key318
+TinyTM.ofree.TMObj@2898ac89
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+TinyTM.ofree.TMObj@6a2b953e
+WRITING...
+-1
+0
+NAME: ht0_ll_head3
+null
+ht0_ll_head3_key83
+NODE NAME: ht2_ll7
+rmi://localhost:1702/ht2_ll7
+TinyTM.ofree.TMObj@776b83cc
+NODE NAME: ht5_ll3
+rmi://localhost:1705/ht5_ll3
+TinyTM.ofree.TMObj@2beee7ff
+WRITING...
+-1
+8
+NAME: ht8_ll_head6
+null
+ht8_ll_head6_key836
+WRITING...
+-1
+2
+NAME: ht2_ll_head7
+null
+ht2_ll_head7_key237
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key744
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
+TinyTM.ofree.TMObj@672872e1
+NODE NAME: ht7_ll5
+rmi://localhost:1707/ht7_ll5
+WRITING...
+-1
+5
+NAME: ht5_ll_head3
+null
+ht5_ll_head3_key563
+NODE NAME: ht3_ll5
+rmi://localhost:1703/ht3_ll5
+TinyTM.ofree.TMObj@7748410a
+TinyTM.ofree.TMObj@770d3326
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+WRITING...
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key475
+TinyTM.ofree.TMObj@140c9f39
+WRITING...
+-1
+3
+NAME: ht3_ll_head5
+null
+ht3_ll_head5_key325
+WRITING...
+-1
+7
+NAME: ht7_ll_head5
+null
+ht7_ll_head5_key785
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@3943a2be
+WRITING...
+NODE NAME: ht4_ll8
+rmi://localhost:1704/ht4_ll8
+TinyTM.ofree.TMObj@3cc1435c
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key555
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+TinyTM.ofree.TMObj@3d1cfad4
+NODE NAME: ht1_ll7
+rmi://localhost:1701/ht1_ll7
+TinyTM.ofree.TMObj@e7edb54
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key644
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key326
+WRITING...
+-1
+4
+NAME: ht4_ll_head8
+null
+ht4_ll_head8_key408
+NODE NAME: ht0_ll3
+rmi://localhost:1700/ht0_ll3
+WRITING...
+TinyTM.ofree.TMObj@6f27a732
+-1
+1
+NAME: ht1_ll_head7
+null
+ht1_ll_head7_key147
+NODE NAME: ht4_ll4
+rmi://localhost:1704/ht4_ll4
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+TinyTM.ofree.TMObj@1ba9117e
+NODE NAME: ht3_ll8
+rmi://localhost:1703/ht3_ll8
+TinyTM.ofree.TMObj@625732
+TinyTM.ofree.TMObj@44a7bfbc
+WRITING...
+-1
+0
+NAME: ht0_ll_head3
+null
+ht0_ll_head3_key43
+WRITING...
+-1
+4
+NAME: ht4_ll_head4
+null
+ht4_ll_head4_key464
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key356
+NODE NAME: ht3_ll4
+rmi://localhost:1703/ht3_ll4
+TinyTM.ofree.TMObj@55b53d44
+NODE NAME: ht7_ll5
+rmi://localhost:1707/ht7_ll5
+WRITING...
+TinyTM.ofree.TMObj@865dd6
+-1
+3
+NAME: ht3_ll_head8
+null
+ht3_ll_head8_key368
+NODE NAME: ht7_ll1
+rmi://localhost:1707/ht7_ll1
+TinyTM.ofree.TMObj@22e357dc
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@6c130c45
+WRITING...
+-1
+3
+NAME: ht3_ll_head4
+null
+ht3_ll_head4_key384
+WRITING...
+WRITING...
+-1
+7
+NAME: ht7_ll_head5
+null
+ht7_ll_head5_key795
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+-1
+7
+NAME: ht7_ll_head1
+null
+ht7_ll_head1_key761
+TinyTM.ofree.TMObj@49dc7102
+NODE NAME: ht5_ll0
+rmi://localhost:1705/ht5_ll0
+TinyTM.ofree.TMObj@55536d9e
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key979
+NODE NAME: ht9_ll0
+rmi://localhost:1709/ht9_ll0
+WRITING...
+-1
+5
+NAME: ht5_ll_head6
+null
+ht5_ll_head6_key516
+TinyTM.ofree.TMObj@24fcf36f
+NODE NAME: ht5_ll1
+rmi://localhost:1705/ht5_ll1
+WRITING...
+-1
+5
+NAME: ht5_ll_head0
+null
+ht5_ll_head0_key530
+NODE NAME: ht6_ll3
+rmi://localhost:1706/ht6_ll3
+TinyTM.ofree.TMObj@4bb33f74
+TinyTM.ofree.TMObj@2f8dad04
+NODE NAME: ht9_ll4
+rmi://localhost:1709/ht9_ll4
+TinyTM.ofree.TMObj@44821a96
+WRITING...
+-1
+9
+NAME: ht9_ll_head0
+null
+ht9_ll_head0_key960
+WRITING...
+-1
+5
+NAME: ht5_ll_head1
+null
+ht5_ll_head1_key521
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@76c3e77a
+NODE NAME: ht0_ll0
+rmi://localhost:1700/ht0_ll0
+WRITING...
+-1
+6
+NAME: ht6_ll_head3
+null
+ht6_ll_head3_key673
+TinyTM.ofree.TMObj@505fc5a4
+WRITING...
+-1
+9
+NAME: ht9_ll_head4
+null
+ht9_ll_head4_key984
+NODE NAME: ht2_ll6
+rmi://localhost:1702/ht2_ll6
+TinyTM.ofree.TMObj@31e5415e
+NODE NAME: ht7_ll8
+rmi://localhost:1707/ht7_ll8
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key957
+TinyTM.ofree.TMObj@2dde1bff
+WRITING...
+WRITING...
+-1
+0
+NAME: ht0_ll_head0
+null
+ht0_ll_head0_key70
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key296
+NODE NAME: ht6_ll8
+rmi://localhost:1706/ht6_ll8
+TinyTM.ofree.TMObj@2fb3536e
+NODE NAME: ht5_ll7
+rmi://localhost:1705/ht5_ll7
+TinyTM.ofree.TMObj@22ef9844
+WRITING...
+-1
+7
+NAME: ht7_ll_head8
+null
+ht7_ll_head8_key798
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@69997e9d
+NODE NAME: ht2_ll0
+rmi://localhost:1702/ht2_ll0
+TinyTM.ofree.TMObj@33990a0c
+WRITING...
+-1
+6
+NAME: ht6_ll_head8
+null
+ht6_ll_head8_key688
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key654
+WRITING...
+-1
+5
+NAME: ht5_ll_head7
+null
+ht5_ll_head7_key527
+NODE NAME: ht0_ll7
+rmi://localhost:1700/ht0_ll7
+TinyTM.ofree.TMObj@f5acb9d
+NODE NAME: ht9_ll0
+rmi://localhost:1709/ht9_ll0
+TinyTM.ofree.TMObj@2c35e847
+WRITING...
+-1
+2
+NAME: ht2_ll_head0
+null
+ht2_ll_head0_key270
+NODE NAME: ht8_ll5
+rmi://localhost:1708/ht8_ll5
+TinyTM.ofree.TMObj@73700b80
+NODE NAME: ht0_ll8
+rmi://localhost:1700/ht0_ll8
+TinyTM.ofree.TMObj@4a7f959b
+WRITING...
+-1
+0
+NAME: ht0_ll_head7
+null
+ht0_ll_head7_key77
+WRITING...
+WRITING...
+-1
+9
+NAME: ht9_ll_head0
+null
+ht9_ll_head0_key990
+-1
+8
+NAME: ht8_ll_head5
+null
+ht8_ll_head5_key815
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+TinyTM.ofree.TMObj@485966cc
+NODE NAME: ht4_ll6
+rmi://localhost:1704/ht4_ll6
+TinyTM.ofree.TMObj@7c711375
+WRITING...
+-1
+0
+NAME: ht0_ll_head8
+null
+ht0_ll_head8_key98
+NODE NAME: ht3_ll5
+rmi://localhost:1703/ht3_ll5
+TinyTM.ofree.TMObj@505fc5a4
+NODE NAME: ht8_ll8
+rmi://localhost:1708/ht8_ll8
+TinyTM.ofree.TMObj@156b88f5
+WRITING...
+-1
+0
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key46
+WRITING...
+-1
+3
+NAME: ht3_ll_head5
+null
+ht3_ll_head5_key335
+WRITING...
+-1
+4
+NAME: ht4_ll_head6
+null
+ht4_ll_head6_key496
+NODE NAME: ht5_ll7
+rmi://localhost:1705/ht5_ll7
+TinyTM.ofree.TMObj@31fa1761
+WRITING...
+-1
+8
+NAME: ht8_ll_head8
+null
+NODE NAME: ht7_ll8
+ht8_ll_head8_key818
+rmi://localhost:1707/ht7_ll8
+NODE NAME: ht2_ll3
+rmi://localhost:1702/ht2_ll3
+TinyTM.ofree.TMObj@2fb3536e
+TinyTM.ofree.TMObj@66f57048
+NODE NAME: ht0_ll0
+rmi://localhost:1700/ht0_ll0
+TinyTM.ofree.TMObj@22ef9844
+WRITING...
+-1
+2
+NAME: ht2_ll_head3
+null
+ht2_ll_head3_key233
+WRITING...
+-1
+5
+NAME: ht5_ll_head7
+null
+ht5_ll_head7_key517
+WRITING...
+-1
+0
+NAME: ht0_ll_head0
+null
+ht0_ll_head0_key30
+NODE NAME: ht1_ll7
+rmi://localhost:1701/ht1_ll7
+TinyTM.ofree.TMObj@2c35e847
+NODE NAME: ht6_ll9
+rmi://localhost:1706/ht6_ll9
+TinyTM.ofree.TMObj@74751b3
+WRITING...
+-1
+7
+NAME: ht7_ll_head8
+null
+ht7_ll_head8_key728
+NODE NAME: ht8_ll5
+rmi://localhost:1708/ht8_ll5
+TinyTM.ofree.TMObj@4310d43
+NODE NAME: ht5_ll1
+rmi://localhost:1705/ht5_ll1
+WRITING...
+-1
+1
+NAME: ht1_ll_head7
+null
+ht1_ll_head7_key197
+TinyTM.ofree.TMObj@27f981c6
+WRITING...
+WRITING...
+-1
+6
+NAME: ht6_ll_head9
+null
+ht6_ll_head9_key619
+-1
+8
+NAME: ht8_ll_head5
+null
+NODE NAME: ht5_ll4
+rmi://localhost:1705/ht5_ll4
+ht8_ll_head5_key815
+TinyTM.ofree.TMObj@7c711375
+NODE NAME: ht0_ll2
+rmi://localhost:1700/ht0_ll2
+TinyTM.ofree.TMObj@3c7f66c4
+WRITING...
+-1
+5
+NAME: ht5_ll_head1
+null
+ht5_ll_head1_key591
+NODE NAME: ht4_ll4
+rmi://localhost:1704/ht4_ll4
+TinyTM.ofree.TMObj@53aac487
+NODE NAME: ht2_ll8
+rmi://localhost:1702/ht2_ll8
+TinyTM.ofree.TMObj@272113c4
+WRITING...
+-1
+5
+NAME: ht5_ll_head4
+null
+ht5_ll_head4_key534
+WRITING...
+-1
+0
+WRITING...
+NAME: ht0_ll_head2
+null
+ht0_ll_head2_key12
+-1
+4
+NAME: ht4_ll_head4
+NODE NAME: ht0_ll8
+rmi://localhost:1700/ht0_ll8null
+
+ht4_ll_head4_key454
+TinyTM.ofree.TMObj@437da279
+NODE NAME: ht3_ll8
+rmi://localhost:1703/ht3_ll8
+TinyTM.ofree.TMObj@290222c1
+WRITING...
+WRITING...
+-1
+0-1
+
+2
+NAME: ht2_ll_head8
+null
+NAME: ht0_ll_head8ht2_ll_head8_key208
+
+null
+ht0_ll_head8_key8
+NODE NAME: ht1_ll7
+rmi://localhost:1701/ht1_ll7
+TinyTM.ofree.TMObj@6fdbe764
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+TinyTM.ofree.TMObj@3012646b
+WRITING...
+-1
+3
+NAME: ht3_ll_head8
+null
+ht3_ll_head8_key378
+NODE NAME: ht1_ll2
+rmi://localhost:1701/ht1_ll2
+TinyTM.ofree.TMObj@55634720
+NODE NAME: ht1_ll1
+rmi://localhost:1701/ht1_ll1
+TinyTM.ofree.TMObj@2d710f1a
+WRITING...
+-1
+1
+NAME: ht1_ll_head7
+null
+ht1_ll_head7_key147
+WRITING...
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key316
+-1
+1
+NAME: ht1_ll_head2
+null
+ht1_ll_head2_key192
+NODE NAME: ht2_ll1
+rmi://localhost:1702/ht2_ll1
+TinyTM.ofree.TMObj@60099951
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+WRITING...
+-1
+1
+NAME: ht1_ll_head1
+null
+ht1_ll_head1_key151
+NODE NAME: ht5_ll0
+rmi://localhost:1705/ht5_ll0
+TinyTM.ofree.TMObj@1a942c18
+TinyTM.ofree.TMObj@3f6f6701
+NODE NAME: ht2_ll6
+rmi://localhost:1702/ht2_ll6
+TinyTM.ofree.TMObj@534a5a98
+WRITING...
+-1
+2
+NAME: ht2_ll_head1
+null
+ht2_ll_head1_key291
+WRITING...
+-1
+5
+NAME: ht5_ll_head0
+null
+ht5_ll_head0_key510
+WRITING...
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key525
+NODE NAME: ht8_ll7
+rmi://localhost:1708/ht8_ll7
+WRITING...
+-1
+2
+NAME: ht2_ll_head6
+null
+ht2_ll_head6_key236
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@537f60bf
+NODE NAME: ht8_ll1
+rmi://localhost:1708/ht8_ll1
+TinyTM.ofree.TMObj@644baf4a
+TinyTM.ofree.TMObj@229c6181
+NODE NAME: ht1_ll9
+rmi://localhost:1701/ht1_ll9
+TinyTM.ofree.TMObj@2a265ea9
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key987
+WRITING...
+-1
+8
+NAME: ht8_ll_head7
+null
+ht8_ll_head7_key807
+WRITING...
+-1
+8
+NAME: ht8_ll_head1
+null
+ht8_ll_head1_key801
+NODE NAME: ht9_ll3
+rmi://localhost:1709/ht9_ll3
+TinyTM.ofree.TMObj@1a942c18
+NODE NAME: ht9_ll6
+rmi://localhost:1709/ht9_ll6
+TinyTM.ofree.TMObj@63376bed
+WRITING...
+WRITING...
+-1
+9
+NAME: ht9_ll_head3
+null
+ht9_ll_head3_key943
+-1
+1
+NAME: ht1_ll_head9
+null
+ht1_ll_head9_key189
+NODE NAME: ht9_ll2
+rmi://localhost:1709/ht9_ll2
+TinyTM.ofree.TMObj@25ce9dc4
+NODE NAME: ht4_ll9WRITING...
+
+rmi://localhost:1704/ht4_ll9
+-1
+9
+NAME: ht9_ll_head6
+null
+ht9_ll_head6_key986
+NODE NAME: ht6_ll6
+rmi://localhost:1706/ht6_ll6
+TinyTM.ofree.TMObj@2af004b
+TinyTM.ofree.TMObj@2e8c1c9b
+NODE NAME: ht9_ll1
+rmi://localhost:1709/ht9_ll1
+WRITING...
+TinyTM.ofree.TMObj@2eae8e6e
+-1
+9
+NAME: ht9_ll_head2
+null
+ht9_ll_head2_key972
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key429
+WRITING...
+-1
+6
+NAME: ht6_ll_head6
+null
+ht6_ll_head6_key646
+NODE NAME: ht4_ll3
+rmi://localhost:1704/ht4_ll3
+WRITING...
+-1
+9
+NAME: ht9_ll_head1
+null
+ht9_ll_head1_key921
+NODE NAME: ht3_ll3
+rmi://localhost:1703/ht3_ll3
+TinyTM.ofree.TMObj@6bbe85a8
+NODE NAME: ht5_ll8
+rmi://localhost:1705/ht5_ll8
+TinyTM.ofree.TMObj@53fb3dab
+TinyTM.ofree.TMObj@7ef82753
+NODE NAME: ht5_ll0
+rmi://localhost:1705/ht5_ll0
+TinyTM.ofree.TMObj@58cbafc2
+WRITING...
+-1
+3
+NAME: ht3_ll_head3
+null
+ht3_ll_head3_key373
+WRITING...
+-1
+4
+NAME: ht4_ll_head3
+null
+ht4_ll_head3_key433
+WRITING...
+-1
+5
+NAME: ht5_ll_head0
+null
+ht5_ll_head0_key520
+WRITING...
+NODE NAME: ht2_ll1
+rmi://localhost:1702/ht2_ll1
+-1
+5
+NAME: ht5_ll_head8
+null
+ht5_ll_head8_key508
+TinyTM.ofree.TMObj@742ff096
+NODE NAME: ht6_ll8
+rmi://localhost:1706/ht6_ll8
+TinyTM.ofree.TMObj@2d901eb0
+NODE NAME: ht2_ll2
+rmi://localhost:1702/ht2_ll2
+TinyTM.ofree.TMObj@79e4c792
+NODE NAME: ht0_ll4
+rmi://localhost:1700/ht0_ll4
+WRITING...
+-1
+2
+NAME: ht2_ll_head1
+null
+ht2_ll_head1_key251
+TinyTM.ofree.TMObj@8458f04
+WRITING...
+-1
+2
+NAME: ht2_ll_head2
+null
+ht2_ll_head2_key292
+NODE NAME: ht8_ll7
+rmi://localhost:1708/ht8_ll7
+TinyTM.ofree.TMObj@2cb4893b
+NODE NAME: ht0_ll9
+rmi://localhost:1700/ht0_ll9
+TinyTM.ofree.TMObj@413d1baf
+WRITING...
+-1
+6
+NAME: ht6_ll_head8
+null
+ht6_ll_head8_key628
+WRITING...
+-1
+8
+NAME: ht8_ll_head7
+null
+ht8_ll_head7_key897
+WRITING...
+-1
+0
+NAME: ht0_ll_head4
+null
+ht0_ll_head4_key64
+NODE NAME: ht6_ll3
+rmi://localhost:1706/ht6_ll3
+TinyTM.ofree.TMObj@cecf639
+NODE NAME: ht5_ll1
+rmi://localhost:1705/ht5_ll1
+TinyTM.ofree.TMObj@5b247367
+WRITING...
+-1
+0
+NAME: ht0_ll_head9
+null
+ht0_ll_head9_key59
+WRITING...
+-1
+6
+NAME: ht6_ll_head3
+null
+ht6_ll_head3_key673
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@5b247367
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@5890e879
+WRITING...
+-1
+5
+NAME: ht5_ll_head1
+null
+ht5_ll_head1_key541
+NODE NAME: ht2_ll9
+rmi://localhost:1702/ht2_ll9
+TinyTM.ofree.TMObj@1033576a
+NODE NAME: ht2_ll5
+rmi://localhost:1702/ht2_ll5
+TinyTM.ofree.TMObj@17fc391b
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key624
+WRITING...
+-1
+2
+NAME: ht2_ll_head9
+null
+ht2_ll_head9_key219
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key909
+NODE NAME: ht3_ll3
+rmi://localhost:1703/ht3_ll3
+TinyTM.ofree.TMObj@1033576a
+WRITING...
+-1NODE NAME: ht6_ll1
+
+2rmi://localhost:1706/ht6_ll1
+
+NAME: ht2_ll_head5
+null
+ht2_ll_head5_key295
+NODE NAME: ht5_ll7
+rmi://localhost:1705/ht5_ll7
+TinyTM.ofree.TMObj@17fc391b
+TinyTM.ofree.TMObj@3f4faf53
+NODE NAME: ht0_ll1
+rmi://localhost:1700/ht0_ll1
+TinyTM.ofree.TMObj@4a8355dd
+WRITING...
+-1
+3
+NAME: ht3_ll_head3
+null
+ht3_ll_head3_key383
+WRITING...
+WRITING...
+-1
+6
+NAME: ht6_ll_head1
+null
+ht6_ll_head1_key651
+NODE NAME: ht7_ll6
+rmi://localhost:1707/ht7_ll6
+TinyTM.ofree.TMObj@3f4faf53
+NODE NAME: ht2_ll8
+rmi://localhost:1702/ht2_ll8
+-1
+5
+NAME: ht5_ll_head7
+null
+ht5_ll_head7_key537
+TinyTM.ofree.TMObj@4a8355dd
+WRITING...
+-1
+7
+NAME: ht7_ll_head6
+null
+ht7_ll_head6_key796
+WRITING...
+-1
+0
+NAME: ht0_ll_head1
+null
+ht0_ll_head1_key81
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+WRITING...
+TinyTM.ofree.TMObj@673fdbce
+-1
+2
+NAME: ht2_ll_head8
+null
+ht2_ll_head8_key278
+NODE NAME: ht8_ll6
+rmi://localhost:1708/ht8_ll6
+NODE NAME: ht3_ll1
+rmi://localhost:1703/ht3_ll1
+TinyTM.ofree.TMObj@673fdbce
+TinyTM.ofree.TMObj@6cb107fd
+NODE NAME: ht8_ll9
+rmi://localhost:1708/ht8_ll9
+TinyTM.ofree.TMObj@6cb107fd
+WRITING...
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key870
+WRITING...
+-1
+3
+NAME: ht3_ll_head1
+null
+ht3_ll_head1_key341
+NODE NAME: ht4_ll7
+rmi://localhost:1704/ht4_ll7
+WRITING...
+-1
+8
+NAME: ht8_ll_head6
+null
+ht8_ll_head6_key856
+TinyTM.ofree.TMObj@f1da57d
+NODE NAME: ht6_ll6
+rmi://localhost:1706/ht6_ll6
+TinyTM.ofree.TMObj@431cd9b2
+WRITING...
+-1
+8
+NAME: ht8_ll_head9
+null
+ht8_ll_head9_key849
+NODE NAME: ht8_ll4
+rmi://localhost:1708/ht8_ll4
+WRITING...
+TinyTM.ofree.TMObj@4722ef0c
+-1
+4
+NAME: ht4_ll_head7
+null
+ht4_ll_head7_key437
+NODE NAME: ht5_ll3
+rmi://localhost:1705/ht5_ll3
+TinyTM.ofree.TMObj@f1da57d
+WRITING...
+-1
+6
+NAME: ht6_ll_head6
+null
+ht6_ll_head6_key606
+WRITING...
+NODE NAME: ht0_ll5
+rmi://localhost:1700/ht0_ll5
+-1
+8
+NAME: ht8_ll_head4
+null
+ht8_ll_head4_key834
+TinyTM.ofree.TMObj@30f842ca
+NODE NAME: ht7_ll5
+rmi://localhost:1707/ht7_ll5
+TinyTM.ofree.TMObj@25df00a0
+WRITING...
+-1
+5
+NAME: ht5_ll_head3
+null
+ht5_ll_head3_key523
+NODE NAME: ht7_ll2
+rmi://localhost:1707/ht7_ll2
+TinyTM.ofree.TMObj@6a8658ff
+NODE NAME: ht3_ll2
+rmi://localhost:1703/ht3_ll2
+TinyTM.ofree.TMObj@30f842ca
+WRITING...
+-1
+0
+NAME: ht0_ll_head5
+null
+ht0_ll_head5_key35
+WRITING...
+-1
+7
+NAME: ht7_ll_head2
+null
+ht7_ll_head2_key712
+WRITING...
+-1
+3
+NAME: ht3_ll_head2
+null
+ht3_ll_head2_key372
+NODE NAME: ht2_ll2
+rmi://localhost:1702/ht2_ll2
+WRITING...
+TinyTM.ofree.TMObj@3932c79a
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+-1
+7
+NAME: ht7_ll_head5
+null
+ht7_ll_head5_key755
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
+TinyTM.ofree.TMObj@821330f
+TinyTM.ofree.TMObj@821330f
+NODE NAME: ht8_ll3
+rmi://localhost:1708/ht8_ll3
+TinyTM.ofree.TMObj@446a1e84
+WRITING...
+-1
+2
+NAME: ht2_ll_head2
+null
+ht2_ll_head2_key202
+WRITING...
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key415
+WRITING...
+-1
+8
+NAME: ht8_ll_head3
+null
+ht8_ll_head3_key853
+NODE NAME: ht8_ll2
+rmi://localhost:1708/ht8_ll2
+WRITING...
+TinyTM.ofree.TMObj@6a4f1a55
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key909
+NODE NAME: ht7_ll4
+rmi://localhost:1707/ht7_ll4
+NODE NAME: ht9_ll5
+rmi://localhost:1709/ht9_ll5
+TinyTM.ofree.TMObj@57db2b13
+NODE NAME: ht1_ll2
+rmi://localhost:1701/ht1_ll2
+TinyTM.ofree.TMObj@71687585
+TinyTM.ofree.TMObj@7d3e8655
+WRITING...
+-1
+7
+NAME: ht7_ll_head4
+null
+ht7_ll_head4_key704
+WRITING...
+-1
+8
+NAME: ht8_ll_head2
+null
+ht8_ll_head2_key872
+WRITING...
+-1
+9
+NAME: ht9_ll_head5
+null
+ht9_ll_head5_key915
+NODE NAME: ht6_ll8
+rmi://localhost:1706/ht6_ll8
+TinyTM.ofree.TMObj@41330d4f
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@508dec2b
+WRITING...
+-1
+1
+NAME: ht1_ll_head2
+null
+ht1_ll_head2_key162
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@5dafbe45
+WRITING...
+NODE NAME: ht3_ll6
+rmi://localhost:1703/ht3_ll6
+-1
+6
+NAME: ht6_ll_head8
+null
+ht6_ll_head8_key658
+TinyTM.ofree.TMObj@d2de489
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key907
+WRITING...
+NODE NAME: ht0_ll1
+rmi://localhost:1700/ht0_ll1
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key939
+TinyTM.ofree.TMObj@700fb871
+NODE NAME: ht5_ll3
+rmi://localhost:1705/ht5_ll3
+TinyTM.ofree.TMObj@565f390
+WRITING...
+-1
+0
+NAME: ht0_ll_head1
+null
+ht0_ll_head1_key71
+WRITING...
+-1
+3
+NAME: ht3_ll_head6
+null
+ht3_ll_head6_key386
+NODE NAME: ht5_ll9
+rmi://localhost:1705/ht5_ll9
+TinyTM.ofree.TMObj@6e2aa843
+NODE NAME: ht9_ll1
+rmi://localhost:1709/ht9_ll1
+WRITING...
+-1
+5
+NAME: ht5_ll_head3
+null
+ht5_ll_head3_key523
+TinyTM.ofree.TMObj@700fb871
+NODE NAME: ht0_ll6
+rmi://localhost:1700/ht0_ll6
+TinyTM.ofree.TMObj@2235eaab
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@20bd8be5
+WRITING...
+-1
+5
+NAME: ht5_ll_head9
+null
+ht5_ll_head9_key539
+WRITING...
+-1
+9
+NAME: ht9_ll_head1
+null
+ht9_ll_head1_key991
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@4470fbd6
+WRITING...
+-1
+0
+NAME: ht0_ll_head6
+null
+ht0_ll_head6_key26
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@2235eaab
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key989
+NODE NAME: ht0_ll4
+rmi://localhost:1700/ht0_ll4
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key987
+TinyTM.ofree.TMObj@50f6ac94
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@5038d0b5
+WRITING...
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key555
+NODE NAME: ht7_ll7
+rmi://localhost:1707/ht7_ll7
+TinyTM.ofree.TMObj@50f6ac94
+WRITING...
+-1
+0
+NAME: ht0_ll_head4
+null
+ht0_ll_head4_key94
+NODE NAME: ht9_ll9
+rmi://localhost:1709/ht9_ll9
+TinyTM.ofree.TMObj@5038d0b5
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key654
+NODE NAME: ht4_ll0
+rmi://localhost:1704/ht4_ll0
+TinyTM.ofree.TMObj@7fd7a283
+NODE NAME: ht2_ll5
+rmi://localhost:1702/ht2_ll5
+WRITING...
+-1
+7
+NAME: ht7_ll_head7
+null
+ht7_ll_head7_key717
+TinyTM.ofree.TMObj@2c78324b
+WRITING...
+-1
+9
+NAME: ht9_ll_head9
+null
+ht9_ll_head9_key979
+NODE NAME: ht9_ll7
+rmi://localhost:1709/ht9_ll7
+TinyTM.ofree.TMObj@7fd7a283
+NODE NAME: ht2_ll1
+rmi://localhost:1702/ht2_ll1
+TinyTM.ofree.TMObj@2c78324b
+WRITING...
+-1
+9
+NAME: ht9_ll_head7
+null
+ht9_ll_head7_key937
+WRITING...
+-1
+4
+NAME: ht4_ll_head0
+null
+ht4_ll_head0_key460
+WRITING...
+WRITING...
+-1
+2
+NAME: ht2_ll_head5
+null
+ht2_ll_head5_key285
+-1
+2
+NAME: ht2_ll_head1
+null
+NODE NAME: ht9_ll8ht2_ll_head1_key211
+
+rmi://localhost:1709/ht9_ll8
+NODE NAME: ht1_ll5
+rmi://localhost:1701/ht1_ll5
+TinyTM.ofree.TMObj@7283d3eb
+NODE NAME: ht1_ll7
+rmi://localhost:1701/ht1_ll7
+TinyTM.ofree.TMObj@47c81abf
+TinyTM.ofree.TMObj@47c81abf
+NODE NAME: ht8_ll0
+rmi://localhost:1708/ht8_ll0
+TinyTM.ofree.TMObj@3cce57c7
+WRITING...
+-1
+9
+NAME: ht9_ll_head8
+null
+ht9_ll_head8_key998
+WRITING...
+-1
+1
+NAME: ht1_ll_head5
+null
+ht1_ll_head5_key185
+WRITING...
+-1
+1
+NAME: ht1_ll_head7
+null
+ht1_ll_head7_key137
+NODE NAME: ht5_ll9
+rmi://localhost:1705/ht5_ll9
+TinyTM.ofree.TMObj@1ebea008
+WRITING...
+NODE NAME: ht7_ll0
+rmi://localhost:1707/ht7_ll0
+-1
+8
+NAME: ht8_ll_head0
+null
+ht8_ll_head0_key820
+NODE NAME: ht9_ll5
+rmi://localhost:1709/ht9_ll5
+TinyTM.ofree.TMObj@51bf5add
+NODE NAME: ht0_ll1
+rmi://localhost:1700/ht0_ll1
+TinyTM.ofree.TMObj@478db956
+TinyTM.ofree.TMObj@1b410b60
+WRITING...
+-1
+5
+NAME: ht5_ll_head9
+null
+ht5_ll_head9_key599
+WRITING...
+-1
+9
+NAME: ht9_ll_head5
+null
+ht9_ll_head5_key955
+WRITING...
+-1
+7
+NAME: ht7_ll_head0
+null
+ht7_ll_head0_key710
+NODE NAME: ht4_ll5
+rmi://localhost:1704/ht4_ll5
+TinyTM.ofree.TMObj@2f666ebb
+NODE NAME: ht2_ll7
+rmi://localhost:1702/ht2_ll7
+WRITING...
+TinyTM.ofree.TMObj@75c56eb9
+-1
+0
+NAME: ht0_ll_head1
+null
+ht0_ll_head1_key81
+NODE NAME: ht5_ll4
+rmi://localhost:1705/ht5_ll4
+TinyTM.ofree.TMObj@75c56eb9
+NODE NAME: ht6_ll0
+rmi://localhost:1706/ht6_ll0
+TinyTM.ofree.TMObj@5e17553a
+WRITING...
+-1
+4
+NAME: ht4_ll_head5
+null
+ht4_ll_head5_key465
+WRITING...
+-1
+5
+NAME: ht5_ll_head4
+null
+ht5_ll_head4_key594
+WRITING...
+-1
+2
+NAME: ht2_ll_head7
+null
+ht2_ll_head7_key277
+NODE NAME: ht5_ll9
+rmi://localhost:1705/ht5_ll9
+TinyTM.ofree.TMObj@cd1e646
+WRITING...
+-1
+6
+NAME: ht6_ll_head0
+null
+ht6_ll_head0_key670
+NODE NAME: ht4_ll6
+rmi://localhost:1704/ht4_ll6
+NODE NAME: ht3_ll3
+rmi://localhost:1703/ht3_ll3
+TinyTM.ofree.TMObj@205d38da
+TinyTM.ofree.TMObj@205d38da
+NODE NAME: ht4_ll4
+rmi://localhost:1704/ht4_ll4
+TinyTM.ofree.TMObj@44be0077
+WRITING...
+-1
+5
+NAME: ht5_ll_head9
+null
+ht5_ll_head9_key539
+WRITING...
+-1
+4
+NAME: ht4_ll_head6
+null
+ht4_ll_head6_key446
+WRITING...
+-1
+3
+NAME: ht3_ll_head3
+null
+ht3_ll_head3_key323
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+TinyTM.ofree.TMObj@560348e6
+NODE NAME: ht3_ll0
+rmi://localhost:1703/ht3_ll0
+TinyTM.ofree.TMObj@6f1c29b7
+WRITING...
+-1
+4
+NAME: ht4_ll_head4
+null
+ht4_ll_head4_key414
+NODE NAME: ht4_ll9
+rmi://localhost:1704/ht4_ll9
+TinyTM.ofree.TMObj@2a7ed1f
+NODE NAME: ht2_ll9
+rmi://localhost:1702/ht2_ll9
+TinyTM.ofree.TMObj@5f0fd5a0
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key469
+WRITING...
+-1
+3
+NAME: ht3_ll_head0
+null
+ht3_ll_head0_key350
+NODE NAME: ht6_ll4
+rmi://localhost:1706/ht6_ll4
+TinyTM.ofree.TMObj@3e44f2a5
+NODE NAME: ht7_ll5
+rmi://localhost:1707/ht7_ll5
+TinyTM.ofree.TMObj@895e367
+WRITING...
+-1
+6
+NAME: ht6_ll_head4
+null
+ht6_ll_head4_key684
+WRITING...
+-1
+7
+NAME: ht7_ll_head5
+null
+ht7_ll_head5_key775
+NODE NAME: ht5_ll8
+rmi://localhost:1705/ht5_ll8
+TinyTM.ofree.TMObj@329dbdbf
+NODE NAME: ht2_ll4
+rmi://localhost:1702/ht2_ll4
+TinyTM.ofree.TMObj@479cbee5
+WRITING...
+-1
+5
+NAME: ht5_ll_head8
+null
+ht5_ll_head8_key558
+WRITING...
+-1
+2
+NAME: ht2_ll_head4
+null
+ht2_ll_head4_key264
+NODE NAME: ht0_ll2
+rmi://localhost:1700/ht0_ll2
+TinyTM.ofree.TMObj@766653e6
+NODE NAME: ht0_ll7
+rmi://localhost:1700/ht0_ll7
+TinyTM.ofree.TMObj@48c76607
+WRITING...
+-1
+0
+NAME: ht0_ll_head2
+null
+ht0_ll_head2_key22
+WRITING...
+-1
+0
+NAME: ht0_ll_head7
+null
+ht0_ll_head7_key57
+WRITING...
+-1
+4
+NAME: ht4_ll_head9
+null
+ht4_ll_head9_key419
+WRITING...
+-1
+2
+NAME: ht2_ll_head9
+null
+ht2_ll_head9_key279
+NODE NAME: ht0_ll4
+rmi://localhost:1700/ht0_ll4
+TinyTM.ofree.TMObj@4dd6fd0a
+NODE NAME: ht4_ll4
+rmi://localhost:1704/ht4_ll4
+TinyTM.ofree.TMObj@589da3f3
+WRITING...
+-1
+0
+NAME: ht0_ll_head4
+null
+ht0_ll_head4_key24
+WRITING...
+-1
+4
+NAME: ht4_ll_head4
+null
+ht4_ll_head4_key434
+NODE NAME: ht7_ll2
+rmi://localhost:1707/ht7_ll2
+TinyTM.ofree.TMObj@12299890
+NODE NAME: ht5_ll6
+rmi://localhost:1705/ht5_ll6
+TinyTM.ofree.TMObj@62833051
+WRITING...
+-1
+7
+NAME: ht7_ll_head2
+null
+ht7_ll_head2_key792
+WRITING...
+-1
+5
+NAME: ht5_ll_head6
+null
+ht5_ll_head6_key526
+NODE NAME: ht0_ll4
+rmi://localhost:1700/ht0_ll4
+TinyTM.ofree.TMObj@1787bc24
+NODE NAME: ht5_ll5
+rmi://localhost:1705/ht5_ll5
+TinyTM.ofree.TMObj@5a37d3ed
+WRITING...
+-1
+0
+NAME: ht0_ll_head4
+null
+ht0_ll_head4_key64
+WRITING...
+-1
+5
+NAME: ht5_ll_head5
+null
+ht5_ll_head5_key505
+3945
+gravando arquivo
+gravando arquivo
+java.lang.NullPointerException

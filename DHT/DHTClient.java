@@ -9,7 +9,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.ChooseOP;
-import DSTMBenchmark.ClientApp;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
 import TinyTM.Transaction;
@@ -27,7 +26,7 @@ public class DHTClient {
         int objectsPerTransaction = Integer.parseInt(args[5]);
         int hashTablesEntries = Integer.parseInt(args[6]);
 
-        ClientApp app = new ClientApp();
+        //ClientApp app = new ClientApp();
         DHTTransaction transaction = new DHTTransaction();
 
         var cop = new ChooseOPDHT();
@@ -169,7 +168,7 @@ class DHTTransaction implements ExecuteTransaction {
     @Override
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
-        TMObj<INode<Integer>>[] TMObjects = new TMObj[nObjects];
+        TMObj<ILinkedList<Integer>>[] TMObjects = new TMObj[nObjects];
         int[] machinesIds = new int[nObjects];
         int[] keys = new int[TMObjects.length];
         for (int i = 0; i < TMObjects.length; i++) {
@@ -189,12 +188,13 @@ class DHTTransaction implements ExecuteTransaction {
             int machineNum = j; // esquema de descobrir máquina deve ser repensado?
 
             String port = String.valueOf(1700 + machineNum);
-            String nodeName = "ht" + machineNum + "_node" + keys[i] % hashTablesEntries;
+            String linkedListName = "ht" + machineNum + "_ll" + keys[i] % hashTablesEntries;
 
-            System.out.println("NODE NAME: " + nodeName);
-            System.out.println("rmi://localhost:" + port + "/" + nodeName);
+            System.out.println("NODE NAME: " + linkedListName);
+            System.out.println("rmi://localhost:" + port + "/" + linkedListName);
 
-            TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+            System.out.println(TMObj.lookupTMObj("rmi://localhost:" + port + "/" + linkedListName));
+            TMObjects[i] = (TMObj<ILinkedList<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + linkedListName);
             machinesIds[i] = machineNum;
         }
 
@@ -207,18 +207,18 @@ class DHTTransaction implements ExecuteTransaction {
                 if (op == 0) {
 
                     for (int i = 0; i < TMObjects.length; i++) {
-                        INode<Integer> iNode = TMObjects[i].openWrite();
+                        ILinkedList<Integer> iLinkedList = TMObjects[i].openWrite();
                         System.out.println("WRITING...");
-                        iNode.insert(machinesIds[i], keys[i], rng.nextInt(Integer.MAX_VALUE));
+                        iLinkedList.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
                         inserts.getAndIncrement();
                     }
 
                 } else if (op == 1) {
                     
                     for (int i = 0; i < TMObjects.length; i++) {
-                        INode<Integer> iNode = TMObjects[i].openRead();
+                        ILinkedList<Integer> iLinkedList = TMObjects[i].openRead();
                         System.out.println("READING...");
-                        iNode.get(keys[i]);
+                        iLinkedList.get(keys[i]);
                         gets.getAndIncrement();
                     }
 
