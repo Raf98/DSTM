@@ -201,20 +201,19 @@ class DHTTransaction implements ExecuteTransaction {
             machinesIds[i] = machineNum;
         }
 
-        int donewithdraw = 0;
+        int ops = 0;
 
-        donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
+        ops = (int) Transaction.atomic(new Callable<Integer>() {
             public Integer call() throws Exception {
-                int localwithdraw = 0;
-                ILinkedList<Integer>[] iLinkedLists = new ILinkedList[TMObjects.length];
                 //Random rng = new Random();
                 if (op == 0) {
                     for (int i = 0; i < TMObjects.length; i++) {
                         ILinkedList<Integer> iLinkedList = TMObjects[i].openWrite();
                         System.out.println("TRANSACTION CLIENT ID " + clientId);
                         System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                        iLinkedList.insert(keys[i], values[i]);
-                        inserts.getAndIncrement();
+                        if(iLinkedList.insert(keys[i], values[i]) != null) {
+                            inserts.getAndIncrement();
+                        }
                         System.out.println("INSERTS: " + inserts.get());
                     }
 
@@ -228,7 +227,7 @@ class DHTTransaction implements ExecuteTransaction {
                     }
 
                 }
-                return localwithdraw;
+                return inserts.get();
             }
         });
 

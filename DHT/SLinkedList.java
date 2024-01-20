@@ -80,13 +80,13 @@ public class SLinkedList<T> extends UnicastRemoteObject implements ILinkedList<T
             return null;
         }
 
-        System.out.println(this.head.getKey());
-        System.out.println(this.head.getItem());
-        System.out.println("NAME: " + this.head.getName());
-        System.out.println(this.head.getNext());
+        //System.out.println(this.head.getKey());
+        //System.out.println(this.head.getItem());
+        //System.out.println("NAME: " + this.head.getName());
+        //System.out.println(this.head.getNext());
 
         String newNodeName =  this.name + "_key" + key;
-        System.out.println(newNodeName);
+        System.out.println("NEW NODE NAME: " + newNodeName);
         INode<T> newNode = new SNode(key, value, newNodeName);
 
         if (this.head.getNext() == null) {

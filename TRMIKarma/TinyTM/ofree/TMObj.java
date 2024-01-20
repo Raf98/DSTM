@@ -104,6 +104,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
         me.priority.set(0);
         return (T)server.openSequential();
       case ABORTED:
+        System.out.println("PRIORITY: " + me.priority);
         throw new AbortedException();
       case ACTIVE:
        // if (localRef != null){

@@ -50,4 +50,6 @@ public interface ITransaction extends Remote{
    
   public int getPriority() throws RemoteException;
 
+  public void incrementPriority() throws RemoteException;
+
  }

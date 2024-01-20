@@ -44,7 +44,7 @@ public class BackoffManager extends ContentionManager {
     //System.out.println("OTHER: " + other.getPriority());
     //System.out.println("ME: " + me.getPriority());
     //System.out.println(attempts);
-    if (attempts < other.getPriority() - me.getPriority()) {            // be patient
+    if (attempts <= other.getPriority() - me.getPriority()) {            // be patient
       try {
         System.out.println("ME CODE: " + me.hashCode() + " PRIORITY: " + me.getPriority());
         System.out.println("OTHER CODE: " + other.hashCode() + " PRIORITY: " + other.getPriority());
@@ -56,6 +56,7 @@ public class BackoffManager extends ContentionManager {
       ++attempts;
     } else {                          // patience exhausted
       System.out.println("ABORTING OTHER: " + other.hashCode());
+      //other.incrementPriority();
       other.abort();
     }
   }  

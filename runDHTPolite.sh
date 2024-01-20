@@ -15,7 +15,7 @@ fi
 
 if [ -z $3 ]
 then
-	NCLIENT=5
+	NCLIENT=4
 else
 	NCLIENT=$3
 fi
@@ -53,20 +53,20 @@ fi
 
 for i in $(seq 0 0);
 do
-  java -classpath .:./TRMIKarma DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
+  java -classpath .:./TRMIPolite DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
 
   pid=$!
-  printf "TRMIKarma\t$NCLIENT\t"
+  printf "TRMIPolite\t$NCLIENT\t"
   for i in $(seq 0 $(($NSERVER - 1)));
   do
-	taskset -c $(($i+$NCLIENT)) java -classpath .:./TRMIKarma DHT.DHTServer $i $NHTENTRIES &
+	taskset -c $(($i+$NCLIENT)) java -classpath .:./TRMIPolite DHT.DHTServer $i $NHTENTRIES &
   done
 
   for i in $(seq 0 $(($NCLIENT-1)));
   do
 	#-Djava.rmi.server.logCalls=true
 	#-verbose:class
-	taskset -c $i java -classpath .:./TRMIKarma DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+	taskset -c $i java -classpath .:./TRMIPolite DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
  done
  wait $pid
 done

@@ -165,4 +165,10 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
     return priority.get();
   }
 
+  @Override
+  public void incrementPriority() throws RemoteException {
+    //System.out.println("GET: " + priority.get());
+    priority.incrementAndGet();
+  }
+
 }
