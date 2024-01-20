@@ -208,9 +208,11 @@ class DHTTransaction implements ExecuteTransaction {
 
                     for (int i = 0; i < TMObjects.length; i++) {
                         INode<Integer> iNode = TMObjects[i].openWrite();
-                        System.out.println("WRITING...");
+                        //System.out.println("TRANSACTION CLIENT ID " + clientId);
+                        System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
                         iNode.insert(machinesIds[i], keys[i], rng.nextInt(Integer.MAX_VALUE));
                         inserts.getAndIncrement();
+                        System.out.println("INSERTS: " + inserts.get());
                     }
 
                 } else if (op == 1) {

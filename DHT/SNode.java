@@ -62,6 +62,12 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         ((INode<T>)target).setItem(item);
         ((INode<T>)target).setName(name);
     }
+
+    @Override
+    public String toString() {
+        return "{ KEY: " + getKey() + ", ITEM: " + getItem() + ", NAME: " + getName() + ", NEXT: " + getNext() + " }";
+    }
+
     @Override
     public boolean contains(int key) throws Exception {
         if (this.getNext() == null) {
@@ -87,13 +93,14 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
             return this.get(key);
         }
 
-        System.out.println(getKey());
+        /*System.out.println(getKey());
         System.out.println(getItem());
         System.out.println("NAME: " + getName());
-        System.out.println(getNext());
-        String newNodeName =  "ht" + machineId + "_node" + this.item + "_key" + key;
-        System.out.println(newNodeName);
-        SNode<T> newNode = new SNode(-1, 0, newNodeName);
+        System.out.println(getNext());*/
+
+        String newNodeName =  this.name + "_key" + key;
+        System.out.println("NEW NODE NAME: " + newNodeName);
+        SNode<T> newNode = new SNode(key, value, newNodeName);
         //System.out.println(name);
 
         Integer port = 1700 + machineId;
@@ -109,20 +116,20 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         if (this.next == null) {
             System.out.println("FIRST INSERT");
             this.setNext(newTmObjNode);
+            //System.out.println("FIRST:" + newNode.toString());
         } else {
             for (TMObj<INode<T>> tmObjNode = this.next; ;) {
                 INode<T> node;
                 node = tmObjNode.openRead();
     
-                System.out.println("NEXT:" + node.getNext());
-    
+                System.out.println("CURRENT NODE:" + node.toString());
+                System.out.println("CURRENT NODE:" + node.getName());
                 if (node.getNext() == null) {
                     System.out.println("NEXT INSERT");
                     node = tmObjNode.openWrite();
                     node.setNext(newTmObjNode);
                     break;
                 }
-    
                 tmObjNode = node.getNext();
             }
         }
