@@ -202,19 +202,20 @@ class DHTTransaction implements ExecuteTransaction {
         }
 
         int ops = 0;
+        ILinkedList<Integer> iLinkedLists[] = new ILinkedList[TMObjects.length];
 
         ops = (int) Transaction.atomic(new Callable<Integer>() {
             public Integer call() throws Exception {
                 //Random rng = new Random();
                 if (op == 0) {
                     for (int i = 0; i < TMObjects.length; i++) {
-                        ILinkedList<Integer> iLinkedList = TMObjects[i].openWrite();
+                        iLinkedLists[i] = TMObjects[i].openWrite();
                         System.out.println("TRANSACTION CLIENT ID " + clientId);
                         System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                        if(iLinkedList.insert(keys[i], values[i]) != null) {
-                            inserts.getAndIncrement();
+                        if(iLinkedLists[i].insert(keys[i], values[i]) != null) {
+                            //inserts.getAndIncrement();
                         }
-                        System.out.println("INSERTS: " + inserts.get());
+                        //System.out.println("INSERTS: " + inserts.get());
                     }
 
                 } else if (op == 1) {
@@ -223,11 +224,11 @@ class DHTTransaction implements ExecuteTransaction {
                         ILinkedList<Integer> iLinkedList = TMObjects[i].openRead();
                         System.out.println("READING...");
                         iLinkedList.get(keys[i]);
-                        gets.getAndIncrement();
+                        //gets.getAndIncrement();
                     }
 
                 }
-                return inserts.get();
+                return 0;//inserts.get();
             }
         });
 
