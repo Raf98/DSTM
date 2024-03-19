@@ -24,7 +24,7 @@ import TinyTM.*;
 //import TinyTM.contention.ContentionManager;
 import TinyTM.exceptions.AbortedException;
 import TinyTM.exceptions.PanicException;
-import TinyTM.Copyable;
+
 import java.util.concurrent.atomic.AtomicReference;
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
@@ -40,6 +40,11 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
     super();
     myClass = (Class<T>) init.getClass();
     start = new AtomicReference<Locator>(new Locator(init));
+  }
+
+  public static TMObjServer lookupTMObjServer(String remoteName) throws Exception {    
+      //System.out.println("lookup cliente");
+      return (TMObjServer) Naming.lookup(remoteName);
   }
   
 

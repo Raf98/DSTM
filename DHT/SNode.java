@@ -2,12 +2,15 @@ package DHT;
 
 import java.io.Serializable;
 import java.rmi.AccessException;
+import java.rmi.Naming;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
+import TinyTM.Transaction;
+import TinyTM.ofree.ITMObjServer;
 import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
@@ -15,7 +18,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     int key;
     T item;
     String name;
-    TMObj<INode<T>> next;
+    TMObjServer<INode<T>> next;
 
     public SNode() throws RemoteException {}
     public SNode(int key, T item, String name) throws RemoteException {
@@ -52,9 +55,9 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     }
 
     @Override
-    public TMObj<INode<T>> getNext() { return next; }
+    public TMObjServer<INode<T>> getNext() { return next; }
     @Override
-    public void setNext(TMObj<INode<T>> next) { this.next = next; }
+    public void setNext(TMObjServer<INode<T>> next) { this.next = next; }
     @Override
     public void copyTo(INode<T> target) throws RemoteException {
         ((INode<T>)target).setNext(next);
@@ -74,9 +77,9 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
             return false;
         }
 
-        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+        for (TMObjServer<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
             INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjNode.openReadRemote(Transaction.getLocal());
                 if (node.getKey() == key) {
                     return true;
                 }
@@ -88,7 +91,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     }
 
     @Override
-    public TMObj<INode<T>> insert(int machineId, int key, int value) throws Exception {
+    public TMObjServer<INode<T>> insert(int machineId, int key, int value) throws Exception {
         if (this.contains(key)) {
             return this.get(key);
         }
@@ -108,40 +111,40 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         Remote newNodeRemote = new TMObjServer<>(newNode);
         registry.rebind(newNodeName, newNodeRemote);
 
-        TMObj<INode<T>> newTmObjNode =  TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
-         
+        //TMObj<INode<T>> newTmObjNode = TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
+        TMObjServer<INode<T>> newTmObjServerNode = (TMObjServer) Naming.lookup("rmi://localhost:" + port + "/" + newNodeName);
 
         System.out.println("LOOKED UP");
 
         if (this.next == null) {
             System.out.println("FIRST INSERT");
-            this.setNext(newTmObjNode);
+            this.setNext(newTmObjServerNode);
             //System.out.println("FIRST:" + newNode.toString());
         } else {
-            for (TMObj<INode<T>> tmObjNode = this.next; ;) {
+            for (TMObjServer<INode<T>> tmObjNode = this.next; ;) {
                 INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjNode.openReadRemote(Transaction.getLocal());
     
                 System.out.println("CURRENT NODE:" + node.toString());
                 System.out.println("CURRENT NODE:" + node.getName());
                 if (node.getNext() == null) {
                     System.out.println("NEXT INSERT");
-                    node = tmObjNode.openWrite();
-                    node.setNext(newTmObjNode);
+                    node = tmObjNode.openWriteRemote(Transaction.getLocal());
+                    node.setNext(newTmObjServerNode);
                     break;
                 }
                 tmObjNode = node.getNext();
             }
         }
 
-        return newTmObjNode;
+        return newTmObjServerNode;
     }
     @Override
-    public TMObj<INode<T>> get(int key) throws Exception {
+    public TMObjServer<INode<T>> get(int key) throws Exception {
 
-        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+        for (TMObjServer<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
             INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjNode.openReadRemote(Transaction.getLocal());
                 if (node.getKey() == key) {
                     return tmObjNode;
                 }
