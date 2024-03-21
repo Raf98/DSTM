@@ -44,7 +44,7 @@ public class AppCoordinator {
                 long start = System.currentTimeMillis(); 
                 barrier.await();// waits for all clients to finish
                 long end = System.currentTimeMillis();
-                System.out.println(Long.toString(end - start));
+                System.out.println("Time of execution: " + Long.toString(end - start) + " milliseconds");
 
                 //waits for all clients to process local data
                 barrier.await();
