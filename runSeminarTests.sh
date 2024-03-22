@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=3
+	NSERVER=32
 else
 	NSERVER=$1
 fi
@@ -19,7 +19,7 @@ fi
 # NTTRANS SHOULD BE 5000 INSTEAD???
 if [ -z $2 ]
 then
-	NTTRANS=500
+	NTTRANS=5000
 else
 	NTTRANS=$2
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $2 ]
 then
-	NMAXCLIENTS=8
+	NMAXCLIENTS=32
 else
 	NMAXCLIENTS=$2
 fi
