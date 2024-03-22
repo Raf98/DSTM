@@ -44,6 +44,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
   }
   
 
+  @SuppressWarnings({ "rawtypes", "unchecked" })
   public static void rebind(String name, Copyable obj) throws Exception
    {
     
@@ -57,6 +58,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
    }
   
 
+  @SuppressWarnings({ "unchecked", "rawtypes" })
   public T  openWriteRemote(ITransaction tx) throws RemoteException{
 
         Locator locator =  start.get();
@@ -96,7 +98,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
             //if(rse!=null){System.out.println("sempre");}
 
             try {
-            newLocator.newVersion = (T) myClass.newInstance();
+            newLocator.newVersion = (T) myClass.getDeclaredConstructor().newInstance();
             } catch (Exception ex) {System.out.println("Aqui");
               throw new PanicException(ex);
             }
@@ -118,6 +120,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
   // {
     //  start.get().owner = Transaction.COMMITTED;
    //}
+  @SuppressWarnings("unchecked")
   public T openSequential() throws RemoteException{
     Locator locator = start.get();
     switch (locator.owner.get().getStatus()) {
@@ -130,6 +133,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
     }
   }
   
+  @SuppressWarnings("unchecked")
   public T openReadRemote(ITransaction tx) throws RemoteException {
         Locator locator=  start.get();
         if (locator.owner.get().hashCode()==tx.hashCode())

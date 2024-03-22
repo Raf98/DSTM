@@ -29,6 +29,7 @@ class Locator {
     //ITransaction owner;
     Copyable oldVersion;
     Copyable newVersion;
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     Locator() {
       owner = new AtomicReference(Transaction.COMMITTED);
       //owner = Transaction.COMMITTED;

@@ -114,15 +114,6 @@ do
          ./runTRMIPassive.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 
          let "NCLIENT*=2"
         done
-
-        # IT IS NEEDED FOR SOME UNKOWN REASON
-        ./compileLocks.sh
-        for NCLIENT in 4;
-        do
-        NTRANS=$(($NTTRANS/$NCLIENT))
-        echo "clients: $NCLIENT, transacoes por client: $NTRANS, NTTRANS: $NTTRANS"
-        ./runLocks.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 
-        done 
      done
    done
 done

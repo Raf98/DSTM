@@ -12,7 +12,8 @@ public class GenericServer{
       // args[0] == Server ID: starts from zero
       // args[1] == Number of objects in the server
 
-	public static void main(String[] args) throws Exception{
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+      public static void main(String[] args) throws Exception{
 		
                 int id = Integer.parseInt(args[0]);
                 int numberObj = Integer.parseInt(args[1]);

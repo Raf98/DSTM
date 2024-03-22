@@ -108,7 +108,8 @@ class GenericTransaction implements ExecTransaction{
      commits = new AtomicInteger(0);
    }
 
-	public void execTransaction(RObject[] objects, int op) throws Exception
+	@SuppressWarnings("unchecked")
+  public void execTransaction(RObject[] objects, int op) throws Exception
         {
 
              TMObj<IObject>[] robjects = new TMObj[objects.length];

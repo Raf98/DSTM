@@ -68,7 +68,7 @@ class MyChoiceOfObjects implements ChooseObjects{
 	{
 		RObject[] objects = new RObject[nObjects];
                 int server,obj;
-		HashSet<Pair> set = new HashSet();
+		HashSet<Pair> set = new HashSet<>();
                 set.add(new Pair(0,0));
                 set.add(new Pair(0,0));
                 //System.out.println("Size set: " + set.size());

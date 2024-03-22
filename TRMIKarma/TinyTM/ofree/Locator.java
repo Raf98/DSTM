@@ -30,7 +30,7 @@ class Locator {
     Copyable oldVersion;
     Copyable newVersion;
     Locator() {
-      owner = new AtomicReference(Transaction.COMMITTED);
+      owner = new AtomicReference<>(Transaction.COMMITTED);
       //owner = Transaction.COMMITTED;
     }
     Locator(Copyable version) {

@@ -73,6 +73,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
    // server.close();
   //}
 
+  @SuppressWarnings("unchecked")
   public T openRead() throws Exception {
   //  System.out.println("openread cliente");
     Transaction me = Transaction.getLocal();
@@ -94,6 +95,7 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
     }
   }
 
+    @SuppressWarnings("unchecked")
     public T openWrite() throws Exception {
       //   System.out.println("openwrite cliente");  
     Transaction me = Transaction.getLocal();

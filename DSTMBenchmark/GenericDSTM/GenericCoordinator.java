@@ -32,7 +32,8 @@ public class GenericCoordinator {
 
 class GenericProcessData implements ProcessData{
 
-    public void processData(int numberOfServers, int numberOfClients, int numberOfObjects) throws Exception
+    @SuppressWarnings("unchecked")
+public void processData(int numberOfServers, int numberOfClients, int numberOfObjects) throws Exception
     {
 
         

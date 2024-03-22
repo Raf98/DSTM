@@ -27,12 +27,16 @@ import java.util.concurrent.atomic.AtomicReference;
 class Locator {
     AtomicReference<ITransaction> owner;
     //ITransaction owner;
+    @SuppressWarnings("rawtypes")
     Copyable oldVersion;
+    @SuppressWarnings("rawtypes")
     Copyable newVersion;
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     Locator() {
       owner = new AtomicReference(Transaction.COMMITTED);
       //owner = Transaction.COMMITTED;
     }
+    @SuppressWarnings("rawtypes")
     Locator(Copyable version) {
       this();
       newVersion = version;
