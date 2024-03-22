@@ -19,6 +19,8 @@ package TinyTM.contention;
 
 import java.util.Random;
 import TinyTM.*;
+import TinyTM.exceptions.AbortedException;
+
 import java.rmi.*;
 
 /**
@@ -42,18 +44,11 @@ public class BackoffManager extends ContentionManager {
       }
     }
 
-    if(me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())){
+    if(me.getAborts() <= other.getAborts()){
       other.abort();
     } else {
-      if(attempts >= intervals/2){
-        other.setDefunct(true);
-      }
-      try {
-        Thread.sleep(delay);
-      } catch (InterruptedException ex) {
-        Thread.currentThread().interrupt();
-      }
-      ++attempts;
+      me.abort();
+      throw new AbortedException();
     }
   }  
 }

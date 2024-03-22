@@ -189,4 +189,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction{
     this.defunct.set(isDefunct);
   }
 
+  @Override
+  public int getAborts() throws RemoteException {
+    return aborts.get();
+  }
+
 }
