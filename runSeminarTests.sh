@@ -19,7 +19,7 @@ fi
 # NTTRANS SHOULD BE 5000 INSTEAD???
 if [ -z $2 ]
 then
-	NTTRANS=1000
+	NTTRANS=5000
 else
 	NTTRANS=$2
 fi
@@ -46,73 +46,116 @@ do
      NOBJSERVER=100
      for NOBJSERVER in $(seq 100 400 500);
      do
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMITimestamp.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMITimestamp.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
-         let "NCLIENT*=2"
+         echo "Test $i for TRMILess"
+         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMILess.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMILess.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
         done
 
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIKindergarten.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMIKindergarten.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
-         let "NCLIENT*=2"
+         echo "Test $i for TRMITimestamp"
+         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMITimestamp.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMITimestamp.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
         done
 
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIPolka.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMIPolka.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
-         let "NCLIENT*=2"
+         echo "Test $i for TRMIKindergarten"
+         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMIKindergarten.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMIKindergarten.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
         done
 
-        ./compileTRMIKarma.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMIKarma.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
-         let "NCLIENT*=2"
-        done 
+         echo "Test $i for TRMIPolka"
+         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMIPolka.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMIPolka.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
+        done
 
-        ./compileTRMIPolite.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMIPolite.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
-         let "NCLIENT*=2"
-        done 
+         echo "Test $i for TRMIKarma"
+         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMIKarma.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMIKarma.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
+        done
 
-        ./compileTRMIPassive.sh
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
-        #for NCLIENT in 4;
+        for i in $(seq 0 4);
         do
-         NTRANS=$(($NTTRANS/$NCLIENT))
-         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-         ./runTRMIPassive.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 
-         let "NCLIENT*=2"
+         echo "Test $i for TRMIPolite"
+         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMIPolite.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMIPolite.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+          let "NCLIENT*=2"
+         done
+        done
+
+        for i in $(seq 0 4);
+        do
+         echo "Test $i for TRMIPassive"
+         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+         ./compileTRMIPassive.sh
+         NCLIENT=2
+         while [[ $NCLIENT -le $NMAXCLIENTS ]];
+         #for NCLIENT in 4;
+         do
+          NTRANS=$(($NTTRANS/$NCLIENT))
+          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+          ./runTRMIPassive.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 
+          let "NCLIENT*=2"
+         done
         done
      done
    done

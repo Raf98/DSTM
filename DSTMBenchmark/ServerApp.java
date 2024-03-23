@@ -2,7 +2,6 @@
 // This work is licensed under a Creative Commons
 package DSTMBenchmark;
 
-import java.rmi.Naming; 
 import java.rmi.registry.*;
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
@@ -24,7 +23,13 @@ public class ServerApp{
                         System.exit(0);
 		}
 		catch(Exception e){
-			e.printStackTrace();
+			System.out.println("SERVER APP EXCEPTION:");
+			long jvmMemoryMB = Runtime.getRuntime().totalMemory()/( 1024 * 1024 );
+            System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
+			System.out.println("Client ID: " + id + "; Client Port: " + (1666+id));
+			System.out.println(e.getMessage());
+			System.out.println(e.getCause().getMessage());
+			//e.printStackTrace();
 		}
 	}
 
