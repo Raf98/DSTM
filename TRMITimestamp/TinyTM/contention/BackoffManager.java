@@ -32,7 +32,7 @@ public class BackoffManager extends ContentionManager {
   ITransaction rival = null;
   int delay = 64;
   int attempts = 0;
-  int intervals = 16;
+  int intervals = 32;
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
    if(rival!=null){

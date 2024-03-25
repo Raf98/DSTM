@@ -19,7 +19,7 @@ fi
 # NTTRANS SHOULD BE 5000 INSTEAD???
 if [ -z $2 ]
 then
-	NTTRANS=5000
+	NTTRANS=1000
 else
 	NTTRANS=$2
 fi
@@ -46,8 +46,8 @@ do
      NOBJSERVER=100
      for NOBJSERVER in $(seq 100 400 500);
      do
-        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMILess.sh
+        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        ./compileTRMIKindergarten.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -56,8 +56,8 @@ do
          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
          for i in $(seq 0 4);
          do
-           echo "Test $i for TRMILess"
-           ./runTRMILess.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           echo "Test $i for TRMIKindergarten"
+           ./runTRMIKindergarten.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
          done
          let "NCLIENT*=2"
         done
@@ -78,8 +78,8 @@ do
          let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIKindergarten.sh
+        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        ./compileTRMILess.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -88,8 +88,8 @@ do
          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
          for i in $(seq 0 4);
          do
-           echo "Test $i for TRMIKindergarten"
-           ./runTRMIKindergarten.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           echo "Test $i for TRMILess"
+           ./runTRMILess.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
          done
          let "NCLIENT*=2"
         done
@@ -156,7 +156,6 @@ do
             ./runTRMIPassive.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
          done
          let "NCLIENT*=2"
-        done
         done
      done
    done

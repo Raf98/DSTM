@@ -1,0 +1,396 @@
+NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMILess
+TRMILess	2	Time of execution: 308729 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 5276 
+Total of set minus: 726 
+Total of set plus: 996 
+Total of gets: 19760 
+Total of transfer: 1100 
+Total of operations: 22582
+Total value of fields: 3227000 (Expected: 3227000)
+Test 1 for TRMILess
+TRMILess	2	Time of execution: 306750 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 3952 
+Total of set minus: 729 
+Total of set plus: 1016 
+Total of gets: 20005 
+Total of transfer: 982 
+Total of operations: 22732
+Total value of fields: 3228700 (Expected: 3228700)
+Test 2 for TRMILess
+TRMILess	2	Time of execution: 303941 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 4029 
+Total of set minus: 688 
+Total of set plus: 916 
+Total of gets: 20215 
+Total of transfer: 998 
+Total of operations: 22817
+Total value of fields: 3222800 (Expected: 3222800)
+Test 3 for TRMILess
+TRMILess	2	Time of execution: 303736 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 4869 
+Total of set minus: 728 
+Total of set plus: 992 
+Total of gets: 20165 
+Total of transfer: 942 
+Total of operations: 22827
+Total value of fields: 3226400 (Expected: 3226400)
+Test 4 for TRMILess
+TRMILess	2	Time of execution: 304278 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 4062 
+Total of set minus: 696 
+Total of set plus: 964 
+Total of gets: 20190 
+Total of transfer: 960 
+Total of operations: 22810
+Total value of fields: 3226800 (Expected: 3226800)
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMILess
+TRMILess	4	Time of execution: 207543 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 16775 
+Total of set minus: 720 
+Total of set plus: 966 
+Total of gets: 20230 
+Total of transfer: 942 
+Total of operations: 22858
+Total value of fields: 3224600 (Expected: 3224600)
+SERVER APP EXCEPTION:
+Test 1 for TRMILess
+TRMILess	4	JVM AVAILABLE MEMORY: 1946 MB
+Client ID: 7; Client Port: 1673
+Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+null
+Time of execution: 212238 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 18015 
+Total of set minus: 777 
+Total of set plus: 1022 
+Total of gets: 19915 
+Total of transfer: 1012 
+Total of operations: 22726
+Total value of fields: 3224500 (Expected: 3224500)
+Test 2 for TRMILess
+TRMILess	4	Time of execution: 209441 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 16959 
+Total of set minus: 705 
+Total of set plus: 960 
+Total of gets: 20025 
+Total of transfer: 1030 
+Total of operations: 22720
+Total value of fields: 3225500 (Expected: 3225500)
+Test 3 for TRMILess
+TRMILess	4	Time of execution: 210213 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 18133 
+Total of set minus: 740 
+Total of set plus: 1002 
+Total of gets: 19935 
+Total of transfer: 1024 
+Total of operations: 22701
+Total value of fields: 3226200 (Expected: 3226200)
+Test 4 for TRMILess
+TRMILess	4	Time of execution: 214855 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 18725 
+Total of set minus: 794 
+Total of set plus: 1056 
+Total of gets: 19870 
+Total of transfer: 996 
+Total of operations: 22716
+Total value of fields: 3226200 (Expected: 3226200)
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMILess
+TRMILess	8	Time of execution: 189261 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 89439 
+Total of set minus: 722 
+Total of set plus: 988 
+Total of gets: 19885 
+Total of transfer: 1058 
+Total of operations: 22653
+Total value of fields: 3226600 (Expected: 3226600)
+Test 1 for TRMILess
+TRMILess	8	Time of execution: 177734 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 72148 
+Total of set minus: 669 
+Total of set plus: 924 
+Total of gets: 20240 
+Total of transfer: 980 
+Total of operations: 22813
+Total value of fields: 3225500 (Expected: 3225500)
+Test 2 for TRMILess
+TRMILess	8	Time of execution: 187195 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 88034 
+Total of set minus: 710 
+Total of set plus: 980 
+Total of gets: 19975 
+Total of transfer: 1030 
+Total of operations: 22695
+Total value of fields: 3227000 (Expected: 3227000)
+Test 3 for TRMILess
+TRMILess	8	Time of execution: 176386 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 65641 
+Total of set minus: 721 
+Total of set plus: 976 
+Total of gets: 20250 
+Total of transfer: 924 
+Total of operations: 22871
+Total value of fields: 3225500 (Expected: 3225500)
+Test 4 for TRMILess
+TRMILess	8	Time of execution: 179370 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 67138 
+Total of set minus: 762 
+Total of set plus: 1008 
+Total of gets: 20110 
+Total of transfer: 948 
+Total of operations: 22828
+Total value of fields: 3224600 (Expected: 3224600)
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	Time of execution: 306423 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 812 
+Total of set minus: 739 
+Total of set plus: 994 
+Total of gets: 20035 
+Total of transfer: 992 
+Total of operations: 22760
+Total value of fields: 3225500 (Expected: 3225500)
+Test 1 for TRMITimestamp
+TRMITimestamp	2	Time of execution: 308551 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 810 
+Total of set minus: 712 
+Total of set plus: 1022 
+Total of gets: 19930 
+Total of transfer: 1006 
+Total of operations: 22670
+Total value of fields: 3231000 (Expected: 3231000)
+Test 2 for TRMITimestamp
+TRMITimestamp	2	Time of execution: 308748 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 834 
+Total of set minus: 748 
+Total of set plus: 974 
+Total of gets: 19850 
+Total of transfer: 1086 
+Total of operations: 22658
+Total value of fields: 3222600 (Expected: 3222600)
+Test 3 for TRMITimestamp
+TRMITimestamp	2	Time of execution: 307162 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 816 
+Total of set minus: 712 
+Total of set plus: 986 
+Total of gets: 19895 
+Total of transfer: 1056 
+Total of operations: 22649
+Total value of fields: 3227400 (Expected: 3227400)
+Test 4 for TRMITimestamp
+TRMITimestamp	2	Time of execution: 310958 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 831 
+Total of set minus: 765 
+Total of set plus: 1040 
+Total of gets: 19750 
+Total of transfer: 1060 
+Total of operations: 22615
+Total value of fields: 3227500 (Expected: 3227500)
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	Time of execution: 207547 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 2349 
+Total of set minus: 779 
+Total of set plus: 1076 
+Total of gets: 19895 
+Total of transfer: 966 
+Total of operations: 22716
+Total value of fields: 3229700 (Expected: 3229700)
+Test 1 for TRMITimestamp
+TRMITimestamp	4	Time of execution: 209000 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 2403 
+Total of set minus: 787 
+Total of set plus: 1056 
+Total of gets: 19890 
+Total of transfer: 988 
+Total of operations: 22721
+Total value of fields: 3226900 (Expected: 3226900)
+Test 2 for TRMITimestamp
+TRMITimestamp	4	Time of execution: 206111 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 2318 
+Total of set minus: 744 
+Total of set plus: 1030 
+Total of gets: 20070 
+Total of transfer: 942 
+Total of operations: 22786
+Total value of fields: 3228600 (Expected: 3228600)
+Test 3 for TRMITimestamp
+SERVER APP EXCEPTION:
+TRMITimestamp	4	JVM AVAILABLE MEMORY: 1946 MB
+Client ID: 3; Client Port: 1669
+Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+null
+Time of execution: 204552 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 2301 
+Total of set minus: 712 
+Total of set plus: 956 
+Total of gets: 20175 
+Total of transfer: 974 
+Total of operations: 22817
+Total value of fields: 3224400 (Expected: 3224400)
+Test 4 for TRMITimestamp
+TRMITimestamp	4	Time of execution: 209436 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 2350 
+Total of set minus: 713 
+Total of set plus: 966 
+Total of gets: 19965 
+Total of transfer: 1048 
+Total of operations: 22692
+Total value of fields: 3225300 (Expected: 3225300)
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	Time of execution: 161828 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 5109 
+Total of set minus: 673 
+Total of set plus: 946 
+Total of gets: 20060 
+Total of transfer: 1030 
+Total of operations: 22709
+Total value of fields: 3227300 (Expected: 3227300)
+Test 1 for TRMITimestamp
+TRMITimestamp	8	Time of execution: 165570 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 4930 
+Total of set minus: 760 
+Total of set plus: 1012 
+Total of gets: 20010 
+Total of transfer: 984 
+Total of operations: 22766
+Total value of fields: 3225200 (Expected: 3225200)
+Test 2 for TRMITimestamp
+TRMITimestamp	8	Time of execution: 171361 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 5074 
+Total of set minus: 832 
+Total of set plus: 1100 
+Total of gets: 19810 
+Total of transfer: 976 
+Total of operations: 22718
+Total value of fields: 3226800 (Expected: 3226800)
+Test 3 for TRMITimestamp
+TRMITimestamp	8	Time of execution: 169880 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 5032 
+Total of set minus: 753 
+Total of set plus: 1022 
+Total of gets: 19845 
+Total of transfer: 1040 
+Total of operations: 22660
+Total value of fields: 3226900 (Expected: 3226900)
+Test 4 for TRMITimestamp
+TRMITimestamp	8	Time of execution: 167328 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 5169 
+Total of set minus: 779 
+Total of set plus: 1046 
+Total of gets: 19870 
+Total of transfer: 1006 
+Total of operations: 22701
+Total value of fields: 3226700 (Expected: 3226700)
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	Time of execution: 328239 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 1442 
+Total of set minus: 662 
+Total of set plus: 912 
+Total of gets: 20085 
+Total of transfer: 1054 
+Total of operations: 22713
+Total value of fields: 3225000 (Expected: 3225000)
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	Time of execution: 331460 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 1487 
+Total of set minus: 726 
+Total of set plus: 978 
+Total of gets: 19980 
+Total of transfer: 1030 
+Total of operations: 22714
+Total value of fields: 3225200 (Expected: 3225200)
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	Time of execution: 326511 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 1380 
+Total of set minus: 752 
+Total of set plus: 1038 
+Total of gets: 19990 
+Total of transfer: 966 
+Total of operations: 22746
+Total value of fields: 3228600 (Expected: 3228600)
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	Time of execution: 328696 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 1481 
+Total of set minus: 785 
+Total of set plus: 1048 
+Total of gets: 19940 
+Total of transfer: 976 
+Total of operations: 22749
+Total value of fields: 3226300 (Expected: 3226300)
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	Time of execution: 323209 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 1392 
+Total of set minus: 751 
+Total of set plus: 1036 
+Total of gets: 20130 
+Total of transfer: 912 
+Total of operations: 22829
+Total value of fields: 3228500 (Expected: 3228500)
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	4	Time of execution: 5386171 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 140294 
+Total of set minus: 733 
+Total of set plus: 1010 
+Total of gets: 20170 
+Total of transfer: 922 
+Total of operations: 22835
+Total value of fields: 3227700 (Expected: 3227700)
+SERVER APP EXCEPTION:
+SERVER APP EXCEPTION:
+Test 1 for TRMIKindergarten
+JVM AVAILABLE MEMORY: 1946 MB
+TRMIKindergarten	4	JVM AVAILABLE MEMORY: 1946 MB
+Client ID: 7; Client Port: 1673
+Client ID: 1; Client Port: 1667
+Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+null
+Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+null

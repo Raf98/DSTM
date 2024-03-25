@@ -24,6 +24,7 @@ public class ClientApp{
                 Random random = new Random ();
                 RObject[] robjects; 
                 int op;
+                try{
                 for(int i=0;i<transactions;i++)
 		{
                     robjects = cs.chooseObjects(servers,objects,objectspertransaction,random);
@@ -42,7 +43,13 @@ public class ClientApp{
                 // waits for all servers to process data
                 barrier.await();
               //  System.out.println("Acabei");
-
+        } catch (Exception e) {
+                System.out.println("CLIENT APP EXCEPTION:");
+		long jvmMemoryMB = Runtime.getRuntime().totalMemory()/( 1024 * 1024 );
+                System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
+		System.out.println("Client ID: " + clientid + "; Client Port: " + (1666+clientid));
+		System.out.println(e.getMessage());
+        }
 
 		
 	}
@@ -50,7 +57,7 @@ public class ClientApp{
       public static double doSomeComputation()
       {
          double x=0;
-              for (int i=0; i<10000000; i++)
+              for (int i=0; i<10000000/10000; i++)
                { x=x+1; x= 3*x+4; x= x+2;}
                x= x+1;
          return x;

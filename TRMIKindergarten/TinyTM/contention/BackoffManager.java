@@ -21,6 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import TinyTM.*;
+import TinyTM.exceptions.AbortedException;
+
 import java.rmi.*;
 
 /**
@@ -33,7 +35,8 @@ public class BackoffManager extends ContentionManager {
   Random random = new Random();
   ITransaction rival = null;
   int delay = 64;
-  int attempts = 0;
+  int intervals = 32;
+  boolean backedOff = false;
   List<Integer> hitList;
 
   public BackoffManager(){
@@ -44,19 +47,24 @@ public class BackoffManager extends ContentionManager {
    if(rival!=null){
        if (other.hashCode() != rival.hashCode()) {
             rival = other;
+            backedOff = false;
       }
     }
-    
-    if (!hitList.contains(other.hashCode())) {
-      try {
-        hitList.add(other.hashCode());
-        Thread.sleep(delay);
+
+    if (hitList.contains(other.hashCode())) {
+      other.abort();  
+    } else {
+      if (backedOff) {
         me.abort();
-      } catch (InterruptedException ex) {
+        throw new AbortedException();
+      }
+      hitList.add(other.hashCode());
+      try {
+        Thread.sleep(intervals*delay);
+        backedOff = true;
+      } catch (InterruptedException e) {
         Thread.currentThread().interrupt();
       }
-    } else {
-      other.abort();
     }
   }  
 }
