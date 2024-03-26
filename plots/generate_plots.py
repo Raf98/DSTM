@@ -121,7 +121,11 @@ for wp in writes_percentage:
         for ops in objs_per_server:
             avgs = {}
             j = 0
+            max = 0
             for cm in contention_managers:
+                print(counts[i][j])
+                local_max = np.array(counts[i][j]).max()
+                max = local_max if local_max > max else max  
                 avgs[cm] = counts[i][j]
                 j+=1
 
@@ -134,15 +138,15 @@ for wp in writes_percentage:
             for attribute, measurement in avgs.items():
                 offset = width * multiplier
                 rects = ax.bar(x + offset, measurement, width, label=attribute)
-                ax.bar_label(rects, padding=3)
+                ax.bar_label(rects, padding=1)
                 multiplier += 1
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
             ax.set_ylabel('Time (seconds)')
             ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
             ax.set_xticks(x + width, number_of_clients)
-            ax.legend(loc='upper right', ncols=3)
-            ax.set_ylim(0, 90)
+            ax.legend(loc='upper right', ncols=1)
+            ax.set_ylim(0, max + 10)
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
