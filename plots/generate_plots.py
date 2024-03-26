@@ -90,12 +90,67 @@ for wp in writes_percentage:
                     for test in range(5):
                         avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc][test]
                     avg /= 5*1000
-                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc] = avg
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc] = round(avg, 2)
 
 print(test_cases_avgs_dict)
 
-# for wp in writes_percentage:
-#     for opt in objs_per_transaction:
-#         for ops in objs_per_server:
-#             for cm in contention_managers:
-#                 print(len(test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm]))
+counts = [[] for i in range(8)]
+
+print(counts)
+
+i = 0
+for wp in writes_percentage:
+    for opt in objs_per_transaction:
+        for ops in objs_per_server:
+            for cm in contention_managers:
+                j = 0
+                count = []
+                for noc in number_of_clients:
+                    count.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc])
+                    j += 1
+                print(count)
+                counts[i].append(count)
+            i+=1
+
+print(counts)
+
+i = 0
+n = 0
+for wp in writes_percentage:
+    for opt in objs_per_transaction:
+        for ops in objs_per_server:
+            avgs = {}
+            j = 0
+            for cm in contention_managers:
+                avgs[cm] = counts[i][j]
+                j+=1
+
+            x = np.arange(len(number_of_clients))  # the label locations
+            width = 0.1  # the width of the bars
+            multiplier = 0
+
+            fig, ax = plt.subplots(layout='constrained')
+
+            for attribute, measurement in avgs.items():
+                offset = width * multiplier
+                rects = ax.bar(x + offset, measurement, width, label=attribute)
+                ax.bar_label(rects, padding=3)
+                multiplier += 1
+
+            # Add some text for labels, title and custom x-axis tick labels, etc.
+            ax.set_ylabel('Time (seconds)')
+            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
+            ax.set_xticks(x + width, number_of_clients)
+            ax.legend(loc='upper right', ncols=3)
+            ax.set_ylim(0, 90)
+
+            fig.set_figheight(10)
+            fig.set_figwidth(19)
+            fig.savefig(f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
+            n+=1
+            i+=1
+
+print(n)
+plt.show()
+
+
