@@ -116,7 +116,7 @@ class GenericTransaction implements ExecTransaction{
 	   return true;
 	}
 
-	public void execTransaction(RObject[] objects, int op) throws Exception
+	public void execTransaction(RObject[] objects, int op, int contentionManager) throws Exception
         {
 
             IObject[] robjects= new IObject[objects.length];

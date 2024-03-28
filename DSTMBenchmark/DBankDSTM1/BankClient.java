@@ -108,7 +108,7 @@ class BankTransaction implements ExecTransaction{
      commits = new AtomicInteger(0);
    }
 
-	public void execTransaction(RObject[] objects, int op) throws Exception
+	public void execTransaction(RObject[] objects, int op, int contentionManager) throws Exception
         {
 
              TMObj<IConta>[] robjects = new TMObj[objects.length];
@@ -122,7 +122,7 @@ class BankTransaction implements ExecTransaction{
 
        int donewithdraw = 0;
 
-         donewithdraw=(int) Transaction.atomic(new Callable<Integer>() {
+         donewithdraw=(int) Transaction.atomic(contentionManager, new Callable<Integer>() {
 	    public Integer call() throws Exception{
                 int localwithdraw=0;
 	    if (op == 0)

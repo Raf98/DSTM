@@ -34,6 +34,8 @@ else
 	NMAXCLIENTS=$2
 fi
 
+echo "Compiling all files needed..."
+./compileGenericBench.sh
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
 for WRITES in $(seq 20 30 50); 
@@ -47,7 +49,22 @@ do
      for NOBJSERVER in $(seq 100 400 500);
      do
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIKindergarten.sh
+        NCLIENT=2
+        while [[ $NCLIENT -le $NMAXCLIENTS ]];
+        #for NCLIENT in 4;
+        do
+         NTRANS=$(($NTTRANS/$NCLIENT))
+         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+         for i in $(seq 0 4);
+         do
+           echo "Test $i for TRMIAgressive"
+           printf "TRMIAgressive\t$NCLIENT\t"
+           ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 7
+         done
+         let "NCLIENT*=2"
+        done
+
+        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -57,13 +74,13 @@ do
          for i in $(seq 0 4);
          do
            echo "Test $i for TRMIKindergarten"
-           ./runTRMIKindergarten.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           printf "TRMIKindergarten\t$NCLIENT\t"
+           ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5
          done
          let "NCLIENT*=2"
         done
 
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMITimestamp.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -73,7 +90,8 @@ do
          for i in $(seq 0 4);
          do
            echo "Test $i for TRMITimestamp"
-           ./runTRMITimestamp.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           printf "TRMITimestamp\t$NCLIENT\t"
+           ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 4
          done
          let "NCLIENT*=2"
         done
@@ -89,7 +107,8 @@ do
          for i in $(seq 0 4);
          do
            echo "Test $i for TRMILess"
-           ./runTRMILess.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           printf "TRMILess\t$NCLIENT\t"
+           ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 6
          done
          let "NCLIENT*=2"
         done
@@ -105,7 +124,8 @@ do
          for i in $(seq 0 4);
          do
            echo "Test $i for TRMIPolka"
-           ./runTRMIPolka.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+           printf "TRMIPolka\t$NCLIENT\t"
+           ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3
          done
          let "NCLIENT*=2"
         done
@@ -121,7 +141,8 @@ do
          for i in $(seq 0 4);
          do
             echo "Test $i for TRMIKarma"
-            ./runTRMIKarma.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+            printf "TRMIPolka\t$NCLIENT\t"
+            ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2
          done
          let "NCLIENT*=2"
         done
@@ -137,7 +158,8 @@ do
          for i in $(seq 0 4);
          do
             echo "Test $i for TRMIPolite"
-            ./runTRMIPolite.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+            printf "TRMIPolite\t$NCLIENT\t"
+            ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 1
          done
          let "NCLIENT*=2"
         done
@@ -153,7 +175,8 @@ do
          for i in $(seq 0 4);
          do
             echo "Test $i for TRMIPassive"
-            ./runTRMIPassive.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS
+            printf "TRMIPassive\t$NCLIENT\t"
+            ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0
          done
          let "NCLIENT*=2"
         done

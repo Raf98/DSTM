@@ -20,6 +20,9 @@ public class ClientApp{
                 int writes  = Integer.parseInt(args[3]);
 		int transactions = Integer.parseInt(args[4]);
                 int objectspertransaction = Integer.parseInt(args[5]);
+                int contentionManager = Integer.parseInt(args[6]);
+
+                //System.out.println("CONTENTION MANAGER: " + contentionManager);
             
                 Random random = new Random ();
                 RObject[] robjects; 
@@ -29,7 +32,7 @@ public class ClientApp{
 		{
                     robjects = cs.chooseObjects(servers,objects,objectspertransaction,random);
                     op = cop.chooseOP(writes,random);
-                    et.execTransaction(robjects, op);
+                    et.execTransaction(robjects, op, contentionManager);
 		}
 
 		
@@ -45,10 +48,11 @@ public class ClientApp{
               //  System.out.println("Acabei");
         } catch (Exception e) {
                 System.out.println("CLIENT APP EXCEPTION:");
-		long jvmMemoryMB = Runtime.getRuntime().totalMemory()/( 1024 * 1024 );
-                System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
+		//long jvmMemoryMB = Runtime.getRuntime().totalMemory()/( 1024 * 1024 );
+                //System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
 		System.out.println("Client ID: " + clientid + "; Client Port: " + (1666+clientid));
 		System.out.println(e.getMessage());
+                e.printStackTrace();
         }
 
 		

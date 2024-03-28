@@ -25,7 +25,8 @@ public class DHTClient {
         int writes = Integer.parseInt(args[3]);
         int transactions = Integer.parseInt(args[4]);
         int objectsPerTransaction = Integer.parseInt(args[5]);
-        int hashTablesEntries = Integer.parseInt(args[6]);
+        int contentionManager = Integer.parseInt(args[6]);
+        int hashTablesEntries = Integer.parseInt(args[7]);
 
         ClientApp app = new ClientApp();
         DHTTransaction transaction = new DHTTransaction();
@@ -45,7 +46,7 @@ public class DHTClient {
             op = cop.chooseOP(writes, random);
             op = 0;
             //transaction.execTransaction(robjects, op);
-            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
+            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op, contentionManager);
         }
 
         // App Ends
@@ -167,7 +168,7 @@ class DHTTransaction implements ExecuteTransaction {
     }*/ 
 
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int contentionManager) throws Exception {
         Random rng = new Random();
         TMObj<INode<Integer>>[] TMObjects = new TMObj[nObjects];
         int[] machinesIds = new int[nObjects];
@@ -200,7 +201,7 @@ class DHTTransaction implements ExecuteTransaction {
 
         int donewithdraw = 0;
 
-        donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
+        donewithdraw = (int) Transaction.atomic(contentionManager, new Callable<Integer>() {
             public Integer call() throws Exception {
                 int localwithdraw = 0;
                 Random rng = new Random();

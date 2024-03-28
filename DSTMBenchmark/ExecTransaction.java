@@ -9,5 +9,5 @@ import java.rmi.*;
 
 public interface ExecTransaction{
 
-	public void execTransaction(RObject[] objects, int op) throws Exception;
+	public void execTransaction(RObject[] objects, int op, int contentionManager) throws Exception;
 }        
