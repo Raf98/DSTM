@@ -57,8 +57,8 @@ do
          echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
          for i in $(seq 0 4);
          do
-           echo "Test $i for TRMIAgressive"
-           printf "TRMIAgressive\t$NCLIENT\t"
+           echo "Test $i for TRMIAggressive"
+           printf "TRMIAggressive\t$NCLIENT\t"
            ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 7
          done
          let "NCLIENT*=2"

@@ -8,7 +8,7 @@ public enum CMEnum {
     Timestamp(4),
     Kindergarten(5),
     Less(6),
-    Agressive(7);
+    Aggressive(7);
 
     private int id;
 
