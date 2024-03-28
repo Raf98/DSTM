@@ -1,7 +1,7 @@
-setminus,50
-setplus,58
+setminus,28
+setplus,40
 gets,1015
-transfer,36
+transfer,54
 commits,250
 commitsrts,250
-aborts,55
+aborts,61

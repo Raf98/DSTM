@@ -35,7 +35,7 @@ public class BackoffManager extends ContentionManager {
   Random random = new Random();
   ITransaction rival = null;
   int delay = 64;
-  int intervals = 32;
+  int intervals = 8;
   boolean backedOff = false;
   List<Integer> hitList;
 
@@ -52,6 +52,7 @@ public class BackoffManager extends ContentionManager {
     }
 
     if (hitList.contains(other.hashCode())) {
+      //hitList.remove(other.hashCode());
       other.abort();  
     } else {
       if (backedOff) {
