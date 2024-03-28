@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import math
 import os
 
-lines = open("seminar_tests_outputs.txt", "r").readlines()
+lines = open("seminar_tests_outputs_2.txt", "r").readlines()
 
 contention_managers = ["Kindergarten", "Timestamp", "Less", "Polka", "Karma", "Polite", "Passive"]
 use_cases = []
@@ -43,7 +43,7 @@ for use_case in use_cases:
         print(aborts[i], end="")
 
 writes_percentage = [20, 50]
-objs_per_transaction = [5, 10]
+objs_per_transaction = [5, 20] #[5, 10]
 objs_per_server = [100, 500]
 number_of_clients = [2, 4, 8]
 test_cases_dict = {}
@@ -138,19 +138,21 @@ for wp in writes_percentage:
             for attribute, measurement in avgs.items():
                 offset = width * multiplier
                 rects = ax.bar(x + offset, measurement, width, label=attribute)
-                ax.bar_label(rects, padding=1)
+                ax.bar_label(rects, padding=0)
                 multiplier += 1
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
-            ax.set_ylabel('Time (seconds)')
-            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
+            ax.set_ylabel('Time (seconds)', fontsize=20)
+            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
             ax.set_xticks(x + width, number_of_clients)
-            ax.legend(loc='upper right', ncols=1)
+            ax.legend(loc='upper right', ncols=1, prop={'size': 18})
             ax.set_ylim(0, max + 10)
+            ax.tick_params(axis='x', labelsize=20)
+            ax.tick_params(axis='y', labelsize=20)
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
-            fig.savefig(f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
+            fig.savefig(f"test2/NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
             n+=1
             i+=1
 
