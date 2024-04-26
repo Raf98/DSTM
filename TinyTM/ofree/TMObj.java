@@ -16,6 +16,7 @@
  */
 package TinyTM.ofree;
 
+import java.io.Serializable;
 import java.net.*;
 import java.rmi.*;
 import java.rmi.server.*;
@@ -35,7 +36,7 @@ import TinyTM.exceptions.PanicException;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-public class TMObj<T extends Copyable<T>>{ // extends TinyTM.AtomicObject<T> {
+public class TMObj<T extends Copyable<T>> implements Serializable{ // extends TinyTM.AtomicObject<T> {
 
   //T localRef = null;
   ITMObjServer server;
