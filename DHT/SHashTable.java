@@ -20,6 +20,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     private HashTable hashTable;
     private Map<Integer, String> routingTable;              //armazena para cada valor de e
 
+    @SuppressWarnings("unchecked")
     protected SHashTable(String addressName) throws RemoteException {
         super();
         this.addressName = addressName;

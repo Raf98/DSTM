@@ -167,6 +167,7 @@ class DHTTransaction implements ExecuteTransaction {
         }
     }*/ 
 
+    @SuppressWarnings("unchecked")
     @Override
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int contentionManager) throws Exception {
         Random rng = new Random();

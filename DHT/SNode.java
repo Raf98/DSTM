@@ -87,6 +87,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         return false;
     }
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
     public TMObj<INode<T>> insert(int machineId, int key, int value) throws Exception {
         if (this.contains(key)) {

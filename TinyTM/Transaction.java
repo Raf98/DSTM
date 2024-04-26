@@ -167,6 +167,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       } catch (InterruptedException e) {
         myThread.interrupt();
       } catch (Exception e) {
+        e.printStackTrace();
         throw new PanicException(e);
       }
       aborts.getAndIncrement();

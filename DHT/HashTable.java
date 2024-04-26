@@ -11,6 +11,7 @@ public class HashTable {
     static final int SIZE = 7;
     private LinkedList<Integer>[] dataMap;
 
+    @SuppressWarnings("unchecked")
     public HashTable(){
         dataMap = new LinkedList[SIZE];
         for(int i = 0; i < SIZE; ++i) {

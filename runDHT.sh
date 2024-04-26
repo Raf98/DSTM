@@ -60,7 +60,7 @@ fi
 
 for i in $(seq 0 0);
 do
-  java -classpath .:./TRMIKarma DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
+  java DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
 
   pid=$!
   printf "TRMIKarma\t$NCLIENT\t"

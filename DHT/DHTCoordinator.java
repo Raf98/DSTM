@@ -18,6 +18,7 @@ public class DHTCoordinator {
 
 class DHTProcessData implements ProcessData {
 
+    @SuppressWarnings("unchecked")
     public void processData(int numberOfServers, int numberOfClients, int numberOfObjects) throws Exception {
 
         int setminus = 0;
