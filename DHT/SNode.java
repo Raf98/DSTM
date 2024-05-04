@@ -8,20 +8,18 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
 public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     int key;
     T item;
     String name;
-    TMObj<INode<T>> next;
+    TMObjServer<INode<T>> next;
 
     public SNode() throws RemoteException {}
-    public SNode(int key, T item, String name) throws RemoteException {
+    public SNode(int key, T item) throws RemoteException {
         this.key = key;
         this.item = item;
-        this.name = name;
         this.next = null;
     }
     
@@ -43,45 +41,35 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     }
 
     @Override
-    public String getName() {
-        return name;
-    }
+    public TMObjServer<INode<T>> getNext() { return next; }
     @Override
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public TMObj<INode<T>> getNext() { return next; }
-    @Override
-    public void setNext(TMObj<INode<T>> next) { this.next = next; }
+    public void setNext(TMObjServer<INode<T>> next) { this.next = next; }
     @Override
     public void copyTo(INode<T> target) throws RemoteException {
         ((INode<T>)target).setNext(next);
         ((INode<T>)target).setKey(key);
         ((INode<T>)target).setItem(item);
-        ((INode<T>)target).setName(name);
     }
 
     @Override
     public String toString() {
-        return "{ KEY: " + getKey() + ", ITEM: " + getItem() + ", NAME: " + getName() + ", NEXT: " + getNext() + " }";
+        return "{ KEY: " + getKey() + ", ITEM: " + getItem() + ", NEXT: " + getNext() + " }";
     }
 
-    @Override
+    /*@Override
     public boolean contains(int key) throws Exception {
         if (this.getNext() == null) {
             return false;
         }
 
-        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+        for (TMObjServer<INode<T>> tmObjServerNode = this.next; tmObjServerNode != null; ) {
             INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjServerNode.openRead();
                 if (node.getKey() == key) {
                     return true;
                 }
 
-                tmObjNode = node.getNext();
+                tmObjServerNode = node.getNext();
         }
 
         return false;
@@ -89,7 +77,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
 
     @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
-    public TMObj<INode<T>> insert(int machineId, int key, int value) throws Exception {
+    public TMObjServer<INode<T>> insert(int machineId, int key, int value) throws Exception {
         if (this.contains(key)) {
             return this.get(key);
         }
@@ -99,7 +87,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         System.out.println("NAME: " + getName());
         System.out.println(getNext());*/
 
-        String newNodeName =  this.name + "_key" + key;
+        /*String newNodeName =  this.name + "_key" + key;
         System.out.println("NEW NODE NAME: " + newNodeName);
         SNode<T> newNode = new SNode(key, value, newNodeName);
         //System.out.println(name);
@@ -109,47 +97,47 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         Remote newNodeRemote = new TMObjServer<>(newNode);
         registry.rebind(newNodeName, newNodeRemote);
 
-        TMObj<INode<T>> newTmObjNode =  TMObj.lookupTMObj("rmi://localhost:" + port + "/" + newNodeName);
+        TMObjServer<INode<T>> newTmObjServerNode =  TMObjServer.lookupTMObjServer("rmi://localhost:" + port + "/" + newNodeName);
          
 
         System.out.println("LOOKED UP");
 
         if (this.next == null) {
             System.out.println("FIRST INSERT");
-            this.setNext(newTmObjNode);
+            this.setNext(newTmObjServerNode);
             //System.out.println("FIRST:" + newNode.toString());
         } else {
-            for (TMObj<INode<T>> tmObjNode = this.next; ;) {
+            for (TMObjServer<INode<T>> tmObjServerNode = this.next; ;) {
                 INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjServerNode.openRead();
     
                 System.out.println("CURRENT NODE:" + node.toString());
                 System.out.println("CURRENT NODE:" + node.getName());
                 if (node.getNext() == null) {
                     System.out.println("NEXT INSERT");
-                    node = tmObjNode.openWrite();
-                    node.setNext(newTmObjNode);
+                    node = tmObjServerNode.openWrite();
+                    node.setNext(newTmObjServerNode);
                     break;
                 }
-                tmObjNode = node.getNext();
+                tmObjServerNode = node.getNext();
             }
         }
 
-        return newTmObjNode;
+        return newTmObjServerNode;
     }
     @Override
-    public TMObj<INode<T>> get(int key) throws Exception {
+    public TMObjServer<INode<T>> get(int key) throws Exception {
 
-        for (TMObj<INode<T>> tmObjNode = this.next; tmObjNode != null; ) {
+        for (TMObjServer<INode<T>> tmObjServerNode = this.next; tmObjServerNode != null; ) {
             INode<T> node;
-                node = tmObjNode.openRead();
+                node = tmObjServerNode.openRead();
                 if (node.getKey() == key) {
-                    return tmObjNode;
+                    return tmObjServerNode;
                 }
 
-                tmObjNode = node.getNext();
+                tmObjServerNode = node.getNext();
         }
 
         return null;
-    }
+    }*/
 }

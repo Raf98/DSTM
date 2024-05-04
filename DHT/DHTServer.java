@@ -18,7 +18,9 @@ public class DHTServer {
 
         int id = Integer.parseInt(args[0]);
         int numberHTEntries = Integer.parseInt(args[1]);
+        int contentionManager = Integer.parseInt(args[2]);
 
+        /*
         //IHashTable hashTableImp = new SHashTable("ht" + id);
         //Remote hashTable = new TMObjServer(new SHashTable("ht" + id));
         Remote[] nodes = new Remote[numberHTEntries];
@@ -30,16 +32,19 @@ public class DHTServer {
             //hashTableImp.insert(i, 0);
             nodes[i] = new TMObjServer<>(newNode);
         }
+         */
 
-        ServerApp server = new ServerApp();
+        Remote localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager));
+
+        //ServerApp server = new ServerApp();
         try {
             Registry registry = LocateRegistry.createRegistry(1700 + id);
-            //registry.rebind("ht" + id, hashTable);
+            registry.rebind("ht" + id, localHashTable);
 
-            for (int i = 0; i < numberHTEntries; i++) {
+            /*for (int i = 0; i < numberHTEntries; i++) {
                 registry.rebind("ht" + id + "_node" + i, nodes[i]);
                 System.out.println("NODE NAME ON SERVER: " + (1700 + id) + "/ht" + id + "_node" + i);
-            }
+            }*/
 
             IDBarrier barrier = AppCoordinator.connectToBarrier("serverbarrier");// (IDBarrier)
                                                                                  // Naming.lookup("serverbarrier");

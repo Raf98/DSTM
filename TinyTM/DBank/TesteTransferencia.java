@@ -106,7 +106,8 @@ private class TestThread extends java.lang.Thread {
           boolean result = true;
           int contentionManager = 0;
           
-              result =Transaction.atomic(contentionManager, new Callable<Boolean>() {
+              Transaction.setContentionManager(contentionManager);
+              result =Transaction.atomic(new Callable<Boolean>() {
                 public Boolean call() throws Exception{
                 //    IConta lc1 = contas[c1].openWrite();
                  // IConta lc2 = contas[c2].openWrite();

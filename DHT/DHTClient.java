@@ -171,10 +171,24 @@ class DHTTransaction implements ExecuteTransaction {
     @Override
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int contentionManager) throws Exception {
         Random rng = new Random();
-        TMObj<INode<Integer>>[] TMObjects = new TMObj[nObjects];
-        int[] machinesIds = new int[nObjects];
-        int[] keys = new int[TMObjects.length];
+        TMObj<IHashTable>[] TMObjects = new TMObj[nServers];
+
+        // Lookup for Hash Tables within their machines/ servers in the network
         for (int i = 0; i < TMObjects.length; i++) {
+            String port = String.valueOf(1700 + i);
+            String nodeName = "ht" + i;
+
+            System.out.println("NODE NAME: " + nodeName);
+            System.out.println("rmi://localhost:" + port + "/" + nodeName);
+
+            TMObjects[i] = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+        }
+
+        // Iterate and calculate the machineId needed for each operation within the Distributed Hash Table
+        int[] machinesIds = new int[nObjects];
+        int[] keys = new int[nObjects];//[TMObjects.length];
+
+        for (int i = 0; i < nObjects; i++) {
             int bound = 1000;
             keys[i] = rng.nextInt(bound);
             
@@ -190,19 +204,29 @@ class DHTTransaction implements ExecuteTransaction {
 
             int machineNum = j; // esquema de descobrir máquina deve ser repensado?
 
-            String port = String.valueOf(1700 + machineNum);
-            String nodeName = "ht" + machineNum + "_node" + keys[i] % hashTablesEntries;
+            /*String port = String.valueOf(1700 + machineNum);
+            String nodeName = "ht" + machineNum;// + "_node" + keys[i] % hashTablesEntries;
 
             System.out.println("NODE NAME: " + nodeName);
-            System.out.println("rmi://localhost:" + port + "/" + nodeName);
+            System.out.println("rmi://localhost:" + port + "/" + nodeName);*/
 
-            TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+            //TMObjects[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+            //TMObjects[i] = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
             machinesIds[i] = machineNum;
         }
 
-        int donewithdraw = 0;
+        for (int i = 0; i < nObjects; i++) {
+            IHashTable iHashTable = TMObjects[machinesIds[i]].openWrite();
+            //System.out.println("TRANSACTION CLIENT ID " + clientId);
+            System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+            iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
+            inserts.getAndIncrement();
+            System.out.println("INSERTS: " + inserts.get());
+        }
 
-        donewithdraw = (int) Transaction.atomic(contentionManager, new Callable<Integer>() {
+        /*int donewithdraw = 0;
+
+        donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
             public Integer call() throws Exception {
                 int localwithdraw = 0;
                 Random rng = new Random();

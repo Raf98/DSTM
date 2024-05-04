@@ -66,7 +66,7 @@ do
   printf "TRMIKarma\t$NCLIENT\t"
   for i in $(seq 0 $(($NSERVER - 1)));
   do
-	taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES &
+	taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM &
   done
 
   for i in $(seq 0 $(($NCLIENT-1)));

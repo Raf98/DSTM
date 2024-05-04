@@ -122,7 +122,8 @@ class BankTransaction implements ExecTransaction{
 
        int donewithdraw = 0;
 
-         donewithdraw=(int) Transaction.atomic(contentionManager, new Callable<Integer>() {
+         Transaction.setContentionManager(contentionManager);
+         donewithdraw=(int) Transaction.atomic(new Callable<Integer>() {
 	    public Integer call() throws Exception{
                 int localwithdraw=0;
 	    if (op == 0)

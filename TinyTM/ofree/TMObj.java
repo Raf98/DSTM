@@ -27,8 +27,6 @@ import java.util.Map;
  * Encapsulates transactional synchronization for obstruction-free objects.
  * @author Maurice Herlihy
  */
-import TinyTM.ofree.TMObjServer;
-import TinyTM.ofree.ITMObjServer;
 import TinyTM.*;
 import TinyTM.contention.ContentionManager;
 import TinyTM.exceptions.AbortedException;
@@ -36,7 +34,7 @@ import TinyTM.exceptions.PanicException;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-public class TMObj<T extends Copyable<T>> implements Serializable{ // extends TinyTM.AtomicObject<T> {
+public class TMObj<T extends Copyable<T>>{ // extends TinyTM.AtomicObject<T> {
 
   //T localRef = null;
   ITMObjServer server;

@@ -6,27 +6,39 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.Callable;
 
 import TinyTM.Transaction;
 import TinyTM.ofree.TMObj;
+import TinyTM.ofree.TMObjServer;
 
 public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
-    int key, value;
     String addressName;
+    int numberHTEntries;
     public static int NUMBER_OF_MACHINES = 10;
-    private TMObj<INode<Integer>> ht[];
-    private HashTable hashTable;
-    private Map<Integer, String> routingTable;              //armazena para cada valor de e
+    private TMObjServer<INode<Integer>>[] heads;
 
     @SuppressWarnings("unchecked")
+    public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException{
+        this.addressName = "ht" + machineId;
+        this.numberHTEntries = numberHTEntries;
+
+        heads = new TMObjServer[numberHTEntries];
+        for(int i = 0; i < numberHTEntries; ++i) {
+            SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
+            System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
+            heads[i] = new TMObjServer<INode<Integer>>(newLLHead);
+        }
+
+        Transaction.setContentionManager(contentionManager);
+    }
+
+    /*@SuppressWarnings("unchecked")
     protected SHashTable(String addressName) throws RemoteException {
         super();
         this.addressName = addressName;
-        ht = new TMObj[NUMBER_OF_MACHINES];
-        hashTable = new HashTable();
-        routingTable = Collections.synchronizedMap(new HashMap<Integer, String>());
     }
 
     protected SHashTable(int key, int value, String addressName) throws RemoteException {
@@ -34,8 +46,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         this.key = key;
         this.value = value;
         this.addressName = addressName;
-        hashTable = new HashTable();
-    }
+    }*/
 
     @Override
     public void copyTo(IHashTable target) throws RemoteException {
@@ -43,17 +54,35 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @Override
-    public TMObj<INode<Integer>> get(int key) throws RemoteException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'get'");
+    public TMObjServer<INode<Integer>> get(int key) throws RemoteException, Exception {
+
+        TMObjServer<INode<Integer>> headTMObjServer = heads[key];
+
+        return Transaction.atomic(new Callable<TMObjServer<INode<Integer>>>() {
+            public TMObjServer<INode<Integer>> call() throws Exception {
+                Transaction localTransaction = Transaction.getLocal(); 
+
+                INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
+                //System.out.println("TRANSACTION CLIENT ID " + clientId);
+                //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                
+                for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); tmObjServerNode != null; ) {
+                    INode<Integer> node;
+                    node = tmObjServerNode.openReadRemote(localTransaction);
+                    if (node.getKey() == key) {
+                        return tmObjServerNode;
+                    }
+        
+                    tmObjServerNode = node.getNext();
+                }
+        
+                return null;
+           }
+        });
     }
 
     @Override
     public boolean insert(int key, int value) throws RemoteException, Exception {
-
-        hashTable.set(key, value);
-
-        /*
         String port = 1700 + String.valueOf(key % NUMBER_OF_MACHINES);
         String machineName = "object" + port;
 
@@ -61,21 +90,48 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
         }
 
-        TMObj<IHTMachine> htMachine = (TMObj<IHTMachine>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + machineName);
+        TMObjServer<INode<Integer>> headTMObjServer = heads[key % numberHTEntries];
 
         Transaction.atomic(new Callable<Integer>() {
-
-            @Override
             public Integer call() throws Exception {
-                // TODO Auto-generated method stub
-                throw new UnsupportedOperationException("Unimplemented method 'call'");
-                IHTMachine iht = htMachine.openWrite();
-                iht.insert(key, value);
-            }
-            
-        })*/
+                Random rng = new Random();
+                Transaction localTransaction = Transaction.getLocal(); 
 
-        return false;
+                System.out.println("Current CM: " + Transaction.getContentionManager());
+
+                    INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
+                    //System.out.println("TRANSACTION CLIENT ID " + clientId);
+                    //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                    //headNode.insert(key, value);
+
+                    INode<Integer> newNode = new SNode<>(key, value);
+                    TMObjServer<INode<Integer>> newNodeTmObjServer = new TMObjServer<INode<Integer>>(newNode); 
+
+                    if (headNode.getNext() == null) {
+                        System.out.println("FIRST INSERT");
+                        headNode.setNext(newNodeTmObjServer);
+                        System.out.println("FIRST:" + newNode.toString());
+                    } else {
+                        for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); ;) {
+                            INode<Integer> node;
+                            node = tmObjServerNode.openReadRemote(localTransaction);
+                
+                            System.out.println("CURRENT NODE:" + node.toString());
+                            if (node.getNext() == null) {
+                                System.out.println("NEXT INSERT");
+                                node = tmObjServerNode.openWriteRemote(Transaction.getLocal());
+                                node.setNext(newNodeTmObjServer);
+                                break;
+                            }
+                            tmObjServerNode = node.getNext();
+                        }
+                    }
+            
+                    return 0;
+            }
+        });
+
+        return true;
     }
 
 }

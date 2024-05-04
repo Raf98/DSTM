@@ -47,7 +47,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
 
   public static final Transaction COMMITTED = initCOMMITTED();
   public static final Transaction ABORTED = initABORTED();
-  public ContentionManager cm;
+  public static ContentionManager cm;
+  public static CMEnum cmName;
   private final AtomicReference<Status> status;
   private ReadSet readset = new ReadSet();
   static ThreadLocal<Transaction> local=new ThreadLocal<Transaction>(){@Override protected Transaction initialValue(){return initCOMMITTED();}};
@@ -70,11 +71,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return t;
   }
 
-  public Transaction(int contentionManager) throws RemoteException {
+  public Transaction(/*int contentionManager*/) throws RemoteException {
     super();
     status = new AtomicReference<Status>(Status.ACTIVE);
 
-    cm = choseCM(contentionManager);
+    //cm = chooseCM(contentionManager);
     timestamp = new AtomicLong(GlobalClock.getCurrentTime());
   }
 
@@ -148,13 +149,13 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     cm.resolve(this, enemy);
   }
 
-  public static <T> T atomic(int contentionManager, Callable<T> xaction) throws Exception {
+  public static <T> T atomic(Callable<T> xaction) throws Exception {
     T result;
     Transaction me;
     Thread myThread = Thread.currentThread();
 
     while (!myThread.isInterrupted()) {
-      me = new Transaction(contentionManager);
+      me = new Transaction();
       Transaction.setLocal(me);
       try {
         result = xaction.call();
@@ -202,9 +203,17 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return aborts.get();
   }
 
-  private ContentionManager choseCM(int contentionManager) {
-    CMEnum cmChosen = CMEnum.fromId(contentionManager);
-    switch (cmChosen) {
+  public static String getContentionManager() {
+    return cmName.getId() + ": " +  cmName.toString();
+  }
+
+  public static void setContentionManager(int contentionManager) throws RemoteException{
+    cm = chooseCM(contentionManager);
+  }
+
+  private static ContentionManager chooseCM(int contentionManager) {
+    cmName = CMEnum.fromId(contentionManager);
+    switch (cmName) {
       case Passive:
         cm = new Passive();
         break;
