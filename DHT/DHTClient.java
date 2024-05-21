@@ -224,6 +224,15 @@ class DHTTransaction implements ExecuteTransaction {
             System.out.println("INSERTS: " + inserts.get());
         }
 
+        for (int i = 0; i < nObjects; i++) {
+            IHashTable iHashTable = TMObjects[machinesIds[i]].openWrite();
+            //System.out.println("TRANSACTION CLIENT ID " + clientId);
+            System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+            iHashTable.get(keys[i]);
+            gets.getAndIncrement();
+            System.out.println("GETS: " + gets.get());
+        }
+
         /*int donewithdraw = 0;
 
         donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {

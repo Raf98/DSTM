@@ -2,15 +2,10 @@ package DHT;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.Callable;
 
 import TinyTM.Transaction;
-import TinyTM.ofree.TMObj;
 import TinyTM.ofree.TMObjServer;
 
 public class SHashTable extends UnicastRemoteObject implements IHashTable {
@@ -35,47 +30,33 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         Transaction.setContentionManager(contentionManager);
     }
 
-    /*@SuppressWarnings("unchecked")
-    protected SHashTable(String addressName) throws RemoteException {
-        super();
-        this.addressName = addressName;
-    }
-
-    protected SHashTable(int key, int value, String addressName) throws RemoteException {
-        super();
-        this.key = key;
-        this.value = value;
-        this.addressName = addressName;
-    }*/
-
     @Override
     public void copyTo(IHashTable target) throws RemoteException {
         // ((IHTMachine)target).setField0(this.field0);
     }
 
     @Override
-    public TMObjServer<INode<Integer>> get(int key) throws RemoteException, Exception {
+    public INode<Integer> get(int key) throws RemoteException, Exception {
 
-        TMObjServer<INode<Integer>> headTMObjServer = heads[key];
+        TMObjServer<INode<Integer>> headTMObjServer = heads[key % numberHTEntries];
 
-        return Transaction.atomic(new Callable<TMObjServer<INode<Integer>>>() {
-            public TMObjServer<INode<Integer>> call() throws Exception {
+        return Transaction.atomic(new Callable<INode<Integer>>() {
+            public INode<Integer> call() throws Exception {
                 Transaction localTransaction = Transaction.getLocal(); 
 
                 INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
-                //System.out.println("TRANSACTION CLIENT ID " + clientId);
                 //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
                 
                 for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); tmObjServerNode != null; ) {
                     INode<Integer> node;
                     node = tmObjServerNode.openReadRemote(localTransaction);
                     if (node.getKey() == key) {
-                        return tmObjServerNode;
+                        return node;
                     }
         
                     tmObjServerNode = node.getNext();
                 }
-        
+                
                 return null;
            }
         });
@@ -100,9 +81,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 System.out.println("Current CM: " + Transaction.getContentionManager());
 
                     INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
-                    //System.out.println("TRANSACTION CLIENT ID " + clientId);
                     //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                    //headNode.insert(key, value);
 
                     INode<Integer> newNode = new SNode<>(key, value);
                     TMObjServer<INode<Integer>> newNodeTmObjServer = new TMObjServer<INode<Integer>>(newNode); 
