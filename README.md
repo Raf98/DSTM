@@ -1,7 +1,7 @@
 # DSTM: Distributed Software Transactional Memory based on Obstruction-Free algorithms
 
-To run benchmark using DSTM with different contention managers/Locks, type:
+To run the synthetic benchmark using DSTM with different contention managers, type:
 
-* ./runShow.sh
+* ./runSeminarTests.sh
 
-check individual scripts for different scenarios
+Check this script file to see which scenarios are run.
