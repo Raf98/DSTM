@@ -57,4 +57,6 @@ public interface ITransaction extends Remote {
   public void setDefunct(boolean isDefunct) throws RemoteException;
 
   public int getAborts() throws RemoteException;
+
+  public int getCommits() throws RemoteException;
 }

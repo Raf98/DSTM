@@ -161,6 +161,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
           commits.getAndIncrement();
+          System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
 
           return result;
         }
@@ -201,6 +202,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   @Override
   public int getAborts() throws RemoteException {
     return aborts.get();
+  }
+
+  @Override
+  public int getCommits() throws RemoteException {
+    return commits.get();
   }
 
   public static String getContentionManager() {

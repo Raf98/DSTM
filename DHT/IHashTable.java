@@ -11,4 +11,6 @@ public interface IHashTable extends Remote, Copyable<IHashTable> {
     public boolean insert(int key, int value) throws RemoteException, Exception;
 
     public int getAborts() throws RemoteException;
+
+    public int getCommits() throws RemoteException;
 }

@@ -17,6 +17,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     private TMObjServer<INode<Integer>>[] heads;
 
     static AtomicInteger aborts = new AtomicInteger(0);
+    static AtomicInteger commits = new AtomicInteger(0);
 
     @SuppressWarnings("unchecked")
     public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException{
@@ -65,6 +66,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         });
 
         aborts.set(Transaction.getLocal().getAborts());
+        commits.set(Transaction.getLocal().getCommits());
 
         return nodeFound;
     }
@@ -118,6 +120,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         });
 
         aborts.set(Transaction.getLocal().getAborts());
+        commits.set(Transaction.getLocal().getCommits());
 
         return true;
     }
@@ -125,6 +128,11 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     @Override
     public int getAborts() {
         return aborts.get();
+    }
+
+    @Override
+    public int getCommits() {
+        return commits.get();
     }
 
 }

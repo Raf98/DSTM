@@ -78,7 +78,7 @@ class DHTSaveData implements NewSaveData {
                 Arrays.asList("commits", DHTTransaction.commits.get() + ""),
                 Arrays.asList("inserts", DHTTransaction.inserts.get() + ""),
                 Arrays.asList("gets", DHTTransaction.gets.get() + ""),
-                Arrays.asList("commitsrts", Transaction.commits.get() + ""),
+                Arrays.asList("commitsrts", DHTTransaction.commitsrts.get() + ""),
                 Arrays.asList("aborts", DHTTransaction.aborts.get() + ""));
 
         System.out.println("gravando arquivo");
@@ -121,12 +121,16 @@ class DHTTransaction implements ExecuteTransaction {
     static AtomicInteger inserts;
     static AtomicInteger gets;
 
+    static AtomicInteger commitsrts;
+
     DHTTransaction() {
         commits = new AtomicInteger(0);
         aborts = new AtomicInteger(0);
 
         inserts = new AtomicInteger(0);
         gets = new AtomicInteger(0);
+
+        commitsrts = new AtomicInteger(0);
     }
 
 
@@ -245,6 +249,7 @@ class DHTTransaction implements ExecuteTransaction {
         for (int i = 0; i < nServers; i++) {
             IHashTable iHashTable = TMObjects[i].openRead();
             aborts.addAndGet(iHashTable.getAborts());
+            commitsrts.addAndGet(iHashTable.getCommits());
         }
 
         /*int donewithdraw = 0;
