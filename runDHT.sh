@@ -2,7 +2,7 @@
 
 if [ -z $1 ]
 then
-	NSERVER=10
+	NSERVER=8
 else
 	NSERVER=$1
 fi
@@ -15,7 +15,7 @@ fi
 
 if [ -z $3 ]
 then
-	NCLIENT=2
+	NCLIENT=4
 else
 	NCLIENT=$3
 fi
@@ -29,7 +29,7 @@ fi
 
 if [ -z $5 ]
 then
-	NTRANS=100
+	NTRANS=500
 else
 	NTRANS=$5
 fi
@@ -46,7 +46,7 @@ fi
 
 if [ -z $7 ]
 then
-	CM=0
+	CM=2
 else
 	CM=$7
 fi
