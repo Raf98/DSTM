@@ -9,4 +9,6 @@ public interface IHashTable extends Remote, Copyable<IHashTable> {
     public INode<Integer> get(int key) throws RemoteException, Exception;
 
     public boolean insert(int key, int value) throws RemoteException, Exception;
+
+    public int getAborts() throws RemoteException;
 }

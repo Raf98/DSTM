@@ -76,10 +76,10 @@ class DHTSaveData implements NewSaveData {
 
         List<List<String>> rows = Arrays.asList(
                 Arrays.asList("commits", DHTTransaction.commits.get() + ""),
-                Arrays.asList("commits", DHTTransaction.inserts.get() + ""),
-                Arrays.asList("commits", DHTTransaction.gets.get() + ""),
+                Arrays.asList("inserts", DHTTransaction.inserts.get() + ""),
+                Arrays.asList("gets", DHTTransaction.gets.get() + ""),
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
-                Arrays.asList("aborts", Transaction.aborts.get() + ""));
+                Arrays.asList("aborts", DHTTransaction.aborts.get() + ""));
 
         System.out.println("gravando arquivo");
 
@@ -116,12 +116,14 @@ class ChooseOPDHT implements ChooseOP {
 class DHTTransaction implements ExecuteTransaction {
 
     static AtomicInteger commits;
+    static AtomicInteger aborts;
 
     static AtomicInteger inserts;
     static AtomicInteger gets;
 
     DHTTransaction() {
         commits = new AtomicInteger(0);
+        aborts = new AtomicInteger(0);
 
         inserts = new AtomicInteger(0);
         gets = new AtomicInteger(0);
@@ -221,6 +223,8 @@ class DHTTransaction implements ExecuteTransaction {
             System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
             iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
             inserts.getAndIncrement();
+            commits.getAndIncrement();
+            //aborts.set(iHashTable.getAborts());
             System.out.println("INSERTS: " + inserts.get());
         }
 
@@ -228,9 +232,19 @@ class DHTTransaction implements ExecuteTransaction {
             IHashTable iHashTable = TMObjects[machinesIds[i]].openWrite();
             //System.out.println("TRANSACTION CLIENT ID " + clientId);
             System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-            iHashTable.get(keys[i]);
+            INode<Integer> iNode = iHashTable.get(keys[i]);
+            System.out.println("INODE KEY: " + iNode.getKey());
+            System.out.println("INODE ITEM: " + iNode.getItem());
             gets.getAndIncrement();
+            commits.getAndIncrement();
+            //aborts.set(iHashTable.getAborts());
             System.out.println("GETS: " + gets.get());
+        }
+
+
+        for (int i = 0; i < nServers; i++) {
+            IHashTable iHashTable = TMObjects[i].openRead();
+            aborts.addAndGet(iHashTable.getAborts());
         }
 
         /*int donewithdraw = 0;
@@ -262,10 +276,10 @@ class DHTTransaction implements ExecuteTransaction {
                 }
                 return localwithdraw;
             }
-        });
+        });*/
 
         // SANITY CHECK:
-        commits.getAndIncrement();
+        //commits.getAndIncrement();
 
         /*if (op == 0) {
             inserts.getAndIncrement();
