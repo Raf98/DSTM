@@ -161,6 +161,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
           commits.getAndIncrement();
+          System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
 
           return result;
         }

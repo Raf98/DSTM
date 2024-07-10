@@ -76,8 +76,8 @@ class DHTSaveData implements NewSaveData {
 
         List<List<String>> rows = Arrays.asList(
                 Arrays.asList("commits", DHTTransaction.commits.get() + ""),
-                Arrays.asList("commits", DHTTransaction.inserts.get() + ""),
-                Arrays.asList("commits", DHTTransaction.gets.get() + ""),
+                Arrays.asList("inserts", DHTTransaction.inserts.get() + ""),
+                Arrays.asList("gets", DHTTransaction.gets.get() + ""),
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
                 Arrays.asList("aborts", Transaction.aborts.get() + ""));
 
