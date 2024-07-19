@@ -70,14 +70,11 @@ class DHTProcessData implements ProcessData {
             String port = String.valueOf(1700 + i);
             String nodeName = "ht" + i;
             objtemp = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
-            /*for (int j = 0; j < numberOfObjects; j++) {
-                // System.out.println("//localhost:"+(1666+i)+"/object"+j);
-                String port = String.valueOf(1700 + i);
-                String nodeName = "ht" + i + "_node" + j;// + keys[j] % hashTablesEntries;
-                objtemp = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
-                //total = total + objtemp.openRead().sumAll();
-
-            }*/
+            IHashTable htServer = objtemp.openRead();
+            commitsrts += htServer.getCommits();
+            aborts += htServer.getAborts();
+            System.out.printf("Current commits: %d\n", commitsrts);
+            System.out.printf("Current aborts: %d\n", aborts);
         }
         System.out.printf("Total of commits: %d (Expected: %d)\n", commits, commitsrts);
         System.out.printf("Total of inserts: %d \n", inserts);

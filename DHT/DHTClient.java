@@ -221,6 +221,7 @@ class DHTTransaction implements ExecuteTransaction {
             System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
             iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
             inserts.getAndIncrement();
+            commits.getAndIncrement();
             System.out.println("INSERTS: " + inserts.get());
         }
 
@@ -230,6 +231,7 @@ class DHTTransaction implements ExecuteTransaction {
             System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
             iHashTable.get(keys[i]);
             gets.getAndIncrement();
+            commits.getAndIncrement();
             System.out.println("GETS: " + gets.get());
         }
 

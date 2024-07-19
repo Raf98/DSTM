@@ -204,6 +204,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return aborts.get();
   }
 
+  @Override
+  public int getCommits() throws RemoteException {
+    return commits.get();
+  }
+
   public static String getContentionManager() {
     return cmName.getId() + ": " +  cmName.toString();
   }

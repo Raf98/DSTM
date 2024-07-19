@@ -4,6 +4,7 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Random;
 import java.util.concurrent.Callable;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import TinyTM.Transaction;
 import TinyTM.ofree.TMObjServer;
@@ -14,6 +15,9 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     int numberHTEntries;
     public static int NUMBER_OF_MACHINES = 10;
     private TMObjServer<INode<Integer>>[] heads;
+
+    static AtomicInteger aborts = new AtomicInteger(0);
+    static AtomicInteger commits = new AtomicInteger(0);
 
     @SuppressWarnings("unchecked")
     public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException{
@@ -40,7 +44,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
         TMObjServer<INode<Integer>> headTMObjServer = heads[key % numberHTEntries];
 
-        return Transaction.atomic(new Callable<INode<Integer>>() {
+        INode<Integer> nodeFound = Transaction.atomic(new Callable<INode<Integer>>() {
             public INode<Integer> call() throws Exception {
                 Transaction localTransaction = Transaction.getLocal(); 
 
@@ -60,6 +64,11 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 return null;
            }
         });
+
+        aborts.set(Transaction.getLocal().getAborts());
+        commits.set(Transaction.getLocal().getCommits());
+
+        return nodeFound;
     }
 
     @Override
@@ -110,7 +119,20 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             }
         });
 
+        aborts.set(Transaction.getLocal().getAborts());
+        commits.set(Transaction.getLocal().getCommits());
+
         return true;
+    }
+
+    @Override
+    public int getAborts() {
+        return aborts.get();
+    }
+
+    @Override
+    public int getCommits() {
+        return commits.get();
     }
 
 }
