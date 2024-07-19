@@ -235,7 +235,7 @@ class DHTTransaction implements ExecuteTransaction {
 
         /*int donewithdraw = 0;
 
-        donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
+        donewithdraw = (int) Transaction.atomic(0, new Callable<Integer>() {
             public Integer call() throws Exception {
                 int localwithdraw = 0;
                 Random rng = new Random();
