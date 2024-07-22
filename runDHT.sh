@@ -46,7 +46,7 @@ fi
 
 if [ -z $7 ]
 then
-	CM=2
+	CM=1 # POLITE
 else
 	CM=$7
 fi

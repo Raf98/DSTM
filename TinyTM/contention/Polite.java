@@ -23,37 +23,32 @@ import java.rmi.*;
 
 /**
  * Simple adaptive backoff contention manager.
+ * 
  * @author Maurice Herlihy
  */
 public class Polite extends ContentionManager {
-  private static final int MIN_DELAY = 128;//64;//32;
-  private static final int MAX_DELAY = 4096;//2048;//1024;
-  Random random = new Random();
+  private static final int MIN_DELAY = 128;// 64;//32;
+  private static final int MAX_DELAY = 4096;// 2048;//1024;
   ITransaction rival = null;
-  int delay = 64;
-  int attempts = 0;
-  int intervals = 32;
+  int delay = MIN_DELAY;
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
-   if(rival!=null){
-       if (other.hashCode() != rival.hashCode()) {
-          rival = other;
-          attempts = 0;
+    if (rival != null) {
+      if (other.hashCode() != rival.hashCode()) {
+        rival = other;
+        delay = MIN_DELAY;
       }
     }
-
-    if(me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())){
-      other.abort();
-    } else {
-      if(attempts >= intervals/2){
-        other.setDefunct(true);
-      }
+    if (delay < MAX_DELAY) { // be patient
       try {
         Thread.sleep(delay);
       } catch (InterruptedException ex) {
         Thread.currentThread().interrupt();
       }
-      ++attempts;
+      delay = 2 * delay;
+    } else { // patience exhausted
+      other.abort();
+      delay = MIN_DELAY;
     }
-  }  
+  }
 }
