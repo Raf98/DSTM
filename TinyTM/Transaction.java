@@ -217,7 +217,44 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     cm = chooseCM(contentionManager);
   }
 
+  public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay, 
+                                          int minDelay_attempts_intervals, int intervals) throws RemoteException{
+    cm = chooseCM(contentionManager);
+  }
+
   private static ContentionManager chooseCM(int contentionManager) {
+    cmName = CMEnum.fromId(contentionManager);
+    switch (cmName) {
+      case Passive:
+        cm = new Passive();
+        break;
+      case Polite:
+        cm = new Polite();
+        break;
+      case Karma:
+        cm = new Karma();
+        break;
+      case Polka:
+        cm = new Polka();
+        break;
+      case Timestamp:
+        cm = new Timestamp();
+        break;
+      case Kindergarten:
+        cm = new Kindergarten();
+        break;
+      case Less:
+        cm = new Less();
+        break;
+      default:
+        cm = new Passive();
+        break;
+    }
+    return cm;
+  }
+
+  private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay, 
+                                            int minDelay_attempts_intervals, int intervals) {
     cmName = CMEnum.fromId(contentionManager);
     switch (cmName) {
       case Passive:
