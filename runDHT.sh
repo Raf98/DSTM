@@ -46,7 +46,7 @@ fi
 
 if [ -z $7 ]
 then
-	CM=1 # POLITE
+	CM=2 # KARMA
 else
 	CM=$7
 fi
@@ -63,7 +63,7 @@ do
   java DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
 
   pid=$!
-  printf "TRMIKarma\t$NCLIENT\t"
+  printf "CM ID:\t$CM\t"
   for i in $(seq 0 $(($NSERVER - 1)));
   do
 	taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM &

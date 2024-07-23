@@ -27,10 +27,22 @@ import java.rmi.*;
  * @author Maurice Herlihy
  */
 public class Polite extends ContentionManager {
-  private static final int MIN_DELAY = 128;// 64;//32;
-  private static final int MAX_DELAY = 4096;// 2048;//1024;
+  private static /*final*/ int MIN_DELAY; //= 128;// 64;//32;
+  private static /*final*/ int MAX_DELAY; //= 4096;// 2048;//1024;
   ITransaction rival = null;
-  int delay = MIN_DELAY;
+  int delay;// = MIN_DELAY;
+
+  public Polite(){
+    MIN_DELAY = 128;
+    MAX_DELAY = 4096;
+    delay = MIN_DELAY;
+  }
+
+  public Polite(final int minDelay, final int maxDelay) {
+    MIN_DELAY = minDelay;
+    MAX_DELAY = maxDelay;
+    delay = MIN_DELAY;
+  }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
     if (rival != null) {
