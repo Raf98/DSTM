@@ -9,9 +9,21 @@ import TinyTM.Transaction;
 public class Timestamp extends ContentionManager {
     Random random = new Random();
     ITransaction rival = null;
-    int delay = 64;
-    int attempts = 0;
-    int intervals = 32;
+    int delay;// = 64;
+    int attempts;// = 0;
+    int intervals;// = 32;
+
+    public Timestamp() {
+        delay = 64;
+        attempts = 0;
+        intervals = 32;
+    }
+
+    public Timestamp(int delay, int attempts, int intervals) {
+        this.delay = delay;
+        this.attempts = attempts;
+        this.intervals = intervals;
+    }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
         if (rival != null) {

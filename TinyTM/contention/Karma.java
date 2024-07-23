@@ -9,8 +9,18 @@ import TinyTM.Transaction;
 public class Karma extends ContentionManager {
     Random random = new Random();
     ITransaction rival = null;
-    int delay = 64;
-    int attempts = 0;
+    int delay;//= 64;
+    int attempts;// = 0;
+
+    public Karma() {
+        delay = 64;
+        attempts = 0;
+    }
+
+    public Karma(int delay, int attempts) {
+        this.delay = delay;
+        this.attempts = attempts;
+    }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
         if (rival != null) {

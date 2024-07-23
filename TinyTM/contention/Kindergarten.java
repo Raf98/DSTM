@@ -10,20 +10,22 @@ import TinyTM.Transaction;
 import TinyTM.exceptions.AbortedException;
 
 public class Kindergarten extends ContentionManager {
-    private static final int MIN_DELAY = 128;// 64;//32;
-    private static final int MAX_DELAY = 4096;// 2048;//1024;
     Random random = new Random();
     ITransaction rival = null;
-    int delay = 64;
-    int intervals = 8;
+    int delay;// = 64;
+    int intervals;// = 8;
     boolean backedOff = false;
     List<Integer> hitList = new ArrayList<>();;
 
-    /* 
     public Kindergarten() {
-        hitList = new ArrayList<>();
+        delay = 64;
+        intervals = 8;
     }
-    */
+
+    public Kindergarten(int delay, int intervals) {
+        this.delay = delay;
+        this.intervals = intervals;
+    }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
         if (rival != null) {

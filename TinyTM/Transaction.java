@@ -218,8 +218,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   }
 
   public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay, 
-                                          int minDelay_attempts_intervals, int intervals) throws RemoteException{
-    cm = chooseCM(contentionManager);
+                                          int maxDelay_attempts_intervals, int intervals) throws RemoteException{
+    cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_attempts_intervals, intervals);
   }
 
   private static ContentionManager chooseCM(int contentionManager) {
@@ -246,6 +246,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       case Less:
         cm = new Less();
         break;
+      case Aggressive:
+        cm = new Aggressive();
+        break;
       default:
         cm = new Passive();
         break;
@@ -254,32 +257,35 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   }
 
   private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay, 
-                                            int minDelay_attempts_intervals, int intervals) {
+                                            int maxDelay_attempts_intervals, int intervals) {
     cmName = CMEnum.fromId(contentionManager);
     switch (cmName) {
       case Passive:
-        cm = new Passive();
+        cm = new Passive(maxAborts_minDelay_delay);
         break;
       case Polite:
-        cm = new Polite();
+        cm = new Polite(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
         break;
       case Karma:
-        cm = new Karma();
+        cm = new Karma(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
         break;
       case Polka:
-        cm = new Polka();
+        cm = new Polka(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
         break;
       case Timestamp:
-        cm = new Timestamp();
+        cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_attempts_intervals, intervals);
         break;
       case Kindergarten:
-        cm = new Kindergarten();
+        cm = new Kindergarten(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
         break;
       case Less:
         cm = new Less();
         break;
+      case Aggressive:
+        cm = new Aggressive();
+        break;
       default:
-        cm = new Passive();
+        cm = new Passive(maxAborts_minDelay_delay);
         break;
     }
     return cm;

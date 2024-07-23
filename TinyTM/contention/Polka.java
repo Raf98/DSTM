@@ -7,12 +7,24 @@ import TinyTM.ITransaction;
 import TinyTM.Transaction;
 
 public class Polka extends ContentionManager {
-    private static final int MIN_DELAY = 128;// 64;//32;
-    private static final int MAX_DELAY = 2048;// 2048;//1024;
+    private static /*final*/ int MIN_DELAY = 128;// 64;//32;
+    //private static final int MAX_DELAY = 2048;// 2048;//1024;
     Random random = new Random();
     ITransaction rival = null;
-    int delay = 64;
-    int attempts = 0;
+    int delay;// = 64;
+    int attempts;// = 0;
+
+    public Polka() {
+        MIN_DELAY = 128;
+        delay = MIN_DELAY;
+        attempts = 0;
+    }
+
+    public Polka(final int minDelay, int attempts) {
+        MIN_DELAY = minDelay;
+        delay = MIN_DELAY;
+        this.attempts = attempts;
+    }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
         if (rival != null) {
