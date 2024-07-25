@@ -20,10 +20,10 @@ public class Polka extends ContentionManager {
         attempts = 0;
     }
 
-    public Polka(final int minDelay, int attempts) {
+    public Polka(final int minDelay) {
         MIN_DELAY = minDelay;
         delay = MIN_DELAY;
-        this.attempts = attempts;
+        attempts = 0;
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {

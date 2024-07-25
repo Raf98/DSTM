@@ -19,9 +19,9 @@ public class Timestamp extends ContentionManager {
         intervals = 32;
     }
 
-    public Timestamp(int delay, int attempts, int intervals) {
+    public Timestamp(int delay, int intervals) {
         this.delay = delay;
-        this.attempts = attempts;
+        attempts = 0;
         this.intervals = intervals;
     }
 

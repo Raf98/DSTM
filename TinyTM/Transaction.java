@@ -218,8 +218,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   }
 
   public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay, 
-                                          int maxDelay_attempts_intervals, int intervals) throws RemoteException{
-    cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_attempts_intervals, intervals);
+                                          int maxDelay_intervals) throws RemoteException{
+    cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
   }
 
   private static ContentionManager chooseCM(int contentionManager) {
@@ -257,26 +257,26 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   }
 
   private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay, 
-                                            int maxDelay_attempts_intervals, int intervals) {
+                                            int maxDelay_intervals) {
     cmName = CMEnum.fromId(contentionManager);
     switch (cmName) {
       case Passive:
         cm = new Passive(maxAborts_minDelay_delay);
         break;
       case Polite:
-        cm = new Polite(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
+        cm = new Polite(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Karma:
-        cm = new Karma(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
+        cm = new Karma(maxAborts_minDelay_delay);
         break;
       case Polka:
-        cm = new Polka(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
+        cm = new Polka(maxAborts_minDelay_delay);
         break;
       case Timestamp:
-        cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_attempts_intervals, intervals);
+        cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Kindergarten:
-        cm = new Kindergarten(maxAborts_minDelay_delay, maxDelay_attempts_intervals);
+        cm = new Kindergarten(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Less:
         cm = new Less();

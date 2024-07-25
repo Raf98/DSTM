@@ -21,19 +21,14 @@ public class DHTServer {
         int contentionManager = Integer.parseInt(args[2]);
 
         int maxAborts_minDelay_delay = 64;
-        int maxDelay_attempts_intervals = 256;
-        int intervals = 16;
+        int maxDelay_intervals = 256;
 
         // If CM is not Less or Agressive, that have no settable parameters
         if (args.length > 3 && contentionManager < 6) {
             maxAborts_minDelay_delay = Integer.parseInt(args[3]);
             
             if (args.length > 4 && contentionManager > 0) {
-                maxDelay_attempts_intervals = Integer.parseInt(args[4]);
-
-                if (args.length > 5 && (contentionManager == 4  || contentionManager == 5)) {
-                    intervals = Integer.parseInt(args[5]);
-                }
+                maxDelay_intervals = Integer.parseInt(args[4]);
             }
         }
         /*
@@ -51,7 +46,7 @@ public class DHTServer {
          */
 
         Remote localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager,
-                                                        maxAborts_minDelay_delay, maxDelay_attempts_intervals, intervals));
+                                                        maxAborts_minDelay_delay, maxDelay_intervals));
 
         //ServerApp server = new ServerApp();
         try {

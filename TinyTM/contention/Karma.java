@@ -17,9 +17,9 @@ public class Karma extends ContentionManager {
         attempts = 0;
     }
 
-    public Karma(int delay, int attempts) {
+    public Karma(int delay) {
         this.delay = delay;
-        this.attempts = attempts;
+        attempts = 0;
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
