@@ -53,7 +53,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
 
     @Override
     public String toString() {
-        return "{ KEY: " + getKey() + ", ITEM: " + getItem() + ", NEXT: " + getNext() + " }";
+        return "{ KEY: " + getKey() + ", ITEM: " + getItem() /*+ ", NEXT: " + getNext()*/ + " }";
     }
 
     /*@Override
