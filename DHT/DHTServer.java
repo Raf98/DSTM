@@ -45,8 +45,14 @@ public class DHTServer {
         }
          */
 
-        Remote localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager,
+        Remote localHashTable;
+        
+        if (args.length < 3) {
+            localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager));
+        } else {
+            localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager,
                                                         maxAborts_minDelay_delay, maxDelay_intervals));
+        }
 
         //ServerApp server = new ServerApp();
         try {
