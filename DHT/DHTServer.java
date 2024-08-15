@@ -7,8 +7,6 @@ import java.rmi.server.UnicastRemoteObject;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.IDBarrier;
-import DSTMBenchmark.ServerApp;
-import TinyTM.ofree.TMObjServer;
 
 public class DHTServer {
     // args[0] == Server ID: starts from zero
@@ -48,10 +46,10 @@ public class DHTServer {
         Remote localHashTable;
         
         if (args.length < 3) {
-            localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager));
+            localHashTable = new SHashTable(id, numberHTEntries, contentionManager);
         } else {
-            localHashTable = new TMObjServer<>(new SHashTable(id, numberHTEntries, contentionManager,
-                                                        maxAborts_minDelay_delay, maxDelay_intervals));
+            localHashTable = new SHashTable(id, numberHTEntries, contentionManager,
+                                                        maxAborts_minDelay_delay, maxDelay_intervals);
         }
 
         //ServerApp server = new ServerApp();

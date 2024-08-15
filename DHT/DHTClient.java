@@ -1,6 +1,7 @@
 package DHT;
 
 import java.io.FileWriter;
+import java.rmi.Naming;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -171,17 +172,17 @@ class DHTTransaction implements ExecuteTransaction {
     @Override
     public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int contentionManager) throws Exception {
         Random rng = new Random();
-        TMObj<IHashTable>[] TMObjects = new TMObj[nServers];
+        IHashTable[] machinesForOps = new IHashTable[nServers];
 
         // Lookup for Hash Tables within their machines/ servers in the network
-        for (int i = 0; i < TMObjects.length; i++) {
+        for (int i = 0; i < machinesForOps.length; i++) {
             String port = String.valueOf(1700 + i);
             String nodeName = "ht" + i;
 
             System.out.println("NODE NAME: " + nodeName);
             System.out.println("rmi://localhost:" + port + "/" + nodeName);
 
-            TMObjects[i] = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
+            machinesForOps[i] = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
         }
 
         // Iterate and calculate the machineId needed for each operation within the Distributed Hash Table
@@ -216,7 +217,7 @@ class DHTTransaction implements ExecuteTransaction {
         }
 
         for (int i = 0; i < nObjects; i++) {
-            IHashTable iHashTable = TMObjects[machinesIds[i]].openWrite();
+            IHashTable iHashTable = machinesForOps[machinesIds[i]];
             //System.out.println("TRANSACTION CLIENT ID " + clientId);
             System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
             iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
@@ -226,7 +227,7 @@ class DHTTransaction implements ExecuteTransaction {
         }
 
         for (int i = 0; i < nObjects; i++) {
-            IHashTable iHashTable = TMObjects[machinesIds[i]].openWrite();
+            IHashTable iHashTable = machinesForOps[machinesIds[i]];
             //System.out.println("TRANSACTION CLIENT ID " + clientId);
             System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
             iHashTable.get(keys[i]);

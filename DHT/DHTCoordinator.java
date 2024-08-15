@@ -2,6 +2,7 @@ package DHT;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.rmi.Naming;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.ProcessData;
@@ -53,7 +54,7 @@ class DHTProcessData implements ProcessData {
 
         int total = 0;
 
-        TMObj<IHashTable> objtemp;
+        IHashTable htServer;
 
         /*
          * System.out.println("before list!");
@@ -69,8 +70,7 @@ class DHTProcessData implements ProcessData {
         for (int i = 0; i < numberOfServers; i++) {
             String port = String.valueOf(1700 + i);
             String nodeName = "ht" + i;
-            objtemp = (TMObj<IHashTable>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + nodeName);
-            IHashTable htServer = objtemp.openRead();
+            htServer = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
             commitsrts += htServer.getCommits();
             aborts += htServer.getAborts();
             System.out.printf("Current commits: %d\n", commitsrts);

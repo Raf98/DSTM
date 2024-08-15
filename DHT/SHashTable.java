@@ -52,11 +52,6 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @Override
-    public void copyTo(IHashTable target) throws RemoteException {
-        // ((IHTMachine)target).setField0(this.field0);
-    }
-
-    @Override
     public INode<Integer> get(int key) throws RemoteException, Exception {
 
         TMObjServer<INode<Integer>> headTMObjServer = heads[key % numberHTEntries];
