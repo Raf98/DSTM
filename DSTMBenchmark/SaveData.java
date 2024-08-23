@@ -2,7 +2,7 @@
 // This work is licensed under a Creative Commons
 package DSTMBenchmark;
 
-public interface SaveData{
+public interface SaveData {
 
-   	public void saveData(int clientid,ExecTransaction trans) throws Exception;
+	public void saveData(int clientid, ExecTransaction trans) throws Exception;
 }

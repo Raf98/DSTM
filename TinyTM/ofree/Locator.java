@@ -25,17 +25,19 @@ import TinyTM.*;
 import java.util.concurrent.atomic.AtomicReference;
 
 class Locator {
-    AtomicReference<ITransaction> owner;
-    //ITransaction owner;
-    Copyable oldVersion;
-    Copyable newVersion;
-    @SuppressWarnings({ "rawtypes", "unchecked" })
-    Locator() {
-      owner = new AtomicReference(Transaction.COMMITTED);
-      //owner = Transaction.COMMITTED;
-    }
-    Locator(Copyable version) {
-      this();
-      newVersion = version;
-    }
+  AtomicReference<ITransaction> owner;
+  // ITransaction owner;
+  Copyable oldVersion;
+  Copyable newVersion;
+
+  @SuppressWarnings({ "rawtypes", "unchecked" })
+  Locator() {
+    owner = new AtomicReference(Transaction.COMMITTED);
+    // owner = Transaction.COMMITTED;
+  }
+
+  Locator(Copyable version) {
+    this();
+    newVersion = version;
+  }
 }

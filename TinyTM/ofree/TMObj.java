@@ -34,47 +34,44 @@ import TinyTM.exceptions.PanicException;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-public class TMObj<T extends Copyable<T>>{ // extends TinyTM.AtomicObject<T> {
+public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
 
-  //T localRef = null;
+  // T localRef = null;
   ITMObjServer server;
- 
-  TMObj (ITMObjServer server)
-  { 
-    //super(null);
-    //this.localRef = null;
+
+  TMObj(ITMObjServer server) {
+    // super(null);
+    // this.localRef = null;
     this.server = server;
   }
 
-public static TMObj lookupTMObj(String remoteName) throws Exception
- {    //System.out.println("lookup cliente");
-      ITMObjServer serverObj = (ITMObjServer) Naming.lookup(remoteName);
-      return new TMObj(serverObj);
- }
+  public static TMObj lookupTMObj(String remoteName) throws Exception { // System.out.println("lookup cliente");
+    ITMObjServer serverObj = (ITMObjServer) Naming.lookup(remoteName);
+    return new TMObj(serverObj);
+  }
 
-  
-  
-  /*private T openSequential() {
-    Locator locator = start.get();
-    switch (locator.owner.getStatus()) {
-      case COMMITTED:
-        return locator.newVersion;
-      case ABORTED: //System.out.println("Abort");
-        return locator.oldVersion;
-      default:
-        throw new PanicException("Active/Inactitive transaction conflict");
-    }
-  }  
-*/
-  
- // public void close() throws RemoteException
- // {
-   // server.close();
-  //}
+  /*
+   * private T openSequential() {
+   * Locator locator = start.get();
+   * switch (locator.owner.getStatus()) {
+   * case COMMITTED:
+   * return locator.newVersion;
+   * case ABORTED: //System.out.println("Abort");
+   * return locator.oldVersion;
+   * default:
+   * throw new PanicException("Active/Inactitive transaction conflict");
+   * }
+   * }
+   */
+
+  // public void close() throws RemoteException
+  // {
+  // server.close();
+  // }
 
   @SuppressWarnings("unchecked")
   public T openRead() throws Exception {
-  //  System.out.println("openread cliente");
+    // System.out.println("openread cliente");
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
@@ -84,48 +81,44 @@ public static TMObj lookupTMObj(String remoteName) throws Exception
       case ABORTED:
         throw new AbortedException();
       case ACTIVE:
-        //if (localRef != null)
-          //   return localRef;
-    //    System.out.println("openread cliente pedindo para abrir");  
-        //ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
+        // if (localRef != null)
+        // return localRef;
+        // System.out.println("openread cliente pedindo para abrir");
+        // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
         T result = (T) server.openReadRemote(me);
-        me.priority.incrementAndGet();  //increments priority when opening an object to read
-        //localRef = result;
+        me.priority.incrementAndGet(); // increments priority when opening an object to read
+        // localRef = result;
         return result;
       default:
-        throw new PanicException("Unexpected transaction state: "+me.getStatus());
+        throw new PanicException("Unexpected transaction state: " + me.getStatus());
     }
   }
 
-    @SuppressWarnings("unchecked")
-    public T openWrite() throws Exception {
-      //   System.out.println("openwrite cliente");  
+  @SuppressWarnings("unchecked")
+  public T openWrite() throws Exception {
+    // System.out.println("openwrite cliente");
     Transaction me = Transaction.getLocal();
     switch (me.getStatus()) {
       case COMMITTED:
         me.priority.set(0);
         me.defunct.set(false);
-        return (T)server.openSequential();
+        return (T) server.openSequential();
       case ABORTED:
         throw new AbortedException();
       case ACTIVE:
-       // if (localRef != null){
-         //    System.out.println("local ref diferetne de null");
-           //  return localRef;
-        //}  
-        //  System.out.println("openwrite cliente pedindo para abrir");  
-        //ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
+        // if (localRef != null){
+        // System.out.println("local ref diferetne de null");
+        // return localRef;
+        // }
+        // System.out.println("openwrite cliente pedindo para abrir");
+        // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
         T result = (T) server.openWriteRemote(me);
-        me.priority.incrementAndGet();  //increments priority when opening an object to write
-        //localRef = result;
+        me.priority.incrementAndGet(); // increments priority when opening an object to write
+        // localRef = result;
         return result;
       default:
-        throw new PanicException("Unexpected transaction state: "+me.getStatus());
+        throw new PanicException("Unexpected transaction state: " + me.getStatus());
     }
   }
-  
-  
-  
-  
-  
+
 }

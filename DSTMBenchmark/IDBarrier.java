@@ -5,10 +5,8 @@ package DSTMBenchmark;
 import java.util.concurrent.CyclicBarrier;
 import java.rmi.*;
 
-public interface IDBarrier extends Remote{
- 
-   public void await() throws Exception;
- 
+public interface IDBarrier extends Remote {
 
+   public void await() throws Exception;
 
 }

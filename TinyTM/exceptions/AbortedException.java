@@ -17,11 +17,11 @@ package TinyTM.exceptions;
  * http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png
  */
 
-
 public class AbortedException extends java.lang.RuntimeException {
   public AbortedException() {
     super();
   }
+
   public AbortedException(String msg) {
     super(msg);
   }

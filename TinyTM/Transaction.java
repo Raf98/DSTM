@@ -51,7 +51,12 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public static CMEnum cmName;
   private final AtomicReference<Status> status;
   private ReadSet readset = new ReadSet();
-  static ThreadLocal<Transaction> local=new ThreadLocal<Transaction>(){@Override protected Transaction initialValue(){return initCOMMITTED();}};
+  static ThreadLocal<Transaction> local = new ThreadLocal<Transaction>() {
+    @Override
+    protected Transaction initialValue() {
+      return initCOMMITTED();
+    }
+  };
 
   public static Transaction initCOMMITTED() {
     Transaction t = null;
@@ -71,11 +76,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return t;
   }
 
-  public Transaction(/*int contentionManager*/) throws RemoteException {
+  public Transaction(/* int contentionManager */) throws RemoteException {
     super();
     status = new AtomicReference<Status>(Status.ACTIVE);
 
-    //cm = chooseCM(contentionManager);
+    // cm = chooseCM(contentionManager);
     timestamp = new AtomicLong(GlobalClock.getCurrentTime());
   }
 
@@ -161,7 +166,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
           commits.getAndIncrement();
-          //System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
+          // System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " +
+          // commits.get());
 
           return result;
         }
@@ -173,7 +179,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         throw new PanicException(e);
       }
       aborts.getAndIncrement();
-      System.out.println("TRANSACTION " + me.toString() +"; ABORTED: " + aborts.get());
+      System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
   }
@@ -210,15 +216,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   }
 
   public static String getContentionManager() {
-    return cmName.getId() + ": " +  cmName.toString();
+    return cmName.getId() + ": " + cmName.toString();
   }
 
-  public static void setContentionManager(int contentionManager) throws RemoteException{
+  public static void setContentionManager(int contentionManager) throws RemoteException {
     cm = chooseCM(contentionManager);
   }
 
-  public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay, 
-                                          int maxDelay_intervals) throws RemoteException{
+  public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay,
+      int maxDelay_intervals) throws RemoteException {
     cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
   }
 
@@ -256,8 +262,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return cm;
   }
 
-  private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay, 
-                                            int maxDelay_intervals) {
+  private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay,
+      int maxDelay_intervals) {
     cmName = CMEnum.fromId(contentionManager);
     switch (cmName) {
       case Passive:

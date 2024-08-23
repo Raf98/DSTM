@@ -16,7 +16,6 @@ package TinyTM.exceptions;
  * http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png
  */
 
-
 /**
  * Thrown to indicate an error in the use of the transactional memory;
  * that is, a violation of the assumptions of use.
@@ -29,8 +28,8 @@ public class PanicException extends java.lang.RuntimeException {
     public PanicException() {
     }
 
-    public PanicException(String format, Object ... args) {
-      super(String.format(format, args));
+    public PanicException(String format, Object... args) {
+        super(String.format(format, args));
     }
 
     /**
@@ -51,4 +50,3 @@ public class PanicException extends java.lang.RuntimeException {
         super(cause);
     }
 }
-

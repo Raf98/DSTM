@@ -4,9 +4,8 @@ package DSTMBenchmark;
 
 import java.util.Random;
 
-public interface ChooseOP{
+public interface ChooseOP {
 
     public int chooseOP(int writes, Random random);
-  
-}
 
+}

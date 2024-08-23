@@ -16,13 +16,15 @@
  */
 
 package TinyTM;
+
 import java.rmi.*;
+
 /**
  * Interface that exports public copyTo method
+ * 
  * @param <T> type
  * @author Maurice Herlihy
  */
-public interface Copyable<T> extends Remote{
-  public void copyTo(T target) throws RemoteException;  
+public interface Copyable<T> extends Remote {
+  public void copyTo(T target) throws RemoteException;
 }
-

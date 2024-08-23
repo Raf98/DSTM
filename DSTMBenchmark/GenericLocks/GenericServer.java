@@ -2,29 +2,27 @@
 // This work is licensed under a Creative Commons
 package DSTMBenchmark.GenericLocks;
 
-
 import DSTMBenchmark.*;
 import java.rmi.*;
 
-public class GenericServer{
-	
+public class GenericServer {
+
       // args[0] == Server ID: starts from zero
       // args[1] == Number of objects in the server
 
-	public static void main(String[] args) throws Exception{
-		
-                int id = Integer.parseInt(args[0]);
-                int numberObj = Integer.parseInt(args[1]);
-                
-                Remote[] objects = new Remote[numberObj];
+      public static void main(String[] args) throws Exception {
 
-                for (int i = 0; i<objects.length; i++)
-                 {
-                       objects[i] = new SObject(1000);
-                 }
+            int id = Integer.parseInt(args[0]);
+            int numberObj = Integer.parseInt(args[1]);
 
-                ServerApp server = new ServerApp();
-                server.publiciseObjectsAndWait(id,objects);
-		System.exit(0);
-	}
+            Remote[] objects = new Remote[numberObj];
+
+            for (int i = 0; i < objects.length; i++) {
+                  objects[i] = new SObject(1000);
+            }
+
+            ServerApp server = new ServerApp();
+            server.publiciseObjectsAndWait(id, objects);
+            System.exit(0);
+      }
 }

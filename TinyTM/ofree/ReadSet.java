@@ -27,75 +27,81 @@ import java.lang.Thread;
 
 /**
  * A thread-local read set for the atomic locking object implementation.
+ * 
  * @author Maurice Herlihy
  */
-public class ReadSet implements Iterable <Map.Entry<ITMObjServer, Object>> {
- // static ThreadLocal<Map<ITMObjServer,Object>>local = new ThreadLocal<Map<ITMObjServer,Object>>() {
- //   protected Map<ITMObjServer,Object> initialValue() {
- //     return new HashMap<ITMObjServer,Object>();
- //   }
- // };
-  
-  Map<ITMObjServer,Object> set;
-  
-  public ReadSet() {
-   set =new HashMap<ITMObjServer,Object>();
-  //  set = local.get();
-  }
-  
- // public static ReadSet getLocal()
- //  { return new ReadSet();}
+public class ReadSet implements Iterable<Map.Entry<ITMObjServer, Object>> {
+  // static ThreadLocal<Map<ITMObjServer,Object>>local = new
+  // ThreadLocal<Map<ITMObjServer,Object>>() {
+  // protected Map<ITMObjServer,Object> initialValue() {
+  // return new HashMap<ITMObjServer,Object>();
+  // }
+  // };
 
-  public Iterator<Map.Entry<ITMObjServer, Object>>  iterator() {
+  Map<ITMObjServer, Object> set;
+
+  public ReadSet() {
+    set = new HashMap<ITMObjServer, Object>();
+    // set = local.get();
+  }
+
+  // public static ReadSet getLocal()
+  // { return new ReadSet();}
+
+  public Iterator<Map.Entry<ITMObjServer, Object>> iterator() {
     return set.entrySet().iterator();
   }
+
   public void add(ITMObjServer x, Object y) {
-           set.put(x,y);
+    set.put(x, y);
     // local.get().put(x,y);
     // set.put(x,y);
-    //ReadSet.getLocal().put(x,y); 
-   // System.out.println("Thread: " + myThread + " size: " + set.size());
+    // ReadSet.getLocal().put(x,y);
+    // System.out.println("Thread: " + myThread + " size: " + set.size());
   }
-  public  int size()
-  { return set.size();}
-    //return local.get().size();}
 
-  public Object get(ITMObjServer x)
-   { return set.get(x);}
- // { return local.get().get(x);}
+  public int size() {
+    return set.size();
+  }
+  // return local.get().size();}
 
-  public Object remove(ITMObjServer x)
- { return set.remove(x);}
-//  { return local.get().remove(x);}
+  public Object get(ITMObjServer x) {
+    return set.get(x);
+  }
+  // { return local.get().get(x);}
+
+  public Object remove(ITMObjServer x) {
+    return set.remove(x);
+  }
+  // { return local.get().remove(x);}
 
   public void clear() {
-     set.clear();
- //   local.get().clear();
+    set.clear();
+    // local.get().clear();
   }
 
- 
 }
 /*
-class RSEntry{
-
-   private ITMObjServer fst;
-   private Object snd;
-
-   RSEntry (ITMObjServer a, Object b)
-   { this.fst = a; this.snd = b;}
-
-   @Override
-   public boolean equals(Object other)
-   {
-        return this.fst == ((RSEntry)other).fst;
-   }
-
-   public ITMObjServer getFst()
-    { return this.fst;}
-
-   public Object getSnd()
-    { return this.snd;}
-
-}
-
-*/
+ * class RSEntry{
+ * 
+ * private ITMObjServer fst;
+ * private Object snd;
+ * 
+ * RSEntry (ITMObjServer a, Object b)
+ * { this.fst = a; this.snd = b;}
+ * 
+ * @Override
+ * public boolean equals(Object other)
+ * {
+ * return this.fst == ((RSEntry)other).fst;
+ * }
+ * 
+ * public ITMObjServer getFst()
+ * { return this.fst;}
+ * 
+ * public Object getSnd()
+ * { return this.snd;}
+ * 
+ * }
+ * 
+ */
