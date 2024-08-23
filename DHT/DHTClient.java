@@ -20,14 +20,14 @@ public class DHTClient {
     public static void main(String[] args) throws Exception {
         System.out.println("começa");
 
-        int clientid = Integer.parseInt(args[0]);
-        int servers = Integer.parseInt(args[1]);
-        int objects = Integer.parseInt(args[2]);
-        int writes = Integer.parseInt(args[3]);
-        int transactions = Integer.parseInt(args[4]);
-        int objectsPerTransaction = Integer.parseInt(args[5]);
-        int contentionManager = Integer.parseInt(args[6]);
-        int hashTablesEntries = Integer.parseInt(args[7]);
+        int clientid = Integer.parseInt(args[0]);               // i in NCLIENT
+        int servers = Integer.parseInt(args[1]);                // NSERVER
+        int objects = Integer.parseInt(args[2]);                // NOBJSERVER
+        int writes = Integer.parseInt(args[3]);                 // WRITES
+        int transactions = Integer.parseInt(args[4]);           // NTRANS
+        int objectsPerTransaction = Integer.parseInt(args[5]);  // NOBJTRANS
+        int contentionManager = Integer.parseInt(args[6]);      // CMSEL
+        int hashTablesEntries = Integer.parseInt(args[7]);      // NHTENTRIES
 
         ClientApp app = new ClientApp();
         DHTTransaction transaction = new DHTTransaction();

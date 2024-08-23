@@ -74,7 +74,9 @@ class MyChoiceOfObjects implements ChooseObjects{
 
 
 
-
+      // Defines a random number of objects per server up until nObjectsServers,
+      // limiting these objects within the maximum objects per transaction definition,
+      // and then formats the object's remote name using the object's number and its relative port number
       public RObject[] chooseObjects(int nServers, int nObjectsServers, int nObjects, Random random)
 	{
 		RObject[] objects = new RObject[nObjects];
