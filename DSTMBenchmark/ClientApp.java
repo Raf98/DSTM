@@ -4,6 +4,9 @@ package DSTMBenchmark;
 
 import java.rmi.*;
 import java.util.Random;
+
+import DSTMBenchmark.GenericDSTM.OperationsShuffler;
+
 import java.util.HashSet;
 
 public class ClientApp {
@@ -20,17 +23,22 @@ public class ClientApp {
                 int writes = Integer.parseInt(args[3]);
                 int transactions = Integer.parseInt(args[4]);
                 int objectspertransaction = Integer.parseInt(args[5]);
-                int contentionManager = Integer.parseInt(args[6]);
+                System.out.println("ARGS LENGTH: " + args.length);
+                int contentionManager = args.length > 6 ? Integer.parseInt(args[6]) : 0;
 
                 // System.out.println("CONTENTION MANAGER: " + contentionManager);
 
                 Random random = new Random();
                 RObject[] robjects;
                 int op;
+
+                OperationsShuffler opsShuffler = new OperationsShuffler();
+                Integer[] shuffledOps = opsShuffler.shuffledArray(transactions, writes);
+                
                 try {
                         for (int i = 0; i < transactions; i++) {
                                 robjects = cs.chooseObjects(servers, objects, objectspertransaction, random);
-                                op = cop.chooseOP(writes, random);
+                                op = shuffledOps[i]; //cop.chooseOP(writes, random);
                                 et.execTransaction(robjects, op, contentionManager);
                         }
 

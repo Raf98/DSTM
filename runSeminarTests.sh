@@ -97,7 +97,6 @@ do
         done
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMILess.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -114,7 +113,6 @@ do
         done
 
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIPolka.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -131,7 +129,6 @@ do
         done
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIKarma.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -141,14 +138,13 @@ do
          for i in $(seq 0 4);
          do
             echo "Test $i for TRMIKarma"
-            printf "TRMIPolka\t$NCLIENT\t"
+            printf "TRMIKarma\t$NCLIENT\t"
             ./runGenericBench.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2
          done
          let "NCLIENT*=2"
         done
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIPolite.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;
@@ -165,7 +161,6 @@ do
         done
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        ./compileTRMIPassive.sh
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         #for NCLIENT in 4;

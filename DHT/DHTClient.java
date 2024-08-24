@@ -13,6 +13,7 @@ import DSTMBenchmark.ChooseOP;
 import DSTMBenchmark.ClientApp;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
+import DSTMBenchmark.GenericDSTM.OperationsShuffler;
 import TinyTM.Transaction;
 import TinyTM.ofree.TMObj;
 
@@ -42,10 +43,13 @@ public class DHTClient {
         Random random = new Random();
         RObject[] robjects;
         int op;
+        
+        OperationsShuffler opsShuffler = new OperationsShuffler();
+        Integer[] shuffledOps = opsShuffler.shuffledArray(transactions, writes);
+
         for (int i = 0; i < transactions; i++) {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
-            op = cop.chooseOP(writes, random);
-            op = 0;
+            op = shuffledOps[i]; //cop.chooseOP(writes, random);
             //transaction.execTransaction(robjects, op);
             transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op, contentionManager);
         }
