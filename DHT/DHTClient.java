@@ -5,7 +5,6 @@ import java.rmi.Naming;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import DSTMBenchmark.AppCoordinator;
@@ -13,9 +12,7 @@ import DSTMBenchmark.ChooseOP;
 import DSTMBenchmark.ClientApp;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
-import DSTMBenchmark.GenericDSTM.OperationsShuffler;
 import TinyTM.Transaction;
-import TinyTM.ofree.TMObj;
 
 public class DHTClient {
     public static void main(String[] args) throws Exception {
@@ -220,24 +217,26 @@ class DHTTransaction implements ExecuteTransaction {
             machinesIds[i] = machineNum;
         }
 
-        for (int i = 0; i < nObjects; i++) {
-            IHashTable iHashTable = machinesForOps[machinesIds[i]];
-            //System.out.println("TRANSACTION CLIENT ID " + clientId);
-            System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-            iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
-            inserts.getAndIncrement();
-            commits.getAndIncrement();
-            System.out.println("INSERTS: " + inserts.get());
-        }
-
-        for (int i = 0; i < nObjects; i++) {
-            IHashTable iHashTable = machinesForOps[machinesIds[i]];
-            //System.out.println("TRANSACTION CLIENT ID " + clientId);
-            System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-            iHashTable.get(keys[i]);
-            gets.getAndIncrement();
-            commits.getAndIncrement();
-            System.out.println("GETS: " + gets.get());
+        if (op == 0) {
+            for (int i = 0; i < nObjects; i++) {
+                IHashTable iHashTable = machinesForOps[machinesIds[i]];
+                //System.out.println("TRANSACTION CLIENT ID " + clientId);
+                System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
+                inserts.getAndIncrement();
+                commits.getAndIncrement();
+                System.out.println("INSERTS: " + inserts.get());
+            }
+        } else {
+            for (int i = 0; i < nObjects; i++) {
+                IHashTable iHashTable = machinesForOps[machinesIds[i]];
+                //System.out.println("TRANSACTION CLIENT ID " + clientId);
+                System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                iHashTable.get(keys[i]);
+                gets.getAndIncrement();
+                commits.getAndIncrement();
+                System.out.println("GETS: " + gets.get());
+            }
         }
 
         /*int donewithdraw = 0;
