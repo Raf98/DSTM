@@ -27,17 +27,14 @@ public class DHTClient {
         int contentionManager = Integer.parseInt(args[6]);      // CMSEL
         int hashTablesEntries = Integer.parseInt(args[7]);      // NHTENTRIES
 
-        ClientApp app = new ClientApp();
         DHTTransaction transaction = new DHTTransaction();
 
-        var cop = new ChooseOPDHT();
         var saveData = new DHTSaveData();
         //var cs = new MyChoiceOfObjects();
 
         IDBarrier barrier = AppCoordinator.connectToBarrier("barrier"); // (IDBarrier) Naming.lookup("barrier");
         barrier.await();
 
-        Random random = new Random();
         RObject[] robjects;
         int op;
         
@@ -97,22 +94,6 @@ class DHTSaveData implements NewSaveData {
 
     }
 
-}
-
-class ChooseOPDHT implements ChooseOP {
-
-    public int chooseOP(int writes, Random random) {
-        int op = 0;
-        int choice = random.nextInt(100) + 1;
-        int choice2 = random.nextInt(2);
-        if (choice <= writes) {
-            op = 0;//random.nextInt(2);
-        } else {
-            op = 1;//2;
-        }
-        return op;
-
-    }
 }
 
 class DHTTransaction implements ExecuteTransaction {
@@ -180,8 +161,8 @@ class DHTTransaction implements ExecuteTransaction {
             String port = String.valueOf(1700 + i);
             String nodeName = "ht" + i;
 
-            System.out.println("NODE NAME: " + nodeName);
-            System.out.println("rmi://localhost:" + port + "/" + nodeName);
+            //System.out.println("NODE NAME: " + nodeName);
+            //System.out.println("rmi://localhost:" + port + "/" + nodeName);
 
             machinesForOps[i] = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
         }
@@ -221,21 +202,21 @@ class DHTTransaction implements ExecuteTransaction {
             for (int i = 0; i < nObjects; i++) {
                 IHashTable iHashTable = machinesForOps[machinesIds[i]];
                 //System.out.println("TRANSACTION CLIENT ID " + clientId);
-                System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
                 iHashTable.insert(keys[i], rng.nextInt(Integer.MAX_VALUE));
                 inserts.getAndIncrement();
                 commits.getAndIncrement();
-                System.out.println("INSERTS: " + inserts.get());
+                //System.out.println("INSERTS: " + inserts.get());
             }
         } else {
             for (int i = 0; i < nObjects; i++) {
                 IHashTable iHashTable = machinesForOps[machinesIds[i]];
                 //System.out.println("TRANSACTION CLIENT ID " + clientId);
-                System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                //System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
                 iHashTable.get(keys[i]);
                 gets.getAndIncrement();
                 commits.getAndIncrement();
-                System.out.println("GETS: " + gets.get());
+                //System.out.println("GETS: " + gets.get());
             }
         }
 
@@ -282,51 +263,3 @@ class DHTTransaction implements ExecuteTransaction {
         }*/
     }
 }
-
-/* 
-class MyChoiceOfObjects implements ChooseObjects {
-
-    public RObject[] chooseObjects(int nServers, int nObjectsServers, int nObjects, Random random) {
-        RObject[] objects = new RObject[nObjects];
-        int server, obj;
-        HashSet<Pair> set = new HashSet<>();
-        // System.out.println("Size set: " + set.size());
-        while (set.size() < nObjects) {
-            server = random.nextInt(nServers);
-            // System.out.println("server: "+server);
-            obj = random.nextInt(nObjectsServers);
-            // System.out.println("object"+obj);
-            set.add(new Pair(server, obj));
-        }
-        int i = 0;
-        for (Pair p : set) {
-            objects[i++] = new RObject("object" + p.object, 1700 + p.server);
-        }
-        return objects;
-    }
-
-}
-
-class Pair {
-    public int server;
-    public int object;
-
-    Pair(int f, int s) {
-        server = f;
-        object = s;
-    }
-
-    public boolean equals(Object o) {
-        return ((Pair) o).server == this.server && ((Pair) o).object == this.object;
-    }
-
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + server;
-        result = prime * result + object;
-        return result;
-    }
-}
-
-*/

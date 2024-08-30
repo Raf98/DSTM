@@ -48,11 +48,11 @@ public class OperationsShuffler {
             ++i;
         }
 
-        System.out.print("[" + shuffledArray[0]);
+        /*System.out.print("[" + shuffledArray[0]);
         for (i = 1; i < transactions; i++) {
             System.out.print("," + shuffledArray[i]);    
         }
-        System.out.println("]");
+        System.out.println("]");*/
         
         return shuffledArray;
     }

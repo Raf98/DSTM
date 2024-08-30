@@ -27,7 +27,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         heads = new TMObjServer[numberHTEntries];
         for(int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
-            System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
+            //System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = new TMObjServer<INode<Integer>>(newLLHead);
         }
 
@@ -43,7 +43,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         heads = new TMObjServer[numberHTEntries];
         for(int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
-            System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
+            //System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = new TMObjServer<INode<Integer>>(newLLHead);
         }
 
@@ -99,7 +99,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 Random rng = new Random();
                 Transaction localTransaction = Transaction.getLocal(); 
 
-                System.out.println("Current CM: " + Transaction.getContentionManager());
+                //System.out.println("Current CM: " + Transaction.getContentionManager());
 
                     INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
                     //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
@@ -108,22 +108,22 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                     TMObjServer<INode<Integer>> newNodeTmObjServer = new TMObjServer<INode<Integer>>(newNode); 
 
                     if (headNode.getNext() == null) {
-                        System.out.println("FIRST INSERT");
+                        //System.out.println("FIRST INSERT");
                         headNode.setNext(newNodeTmObjServer);
-                        System.out.println("FIRST:" + newNode.toString());
+                        //System.out.println("FIRST:" + newNode.toString());
                         return true;
                     } else {
                         for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); ;) {
                             INode<Integer> node;
                             node = tmObjServerNode.openReadRemote(localTransaction);
                 
-                            System.out.println("CURRENT NODE:" + node.toString());
+                            //System.out.println("CURRENT NODE:" + node.toString());
                             if (node.getKey() == key) {
-                                System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getItem(), value);
+                                //System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getItem(), value);
                                 node.setItem(value);
                                 return true;
                             } else if (node.getNext() == null) {
-                                System.out.println("NEXT INSERT");
+                                //System.out.println("NEXT INSERT");
                                 node = tmObjServerNode.openWriteRemote(Transaction.getLocal());
                                 node.setNext(newNodeTmObjServer);
                                 return true;
