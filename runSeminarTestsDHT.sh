@@ -41,7 +41,7 @@ else
 	NHTENTRIES=$4
 fi
 
-echo "Compiling all files needed..."
+echo "Compiling all files needed for DHT..."
 ./compileDHT.sh
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
@@ -179,6 +179,22 @@ do
             echo "Test $i for TRMIPassive"
             printf "TRMIPassive\t$NCLIENT\t"
             ./runDHT.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES
+         done
+         let "NCLIENT*=2"
+        done
+
+        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        NCLIENT=2
+        while [[ $NCLIENT -le $NMAXCLIENTS ]];
+        #for NCLIENT in 4;
+        do
+         NTRANS=$(($NTTRANS/$NCLIENT))
+         echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+         for i in $(seq 0 4);
+         do
+            echo "Test $i for Locks"
+            printf "Locks\t$NCLIENT\t"
+            ./runDHTLocks.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS $NHTENTRIES
          done
          let "NCLIENT*=2"
         done

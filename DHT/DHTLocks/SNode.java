@@ -1,26 +1,18 @@
 package DHT.DHTLocks;
 
-import java.io.Serializable;
-import java.rmi.AccessException;
-import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.concurrent.Semaphore;
-
-import TinyTM.ofree.TMObjServer;
 
 public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     int key;
-    T item;
+    T value;
     String name;
     INode<T> next;
 
     public SNode() throws RemoteException {}
     public SNode(int key, T item) throws RemoteException {
         this.key = key;
-        this.item = item;
+        this.value = item;
         this.next = null;
     }
     
@@ -33,12 +25,12 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         this.key = key;
     }
     @Override
-    public T getItem() {
-        return item;
+    public T getValue() {
+        return value;
     }
     @Override
-    public void setItem(T item) {
-        this.item = item;
+    public void setValue(T value) {
+        this.value = value;
     }
 
     @Override
@@ -49,11 +41,11 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     public void copyTo(INode<T> target) throws RemoteException {
         ((INode<T>)target).setNext(next);
         ((INode<T>)target).setKey(key);
-        ((INode<T>)target).setItem(item);
+        ((INode<T>)target).setValue(value);
     }
 
     @Override
     public String toString() {
-        return "{ KEY: " + getKey() + ", ITEM: " + getItem() /*+ ", NEXT: " + getNext()*/ + " }";
+        return "{ KEY: " + getKey() + ", ITEM: " + getValue() /*+ ", NEXT: " + getNext()*/ + " }";
     }
 }

@@ -61,7 +61,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 Transaction localTransaction = Transaction.getLocal(); 
 
                 INode<Integer> headNode = headTMObjServer.openWriteRemote(localTransaction);
-                //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                //System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
                 
                 for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); tmObjServerNode != null; ) {
                     INode<Integer> node;
@@ -85,13 +85,6 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
     @Override
     public boolean insert(int key, int value) throws RemoteException, Exception {
-        String port = 1700 + String.valueOf(key % NUMBER_OF_MACHINES);
-        String machineName = "object" + port;
-
-        if (addressName.equals(machineName)) {
-
-        }
-
         TMObjServer<INode<Integer>> headTMObjServer = heads[key % numberHTEntries];
 
         boolean inserted = Transaction.atomic(new Callable<Boolean>() {
@@ -120,7 +113,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                             //System.out.println("CURRENT NODE:" + node.toString());
                             if (node.getKey() == key) {
                                 //System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getItem(), value);
-                                node.setItem(value);
+                                node.setValue(value);
                                 return true;
                             } else if (node.getNext() == null) {
                                 //System.out.println("NEXT INSERT");

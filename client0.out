@@ -1,5 +1,5 @@
-commits,10000
-inserts,2000
-gets,8000
+commits,1000
+inserts,300
+gets,700
 commitsrts,0
 aborts,0

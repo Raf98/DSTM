@@ -72,7 +72,7 @@ do
   for i in $(seq 0 $(($NCLIENT-1)));
   do
 	#-Djava.rmi.server.logCalls=true
-	taskset -c $i java DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $CM $NHTENTRIES &
+	taskset -c $i java DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
  done
  wait $pid
 done

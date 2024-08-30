@@ -59,19 +59,23 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     
 
     @Override
-    public INode<Integer> get(int key) throws RemoteException, Exception {
+    public synchronized INode<Integer> get(int key) throws RemoteException, Exception {
 
         INode<Integer> headNode = heads[key % numberHTEntries];
 
         INode<Integer> nodeFound = null;
-
-        //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
         
         for (INode<Integer> node = headNode.getNext(); node != null; node = node.getNext()) {
+            System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
             if (node.getKey() == key) {
                 nodeFound = node;
+                System.out.println("NODE FOUND!");
                 break;
             }
+        }
+
+        if (nodeFound == null) {
+            System.out.println("NODE NOT FOUND!");
         }
                 
         aborts.set(Transaction.getLocal().getAborts());
@@ -81,22 +85,13 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @Override
-    public boolean insert(int key, int value) throws RemoteException, Exception {
-        String port = 1700 + String.valueOf(key % NUMBER_OF_MACHINES);
-        String machineName = "object" + port;
-
-        if (addressName.equals(machineName)) {
-
-        }
-
+    public synchronized boolean insert(int key, int value) throws RemoteException, Exception {
         INode<Integer> headNode = heads[key % numberHTEntries];
 
-        Transaction.atomic(new Callable<Integer>() {
-            public Integer call() throws Exception {
-                Random rng = new Random();
-
+        boolean inserted = Transaction.atomic(new Callable<Boolean>() {
+            public Boolean call() throws Exception {
                 System.out.println("Current CM: " + Transaction.getContentionManager());
-                    //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
+                System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
 
                     INode<Integer> newNode = new SNode<>(key, value);
 
@@ -104,27 +99,30 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                         System.out.println("FIRST INSERT");
                         headNode.setNext(newNode);
                         System.out.println("FIRST:" + newNode.toString());
+                        return true;
                     } else {
                         for (INode<Integer> node = headNode.getNext(); ;) {
                 
                             System.out.println("CURRENT NODE:" + node.toString());
-                            if (node.getNext() == null) {
+                            if (node.getKey() == key) {
+                                System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getValue(), value);
+                                node.setValue(value);
+                                return true;
+                            } else if (node.getNext() == null) {
                                 System.out.println("NEXT INSERT");
                                 node.setNext(newNode);
-                                break;
+                                return true;
                             }
                             node = node.getNext();
                         }
-                    }
-            
-                    return 0;
+                    }            
             }
         });
 
         aborts.set(Transaction.getLocal().getAborts());
         commits.set(Transaction.getLocal().getCommits());
 
-        return true;
+        return inserted;
     }
 
     @Override

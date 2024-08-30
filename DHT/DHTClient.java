@@ -24,8 +24,7 @@ public class DHTClient {
         int writes = Integer.parseInt(args[3]);                 // WRITES
         int transactions = Integer.parseInt(args[4]);           // NTRANS
         int objectsPerTransaction = Integer.parseInt(args[5]);  // NOBJTRANS
-        int contentionManager = Integer.parseInt(args[6]);      // CMSEL
-        int hashTablesEntries = Integer.parseInt(args[7]);      // NHTENTRIES
+        int hashTablesEntries = Integer.parseInt(args[6]);      // NHTENTRIES
 
         DHTTransaction transaction = new DHTTransaction();
 
@@ -45,7 +44,7 @@ public class DHTClient {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
             op = shuffledOps[i]; //cop.chooseOP(writes, random);
             //transaction.execTransaction(robjects, op);
-            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op, contentionManager);
+            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
         }
 
         // App Ends
@@ -152,7 +151,7 @@ class DHTTransaction implements ExecuteTransaction {
 
     @SuppressWarnings("unchecked")
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op, int contentionManager) throws Exception {
+    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
         IHashTable[] machinesForOps = new IHashTable[nServers];
 

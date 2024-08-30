@@ -9,9 +9,9 @@ public interface INode<T> extends Copyable<INode<T>> {
 
     public void setKey(int key) throws RemoteException;
 
-    public T getItem() throws RemoteException;
+    public T getValue() throws RemoteException;
 
-    public void setItem(T item) throws RemoteException;
+    public void setValue(T item) throws RemoteException;
 
     public INode<T> getNext() throws RemoteException;
 
