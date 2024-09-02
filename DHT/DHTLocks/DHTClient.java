@@ -76,7 +76,7 @@ class DHTSaveData implements NewSaveData {
                 Arrays.asList("inserts", DHTTransaction.inserts.get() + ""),
                 Arrays.asList("gets", DHTTransaction.gets.get() + ""),
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
-                Arrays.asList("aborts", DHTTransaction.aborts.get() + ""));
+                Arrays.asList("aborts", /*DHT*/Transaction.aborts.get() + ""));
 
         System.out.println("gravando arquivo");
 

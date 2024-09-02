@@ -1,0 +1,8 @@
+Passive - MAX_ABORTS = 10 (8, 16, 32)
+Polite - MIN_DELAY = 128 (64, 128, 256), MAX_DELAY = 4096 (2048, 4096, 8192)
+Karma - delay = 64 (32, 64, 128)
+Polka -  MIN_DELAY = 128 (64, 128, 256)
+Timestamp - delay = 64 (32, 64, 128), intervals = 32 (16, 32, 64)
+Kindergarten - delay = 64 (32, 64, 128), intervals = 8 (4, 8, 16)
+Less - 
+Agressive - 

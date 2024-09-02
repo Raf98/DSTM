@@ -22,14 +22,14 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     static AtomicInteger commits = new AtomicInteger(0);
 
     @SuppressWarnings({ "unchecked" })
-    public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException{
+    public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException {
         this.lock = new Semaphore(1);
 
         this.addressName = "ht" + machineId;
         this.numberHTEntries = numberHTEntries;
 
         heads = new INode[numberHTEntries];
-        for(int i = 0; i < numberHTEntries; ++i) {
+        for (int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
             System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = newLLHead;
@@ -39,32 +39,35 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @SuppressWarnings({ "unchecked" })
-    public SHashTable(int machineId, int numberHTEntries, int contentionManager, 
-                        int maxAborts_minDelay_delay, int maxDelay_intervals) throws RemoteException{
+    public SHashTable(int machineId, int numberHTEntries, int contentionManager,
+            int maxAborts_minDelay_delay, int maxDelay_intervals) throws RemoteException {
         this.lock = new Semaphore(1);
 
         this.addressName = "ht" + machineId;
         this.numberHTEntries = numberHTEntries;
 
         heads = new INode[numberHTEntries];
-        for(int i = 0; i < numberHTEntries; ++i) {
+        for (int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
             System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = newLLHead;
         }
 
-        Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, 
-                                        maxDelay_intervals);
+        Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay,
+                maxDelay_intervals);
     }
-    
 
     @Override
-    public synchronized INode<Integer> get(int key) throws RemoteException, Exception {
+    public INode<Integer> get(int key) throws RemoteException, Exception {
 
         INode<Integer> headNode = heads[key % numberHTEntries];
 
         INode<Integer> nodeFound = null;
-        
+
+        while (!this.tryLock()) {
+            aborts.getAndIncrement();
+        }
+
         for (INode<Integer> node = headNode.getNext(); node != null; node = node.getNext()) {
             System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
             if (node.getKey() == key) {
@@ -77,50 +80,59 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         if (nodeFound == null) {
             System.out.println("NODE NOT FOUND!");
         }
-                
-        aborts.set(Transaction.getLocal().getAborts());
-        commits.set(Transaction.getLocal().getCommits());
+
+        commits.incrementAndGet();
+
+        this.unlock();
 
         return nodeFound;
     }
 
     @Override
-    public synchronized boolean insert(int key, int value) throws RemoteException, Exception {
+    public boolean insert(int key, int value) throws RemoteException, Exception {
         INode<Integer> headNode = heads[key % numberHTEntries];
 
-        boolean inserted = Transaction.atomic(new Callable<Boolean>() {
-            public Boolean call() throws Exception {
-                System.out.println("Current CM: " + Transaction.getContentionManager());
-                System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
+        while (!this.tryLock()) {
+            System.out.println("LOCKED: " + aborts.get());
+            aborts.getAndIncrement();
+        }
 
-                    INode<Integer> newNode = new SNode<>(key, value);
+        boolean inserted = false;
+        //System.out.println("Current CM: " + Transaction.getContentionManager());
+        System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
 
-                    if (headNode.getNext() == null) {
-                        System.out.println("FIRST INSERT");
-                        headNode.setNext(newNode);
-                        System.out.println("FIRST:" + newNode.toString());
-                        return true;
-                    } else {
-                        for (INode<Integer> node = headNode.getNext(); ;) {
-                
-                            System.out.println("CURRENT NODE:" + node.toString());
-                            if (node.getKey() == key) {
-                                System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getValue(), value);
-                                node.setValue(value);
-                                return true;
-                            } else if (node.getNext() == null) {
-                                System.out.println("NEXT INSERT");
-                                node.setNext(newNode);
-                                return true;
-                            }
-                            node = node.getNext();
-                        }
-                    }            
+        INode<Integer> newNode = new SNode<>(key, value);
+
+        if (headNode.getNext() == null) {
+            System.out.println("FIRST INSERT");
+            headNode.setNext(newNode);
+            System.out.println("FIRST:" + newNode.toString());
+            inserted = true;
+            commits.incrementAndGet();
+        } else {
+            for (INode<Integer> node = headNode.getNext();;) {
+
+                System.out.println("CURRENT NODE:" + node.toString());
+                if (node.getKey() == key) {
+                    System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getValue(), value);
+                    node.setValue(value);
+
+                    inserted = true;
+                    commits.incrementAndGet();
+                    break;
+                } else if (node.getNext() == null) {
+                    System.out.println("NEXT INSERT");
+                    node.setNext(newNode);
+
+                    inserted = true;
+                    commits.incrementAndGet();
+                    break;
+                }
+                node = node.getNext();
             }
-        });
+        }
 
-        aborts.set(Transaction.getLocal().getAborts());
-        commits.set(Transaction.getLocal().getCommits());
+        this.unlock();
 
         return inserted;
     }
@@ -136,12 +148,12 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     }
 
     @Override
-    public boolean tryLock() throws RemoteException{
+    public boolean tryLock() throws RemoteException {
         return lock.tryAcquire();
     }
- 
+
     @Override
-    public void unlock() throws RemoteException{
+    public void unlock() throws RemoteException {
         lock.release();
     }
 

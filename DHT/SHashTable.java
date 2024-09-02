@@ -89,7 +89,6 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
         boolean inserted = Transaction.atomic(new Callable<Boolean>() {
             public Boolean call() throws Exception {
-                Random rng = new Random();
                 Transaction localTransaction = Transaction.getLocal(); 
 
                 //System.out.println("Current CM: " + Transaction.getContentionManager());

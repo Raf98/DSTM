@@ -29,6 +29,11 @@ public class DHTServer {
                 maxDelay_intervals = Integer.parseInt(args[4]);
             }
         }
+
+        System.out.println("Contention Manager Dynamic Parameters:");
+        System.out.println("maxAborts/minDelay/delay: " + maxAborts_minDelay_delay);
+        System.out.println("maxDelay_intervals: " + maxDelay_intervals);
+
         /*
         //IHashTable hashTableImp = new SHashTable("ht" + id);
         //Remote hashTable = new TMObjServer(new SHashTable("ht" + id));
