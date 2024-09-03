@@ -98,7 +98,8 @@ class GenericTransaction implements ExecTransaction {
   }
 
   @SuppressWarnings("unchecked")
-  public void execTransaction(RObject[] objects, int op, int contentionManager) throws Exception {
+  public void execTransaction(RObject[] objects, int op, int contentionManager, boolean usesDynamicParams, 
+                              int maxAborts_minDelay_delay, int maxDelay_intervals) throws Exception {
 
     TMObj<IObject>[] robjects = new TMObj[objects.length];
     for (int i = 0; i < robjects.length; i++) {
@@ -110,7 +111,12 @@ class GenericTransaction implements ExecTransaction {
     IObject lobjects[] = new IObject[robjects.length];
     int donewithdraw = 0;
 
-    Transaction.setContentionManager(contentionManager);
+    if (usesDynamicParams) {
+      Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
+    } else {
+      Transaction.setContentionManager(contentionManager);
+    }
+
     donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
       public Integer call() throws Exception {
         int localwithdraw = 0;

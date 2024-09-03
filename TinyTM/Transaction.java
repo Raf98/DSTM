@@ -179,7 +179,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         throw new PanicException(e);
       }
       aborts.getAndIncrement();
-      System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
+      //System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
+      System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
   }

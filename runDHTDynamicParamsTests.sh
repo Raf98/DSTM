@@ -72,7 +72,7 @@ do
                     do
                         echo "Test $i for TRMIKindergarten: $delay delay; $intervals intervals"
                         printf "TRMIKindergarten\t$NCLIENT\t"
-                        runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $delay $intervals
+                        ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $delay $intervals
                     done
                     let "intervals*=2" #4 8 16
                 done
@@ -97,7 +97,7 @@ do
                     do
                         echo "Test $i for TRMITimestamp: $delay delay; $intervals intervals"
                         printf "TRMITimestamp\t$NCLIENT\t"
-                        runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $delay $intervals
+                        ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $delay $intervals
                     done
                     let "intervals*=2" #16 32 64
                 done
@@ -120,7 +120,7 @@ do
                 do
                     echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
                     printf "TRMIPolka\t$NCLIENT\t"
-                    runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $min_delay
+                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $min_delay
                 done
                 let "min_delay*=2" #64 128 256
             done
@@ -141,7 +141,7 @@ do
                 do
                     echo "Test $i for TRMIKarma: $delay delay"
                     printf "TRMIKarma\t$NCLIENT\t"
-                    runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2 $NHTENTRIES $delay
+                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2 $NHTENTRIES $delay
                 done
                 let "delay*=2" #32 64 128
             done
@@ -165,7 +165,7 @@ do
                        do
                            echo "Test $i for TRMIPolite: $min_delay min_delay; $max_delay max_delay"
                            printf "TRMIPolite\t$NCLIENT\t"
-                           runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $min_delay $max_delay
+                           ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $min_delay $max_delay
                        done
                        let "max_delay*=2" #2048 4096 8192
                    done
@@ -188,7 +188,7 @@ do
                 do
                     echo "Test $i for TRMIPassive: $max_aborts max_aborts"
                     printf "TRMIPassive\t$NCLIENT\t"
-                    runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $max_aborts
+                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $max_aborts
                 done
                 let "max_aborts*=2" #8 16 32
             done
