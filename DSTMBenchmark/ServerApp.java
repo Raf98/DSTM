@@ -19,6 +19,7 @@ public class ServerApp {
 			IDBarrier barrier = AppCoordinator.connectToBarrier("serverbarrier");// (IDBarrier)
 																					// Naming.lookup("serverbarrier");
 			barrier.await(); // waits for all servers to be up and running
+			barrier.printBarrierInformation();
 			barrier.await(); // waits for clients to finish work
 			UnicastRemoteObject.unexportObject(reg, true);
 			System.exit(0);

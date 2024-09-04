@@ -7,21 +7,22 @@ import java.util.concurrent.CyclicBarrier;
 import java.rmi.server.UnicastRemoteObject;
 
 public class DBarrier extends UnicastRemoteObject implements IDBarrier {
-   int hosts = 0;
-   CyclicBarrier barrier;
+  int hosts = 0;
+  CyclicBarrier barrier;
 
-   DBarrier(int hosts) throws Exception
-     {
-         this.hosts=hosts;
-         this.barrier = new CyclicBarrier(hosts);
-     }	
+  DBarrier(int hosts) throws Exception {
+    this.hosts = hosts;
+    this.barrier = new CyclicBarrier(hosts);
+  }
 
-   public void await() throws Exception{
+  public void await() throws Exception {
+    barrier.await();
+  }
+
+  public void printBarrierInformation() {
     System.out.println("Number waiting... " + barrier.getNumberWaiting());
     System.out.println("Parties: " + barrier.getParties());
     System.out.println("Barrier broken? " + barrier.isBroken());
-       barrier.await();
-   }
-
+  }
 
 }
