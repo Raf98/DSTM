@@ -9,5 +9,5 @@ public interface IDBarrier extends Remote {
 
    public void await() throws Exception;
 
-   public void printBarrierInformation();
+   public void printBarrierInformation() throws Exception;
 }
