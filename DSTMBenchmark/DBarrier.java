@@ -17,7 +17,9 @@ public class DBarrier extends UnicastRemoteObject implements IDBarrier {
      }	
 
    public void await() throws Exception{
- 
+    System.out.println("Number waiting... " + barrier.getNumberWaiting());
+    System.out.println("Parties: " + barrier.getParties());
+    System.out.println("Barrier broken? " + barrier.isBroken());
        barrier.await();
    }
 
