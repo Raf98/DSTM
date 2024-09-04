@@ -19,7 +19,7 @@ public class ServerApp {
 			IDBarrier barrier = AppCoordinator.connectToBarrier("serverbarrier");// (IDBarrier)
 																					// Naming.lookup("serverbarrier");
 			barrier.await(); // waits for all servers to be up and running
-			barrier.printBarrierInformation();
+			//barrier.printBarrierInformation();
 			barrier.await(); // waits for clients to finish work
 			UnicastRemoteObject.unexportObject(reg, true);
 			System.exit(0);
@@ -29,7 +29,7 @@ public class ServerApp {
 			//System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
 			System.out.println("Server ID: " + id + "; Server Port: " + (1666 + id));
 			System.out.println(e.getMessage());
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 

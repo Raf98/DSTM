@@ -2,21 +2,37 @@ Compiling all files needed for the generic benchmark...
 NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 500, NTTRANS: 1000
 Test 0 for TRMIKindergarten: 32 delay; 4 intervals
-TRMIKindergarten	2	CM ID:	5	taskset: falha ao definir a afinidade do pid 2470779: Argumento inválido
-taskset: taskset: falha ao definir a afinidade do pid 2470783: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470784: Argumento inválido
-falha ao definir a afinidade do pid 2470781: Argumento inválido
-taskset: taskset: taskset: falha ao definir a afinidade do pid 2470791taskset: falha ao definir a afinidade do pid 2470788: Argumento inválido
-: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470786taskset: : Argumento inválido
-falha ao definir a afinidade do pid 2470778: Argumento inválido
-falha ao definir a afinidade do pid 2470785taskset: : Argumento inválido
-falha ao definir a afinidade do pid 2470787: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470790: Argumento inválido
-falha ao definir a afinidade do pid 2470789: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470806: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470808: Argumento inválido
-taskset: taskset: falha ao definir a afinidade do pid 2470809: Argumento inválido
-falha ao definir a afinidade do pid 2470782: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470807: Argumento inválido
-taskset: falha ao definir a afinidade do pid 2470792: Argumento inválido
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Number waiting... 0
+Number waiting... 0
+Number waiting... 0
+Number waiting... 0
+Parties: 9
+Number waiting... 0
+Number waiting... 0
+Parties: 9
+Number waiting... 0
+Number waiting... 0
+Parties: 9
+Barrier broken? false
+Parties: 9
+Parties: 9
+Parties: 9
+Parties: 9
+Barrier broken? false
+Barrier broken? false
+Barrier broken? false
+Barrier broken? false
+Barrier broken? false
+Parties: 9
+Barrier broken? false
+Barrier broken? false
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 4maxDelay_intervals: 4
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
