@@ -73,7 +73,7 @@ do
   printf "CM ID:\t$CM\t"
   for i in $(seq 0 $(($NSERVER - 1)));
   do
-	taskset -c $(($i+$NCLIENT)) java DSTMBenchmark.GenericDSTM.GenericServer $i $NOBJSERVER &
+	taskset -c $(($i+$NCLIENT)) java -Djava.security.debug=access,failure DSTMBenchmark.GenericDSTM.GenericServer $i $NOBJSERVER &
   done
 
   for i in $(seq 0 $(($NCLIENT-1)));
