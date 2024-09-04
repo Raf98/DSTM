@@ -1,0 +1,516 @@
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+clients: 8, transactions per client: 125, NTTRANS: 1000
+Test 0 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9maxAborts/minDelay/delay: 1024
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+WRITES: 25maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 1024
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 1024
+WRITES: 25
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+READS: 100
+READS: 100
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 25
+maxAborts/minDelay/delay: 1024
+READS: 100
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+WRITES: 25
+WRITES: 25
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+WRITES: 25
+READS: 100
+READS: 100
+READS: 100
+Time of execution: 27512 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 4948 
+Total of set minus: 157 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4557
+Total value of fields: 3203300 (Expected: 3203300)
+Test 1 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+Contention Manager Dynamic Parameters:ARGS LENGTH: 9maxDelay_intervals: 256
+
+
+maxAborts/minDelay/delay: 1024Contention Manager Dynamic Parameters:ARGS LENGTH: 9
+
+
+WRITES: 25
+maxAborts/minDelay/delay: 1024ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9maxDelay_intervals: 256
+maxDelay_intervals: 256
+READS: 100
+ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+WRITES: 25
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 1024WRITES: 25
+maxAborts/minDelay/delay: 1024
+
+maxDelay_intervals: 256READS: 100
+
+WRITES: 25WRITES: 25
+
+maxDelay_intervals: 256
+READS: 100
+READS: 100READS: 100
+
+WRITES: 25
+WRITES: 25
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+READS: 100
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+Time of execution: 2381825 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1020490 
+Total of set minus: 151 
+Total of set plus: 186 
+Total of gets: 4000 
+Total of transfer: 214 
+Total of operations: 4551
+Total value of fields: 3203500 (Expected: 3203500)
+Test 2 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+
+maxAborts/minDelay/delay: 1024
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxAborts/minDelay/delay: 1024
+
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 1024ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+Contention Manager Dynamic Parameters:
+WRITES: 25
+READS: 100READS: 100
+maxAborts/minDelay/delay: 1024
+
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+ARGS LENGTH: 9
+WRITES: 25
+READS: 100
+Contention Manager Dynamic Parameters:
+READS: 100
+WRITES: 25
+WRITES: 25WRITES: 25
+
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+READS: 100
+READS: 100
+READS: 100
+WRITES: 25
+READS: 100
+Time of execution: 322942 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 158768 
+Total of set minus: 163 
+Total of set plus: 210 
+Total of gets: 4000 
+Total of transfer: 190 
+Total of operations: 4563
+Total value of fields: 3204700 (Expected: 3204700)
+Test 3 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024ARGS LENGTH: 9maxAborts/minDelay/delay: 1024
+
+maxAborts/minDelay/delay: 1024
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+WRITES: 25
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256WRITES: 25WRITES: 25WRITES: 25
+
+
+
+READS: 100
+READS: 100WRITES: 25
+READS: 100WRITES: 25
+
+
+READS: 100
+READS: 100
+READS: 100
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+Time of execution: 15470 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 265 
+Total of set minus: 145 
+Total of set plus: 178 
+Total of gets: 4000 
+Total of transfer: 222 
+Total of operations: 4545
+Total value of fields: 3203300 (Expected: 3203300)
+Test 4 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+ARGS LENGTH: 9maxDelay_intervals: 256
+
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 1024Contention Manager Dynamic Parameters:
+
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 1024maxDelay_intervals: 256
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024Contention Manager Dynamic Parameters:
+
+ARGS LENGTH: 9maxDelay_intervals: 256
+
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 1024
+WRITES: 25
+
+WRITES: 25maxAborts/minDelay/delay: 1024
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 25
+READS: 100
+WRITES: 25
+ARGS LENGTH: 9
+ARGS LENGTH: 9
+WRITES: 25READS: 100
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+READS: 100WRITES: 25
+
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256READS: 100
+
+maxDelay_intervals: 256
+READS: 100
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100
+Time of execution: 15554 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 303 
+Total of set minus: 157 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4557
+Total value of fields: 3204300 (Expected: 3204300)
+Test 5 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9WRITES: 25maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9maxAborts/minDelay/delay: 1024
+WRITES: 25
+
+maxDelay_intervals: 256
+
+READS: 100
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+READS: 100maxAborts/minDelay/delay: 1024
+
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256ARGS LENGTH: 9
+maxDelay_intervals: 256
+WRITES: 25
+
+Contention Manager Dynamic Parameters:
+WRITES: 25
+
+READS: 100
+maxAborts/minDelay/delay: 1024
+Contention Manager Dynamic Parameters:
+WRITES: 25
+maxAborts/minDelay/delay: 1024maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100WRITES: 25
+
+READS: 100
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25READS: 100
+
+READS: 100
+Time of execution: 16728 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 274 
+Total of set minus: 166 
+Total of set plus: 202 
+Total of gets: 4000 
+Total of transfer: 198 
+Total of operations: 4566
+Total value of fields: 3203600 (Expected: 3203600)
+Test 6 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:WRITES: 25
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 1024
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+WRITES: 25maxAborts/minDelay/delay: 1024
+
+maxDelay_intervals: 256WRITES: 25
+
+
+WRITES: 25
+READS: 100READS: 100READS: 100
+
+ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 1024
+READS: 100
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25READS: 100
+
+WRITES: 25
+ARGS LENGTH: 9READS: 100
+
+Contention Manager Dynamic Parameters:
+READS: 100
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+Time of execution: 20498 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2015 
+Total of set minus: 174 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4574
+Total value of fields: 3204600 (Expected: 3204600)
+Test 7 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024WRITES: 25
+
+maxDelay_intervals: 256ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+READS: 100
+maxAborts/minDelay/delay: 1024
+WRITES: 25
+maxDelay_intervals: 256
+ARGS LENGTH: 9ARGS LENGTH: 9
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+READS: 100
+maxAborts/minDelay/delay: 1024Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024maxAborts/minDelay/delay: 1024
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxAborts/minDelay/delay: 1024
+
+WRITES: 25
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+WRITES: 25READS: 100
+
+
+WRITES: 25
+WRITES: 25
+READS: 100READS: 100
+READS: 100
+
+READS: 100READS: 100
+
+Time of execution: 15900 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 449 
+Total of set minus: 182 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4582
+Total value of fields: 3203800 (Expected: 3203800)
+Test 8 for TRMIKarma: 1024 delay
+TRMIKarma	8	CM ID:	2	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+ARGS LENGTH: 9
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+ARGS LENGTH: 9
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:WRITES: 25
+
+READS: 100
+maxAborts/minDelay/delay: 1024
+ARGS LENGTH: 9maxDelay_intervals: 256
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 25maxAborts/minDelay/delay: 1024
+
+maxDelay_intervals: 256
+WRITES: 25Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+maxDelay_intervals: 256READS: 100
+
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+WRITES: 25
+WRITES: 25Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+READS: 100
+
+maxAborts/minDelay/delay: 1024maxAborts/minDelay/delay: 1024
+
+maxDelay_intervals: 256
+READS: 100
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100

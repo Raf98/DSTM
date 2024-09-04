@@ -1,0 +1,733 @@
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+clients: 4, transactions per client: 250, NTTRANS: 1000
+Test 0 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 64ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+WRITES: 50
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12270 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2317 
+Total of set minus: 158 
+Total of set plus: 196 
+Total of gets: 4000 
+Total of transfer: 204 
+Total of operations: 4558
+Total value of fields: 3203800 (Expected: 3203800)
+Test 1 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+ARGS LENGTH: 9maxDelay_intervals: 256
+
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50maxAborts/minDelay/delay: 64
+
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12090 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1884 
+Total of set minus: 155 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4555
+Total value of fields: 3202900 (Expected: 3202900)
+Test 2 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+WRITES: 50WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+READS: 200
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+Time of execution: 12093 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2046 
+Total of set minus: 174 
+Total of set plus: 214 
+Total of gets: 4000 
+Total of transfer: 186 
+Total of operations: 4574
+Total value of fields: 3204000 (Expected: 3204000)
+Test 3 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9
+ARGS LENGTH: 9Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 64
+
+Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50WRITES: 50
+
+
+READS: 200READS: 200
+READS: 200
+
+WRITES: 50
+READS: 200
+Time of execution: 12017 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1987 
+Total of set minus: 133 
+Total of set plus: 176 
+Total of gets: 4000 
+Total of transfer: 224 
+Total of operations: 4533
+Total value of fields: 3204300 (Expected: 3204300)
+Test 4 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+Time of execution: 11982 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1975 
+Total of set minus: 192 
+Total of set plus: 258 
+Total of gets: 4000 
+Total of transfer: 142 
+Total of operations: 4592
+Total value of fields: 3206600 (Expected: 3206600)
+Test 5 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+WRITES: 50
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200READS: 200
+
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 11957 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1873 
+Total of set minus: 190 
+Total of set plus: 226 
+Total of gets: 4000 
+Total of transfer: 174 
+Total of operations: 4590
+Total value of fields: 3203600 (Expected: 3203600)
+Test 6 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50READS: 200
+
+READS: 200
+Time of execution: 18992 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 5522 
+Total of set minus: 175 
+Total of set plus: 210 
+Total of gets: 4000 
+Total of transfer: 190 
+Total of operations: 4575
+Total value of fields: 3203500 (Expected: 3203500)
+Test 7 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256WRITES: 50
+
+READS: 200
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200READS: 200
+
+WRITES: 50
+READS: 200
+Time of execution: 11943 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1907 
+Total of set minus: 162 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4562
+Total value of fields: 3203200 (Expected: 3203200)
+Test 8 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+WRITES: 50WRITES: 50
+
+READS: 200
+READS: 200
+Time of execution: 11879 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1871 
+Total of set minus: 161 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4561
+Total value of fields: 3203100 (Expected: 3203100)
+Test 9 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64WRITES: 50
+
+READS: 200maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 11787 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1826 
+Total of set minus: 194 
+Total of set plus: 230 
+Total of gets: 4000 
+Total of transfer: 170 
+Total of operations: 4594
+Total value of fields: 3203600 (Expected: 3203600)
+Test 0 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 50maxDelay_intervals: 256WRITES: 50
+
+
+READS: 200READS: 200
+
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11975 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2077 
+Total of set minus: 149 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4549
+Total value of fields: 3204300 (Expected: 3204300)
+Test 1 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9maxDelay_intervals: 256
+
+Contention Manager Dynamic Parameters:
+
+WRITES: 50maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256READS: 200
+
+WRITES: 50
+READS: 200
+Time of execution: 12227 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2230 
+Total of set minus: 134 
+Total of set plus: 168 
+Total of gets: 4000 
+Total of transfer: 232 
+Total of operations: 4534
+Total value of fields: 3203400 (Expected: 3203400)
+Test 2 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+WRITES: 50
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12017 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1840 
+Total of set minus: 147 
+Total of set plus: 178 
+Total of gets: 4000 
+Total of transfer: 222 
+Total of operations: 4547
+Total value of fields: 3203100 (Expected: 3203100)
+Test 3 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+READS: 200ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 11773 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1982 
+Total of set minus: 167 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4567
+Total value of fields: 3205300 (Expected: 3205300)
+Test 4 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 12581 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1726 
+Total of set minus: 171 
+Total of set plus: 210 
+Total of gets: 4000 
+Total of transfer: 190 
+Total of operations: 4571
+Total value of fields: 3203900 (Expected: 3203900)
+Test 5 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+WRITES: 50maxDelay_intervals: 256
+
+READS: 200
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12141 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1831 
+Total of set minus: 178 
+Total of set plus: 218 
+Total of gets: 4000 
+Total of transfer: 182 
+Total of operations: 4578
+Total value of fields: 3204000 (Expected: 3204000)
+Test 6 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 12029 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1862 
+Total of set minus: 159 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4559
+Total value of fields: 3203100 (Expected: 3203100)
+Test 7 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+WRITES: 50
+WRITES: 50READS: 200
+
+WRITES: 50
+maxAborts/minDelay/delay: 128
+READS: 200
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12448 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1925 
+Total of set minus: 146 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4546
+Total value of fields: 3203800 (Expected: 3203800)
+Test 8 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12090 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2010 
+Total of set minus: 145 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4545
+Total value of fields: 3204700 (Expected: 3204700)
+Test 9 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	CM ID:	0	ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+ARGS LENGTH: 9ARGS LENGTH: 9
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 128
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12259 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1990 
+Total of set minus: 157 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4557
+Total value of fields: 3202700 (Expected: 3202700)
+clients: 8, transactions per client: 125, NTTRANS: 1000
+Test 0 for TRMIPassive: 64 max_aborts
+TRMIPassive	8	CM ID:	0	ARGS LENGTH: 9ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+Contention Manager Dynamic Parameters:
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 64
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 64
+
+
+maxAborts/minDelay/delay: 64
+ARGS LENGTH: 9Contention Manager Dynamic Parameters:maxDelay_intervals: 256
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 64
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+Contention Manager Dynamic Parameters:maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64WRITES: 25WRITES: 25
+WRITES: 25
+
+
+ARGS LENGTH: 9
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25
+READS: 100READS: 100READS: 100
+
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 25READS: 100
+
+WRITES: 25
+READS: 100
+WRITES: 25
+READS: 100
+READS: 100READS: 100
+

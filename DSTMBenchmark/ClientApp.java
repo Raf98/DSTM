@@ -23,7 +23,7 @@ public class ClientApp {
                 int writes = Integer.parseInt(args[3]);
                 int transactions = Integer.parseInt(args[4]);
                 int objectspertransaction = Integer.parseInt(args[5]);
-                System.out.println("ARGS LENGTH: " + args.length);
+                //System.out.println("ARGS LENGTH: " + args.length);
                 int contentionManager = args.length > 6 ? Integer.parseInt(args[6]) : 0;
 
                 // System.out.println("CONTENTION MANAGER: " + contentionManager);

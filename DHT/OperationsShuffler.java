@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class OperationsShuffler {
     public Integer[] shuffledArray(int transactions, int writesPercentage) throws Exception {
-        if (transactions < 50) {
+        /*if (transactions < 50) {
             throw new Exception("Insufficient number of transactions!");
-        }
+        }*/
 
         Integer[] shuffledArray = new Integer[transactions];
         Random random = new Random();
