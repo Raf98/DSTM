@@ -65,6 +65,9 @@ else
 	MAXDELAY_INTERVALS=$9
 fi
 
+# Moves to previous directory to run the Java executables
+cd -
+
 for i in $(seq 0 0);
 do
   java DSTMBenchmark.GenericDSTM.GenericCoordinator $NSERVER $NCLIENT $NOBJSERVER&
