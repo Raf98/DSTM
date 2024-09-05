@@ -118,9 +118,9 @@ class DHTTransaction implements ExecuteTransaction {
     }
 
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjects, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int nObjectsServers, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
-        IHashTable[] machinesForOps = new IHashTable[nServers];
+        /*IHashTable[] machinesForOps = new IHashTable[nServers];
 
         // Lookup for Hash Tables within their machines/ servers in the network
         for (int i = 0; i < machinesForOps.length; i++) {
@@ -137,10 +137,16 @@ class DHTTransaction implements ExecuteTransaction {
 
         // Iterate and calculate the machineId needed for each operation within the
         // Distributed Hash Table
-        int[] machinesIds = new int[nObjects];
-        int[] keys = new int[nObjects];// [TMObjects.length];
+        int[] machinesIds = new int[nObjects];*/
+        int[] keys = new int[nObjectsPerTransaction];// [TMObjects.length];
+        int[] values = new int[nObjectsPerTransaction];
 
-        for (int i = 0; i < nObjects; i++) {
+        int serverNum = rng.nextInt(nServers);
+        String port = String.valueOf(1700 + serverNum);
+        String nodeName = "ht" + serverNum;
+        IHashTable serverForOps = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
+
+        /*for (int i = 0; i < nObjectsPerTransaction; i++) {
             int bound = 1000;
             keys[i] = rng.nextInt(bound);
 
@@ -155,10 +161,17 @@ class DHTTransaction implements ExecuteTransaction {
             }
 
             machinesIds[i] = j;
+        }*/
+
+        for (int i = 0; i < nObjectsPerTransaction; i++) {
+            int bound = 1000;
+            //min + rng.nextInt(max - min);
+            // Limits the key generation within the bounds of the minimum and the maximum values for the current server
+            keys[i] = (bound / nServers) * serverNum + rng.nextInt((bound / nServers) * (serverNum + 1) - (bound / nServers) * serverNum);
         }
 
         if (op == 0) {
-            for (int i = 0; i < nObjects; i++) {
+            /*for (int i = 0; i < nObjectsPerTransaction; i++) {
                 IHashTable iHashTable = machinesForOps[machinesIds[i]];
                 //System.out.println("TRANSACTION CLIENT ID " + clientId);
                 System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
@@ -166,9 +179,16 @@ class DHTTransaction implements ExecuteTransaction {
                 inserts.getAndIncrement();
                 commits.getAndIncrement();
                 System.out.println("INSERTS: " + inserts.get());
+            }*/
+            for (int i = 0; i < nObjectsPerTransaction; i++) {
+                values[i] = rng.nextInt(Integer.MAX_VALUE);
             }
+            serverForOps.insertMultiple(keys, values);
+            inserts.getAndIncrement();
+            commits.getAndIncrement();
+            //System.out.println("INSERTS: " + inserts.get());
         } else {
-            for (int i = 0; i < nObjects; i++) {
+            /*for (int i = 0; i < nObjectsPerTransaction; i++) {
                 IHashTable iHashTable = machinesForOps[machinesIds[i]];
                 //System.out.println("TRANSACTION CLIENT ID " + clientId);
                 System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
@@ -176,7 +196,11 @@ class DHTTransaction implements ExecuteTransaction {
                 gets.getAndIncrement();
                 commits.getAndIncrement();
                 System.out.println("GETS: " + gets.get());
-            }
+            }*/
+            serverForOps.getMultiple(keys);
+            gets.getAndIncrement();
+            commits.getAndIncrement();
+            //System.out.println("GETS: " + gets.get());
         }
 
         /*for (int i = 0; i < nObjects; i++) {

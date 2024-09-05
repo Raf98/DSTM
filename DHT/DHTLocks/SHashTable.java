@@ -81,7 +81,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             System.out.println("NODE NOT FOUND!");
         }
 
-        commits.incrementAndGet();
+        //commits.incrementAndGet();
 
         this.unlock();
 
@@ -98,7 +98,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         }
 
         boolean inserted = false;
-        //System.out.println("Current CM: " + Transaction.getContentionManager());
+        // System.out.println("Current CM: " + Transaction.getContentionManager());
         System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
 
         INode<Integer> newNode = new SNode<>(key, value);
@@ -155,6 +155,104 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     @Override
     public void unlock() throws RemoteException {
         lock.release();
+    }
+
+    @SuppressWarnings("unchecked")
+    @Override
+    public INode<Integer>[] getMultiple(int[] keys) throws RemoteException, Exception {
+
+        INode<Integer>[] headNodes = new SNode[keys.length];
+
+        while (!this.tryLock()) {
+            aborts.getAndIncrement();
+        }
+
+        for (int i = 0; i < keys.length; i++) {
+            headNodes[i] = heads[keys[i] % numberHTEntries];
+        }
+
+        INode<Integer>[] nodesFound = new INode[keys.length];
+
+        for (int i = 0; i < keys.length; i++) {
+
+            for (INode<Integer> node = headNodes[i].getNext(); node != null; node = node.getNext()) {
+                //System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
+                if (node.getKey() == keys[i]) {
+                    nodesFound[i] = node;
+                    //System.out.println("NODE FOUND!");
+                    break;
+                }
+            }
+
+            if (nodesFound[i] == null) {
+                //System.out.println("NODE NOT FOUND!");
+            }
+
+        }
+
+        this.unlock();
+
+        commits.incrementAndGet();
+
+        return nodesFound;
+    }
+
+    @SuppressWarnings("unchecked")
+    @Override
+    public boolean[] insertMultiple(int[] keys, int[] values) throws RemoteException, Exception {
+        INode<Integer>[] headNodes = new SNode[keys.length];
+        boolean[] inserteds = new boolean[keys.length];
+
+        while (!this.tryLock()) {
+            aborts.getAndIncrement();
+        }
+
+        for (int i = 0; i < keys.length; i++) {
+            headNodes[i] = heads[keys[i] % numberHTEntries];
+        }
+
+        for (int i = 0; i < keys.length; i++) {
+            // System.out.println("Current CM: " + Transaction.getContentionManager());
+            //System.out.println("WRITING: KEY: " + keys[i] + ", " + "VALUE: " + values[i]);
+
+            INode<Integer> newNode = new SNode<>(keys[i], values[i]);
+
+            if (headNodes[i].getNext() == null) {
+                System.out.println("FIRST INSERT");
+                headNodes[i].setNext(newNode);
+                System.out.println("FIRST:" + newNode.toString());
+                inserteds[i] = true;
+                //commits.incrementAndGet();
+            } else {
+                for (INode<Integer> node = headNodes[i].getNext();;) {
+
+                    System.out.println("CURRENT NODE:" + node.toString());
+                    if (node.getKey() == keys[i]) {
+                        System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(),
+                                values[i]);
+                        node.setValue(values[i]);
+
+                        inserteds[i] = true;
+                        //commits.incrementAndGet();
+                        break;
+                    } else if (node.getNext() == null) {
+                        System.out.println("NEXT INSERT");
+                        node.setNext(newNode);
+
+                        inserteds[i] = true;
+                        //commits.incrementAndGet();
+                        break;
+                    }
+                    node = node.getNext();
+                }
+            }
+        }
+
+        this.unlock();
+
+        commits.incrementAndGet();
+
+        return inserteds;
     }
 
 }

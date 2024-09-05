@@ -9,7 +9,7 @@ fi
 
 if [ -z $2 ]
 then
-	NOBJSERVER=10
+	NOBJSERVER=20
 else NOBJSERVER=$2
 fi
 
