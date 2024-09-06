@@ -32,7 +32,7 @@ public class Karma extends ContentionManager {
         // System.out.println("OTHER: " + other.getPriority());
         // System.out.println("ME: " + me.getPriority());
         // System.out.println(attempts);
-        if (attempts <= other.getPriority() - me.getPriority()) {
+        if (attempts <= Math.abs(other.getPriority() - me.getPriority())) {
             try {
                 Thread.sleep(delay);
             } catch (InterruptedException ex) {
