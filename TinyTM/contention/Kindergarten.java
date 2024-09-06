@@ -35,14 +35,16 @@ public class Kindergarten extends ContentionManager {
             }
         }
 
-        if (hitList.contains(other.hashCode())) {
-            // hitList.remove(other.hashCode());
+        if (backedOff) {
+            backedOff = false;
+            me.abort();
+            throw new AbortedException();
+        }
+        else if (hitList.contains(other.hashCode())) {
+            hitList.remove(hitList.indexOf(other.hashCode()));
             other.abort();
         } else {
-            if (backedOff) {
-                me.abort();
-                throw new AbortedException();
-            }
+            
             hitList.add(other.hashCode());
             try {
                 Thread.sleep(intervals * delay);

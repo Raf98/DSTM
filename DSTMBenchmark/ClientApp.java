@@ -58,7 +58,7 @@ public class ClientApp {
                         // System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
                         System.out.println("Client ID: " + clientid + "; Client Port: " + (1666 + clientid));
                         System.out.println(e.getMessage());
-                        e.printStackTrace();
+                        //e.printStackTrace();
                 }
 
         }
