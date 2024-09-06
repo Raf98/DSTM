@@ -57,14 +57,14 @@ do
      do
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        NCLIENT=2
+        NCLIENT=8
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delay=4096
-            while [[ $delay -le 16384 ]];
+            delay=32
+            while [[ $delay -le 128 ]];
             do
                 for i in $(seq 0 9);
                 do

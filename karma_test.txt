@@ -1,0 +1,1 @@
+bash: ./runGenericKarmaTests.sh: Arquivo ou diretório inexistente

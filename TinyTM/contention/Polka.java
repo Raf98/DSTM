@@ -37,7 +37,12 @@ public class Polka extends ContentionManager {
         // System.out.println("OTHER: " + other.getPriority());
         // System.out.println("ME: " + me.getPriority());
         // System.out.println(attempts);
-        if (attempts <= Math.abs(other.getPriority() - me.getPriority())) {
+        if(me.getPriority() > other.getPriority()) {
+            attempts = 0;
+            delay = MIN_DELAY;
+            other.abort();
+        }
+        else if (attempts <= other.getPriority() - me.getPriority()) {
             try {
                 Thread.sleep(delay);
             } catch (InterruptedException ex) {
@@ -50,6 +55,7 @@ public class Polka extends ContentionManager {
         } else {
             other.abort();
             delay = MIN_DELAY;
+            attempts = 0;
         }
     }
 }
