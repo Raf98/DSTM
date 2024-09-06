@@ -24,11 +24,11 @@ public class ServerApp {
 			UnicastRemoteObject.unexportObject(reg, true);
 			System.exit(0);
 		} catch (Exception e) {
-			System.out.println("SERVER APP EXCEPTION:");
+			/*System.out.println("SERVER APP EXCEPTION:");
 			//long jvmMemoryMB = Runtime.getRuntime().totalMemory() / (1024 * 1024);
 			//System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
 			System.out.println("Server ID: " + id + "; Server Port: " + (1666 + id));
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());*/
 			//e.printStackTrace();
 		}
 	}

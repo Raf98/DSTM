@@ -53,11 +53,11 @@ public class ClientApp {
                         barrier.await();
                         // System.out.println("Acabei");
                 } catch (Exception e) {
-                        System.out.println("CLIENT APP EXCEPTION:");
+                        /*System.out.println("CLIENT APP EXCEPTION:");
                         // long jvmMemoryMB = Runtime.getRuntime().totalMemory()/( 1024 * 1024 );
                         // System.out.println("JVM AVAILABLE MEMORY: " + jvmMemoryMB + " MB");
                         System.out.println("Client ID: " + clientid + "; Client Port: " + (1666 + clientid));
-                        System.out.println(e.getMessage());
+                        System.out.println(e.getMessage());*/
                         //e.printStackTrace();
                 }
 

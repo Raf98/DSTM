@@ -57,7 +57,7 @@ do
      do
 
         echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        NCLIENT=8
+        NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
             NTRANS=$(($NTTRANS/$NCLIENT))
