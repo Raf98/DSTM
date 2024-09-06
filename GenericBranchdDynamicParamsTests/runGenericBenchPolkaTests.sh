@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=32
+	NSERVER=16
 else
 	NSERVER=$1
 fi
@@ -29,13 +29,20 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=32
+	NMAXCLIENTS=16
 else
 	NMAXCLIENTS=$3
 fi
 
+# Moves to previous directory to run the bash file that compiles all Java files needed
+cd -
+
 echo "Compiling all files needed for the generic benchmark..."
 ./compileGenericBench.sh
+
+# Move back to the current directory to run the tests
+cd GenericBranchdDynamicParamsTests
+
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
 for WRITES in $(seq 20 30 50); 
