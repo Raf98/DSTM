@@ -63,8 +63,8 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delay=2048
-            while [[ $delay -le 8192 ]];
+            delay=4096
+            while [[ $delay -le 16384 ]];
             do
                 for i in $(seq 0 9);
                 do
