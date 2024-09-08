@@ -63,21 +63,16 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delay=32
-            while [[ $delay -le 128 ]];
+            delayIntervals=16
+            while [[ $delay -le 64 ]];
             do
-                intervals=4
-                while [[ $intervals -le 16 ]];
+                for i in $(seq 0 4);
                 do
-                    for i in $(seq 0 9);
-                    do
-                        echo "Test $i for TRMIKindergarten: $delay delay; $intervals intervals"
-                        printf "TRMIKindergarten\t$NCLIENT\t"
-                        ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delay $intervals
-                    done
-                    let "intervals*=2" #4 8 16
+                    echo "Test $i for TRMIKindergarten: $delay delay; $delayIntervals delayIntervals"
+                    printf "TRMIKindergarten\t$NCLIENT\t"
+                    ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delayIntervals
                 done
-                let "delay*=2" #32 64 128
+                let "delayIntervals*=2" #32 64 128
             done
          let "NCLIENT*=2"
         done

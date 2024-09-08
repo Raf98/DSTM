@@ -62,22 +62,16 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delay=32
-            while [[ $delay -le 128 ]];
+            delayIntervals=16
+            while [[ $delay -le 64 ]];
             do
-                intervals=4
-                while [[ $intervals -le 16 ]];
+                for i in $(seq 0 4);
                 do
-                    for i in $(seq 0 9);
-                    do
-                        echo "Test $i for TRMIKindergarten: $delay delay; $intervals intervals"
-                        printf "TRMIKindergarten\t$NCLIENT\t"
-                        ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delay $intervals
-                    done
-                    let "intervals*=2" #4 8 16
+                    echo "Test $i for TRMIKindergarten: $delay delay; $delayIntervals delayIntervals"
+                    printf "TRMIKindergarten\t$NCLIENT\t"
+                    ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delayIntervals
                 done
-                let "delay*=2" #32 64 128
-            done
+                let "delayIntervals*=2" #32 64 128
          let "NCLIENT*=2"
         done
 
@@ -93,7 +87,7 @@ do
                 intervals=16
                 while [[ $intervals -le 64 ]];
                 do
-                    for i in $(seq 0 9);
+                    for i in $(seq 0 4);
                     do
                         echo "Test $i for TRMITimestamp: $delay delay; $intervals intervals"
                         printf "TRMITimestamp\t$NCLIENT\t"
@@ -113,10 +107,10 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            min_delay=512 #256 #128 #64
-            while [[ $min_delay -le 2048 ]];
+            min_delay=32 #256 #128 #64
+            while [[ $min_delay -le 128 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
                     printf "TRMIPolka\t$NCLIENT\t"
@@ -134,10 +128,10 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delay=2048
-            while [[ $delay -le 8192 ]];
+            delay=32
+            while [[ $delay -le 128 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIKarma: $delay delay"
                     printf "TRMIKarma\t$NCLIENT\t"
@@ -161,7 +155,7 @@ do
                    max_delay=2048
                    while [[ $max_delay -le 8192 ]];
                    do
-                       for i in $(seq 0 9);
+                       for i in $(seq 0 4);
                        do
                            echo "Test $i for TRMIPolite: $min_delay min_delay; $max_delay max_delay"
                            printf "TRMIPolite\t$NCLIENT\t"
@@ -184,7 +178,7 @@ do
             max_aborts=32
             while [[ $max_aborts -le 128 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIPassive: $max_aborts max_aborts"
                     printf "TRMIPassive\t$NCLIENT\t"

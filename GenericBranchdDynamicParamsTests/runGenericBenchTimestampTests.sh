@@ -68,7 +68,7 @@ do
                 intervals=16
                 while [[ $intervals -le 64 ]];
                 do
-                    for i in $(seq 0 9);
+                    for i in $(seq 0 4);
                     do
                         echo "Test $i for TRMITimestamp: $delay delay; $intervals intervals"
                         printf "TRMITimestamp\t$NCLIENT\t"

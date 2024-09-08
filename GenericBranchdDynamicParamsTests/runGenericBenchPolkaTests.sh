@@ -63,16 +63,16 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            min_delay=32 #256 #128 #64
+            min_delay=32
             while [[ $min_delay -le 128 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
                     printf "TRMIPolka\t$NCLIENT\t"
                     ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $min_delay
                 done
-                let "min_delay*=2" #64 128 256 512 1024 -> using 64 to 512 cause too many aborts for 8+ clients in low contention (20% writes)
+                let "min_delay*=2" #64 128 256
             done
             let "NCLIENT*=2"
         done

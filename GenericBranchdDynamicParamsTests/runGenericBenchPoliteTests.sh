@@ -69,7 +69,7 @@ do
                    max_delay=2048
                    while [[ $max_delay -le 8192 ]];
                    do
-                       for i in $(seq 0 9);
+                       for i in $(seq 0 4);
                        do
                            echo "Test $i for TRMIPolite: $min_delay min_delay; $max_delay max_delay"
                            printf "TRMIPolite\t$NCLIENT\t"

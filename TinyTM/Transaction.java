@@ -283,7 +283,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Kindergarten:
-        cm = new Kindergarten(maxAborts_minDelay_delay, maxDelay_intervals);
+        cm = new Kindergarten(maxAborts_minDelay_delay);
         break;
       case Less:
         cm = new Less();

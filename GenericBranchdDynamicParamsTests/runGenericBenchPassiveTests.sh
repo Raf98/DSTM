@@ -63,10 +63,10 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            max_aborts=32
-            while [[ $max_aborts -le 128 ]];
+            max_aborts=8
+            while [[ $max_aborts -le 32 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIPassive: $max_aborts max_aborts"
                     printf "TRMIPassive\t$NCLIENT\t"

@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=8
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=16
+	NMAXCLIENTS=8
 else
 	NMAXCLIENTS=$3
 fi
@@ -66,13 +66,13 @@ do
             delay=32
             while [[ $delay -le 128 ]];
             do
-                for i in $(seq 0 9);
+                for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIKarma: $delay delay"
                     printf "TRMIKarma\t$NCLIENT\t"
                     ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2 $delay
                 done
-                let "delay*=2" #32 64 128 -> using 32 causes too many aborts for 8+ clients
+                let "delay*=2" #32 64 128
             done
             let "NCLIENT*=2"
         done

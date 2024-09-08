@@ -12,19 +12,17 @@ import TinyTM.exceptions.AbortedException;
 public class Kindergarten extends ContentionManager {
     Random random = new Random();
     ITransaction rival = null;
-    int delay;// = 64;
-    int intervals;// = 8;
+    int delayInterval;// = 64;
     boolean backedOff = false;
     List<Integer> hitList = new ArrayList<>();;
 
     public Kindergarten() {
-        delay = 64;
-        intervals = 8;
+        delayInterval = 32;
     }
 
-    public Kindergarten(int delay, int intervals) {
-        this.delay = delay;
-        this.intervals = intervals;
+    // ELIMINATE INTERVALS, INTEGRATE IT TO DELAY (FIXED INTERVAL)
+    public Kindergarten(int delay) {
+        this.delayInterval = delay;
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
@@ -47,7 +45,7 @@ public class Kindergarten extends ContentionManager {
             
             hitList.add(other.hashCode());
             try {
-                Thread.sleep(intervals * delay);
+                Thread.sleep(delayInterval);
                 backedOff = true;
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
