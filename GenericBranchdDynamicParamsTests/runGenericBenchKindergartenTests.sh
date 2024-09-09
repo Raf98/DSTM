@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=8
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=16
+	NMAXCLIENTS=8
 else
 	NMAXCLIENTS=$3
 fi
@@ -64,7 +64,7 @@ do
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
             delayIntervals=16
-            while [[ $delay -le 64 ]];
+            while [[ $delayIntervals -le 64 ]];
             do
                 for i in $(seq 0 4);
                 do

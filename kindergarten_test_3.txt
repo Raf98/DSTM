@@ -1,0 +1,1 @@
+bash: ./runGenericBenchKindergartenTests.sh: Arquivo ou diretório inexistente
