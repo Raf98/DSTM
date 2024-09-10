@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=8
+	NSERVER=16
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=8
+	NMAXCLIENTS=16
 else
 	NMAXCLIENTS=$3
 fi
@@ -63,7 +63,7 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delayIntervals=16
+            delayIntervals=16 #could be too low, resulting in livelock as no transaction progresses due to the low interval
             while [[ $delayIntervals -le 64 ]];
             do
                 for i in $(seq 0 4);

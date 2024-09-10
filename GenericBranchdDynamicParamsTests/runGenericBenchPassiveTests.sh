@@ -63,8 +63,8 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            max_aborts=8
-            while [[ $max_aborts -le 32 ]];
+            max_aborts=16 #using 8 ends up in a starvation situation, apparently 
+            while [[ $max_aborts -le 64 ]];
             do
                 for i in $(seq 0 4);
                 do

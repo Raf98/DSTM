@@ -1,0 +1,1 @@
+bash: ./runGenericBenchTimestampTests.sh: Arquivo ou diretório inexistente
