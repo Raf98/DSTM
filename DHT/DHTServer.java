@@ -74,7 +74,10 @@ public class DHTServer {
             UnicastRemoteObject.unexportObject(registry, true);
             System.exit(0);
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            System.out.println("SERVER APP EXCEPTION:");
+			System.out.println("Server ID: " + id + "; Server Port: " + (1666 + id));
+			System.out.println(e.getMessage());
         }
         System.exit(0);
     }

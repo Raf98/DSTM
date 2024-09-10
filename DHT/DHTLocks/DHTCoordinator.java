@@ -24,7 +24,7 @@ class DHTProcessData implements ProcessData {
         int inserts = 0;
         int commits = 0;
         int commitsrts = 0;
-        int aborts = 0;
+        long aborts = 0;
         String[] data;
         BufferedReader csvReader;
 

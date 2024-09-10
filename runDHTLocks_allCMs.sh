@@ -37,7 +37,7 @@ fi
 
 if [ -z $6 ]
 then
-	NOBJTRANS=2
+	NOBJTRANS=20
 else
 	NOBJTRANS=$6
 fi
