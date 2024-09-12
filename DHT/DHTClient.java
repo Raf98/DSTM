@@ -8,8 +8,6 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import DSTMBenchmark.AppCoordinator;
-import DSTMBenchmark.ChooseOP;
-import DSTMBenchmark.ClientApp;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
 import TinyTM.Transaction;
@@ -20,7 +18,7 @@ public class DHTClient {
 
         int clientid = Integer.parseInt(args[0]);               // i in NCLIENT
         int servers = Integer.parseInt(args[1]);                // NSERVER
-        int objects = Integer.parseInt(args[2]);                // NOBJSERVER
+        int numberOfKeys = Integer.parseInt(args[2]);           // NKEYS
         int writes = Integer.parseInt(args[3]);                 // WRITES
         int transactions = Integer.parseInt(args[4]);           // NTRANS
         int objectsPerTransaction = Integer.parseInt(args[5]);  // NOBJTRANS
@@ -44,7 +42,7 @@ public class DHTClient {
             //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
             op = shuffledOps[i]; //cop.chooseOP(writes, random);
             //transaction.execTransaction(robjects, op);
-            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
+            transaction.execTransaction(servers, numberOfKeys, objectsPerTransaction, hashTablesEntries, op);
         }
 
         // App Ends
@@ -151,7 +149,7 @@ class DHTTransaction implements ExecuteTransaction {
 
     @SuppressWarnings("unchecked")
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int numberOfKeys, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
         /*IHashTable[] machinesForOps = new IHashTable[nServers];
 
@@ -198,7 +196,7 @@ class DHTTransaction implements ExecuteTransaction {
         }*/
 
         for (int i = 0; i < nObjectsPerTransaction; i++) {
-            int bound = 1000;
+            int bound = numberOfKeys;
             //min + rng.nextInt(max - min);
             // Limits the key generation within the bounds of the minimum and the maximum values for the current server
             keys[i] = (bound / nServers) * serverNum + rng.nextInt((bound / nServers) * (serverNum + 1) - (bound / nServers) * serverNum);

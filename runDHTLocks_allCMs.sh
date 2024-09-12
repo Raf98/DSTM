@@ -9,8 +9,8 @@ fi
 
 if [ -z $2 ]
 then
-	NOBJSERVER=10
-else NOBJSERVER=$2
+	NKEYS=10
+else NKEYS=$2
 fi
 
 if [ -z $3 ]
@@ -46,7 +46,7 @@ fi
 
 if [ -z $7 ]
 then
-	NHTENTRIES=10
+	NHTENTRIES=100
 else
 	NHTENTRIES=$7
 fi
@@ -60,7 +60,7 @@ for CMSEL in $(seq 0 1 7);
 do
     for i in $(seq 0 0);
     do
-      java DHT.DHTLocks.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
+      java DHT.DHTLocks.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
 
       pid=$!
       printf "CM ID:\t$CMSEL\t"
@@ -72,7 +72,7 @@ do
       for i in $(seq 0 $(($NCLIENT-1)));
       do
     	#-Djava.rmi.server.logCalls=true
-    	taskset -c $i java DHT.DHTLocks.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+    	taskset -c $i java DHT.DHTLocks.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
      done
      wait $pid
     done

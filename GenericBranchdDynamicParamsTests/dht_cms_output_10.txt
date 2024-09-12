@@ -1,0 +1,1 @@
+bash: ./runDHT_allCMs.sh: Arquivo ou diretório inexistente

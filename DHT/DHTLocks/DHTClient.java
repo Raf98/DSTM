@@ -5,18 +5,15 @@ import java.rmi.Naming;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import DHT.ExecuteTransaction;
 import DHT.NewSaveData;
 import DHT.OperationsShuffler;
 import DSTMBenchmark.AppCoordinator;
-import DSTMBenchmark.ChooseOP;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
 import TinyTM.Transaction;
-import TinyTM.ofree.TMObj;
 
 public class DHTClient {
     public static void main(String[] args) throws Exception {
@@ -24,7 +21,7 @@ public class DHTClient {
 
         int clientid = Integer.parseInt(args[0]);               // i in NCLIENT
         int servers = Integer.parseInt(args[1]);                // NSERVER
-        int objects = Integer.parseInt(args[2]);                // NOBJSERVER
+        int numberOfKeys = Integer.parseInt(args[2]);           // NKEYS
         int writes = Integer.parseInt(args[3]);                 // WRITES
         int transactions = Integer.parseInt(args[4]);           // NTRANS
         int objectsPerTransaction = Integer.parseInt(args[5]);  // NOBJTRANS
@@ -45,7 +42,7 @@ public class DHTClient {
 
         for (int i = 0; i < transactions; i++) {
             op = shuffledOps[i];
-            transaction.execTransaction(servers, objects, objectsPerTransaction, hashTablesEntries, op);
+            transaction.execTransaction(servers, numberOfKeys, objectsPerTransaction, hashTablesEntries, op);
         }
 
         // App Ends
@@ -118,7 +115,7 @@ class DHTTransaction implements ExecuteTransaction {
     }
 
     @Override
-    public void execTransaction(int nServers, int nObjectsServers, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int numberOfKeys, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
         Random rng = new Random();
         /*IHashTable[] machinesForOps = new IHashTable[nServers];
 
@@ -164,7 +161,7 @@ class DHTTransaction implements ExecuteTransaction {
         }*/
 
         for (int i = 0; i < nObjectsPerTransaction; i++) {
-            int bound = 1000;
+            int bound = numberOfKeys;
             //min + rng.nextInt(max - min);
             // Limits the key generation within the bounds of the minimum and the maximum values for the current server
             keys[i] = (bound / nServers) * serverNum + rng.nextInt((bound / nServers) * (serverNum + 1) - (bound / nServers) * serverNum);
