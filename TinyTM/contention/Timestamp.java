@@ -34,9 +34,10 @@ public class Timestamp extends ContentionManager {
         }
 
         if (me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())) {
+            attempts = 0;
             other.abort();
         } else {
-            if (attempts >= intervals / 2) {
+            if (attempts >= intervals / 2 && !other.getDefunct()) {
                 other.setDefunct(true);
             }
             try {
