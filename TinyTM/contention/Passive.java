@@ -11,25 +11,34 @@ import TinyTM.exceptions.*;
 public class Passive extends ContentionManager {
   private static /* final */ int MAX_ABORTS;
   private int aborts;
+  private boolean abortEnemy;
 
   public Passive() {
     this.aborts = 0;
     MAX_ABORTS = 10;
+    abortEnemy = false;
   }
 
   public Passive(final int maxAborts) {
     this.aborts = 0;
     MAX_ABORTS = maxAborts;
+    abortEnemy = false;
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
     if (aborts < MAX_ABORTS) {
       aborts++;
+    } else {
+      aborts = 1;
+      abortEnemy = !abortEnemy;
+    }
+
+    if (!abortEnemy) {
+      other.abort();
+    } else {
       me.abort();
       throw new AbortedException();
-    } else {
-      aborts = 0;
-      other.abort();
     }
+
   }
 }

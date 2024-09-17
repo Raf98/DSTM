@@ -1,0 +1,1 @@
+bash: ./runGenericBenchPassiveTests.sh: Arquivo ou diretório inexistente
