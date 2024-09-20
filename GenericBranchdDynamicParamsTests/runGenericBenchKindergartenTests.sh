@@ -63,14 +63,14 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delayIntervals=16 #could be too low, resulting in livelock as no transaction progresses due to the low interval
-            while [[ $delayIntervals -le 64 ]];
+            delayInterval=32 #could be too low, resulting in livelock as no transaction progresses due to the low interval
+            while [[ $delayInterval -le 128 ]];
             do
                 for i in $(seq 0 4);
                 do
                     echo "Test $i for TRMIKindergarten: $delay delay; $delayIntervals delayIntervals"
                     printf "TRMIKindergarten\t$NCLIENT\t"
-                    ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delayIntervals
+                    ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delayInterval
                 done
                 let "delayIntervals*=2" #32 64 128
             done
