@@ -68,11 +68,11 @@ do
             do
                 for i in $(seq 0 4);
                 do
-                    echo "Test $i for TRMIKindergarten: $delay delay; $delayIntervals delayIntervals"
+                    echo "Test $i for TRMIKindergarten: $delayInterval delayInterval"
                     printf "TRMIKindergarten\t$NCLIENT\t"
                     ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $delayInterval
                 done
-                let "delayIntervals*=2" #32 64 128
+                let "delayInterval*=2" #32 64 128
             done
          let "NCLIENT*=2"
         done
