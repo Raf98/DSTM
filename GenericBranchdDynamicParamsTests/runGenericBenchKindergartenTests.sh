@@ -63,8 +63,8 @@ do
             NTRANS=$(($NTTRANS/$NCLIENT))
             echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            delayInterval=32 #could be too low, resulting in livelock as no transaction progresses due to the low interval
-            while [[ $delayInterval -le 128 ]];
+            delayInterval=64 #could be too low, resulting in livelock as no transaction progresses due to the low interval
+            while [[ $delayInterval -le 256 ]];
             do
                 for i in $(seq 0 4);
                 do
