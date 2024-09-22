@@ -1,0 +1,11584 @@
+/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 500, NTTRANS: 1000
+Test 0 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+WRITES: 100
+READS: 400
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19093 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 72 
+Total of set minus: 159 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4559
+Total value of fields: 3203100 (Expected: 3203100)
+Test 1 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20130 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 64 
+Total of set minus: 151 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4551
+Total value of fields: 3203300 (Expected: 3203300)
+Test 2 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19715 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 82 
+Total of set minus: 147 
+Total of set plus: 188 
+Total of gets: 4000 
+Total of transfer: 212 
+Total of operations: 4547
+Total value of fields: 3204100 (Expected: 3204100)
+Test 3 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19079 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 73 
+Total of set minus: 172 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4572
+Total value of fields: 3204000 (Expected: 3204000)
+Test 4 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128WRITES: 100
+
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19654 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 68 
+Total of set minus: 156 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4556
+Total value of fields: 3204400 (Expected: 3204400)
+Test 0 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+maxAborts/minDelay/delay: 256
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19563 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 81 
+Total of set minus: 161 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4561
+Total value of fields: 3204700 (Expected: 3204700)
+Test 1 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20599 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 62 
+Total of set minus: 159 
+Total of set plus: 198 
+Total of gets: 4000 
+Total of transfer: 202 
+Total of operations: 4559
+Total value of fields: 3203900 (Expected: 3203900)
+Test 2 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19824 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 59 
+Total of set minus: 145 
+Total of set plus: 186 
+Total of gets: 4000 
+Total of transfer: 214 
+Total of operations: 4545
+Total value of fields: 3204100 (Expected: 3204100)
+Test 3 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20690 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 56 
+Total of set minus: 171 
+Total of set plus: 210 
+Total of gets: 4000 
+Total of transfer: 190 
+Total of operations: 4571
+Total value of fields: 3203900 (Expected: 3203900)
+Test 4 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19717 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 59 
+Total of set minus: 174 
+Total of set plus: 214 
+Total of gets: 4000 
+Total of transfer: 186 
+Total of operations: 4574
+Total value of fields: 3204000 (Expected: 3204000)
+Test 0 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20321 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 30 
+Total of set minus: 165 
+Total of set plus: 202 
+Total of gets: 4000 
+Total of transfer: 198 
+Total of operations: 4565
+Total value of fields: 3203700 (Expected: 3203700)
+Test 1 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20306 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 53 
+Total of set minus: 159 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4559
+Total value of fields: 3204700 (Expected: 3204700)
+Test 2 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20857 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 25 
+Total of set minus: 149 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4549
+Total value of fields: 3204300 (Expected: 3204300)
+Test 3 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20325 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 72 
+Total of set minus: 163 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4563
+Total value of fields: 3204100 (Expected: 3204100)
+Test 4 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20586 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 65 
+Total of set minus: 137 
+Total of set plus: 176 
+Total of gets: 4000 
+Total of transfer: 224 
+Total of operations: 4537
+Total value of fields: 3203900 (Expected: 3203900)
+clients: 4, transactions per client: 250, NTTRANS: 1000
+Test 0 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+maxAborts/minDelay/delay: 128
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16551 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 250 
+Total of set minus: 191 
+Total of set plus: 224 
+Total of gets: 4000 
+Total of transfer: 176 
+Total of operations: 4591
+Total value of fields: 3203300 (Expected: 3203300)
+Test 1 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128WRITES: 50
+
+READS: 200WRITES: 50
+
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16145 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 250 
+Total of set minus: 169 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4569
+Total value of fields: 3203500 (Expected: 3203500)
+Test 2 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+WRITES: 50
+WRITES: 50WRITES: 50
+
+maxDelay_intervals: 256
+READS: 200
+READS: 200
+READS: 200
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16639 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 241 
+Total of set minus: 128 
+Total of set plus: 170 
+Total of gets: 4000 
+Total of transfer: 230 
+Total of operations: 4528
+Total value of fields: 3204200 (Expected: 3204200)
+Test 3 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15783 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 219 
+Total of set minus: 174 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4574
+Total value of fields: 3204600 (Expected: 3204600)
+Test 4 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128WRITES: 50WRITES: 50
+
+
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16611 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 226 
+Total of set minus: 134 
+Total of set plus: 170 
+Total of gets: 4000 
+Total of transfer: 230 
+Total of operations: 4534
+Total value of fields: 3203600 (Expected: 3203600)
+Test 0 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 256
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200WRITES: 50WRITES: 50
+
+
+READS: 200READS: 200
+
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 17564 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 178 
+Total of set minus: 155 
+Total of set plus: 216 
+Total of gets: 4000 
+Total of transfer: 184 
+Total of operations: 4555
+Total value of fields: 3206100 (Expected: 3206100)
+Test 1 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 17669 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 180 
+Total of set minus: 153 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4553
+Total value of fields: 3204700 (Expected: 3204700)
+Test 2 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 50
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50maxAborts/minDelay/delay: 256
+
+WRITES: 50
+READS: 200
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16586 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 212 
+Total of set minus: 172 
+Total of set plus: 214 
+Total of gets: 4000 
+Total of transfer: 186 
+Total of operations: 4572
+Total value of fields: 3204200 (Expected: 3204200)
+Test 3 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200WRITES: 50
+
+READS: 200
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 17518 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 178 
+Total of set minus: 151 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4551
+Total value of fields: 3204300 (Expected: 3204300)
+Test 4 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+maxAborts/minDelay/delay: 256
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16976 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 181 
+Total of set minus: 169 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4569
+Total value of fields: 3203500 (Expected: 3203500)
+Test 0 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+
+READS: 200
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 17823 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 150 
+Total of set minus: 158 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4558
+Total value of fields: 3204600 (Expected: 3204600)
+Test 1 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+WRITES: 50WRITES: 50
+
+READS: 200
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 18715 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 174 
+Total of set minus: 159 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4559
+Total value of fields: 3203100 (Expected: 3203100)
+Test 2 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 512
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 17723 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 136 
+Total of set minus: 175 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4575
+Total value of fields: 3203300 (Expected: 3203300)
+Test 3 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 18194 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 142 
+Total of set minus: 175 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4575
+Total value of fields: 3203100 (Expected: 3203100)
+Test 4 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 18836 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 161 
+Total of set minus: 172 
+Total of set plus: 218 
+Total of gets: 4000 
+Total of transfer: 182 
+Total of operations: 4572
+Total value of fields: 3204600 (Expected: 3204600)
+clients: 8, transactions per client: 125, NTTRANS: 1000
+Test 0 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+READS: 100READS: 100
+
+WRITES: 25
+maxAborts/minDelay/delay: 128
+READS: 100
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+READS: 100
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+RIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 14926 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 596 
+Total of set minus: 175 
+Total of set plus: 198 
+Total of gets: 4000 
+Total of transfer: 202 
+Total of operations: 4575
+Total value of fields: 3202300 (Expected: 3202300)
+Test 1 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256Contention Manager Dynamic Parameters:
+
+WRITES: 25WRITES: 25
+READS: 100maxAborts/minDelay/delay: 128
+WRITES: 25
+
+READS: 100
+maxAborts/minDelay/delay: 128maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+WRITES: 25WRITES: 25
+
+READS: 100
+
+WRITES: 25
+maxAborts/minDelay/delay: 128
+READS: 100
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 14598 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 570 
+Total of set minus: 182 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4582
+Total value of fields: 3203000 (Expected: 3203000)
+Test 2 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128WRITES: 25
+maxAborts/minDelay/delay: 128
+READS: 100maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+
+WRITES: 25
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256READS: 100
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25WRITES: 25
+
+READS: 100WRITES: 25READS: 100
+
+
+READS: 100
+maxAborts/minDelay/delay: 128
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 14961 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 642 
+Total of set minus: 180 
+Total of set plus: 226 
+Total of gets: 4000 
+Total of transfer: 174 
+Total of operations: 4580
+Total value of fields: 3204600 (Expected: 3204600)
+Test 3 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxAborts/minDelay/delay: 128
+WRITES: 25WRITES: 25WRITES: 25
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128READS: 100
+
+
+WRITES: 25
+READS: 100maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25WRITES: 25
+
+READS: 100
+READS: 100
+READS: 100
+
+READS: 100
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 14098 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 590 
+Total of set minus: 145 
+Total of set plus: 174 
+Total of gets: 4000 
+Total of transfer: 226 
+Total of operations: 4545
+Total value of fields: 3202900 (Expected: 3202900)
+Test 4 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+WRITES: 25maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 25
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100
+
+READS: 100
+WRITES: 25WRITES: 25
+
+maxAborts/minDelay/delay: 128
+READS: 100READS: 100
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 25
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 14802 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 587 
+Total of set minus: 140 
+Total of set plus: 180 
+Total of gets: 4000 
+Total of transfer: 220 
+Total of operations: 4540
+Total value of fields: 3204000 (Expected: 3204000)
+Test 0 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256maxDelay_intervals: 256maxAborts/minDelay/delay: 256
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 25
+maxDelay_intervals: 256
+WRITES: 25
+
+READS: 100
+WRITES: 25READS: 100
+
+READS: 100
+WRITES: 25WRITES: 25
+
+maxAborts/minDelay/delay: 256READS: 100READS: 100
+
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15591 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 455 
+Total of set minus: 137 
+Total of set plus: 176 
+Total of gets: 4000 
+Total of transfer: 224 
+Total of operations: 4537
+Total value of fields: 3203900 (Expected: 3203900)
+Test 1 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256WRITES: 25
+
+READS: 100
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 256WRITES: 25
+
+READS: 100
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256maxAborts/minDelay/delay: 256
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25
+maxAborts/minDelay/delay: 256READS: 100
+WRITES: 25WRITES: 25
+
+
+READS: 100
+READS: 100
+maxDelay_intervals: 256maxAborts/minDelay/delay: 256
+
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+READS: 100
+
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15684 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 451 
+Total of set minus: 156 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4556
+Total value of fields: 3203800 (Expected: 3203800)
+Test 2 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 25maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256WRITES: 25
+
+READS: 100maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+WRITES: 25
+READS: 100
+READS: 100
+maxAborts/minDelay/delay: 256WRITES: 25
+
+WRITES: 25
+READS: 100maxDelay_intervals: 256
+
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+
+WRITES: 25
+READS: 100WRITES: 25
+
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15091 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 494 
+Total of set minus: 168 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4568
+Total value of fields: 3203600 (Expected: 3203600)
+Test 3 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 25
+maxAborts/minDelay/delay: 256
+READS: 100maxAborts/minDelay/delay: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256WRITES: 25
+
+READS: 100
+WRITES: 25
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 25
+READS: 100maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15783 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 416 
+Total of set minus: 171 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4571
+Total value of fields: 3204100 (Expected: 3204100)
+Test 4 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256maxAborts/minDelay/delay: 256maxAborts/minDelay/delay: 256maxAborts/minDelay/delay: 256
+
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+
+WRITES: 25
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100WRITES: 25
+READS: 100
+
+READS: 100maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256maxDelay_intervals: 256maxAborts/minDelay/delay: 256
+
+
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+READS: 100
+WRITES: 25READS: 100
+
+READS: 100
+WRITES: 25
+READS: 100
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15366 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 422 
+Total of set minus: 143 
+Total of set plus: 176 
+Total of gets: 4000 
+Total of transfer: 224 
+Total of operations: 4543
+Total value of fields: 3203300 (Expected: 3203300)
+Test 0 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 512maxDelay_intervals: 256
+
+
+maxAborts/minDelay/delay: 512maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25maxAborts/minDelay/delay: 512
+
+
+READS: 100
+READS: 100
+WRITES: 25
+maxDelay_intervals: 256WRITES: 25
+
+WRITES: 25
+maxAborts/minDelay/delay: 512READS: 100
+READS: 100
+READS: 100
+
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15700 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 341 
+Total of set minus: 176 
+Total of set plus: 218 
+Total of gets: 4000 
+Total of transfer: 182 
+Total of operations: 4576
+Total value of fields: 3204200 (Expected: 3204200)
+Test 1 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 512
+WRITES: 25maxDelay_intervals: 256
+WRITES: 25
+maxAborts/minDelay/delay: 512
+READS: 100
+WRITES: 25
+WRITES: 25maxDelay_intervals: 256
+WRITES: 25
+
+READS: 100
+READS: 100READS: 100
+
+
+WRITES: 25READS: 100
+
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 512READS: 100
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15910 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 380 
+Total of set minus: 151 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4551
+Total value of fields: 3204100 (Expected: 3204100)
+Test 2 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+WRITES: 25
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25
+maxAborts/minDelay/delay: 512READS: 100maxAborts/minDelay/delay: 512maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+WRITES: 25
+
+WRITES: 25
+WRITES: 25READS: 100
+
+READS: 100READS: 100
+
+READS: 100
+READS: 100
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16467 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 340 
+Total of set minus: 136 
+Total of set plus: 178 
+Total of gets: 4000 
+Total of transfer: 222 
+Total of operations: 4536
+Total value of fields: 3204200 (Expected: 3204200)
+Test 3 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+maxAborts/minDelay/delay: 512READS: 100READS: 100
+
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 512
+WRITES: 25maxAborts/minDelay/delay: 512maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25
+WRITES: 25WRITES: 25
+
+READS: 100READS: 100READS: 100
+
+
+WRITES: 25
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 16219 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 386 
+Total of set minus: 152 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4552
+Total value of fields: 3203200 (Expected: 3203200)
+Test 4 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 512
+WRITES: 25maxDelay_intervals: 256WRITES: 25
+
+READS: 100
+
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100WRITES: 25
+
+maxAborts/minDelay/delay: 512READS: 100
+
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: nullRIVAL: null
+
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 15383 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 404 
+Total of set minus: 173 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4573
+Total value of fields: 3203100 (Expected: 3203100)
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 500, NTTRANS: 1000
+Test 0 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19836 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 57 
+Total of set minus: 165 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4565
+Total value of fields: 16004100 (Expected: 16004100)
+Test 1 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 100
+maxDelay_intervals: 256
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19779 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 66 
+Total of set minus: 143 
+Total of set plus: 182 
+Total of gets: 4000 
+Total of transfer: 218 
+Total of operations: 4543
+Total value of fields: 16003900 (Expected: 16003900)
+Test 2 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 100
+maxAborts/minDelay/delay: 128
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19720 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 92 
+Total of set minus: 166 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4566
+Total value of fields: 16003400 (Expected: 16003400)
+Test 3 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19550 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 64 
+Total of set minus: 154 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4554
+Total value of fields: 16003600 (Expected: 16003600)
+Test 4 for TRMIKindergarten: 128 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 19283 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 79 
+Total of set minus: 186 
+Total of set plus: 218 
+Total of gets: 4000 
+Total of transfer: 182 
+Total of operations: 4586
+Total value of fields: 16003200 (Expected: 16003200)
+Test 0 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 256
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20009 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 57 
+Total of set minus: 175 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4575
+Total value of fields: 16003300 (Expected: 16003300)
+Test 1 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20250 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 54 
+Total of set minus: 150 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4550
+Total value of fields: 16004400 (Expected: 16004400)
+Test 2 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20018 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 60 
+Total of set minus: 166 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4566
+Total value of fields: 16003800 (Expected: 16003800)
+Test 3 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400maxAborts/minDelay/delay: 256
+
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20518 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 48 
+Total of set minus: 151 
+Total of set plus: 196 
+Total of gets: 4000 
+Total of transfer: 204 
+Total of operations: 4551
+Total value of fields: 16004500 (Expected: 16004500)
+Test 4 for TRMIKindergarten: 256 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+maxAborts/minDelay/delay: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 20276 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 60 
+Total of set minus: 174 
+Total of set plus: 198 
+Total of gets: 4000 
+Total of transfer: 202 
+Total of operations: 4574
+Total value of fields: 16002400 (Expected: 16002400)
+Test 0 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+RIVAL: null
+Time of execution: 21546 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 25 
+Total of set minus: 180 
+Total of set plus: 234 
+Total of gets: 4000 
+Total of transfer: 166 
+Total of operations: 4580
+Total value of fields: 16005400 (Expected: 16005400)
+Test 1 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	
