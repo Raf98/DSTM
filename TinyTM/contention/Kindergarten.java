@@ -3,21 +3,18 @@ package TinyTM.contention;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import TinyTM.ITransaction;
 import TinyTM.Transaction;
 import TinyTM.exceptions.AbortedException;
 
 public class Kindergarten extends ContentionManager {
-    Random random = new Random();
-    ITransaction rival = null;
     int delayInterval;// = 64;
     boolean backedOff = false;
     List<Integer> hitList = new ArrayList<>();;
 
     public Kindergarten() {
-        delayInterval = 32;
+        delayInterval = 256;
     }
 
     // ELIMINATE INTERVALS, INTEGRATE IT TO DELAY (FIXED INTERVAL)
@@ -26,13 +23,6 @@ public class Kindergarten extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-        if (rival != null) {
-            if (other.hashCode() != rival.hashCode()) {
-                rival = other;
-                backedOff = false;
-            }
-        }
-
         if (backedOff) {
             backedOff = false;
             me.abort();

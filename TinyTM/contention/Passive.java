@@ -2,8 +2,6 @@
 // This work is licensed under a Creative Commons
 package TinyTM.contention;
 
-import TinyTM.Transaction;
-import java.util.Random;
 import TinyTM.*;
 import java.rmi.*;
 import TinyTM.exceptions.*;
@@ -11,22 +9,20 @@ import TinyTM.exceptions.*;
 public class Passive extends ContentionManager {
   private static /* final */ int MAX_ABORTS;
   private int aborts;
-  private boolean abortEnemy;
+  //private boolean abortEnemy = false;
 
   public Passive() {
     this.aborts = 0;
-    MAX_ABORTS = 10;
-    abortEnemy = false;
+    MAX_ABORTS = 32;//10;
   }
 
   public Passive(final int maxAborts) {
     this.aborts = 0;
     MAX_ABORTS = maxAborts;
-    abortEnemy = false;
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
-    if (aborts < MAX_ABORTS) {
+    /*if (aborts < MAX_ABORTS) {
       aborts++;
     } else {
       aborts = 1;
@@ -38,6 +34,15 @@ public class Passive extends ContentionManager {
     } else {
       me.abort();
       throw new AbortedException();
+    }*/
+
+    if (aborts < MAX_ABORTS) {
+      aborts++;
+      me.abort();
+      throw new AbortedException();
+    } else {
+      aborts = 0;
+      other.abort();
     }
 
   }

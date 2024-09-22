@@ -1,14 +1,11 @@
 package TinyTM.contention;
 
 import java.rmi.RemoteException;
-import java.util.Random;
 
 import TinyTM.ITransaction;
 import TinyTM.Transaction;
 
 public class Timestamp extends ContentionManager {
-    Random random = new Random();
-    ITransaction rival = null;
     int delay;// = 64;
     int attempts;// = 0;
     int intervals;// = 32;
@@ -26,13 +23,6 @@ public class Timestamp extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-        if (rival != null) {
-            if (other.hashCode() != rival.hashCode()) {
-                rival = other;
-                attempts = 0;
-            }
-        }
-
         if (me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())) {
             attempts = 0;
             other.abort();

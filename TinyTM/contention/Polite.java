@@ -17,7 +17,6 @@
 
 package TinyTM.contention;
 
-import java.util.Random;
 import TinyTM.*;
 import java.rmi.*;
 
@@ -29,7 +28,6 @@ import java.rmi.*;
 public class Polite extends ContentionManager {
   private static /*final*/ int MIN_DELAY; //= 128;// 64;//32;
   private static /*final*/ int MAX_DELAY; //= 4096;// 2048;//1024;
-  ITransaction rival = null;
   int delay;// = MIN_DELAY;
 
   public Polite(){
@@ -45,12 +43,6 @@ public class Polite extends ContentionManager {
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
-    if (rival != null) {
-      if (other.hashCode() != rival.hashCode()) {
-        rival = other;
-        delay = MIN_DELAY;
-      }
-    }
     if (delay < MAX_DELAY) { // be patient
       try {
         Thread.sleep(delay);
