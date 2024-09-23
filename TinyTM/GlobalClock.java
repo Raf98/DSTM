@@ -2,6 +2,6 @@ package TinyTM;
 
 public class GlobalClock {
     public static long getCurrentTime() {
-        return System.currentTimeMillis();
+        return System.currentTimeMillis(); //System.nanoTime();
     }
 }
