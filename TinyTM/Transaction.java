@@ -25,6 +25,7 @@ import TinyTM.ofree.TMObjServer;
 import TinyTM.ofree.ITMObjServer;
 import java.util.concurrent.atomic.AtomicReference;
 import java.rmi.server.UnicastRemoteObject;
+import java.net.MalformedURLException;
 import java.rmi.*;
 import TinyTM.ofree.ReadSet;
 import TinyTM.ofree.TMObj;
@@ -76,12 +77,13 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return t;
   }
 
-  public Transaction(/* int contentionManager */) throws RemoteException {
+  public Transaction(/* int contentionManager */) throws RemoteException, Exception {
     super();
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     // cm = chooseCM(contentionManager);
-    timestamp = new AtomicLong(GlobalClock.getCurrentTime());
+    IGlobalClock globalClock = (IGlobalClock) Naming.lookup("globalclock");
+    timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 
   private Transaction(Transaction.Status myStatus) throws RemoteException {
@@ -162,6 +164,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     while (!myThread.isInterrupted()) {
       me = new Transaction();
       Transaction.setLocal(me);
+      //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
       try {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {

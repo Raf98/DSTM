@@ -4,6 +4,8 @@ package DSTMBenchmark;
 
 import DSTMBenchmark.DBarrier;
 import DSTMBenchmark.DBankLocks.*;
+import TinyTM.GlobalClock;
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.*;
@@ -31,6 +33,10 @@ public class AppCoordinator {
          Registry reg = LocateRegistry.createRegistry(1099);
          Naming.rebind("barrier", barrier);
          Naming.rebind("serverbarrier", serverbarrier);
+
+         GlobalClock globalClock = new GlobalClock();
+         System.out.println("TIMESTAMP COORD: " + globalClock.getCurrentTime());
+         Naming.rebind("globalclock", globalClock);
 
          // waits for servers to be up:
          serverbarrier.await();
