@@ -83,10 +83,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     // cm = chooseCM(contentionManager);
-    //System.out.println("TRANSACTION - GLOBAL CLOCK: " + globalClock.hashCode());
+    //System.out.println("TRANSACTION - GLOBAL CLOCK: " + globalClock);
     if (globalClock == null) {
       globalClock = (IGlobalClock) Naming.lookup("rmi://localhost:1099/globalclock");
     }
+    System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
     timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 

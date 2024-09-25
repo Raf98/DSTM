@@ -4,10 +4,12 @@ import java.rmi.RemoteException;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class GlobalClock implements IGlobalClock {
-    static AtomicLong currentTime = new AtomicLong(0);
+    AtomicLong currentTime;
 
     public GlobalClock() {
+        currentTime = new AtomicLong(0);
         System.out.println("GLOBAL CLOCK OBJ: " + this.hashCode());
+        System.out.println(currentTime.get());
     }
 
     @Override
