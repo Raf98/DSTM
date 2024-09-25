@@ -45,6 +45,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public AtomicInteger priority = new AtomicInteger(0);
   public AtomicLong timestamp;
   public AtomicBoolean defunct = new AtomicBoolean(false);
+  public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
   public static final Transaction ABORTED = initABORTED();
@@ -82,7 +83,10 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     // cm = chooseCM(contentionManager);
-    IGlobalClock globalClock = (IGlobalClock) Naming.lookup("globalclock");
+    //System.out.println("TRANSACTION - GLOBAL CLOCK: " + globalClock.hashCode());
+    if (globalClock == null) {
+      globalClock = (IGlobalClock) Naming.lookup("rmi://localhost:1099/globalclock");
+    }
     timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 

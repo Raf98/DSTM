@@ -23,9 +23,9 @@ public class Timestamp extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-        //System.out.println("ME TIMESTAMP: " + me.getTimestamp() + ", HASH:" + me.hashCode());
-        //System.out.println("OTHER TIMESTAMP: " + other.getTimestamp() + ", HASH:" + other.hashCode());
-        //System.out.println(me.getTimestamp() == other.getTimestamp());
+        System.out.println("ME TIMESTAMP: " + me.getTimestamp() + ", HASH:" + me.hashCode());
+        System.out.println("OTHER TIMESTAMP: " + other.getTimestamp() + ", HASH:" + other.hashCode());
+        System.out.println(me.getTimestamp() == other.getTimestamp());
         //System.out.println(me.hashCode() == other.hashCode());
 
         if (me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())) {

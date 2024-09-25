@@ -35,7 +35,7 @@ public class AppCoordinator {
          Naming.rebind("serverbarrier", serverbarrier);
 
          GlobalClock globalClock = new GlobalClock();
-         System.out.println("TIMESTAMP COORD: " + globalClock.getCurrentTime());
+         System.out.println("GLOBAL CLOCK COORD: " + globalClock.hashCode());
          Naming.rebind("globalclock", globalClock);
 
          // waits for servers to be up:
