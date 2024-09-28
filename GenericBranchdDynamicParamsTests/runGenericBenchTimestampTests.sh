@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=8
+	NSERVER=16
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=8
+	NMAXCLIENTS=16
 else
 	NMAXCLIENTS=$3
 fi
@@ -57,7 +57,7 @@ do
      do
 
         echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        NCLIENT=8
+        NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
             NTRANS=$(($NTTRANS/$NCLIENT))
