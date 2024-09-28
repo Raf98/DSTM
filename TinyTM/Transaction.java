@@ -17,24 +17,30 @@
 
 package TinyTM;
 
-import TinyTM.exceptions.AbortedException;
-import TinyTM.exceptions.PanicException;
-import java.util.concurrent.Callable;
-import java.util.Map;
-import TinyTM.ofree.TMObjServer;
-import TinyTM.ofree.ITMObjServer;
-import java.util.concurrent.atomic.AtomicReference;
+import java.rmi.Naming;
+import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.net.MalformedURLException;
-import java.rmi.*;
-import TinyTM.ofree.ReadSet;
-import TinyTM.ofree.TMObj;
-
+import java.util.Map;
+import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicReference;
 
-import TinyTM.contention.*;
+import TinyTM.contention.Aggressive;
+import TinyTM.contention.CMEnum;
+import TinyTM.contention.ContentionManager;
+import TinyTM.contention.Karma;
+import TinyTM.contention.Kindergarten;
+import TinyTM.contention.Less;
+import TinyTM.contention.Passive;
+import TinyTM.contention.Polite;
+import TinyTM.contention.Polka;
+import TinyTM.contention.Timestamp;
+import TinyTM.exceptions.AbortedException;
+import TinyTM.exceptions.PanicException;
+import TinyTM.ofree.ITMObjServer;
+import TinyTM.ofree.ReadSet;
 
 public class Transaction extends UnicastRemoteObject implements ITransaction {
 
@@ -83,11 +89,10 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     // cm = chooseCM(contentionManager);
-    //System.out.println("TRANSACTION - GLOBAL CLOCK: " + globalClock);
     if (globalClock == null) {
-      globalClock = (IGlobalClock) Naming.lookup("rmi://localhost:1099/globalclock");
+      globalClock = (IGlobalClock) Naming.lookup("globalclock");
     }
-    System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
+    //System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
     timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 
@@ -165,11 +170,22 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     T result;
     Transaction me;
     Thread myThread = Thread.currentThread();
+    long transactionTimestamp = -1;
+    int transactionPriority = -1;
 
     while (!myThread.isInterrupted()) {
       me = new Transaction();
       Transaction.setLocal(me);
+
+      if (transactionPriority != -1) {
+        me.priority.set(transactionPriority);
+      }
+      if (transactionTimestamp != -1) {
+        me.timestamp.set(transactionTimestamp);
+      }
+
       //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
+
       try {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
@@ -180,6 +196,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
           return result;
         }
       } catch (AbortedException e) {
+        transactionTimestamp = me.timestamp.get();
+        transactionPriority = me.priority.get();
       } catch (InterruptedException e) {
         myThread.interrupt();
       } catch (Exception e) {

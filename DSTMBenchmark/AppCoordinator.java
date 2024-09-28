@@ -2,18 +2,15 @@
 // This work is licensed under a Creative Commons
 package DSTMBenchmark;
 
-import DSTMBenchmark.DBarrier;
-import DSTMBenchmark.DBankLocks.*;
-import TinyTM.GlobalClock;
-
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
-import java.io.BufferedReader;
-import java.io.FileReader;
 
-import java.lang.Thread;
+import TinyTM.GlobalClock;
+import TinyTM.IGlobalClock;
 
 public class AppCoordinator {
 
@@ -35,8 +32,10 @@ public class AppCoordinator {
          Naming.rebind("serverbarrier", serverbarrier);
 
          GlobalClock globalClock = new GlobalClock();
+         //this line of code was needed for the global count to work
+         IGlobalClock stub = (IGlobalClock) UnicastRemoteObject.exportObject(globalClock, 0); 
          System.out.println("GLOBAL CLOCK COORD: " + globalClock.hashCode());
-         Naming.rebind("globalclock", globalClock);
+         Naming.rebind("globalclock", stub);
 
          // waits for servers to be up:
          serverbarrier.await();
