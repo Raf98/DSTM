@@ -34,7 +34,7 @@ public class AppCoordinator {
          GlobalClock globalClock = new GlobalClock();
          //this line of code was needed for the global count to work
          IGlobalClock stub = (IGlobalClock) UnicastRemoteObject.exportObject(globalClock, 0); 
-         System.out.println("GLOBAL CLOCK COORD: " + globalClock.hashCode());
+         //System.out.println("GLOBAL CLOCK COORD: " + globalClock.hashCode());
          Naming.rebind("globalclock", stub);
 
          // waits for servers to be up:
