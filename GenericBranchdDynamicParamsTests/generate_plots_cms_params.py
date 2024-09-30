@@ -7,11 +7,11 @@ import os
 import sys
 
 print(sys.argv)
-dynamic_cm_params_test_filename = sys.argv[1]
+dynamic_cm_params_test_filename = "tests_results/" + sys.argv[1]
 
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
-contention_managers = ["Kindergarten", "Timestamp", "Less", "Polka", "Karma", "Polite", "Passive", "Agressive"]
+contention_managers = ["Kindergarten", "Timestamp", "Polka", "Karma", "Polite", "Passive"]
 use_cases = []
 tests_cms = []
 cm_clients = []
@@ -95,7 +95,7 @@ else:
     for cm_param_config in cm_params_configs:
         param0 = cm_params_configs[0].split(" ")
 
-        maxaborts_mindelay_delay = int(param0[1])
+        maxaborts_mindelay_delay = int(param0[0])
         if maxaborts_mindelay_delay not in maxaborts_mindelay_delay_arr:
             maxaborts_mindelay_delay_arr.append(maxaborts_mindelay_delay)
 
@@ -172,6 +172,9 @@ for wp in writes_percentage:
 
 print(counts)
 
+if not os.path.exists(contention_manager):
+    os.makedirs(contention_manager)
+
 i = 0
 n = 0
 for wp in writes_percentage:
@@ -201,7 +204,7 @@ for wp in writes_percentage:
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
             ax.set_ylabel('Time (seconds)', fontsize=20)
-            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
+            ax.set_title(f"{contention_manager}\nObjects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
             ax.set_xticks(x + width, number_of_clients)
             ax.legend(loc='upper right', ncols=1, prop={'size': 18})
             ax.set_ylim(0, max + 10)
@@ -210,7 +213,8 @@ for wp in writes_percentage:
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
-            fig.savefig(f"timestamp/NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
+
+            fig.savefig(f"{contention_manager}/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
             n+=1
             i+=1
 
