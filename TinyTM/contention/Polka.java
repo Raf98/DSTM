@@ -7,7 +7,7 @@ import TinyTM.ITransaction;
 import TinyTM.Transaction;
 
 public class Polka extends ContentionManager {
-    private static /*final*/ int MIN_DELAY = 128;// 64;//32;
+    private static /*final*/ int MIN_DELAY; //= 128;// 64;//32;
     //private static final int MAX_DELAY = 2048;// 2048;//1024;
     Random random = new Random();
     int delay;// = 64;
