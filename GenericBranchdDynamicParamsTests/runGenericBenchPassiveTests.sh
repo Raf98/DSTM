@@ -47,37 +47,37 @@ cd GenericBranchdDynamicParamsTests
 #WRITES=20
 for WRITES in $(seq 20 30 50); 
 do
-   #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
-   NOBJTRANS=5
-   for NOBJTRANS in $(seq 5 15 20);
-   do
-     # LOW CONTENTION??? - should loop first through 100 then through 500
-     NOBJSERVER=100
-     for NOBJSERVER in $(seq 100 400 500);
-     do
-
-        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-        NCLIENT=2
-        while [[ $NCLIENT -le $NMAXCLIENTS ]];
+    #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
+    NOBJTRANS=5
+    for NOBJTRANS in $(seq 5 15 20);
+    do
+        # LOW CONTENTION??? - should loop first through 100 then through 500
+        NOBJSERVER=100
+        for NOBJSERVER in $(seq 100 400 500);
         do
-            NTRANS=$(($NTTRANS/$NCLIENT))
-            echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-            max_aborts=32 #using 8 OR 16 ends up in a starvation situation, apparently (LOW CONTENTION/FEW WRITES/LONG TRANSACTIONS)
-            while [[ $max_aborts -le 128 ]];
+            echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+            NCLIENT=2
+            while [[ $NCLIENT -le $NMAXCLIENTS ]];
             do
-                for i in $(seq 0 4);
+                NTRANS=$(($NTTRANS/$NCLIENT))
+                echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
+            
+                max_aborts=32 #using 8 OR 16 ends up in a starvation situation, apparently (LOW CONTENTION/FEW WRITES/LONG TRANSACTIONS)
+                while [[ $max_aborts -le 128 ]];
                 do
-                    echo "Test $i for TRMIPassive: $max_aborts max_aborts"
-                    printf "TRMIPassive\t$NCLIENT\t"
-                    ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $max_aborts
+                    for i in $(seq 0 9);
+                    do
+                        echo "Test $i for TRMIPassive: $max_aborts max_aborts"
+                        printf "TRMIPassive\t$NCLIENT\t"
+                        ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $max_aborts
+                    done
+                    let "max_aborts*=2" #8 16 32
                 done
-                let "max_aborts*=2" #8 16 32
+                let "NCLIENT*=2"
             done
-            let "NCLIENT*=2"
-        done
 
-     done
-   done
+        done
+    done
 done
 

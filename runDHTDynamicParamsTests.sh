@@ -36,7 +36,7 @@ fi
 
 if [ -z $4 ]
 then
-	NHTENTRIES=10
+	NHTENTRIES=128
 else
 	NHTENTRIES=$4
 fi
@@ -51,11 +51,15 @@ do
    NOBJTRANS=5
    for NOBJTRANS in $(seq 5 15 20);
    do
-     # LOW CONTENTION??? - should loop first through 100 then through 500
-     NOBJSERVER=100
-     for NOBJSERVER in $(seq 100 400 500);
-     do
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        # CONTENTION- should loop first using a key space limited to 1000 keys, and a number of entries for a hash table
+        # that is a power of 2, for more collision, thus, greater contention
+        # and then move to a case in which there are 10000 keys available and a lower number of entries but of a prime number
+        # which would render less collisions and, thus, lower contention
+        NKEYS=1000
+        NHTENTRIES=128
+        for NKEYS in $(seq 1000 9000 10000);
+        do
+            echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -72,7 +76,7 @@ do
                     do
                         echo "Test $i for TRMIKindergarten: $delay delay; $intervals intervals"
                         printf "TRMIKindergarten\t$NCLIENT\t"
-                        ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $delay $intervals
+                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $delay $intervals
                     done
                     let "intervals*=2" #4 8 16
                 done
@@ -81,7 +85,7 @@ do
          let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -97,7 +101,7 @@ do
                     do
                         echo "Test $i for TRMITimestamp: $delay delay; $intervals intervals"
                         printf "TRMITimestamp\t$NCLIENT\t"
-                        ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $delay $intervals
+                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $delay $intervals
                     done
                     let "intervals*=2" #16 32 64
                 done
@@ -106,7 +110,7 @@ do
             let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -120,14 +124,14 @@ do
                 do
                     echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
                     printf "TRMIPolka\t$NCLIENT\t"
-                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $min_delay
+                    ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $min_delay
                 done
                 let "min_delay*=2" #64 128 256
             done
             let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -141,14 +145,14 @@ do
                 do
                     echo "Test $i for TRMIKarma: $delay delay"
                     printf "TRMIKarma\t$NCLIENT\t"
-                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 2 $NHTENTRIES $delay
+                    ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 2 $NHTENTRIES $delay
                 done
                 let "delay*=2" #32 64 128
             done
             let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -165,7 +169,7 @@ do
                        do
                            echo "Test $i for TRMIPolite: $min_delay min_delay; $max_delay max_delay"
                            printf "TRMIPolite\t$NCLIENT\t"
-                           ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $min_delay $max_delay
+                           ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $min_delay $max_delay
                        done
                        let "max_delay*=2" #2048 4096 8192
                    done
@@ -174,7 +178,7 @@ do
                let "NCLIENT*=2"
         done
 
-        echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+        echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
         NCLIENT=2
         while [[ $NCLIENT -le $NMAXCLIENTS ]];
         do
@@ -188,7 +192,7 @@ do
                 do
                     echo "Test $i for TRMIPassive: $max_aborts max_aborts"
                     printf "TRMIPassive\t$NCLIENT\t"
-                    ./runDHT_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $max_aborts
+                    ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $max_aborts
                 done
                 let "max_aborts*=2" #8 16 32
             done

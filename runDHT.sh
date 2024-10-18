@@ -9,8 +9,8 @@ fi
 
 if [ -z $2 ]
 then
-	NOBJSERVER=10
-else NOBJSERVER=$2
+	NKEYS=1000
+else NKEYS=$2
 fi
 
 if [ -z $3 ]
@@ -53,28 +53,28 @@ fi
 
 if [ -z $8 ]
 then
-	NHTENTRIES=10
+	NHTENTRIES=128
 else
 	NHTENTRIES=$8
 fi
 
 for i in $(seq 0 0);
 do
-  java DHT.DHTCoordinator $NSERVER $NCLIENT $NOBJSERVER&
+  	java DHT.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
 
-  pid=$!
-  printf "CM ID:\t$CM\t"
-  for i in $(seq 0 $(($NSERVER - 1)));
-  do
-	taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM &
-  done
+  	pid=$!
+  	printf "CM ID:\t$CM\t"
+  	for i in $(seq 0 $(($NSERVER - 1)));
+  	do
+		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM &
+  	done
 
-  for i in $(seq 0 $(($NCLIENT-1)));
-  do
-	#-Djava.rmi.server.logCalls=true
-	taskset -c $i java DHT.DHTClient $i $NSERVER $NOBJSERVER $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
- done
- wait $pid
+  	for i in $(seq 0 $(($NCLIENT-1)));
+  	do
+		#-Djava.rmi.server.logCalls=true
+		taskset -c $i java DHT.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+ 	done
+ 	wait $pid
 done
 
 

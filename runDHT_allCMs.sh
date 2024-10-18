@@ -53,7 +53,7 @@ fi
 
 if [ -z $8 ]
 then
-	NHTENTRIES=100
+	NHTENTRIES=128
 else
 	NHTENTRIES=$8
 fi
@@ -67,21 +67,21 @@ for CMSEL in $(seq 0 1 7);
 do
     for i in $(seq 0 0);
     do
-      java DHT.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
+      	java DHT.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
 
-      pid=$!
-      printf "CM ID:\t$CMSEL\t"
-      for i in $(seq 0 $(($NSERVER - 1)));
-      do
-    	taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CMSEL &
-      done
+      	pid=$!
+      	printf "CM ID:\t$CMSEL\t"
+      	for i in $(seq 0 $(($NSERVER - 1)));
+      	do
+    		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CMSEL &
+      	done
 
-      for i in $(seq 0 $(($NCLIENT-1)));
-      do
-    	#-Djava.rmi.server.logCalls=true
-    	taskset -c $i java DHT.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
-     done
-     wait $pid
+      	for i in $(seq 0 $(($NCLIENT-1)));
+      	do
+    		#-Djava.rmi.server.logCalls=true
+    		taskset -c $i java DHT.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+     	done
+     	wait $pid
     done
 done
 
