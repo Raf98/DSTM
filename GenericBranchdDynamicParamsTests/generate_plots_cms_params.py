@@ -7,7 +7,8 @@ import os
 import sys
 
 print(sys.argv)
-dynamic_cm_params_test_filename = "tests_results/" + sys.argv[1]
+cm_selected = sys.argv[1]
+dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests.txt"
 
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
@@ -121,7 +122,7 @@ for wp in writes_percentage:
         for ops in objs_per_server:
             for cpc in cm_params_configs:
                 for noc in number_of_clients:
-                    for test in range(5):
+                    for test in range(10):
                         print(executions_time[i])
                         test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc].append(
                             int(executions_time[i].split("Time of execution: ")[1].split(" milliseconds")[0]))
@@ -145,7 +146,7 @@ for wp in writes_percentage:
             for cpc in cm_params_configs:
                 for noc in number_of_clients:
                     avg = 0
-                    for test in range(5):
+                    for test in range(10):
                         avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test]
                     avg /= 5*1000
                     test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc] = round(avg, 2)
@@ -172,8 +173,10 @@ for wp in writes_percentage:
 
 print(counts)
 
-if not os.path.exists(contention_manager):
-    os.makedirs(contention_manager)
+if not os.path.exists("10Tests"):
+    os.makedirs("10Tests")
+if not os.path.exists("10Tests/" + contention_manager):
+    os.makedirs("10Tests/" + contention_manager)
 
 i = 0
 n = 0
@@ -214,7 +217,7 @@ for wp in writes_percentage:
             fig.set_figheight(10)
             fig.set_figwidth(19)
 
-            fig.savefig(f"{contention_manager}/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
+            fig.savefig(f"10Tests/{contention_manager}/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
             n+=1
             i+=1
 
