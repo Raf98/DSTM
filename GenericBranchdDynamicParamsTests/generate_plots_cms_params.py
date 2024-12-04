@@ -55,6 +55,7 @@ writes_percentage = [20, 50]
 objs_per_transaction = [5, 20] #[5, 10]
 objs_per_server = [100, 500]
 number_of_clients = [2, 4, 8, 16]
+number_of_tests = 10
 test_cases_dict = {}
 
 print(cm_params_configs)
@@ -137,7 +138,7 @@ for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
             test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"] = {
-                    cpc: {noc: [] for noc in number_of_clients} for cpc in cm_params_configs
+                    cpc: {noc: {"avg": 0, "max_error": 0} for noc in number_of_clients} for cpc in cm_params_configs
             }
 
 for wp in writes_percentage:
@@ -146,14 +147,32 @@ for wp in writes_percentage:
             for cpc in cm_params_configs:
                 for noc in number_of_clients:
                     avg = 0
-                    for test in range(10):
+                    min_value = 99999
+                    max_value = -1
+                    for test in range(number_of_tests):
                         avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test]
-                    avg /= 5*1000
-                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc] = round(avg, 2)
+                        max_value = max(max_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test])
+                        min_value = min(min_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test])
+                    avg /= number_of_tests * 1000
+                    min_value /= 1000
+                    max_value /= 1000
+                    max_error = (max_value - min_value)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["avg"] = round(avg, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["min"] = round(min_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max"] = round(max_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["lower_bound"] = round(avg - min_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["upper_bound"] = round(max_value - avg, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max_error"] = round(max_error, 2)
 
+print("AVERAGES:")
 print(test_cases_avgs_dict)
 
 counts = [[] for i in range(8)]
+mins = [[] for i in range(8)]
+maxs = [[] for i in range(8)]
+lowers = [[] for i in range(8)]
+uppers = [[] for i in range(8)]
+errors = [[] for i in range(8)]
 
 print(counts)
 
@@ -164,11 +183,26 @@ for wp in writes_percentage:
             for cpc in cm_params_configs:
                 j = 0
                 count = []
+                min_value = []
+                max_value = []
+                lower_bound = []
+                upper_bound = []
+                error = []
                 for noc in number_of_clients:
-                    count.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc])
+                    count.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["avg"])
+                    min_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["min"])
+                    max_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max"])
+                    lower_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["lower_bound"])
+                    upper_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["upper_bound"])
+                    error.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max_error"])
                     j += 1
                 print(count)
                 counts[i].append(count)
+                mins[i].append(min_value)
+                maxs[i].append(max_value)
+                lowers[i].append(lower_bound)
+                uppers[i].append(upper_bound)
+                errors[i].append(error)
             i+=1
 
 print(counts)
@@ -184,13 +218,23 @@ for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
             avgs = {}
+            min_values = {}
+            max_values = {}
+            lower_bounds = {}
+            upper_bounds = {}
+            max_errors = {}
             j = 0
             max = 0
             for cpc in cm_params_configs:
                 print(counts[i][j])
-                local_max = np.array(counts[i][j]).max()
+                local_max = np.array(counts[i][j]).max() + np.array(errors[i][j]).max()
                 max = local_max if local_max > max else max  
                 avgs[cpc] = counts[i][j]
+                min_values[cpc] = mins[i][j]
+                max_values[cpc] = maxs[i][j]
+                lower_bounds[cpc] = lowers[i][j]
+                upper_bounds[cpc] = uppers[i][j]
+                max_errors[cpc] = errors[i][j]
                 j+=1
 
             x = np.arange(len(number_of_clients))  # the label locations
@@ -201,8 +245,32 @@ for wp in writes_percentage:
 
             for attribute, measurement in avgs.items():
                 offset = width * multiplier
-                rects = ax.bar(x + offset, measurement, width, label=attribute)
-                ax.bar_label(rects, padding=0)
+                #y_lower_bound = np.array(avgs[attribute]) - np.array(min_values[attribute])
+                #y_upper_bound =np.array(max_values[attribute]) - np.array(avgs[attribute])
+                error_bounds = [lower_bounds[attribute], upper_bounds[attribute]]
+
+
+                bars = ax.bar(x = x + offset, height = measurement, width = width, yerr = error_bounds, 
+                               capsize = 10, label = attribute, edgecolor = 'black')
+                for index, bar in enumerate(bars):
+                    height = bar.get_height()
+                    max_error = max_errors[attribute][index]
+                    lower_bound = lower_bounds[attribute][index]
+                    upper_bound = upper_bounds[attribute][index]
+
+                    ax.text(x = bar.get_x() + bar.get_width()/2, y = height, s = f'{height:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                    
+                    if lower_bound > max / 10:
+                        min_value = min_values[attribute][index]
+                        ax.text(x = bar.get_x() + bar.get_width()/2, y = min_value, s = f'{min_value:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                    
+                    if upper_bound > max / 10:
+                        max_value = max_values[attribute][index]
+                        ax.text(x = bar.get_x() + bar.get_width()/2, y = max_value, s = f'{max_value:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                #ax.bar_label(bars, padding=0)
                 multiplier += 1
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
