@@ -42,14 +42,14 @@ print(len(cm_clients))
 print(len(executions_time))
 print(len(aborts))
 
-for use_case in use_cases:
-    print(use_case)
-    for i in range(len(cm_clients)):
-        print(i)
-        print(tests_cms[i], end="")
-        print(cm_clients[i], end="")
-        print(executions_time[i], end="")
-        print(aborts[i], end="")
+# for use_case in use_cases:
+#     print(use_case)
+#     for i in range(len(cm_clients)):
+#         print(i)
+#         print(tests_cms[i], end="")
+#         print(cm_clients[i], end="")
+#         print(executions_time[i], end="")
+#         print(aborts[i], end="")
 
 writes_percentage = [20, 50]
 objs_per_transaction = [5, 20] #[5, 10]
@@ -102,10 +102,10 @@ else:
             maxaborts_mindelay_delay_arr.append(maxaborts_mindelay_delay)
 
 
-print(param0_title)
-print(maxaborts_mindelay_delay_arr)
-print(param1_title)
-print(maxdelay_intervals_arr)
+# print(param0_title)
+# print(maxaborts_mindelay_delay_arr)
+# print(param1_title)
+# print(maxdelay_intervals_arr)
 
 
 for wp in writes_percentage:
@@ -114,7 +114,7 @@ for wp in writes_percentage:
             test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"] = {
                  cpc: {noc: [] for noc in number_of_clients} for cpc in cm_params_configs
             }
-print(test_cases_dict)
+#print(test_cases_dict)
 
 i = 0
 
@@ -130,7 +130,7 @@ for wp in writes_percentage:
                         i+=1
                         print(i)
 
-print(test_cases_dict)
+#print(test_cases_dict)
 
 test_cases_avgs_dict = {}
 
@@ -147,13 +147,14 @@ for wp in writes_percentage:
             for cpc in cm_params_configs:
                 for noc in number_of_clients:
                     avg = 0
-                    min_value = 99999
+                    min_value = 999999
                     max_value = -1
                     for test in range(number_of_tests):
                         avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test]
                         max_value = max(max_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test])
                         min_value = min(min_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc][test])
                     avg /= number_of_tests * 1000
+                    #print("MIN VALUE: " + str(min_value))
                     min_value /= 1000
                     max_value /= 1000
                     max_error = (max_value - min_value)
@@ -196,7 +197,7 @@ for wp in writes_percentage:
                     upper_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["upper_bound"])
                     error.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max_error"])
                     j += 1
-                print(count)
+                #print(count)
                 counts[i].append(count)
                 mins[i].append(min_value)
                 maxs[i].append(max_value)
@@ -205,12 +206,14 @@ for wp in writes_percentage:
                 errors[i].append(error)
             i+=1
 
-print(counts)
+#print(counts)
 
 if not os.path.exists("10Tests"):
     os.makedirs("10Tests")
 if not os.path.exists("10Tests/" + contention_manager):
     os.makedirs("10Tests/" + contention_manager)
+
+multiply_factor = 1.15 if maxdelay_intervals == 0 else 1.08 
 
 i = 0
 n = 0
@@ -227,8 +230,9 @@ for wp in writes_percentage:
             max = 0
             for cpc in cm_params_configs:
                 print(counts[i][j])
-                local_max = np.array(counts[i][j]).max() + np.array(errors[i][j]).max()
-                max = local_max if local_max > max else max  
+                local_max = np.array(maxs[i][j]).max() #np.array(counts[i][j]).max() + np.array(errors[i][j]).max()
+                max = local_max if local_max > max else max
+                max *= multiply_factor
                 avgs[cpc] = counts[i][j]
                 min_values[cpc] = mins[i][j]
                 max_values[cpc] = maxs[i][j]
@@ -251,7 +255,7 @@ for wp in writes_percentage:
 
 
                 bars = ax.bar(x = x + offset, height = measurement, width = width, yerr = error_bounds, 
-                               capsize = 10, label = attribute, edgecolor = 'black')
+                               capsize = 10, label = attribute, edgecolor = 'black', zorder=3)
                 for index, bar in enumerate(bars):
                     height = bar.get_height()
                     max_error = max_errors[attribute][index]
@@ -263,6 +267,7 @@ for wp in writes_percentage:
                     
                     if lower_bound > max / 10:
                         min_value = min_values[attribute][index]
+                        #print("MIN VALUE: " + str(min_value))
                         ax.text(x = bar.get_x() + bar.get_width()/2, y = min_value, s = f'{min_value:.2f}', 
                             horizontalalignment='center', verticalalignment='bottom')
                     
@@ -278,9 +283,10 @@ for wp in writes_percentage:
             ax.set_title(f"{contention_manager}\nObjects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
             ax.set_xticks(x + width, number_of_clients)
             ax.legend(loc='upper right', ncols=1, prop={'size': 18})
-            ax.set_ylim(0, max + 10)
+            ax.set_ylim(0, max)
             ax.tick_params(axis='x', labelsize=20)
             ax.tick_params(axis='y', labelsize=20)
+            ax.grid(zorder=0)
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
