@@ -165,8 +165,8 @@ for wp in writes_percentage:
                     test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["upper_bound"] = round(max_value - avg, 2)
                     test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cpc][noc]["max_error"] = round(max_error, 2)
 
-print("AVERAGES:")
-print(test_cases_avgs_dict)
+#print("AVERAGES:")
+#print(test_cases_avgs_dict)
 
 counts = [[] for i in range(8)]
 mins = [[] for i in range(8)]
@@ -175,7 +175,7 @@ lowers = [[] for i in range(8)]
 uppers = [[] for i in range(8)]
 errors = [[] for i in range(8)]
 
-print(counts)
+#print(counts)
 
 i = 0
 for wp in writes_percentage:
@@ -228,8 +228,11 @@ for wp in writes_percentage:
             max_errors = {}
             j = 0
             max = 0
+
+            print(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
             for cpc in cm_params_configs:
                 print(counts[i][j])
+                print("CM PARAM CONFIG: " + cpc)
                 local_max = np.array(maxs[i][j]).max() #np.array(counts[i][j]).max() + np.array(errors[i][j]).max()
                 max = local_max if local_max > max else max
                 max *= multiply_factor
