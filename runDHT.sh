@@ -58,6 +58,20 @@ else
 	NHTENTRIES=$8
 fi
 
+if [ -z $9 ]
+then
+	MAXABORTS_MINDELAY_DELAY=64
+else
+	MAXABORTS_MINDELAY_DELAY=$8
+fi
+
+if [ -z $10 ]
+then
+	MAXDELAY_INTERVALS=256
+else
+	MAXDELAY_INTERVALS=$9
+fi
+
 for i in $(seq 0 0);
 do
   	java DHT.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
@@ -66,7 +80,7 @@ do
   	printf "CM ID:\t$CM\t"
   	for i in $(seq 0 $(($NSERVER - 1)));
   	do
-		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM &
+		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM $MAXABORTS_MINDELAY_DELAY $MAXDELAY_INTERVALS &
   	done
 
   	for i in $(seq 0 $(($NCLIENT-1)));

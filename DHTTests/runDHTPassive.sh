@@ -32,6 +32,13 @@ else
 	NMAXCLIENTS=$3
 fi
 
+if [ -z $4 ]
+then
+	MAX_ABORTS=128
+else
+	MAX_ABORTS=$4
+fi
+
 echo "Compiling all files needed for DHT..."
 ./compileDHT.sh
 # WRITES - should loop first through 20 then through 50
@@ -60,7 +67,7 @@ do
                     do
                         echo "Test $i for TRMIPassive"
                         printf "TRMIPassive\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES
+                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $MAX_ABORTS
                     done
                 let "NCLIENT*=2"
             done

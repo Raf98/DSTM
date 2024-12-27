@@ -32,6 +32,13 @@ else
 	NMAXCLIENTS=$3
 fi
 
+if [ -z $4 ]
+then
+	DELAY_INTERVAL=512
+else
+	DELAY_INTERVAL=$4
+fi
+
 echo "Compiling all files needed for DHT..."
 ./compileDHT.sh
 # WRITES - should loop first through 20 then through 50
@@ -60,7 +67,7 @@ do
                     do
                         echo "Test $i for TRMIKindergarten"
                         printf "TRMIKindergarten\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES
+                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $DELAY_INTERVAL
                     done
                 let "NCLIENT*=2"
             done
