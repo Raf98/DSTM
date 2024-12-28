@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=8
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=16
+	NMAXCLIENTS=8
 else
 	NMAXCLIENTS=$3
 fi
@@ -49,7 +49,7 @@ echo "Compiling all files needed for the generic benchmark..."
 ./compileGenericBench.sh
 
 # Move back to the current directory to run the tests
-cd GenericBranchdDynamicParamsTests
+cd GenericBenchFinalTests
 
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
