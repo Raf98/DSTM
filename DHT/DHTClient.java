@@ -218,7 +218,7 @@ class DHTTransaction implements ExecuteTransaction {
             serverForOps.insertMultiple(keys, values);
             inserts.getAndIncrement();
             commits.getAndIncrement();
-            System.out.println("INSERTS: " + inserts.get());
+            //System.out.println("INSERTS: " + inserts.get());
         } else {
             /*for (int i = 0; i < nObjects; i++) {
                 IHashTable iHashTable = machinesForOps[machinesIds[i]];
@@ -232,7 +232,7 @@ class DHTTransaction implements ExecuteTransaction {
             serverForOps.getMultiple(keys);
             gets.getAndIncrement();
             commits.getAndIncrement();
-            System.out.println("GETS: " + gets.get());
+            //System.out.println("GETS: " + gets.get());
         }
 
         /*int donewithdraw = 0;
