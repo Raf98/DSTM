@@ -31,7 +31,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         heads = new INode[numberHTEntries];
         for (int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
-            System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
+            //System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = newLLHead;
         }
 
@@ -49,7 +49,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         heads = new INode[numberHTEntries];
         for (int i = 0; i < numberHTEntries; ++i) {
             SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
-            System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
+            //System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
             heads[i] = newLLHead;
         }
 

@@ -73,13 +73,11 @@ else
 fi
 
 # Moves to previous directory to run the bash file that compiles all Java files needed
+# and to use the DHT .class files
 cd -
 
 echo "Compiling all files needed for the DHT benchmark..."
 ./compileDHT.sh
-
-# Move back to the current directory to run the tests
-cd DHTTests
 
 for i in $(seq 0 0);
 do
