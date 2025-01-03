@@ -32,15 +32,15 @@ else
 	NMAXCLIENTS=$3
 fi
 
-if [ -z $4 ]
-then
-	MAX_ABORTS=128
-else
-	MAX_ABORTS=$4
-fi
+# Moves to previous directory to run the bash file that compiles all Java files needed
+cd -
 
-echo "Compiling all files needed for DHT..."
+echo "Compiling all files needed for the DHT benchmark..."
 ./compileDHT.sh
+
+# Move back to the current directory to run the tests
+cd DHTTests
+
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
 for WRITES in $(seq 20 30 50); 
@@ -65,9 +65,9 @@ do
                 echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
                     for i in $(seq 0 9);
                     do
-                        echo "Test $i for TRMIPassive"
-                        printf "TRMIPassive\t$NCLIENT\t"
-                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 0 $NHTENTRIES $MAX_ABORTS
+                        echo "Test $i for TRMILocks"
+                        printf "TRMILocks\t$NCLIENT\t"
+                        ./runDHTLocks.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS $NHTENTRIES
                     done
                 let "NCLIENT*=2"
             done

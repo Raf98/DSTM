@@ -60,7 +60,7 @@ do
                     do
                         echo "Test $i for TRMILess"
                         printf "TRMILess\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 6 $NHTENTRIES
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 6 $NHTENTRIES
                     done
                 let "NCLIENT*=2"
             done

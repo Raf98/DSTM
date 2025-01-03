@@ -1,71 +1,74 @@
-#16 SERVERS
-#UP TO 16 CLIENTS (2, 4, 8, 16)
-#5000 TRANSACTIONS DIVIDED BETWEEN CLIENTS AT LAUNCH TIME
-#LOWER CONTENTION – KEYSPACE OF 10000 FOR ALL SERVERS, PRIME NUMBER FOR THE NUMBER OF HASHTABLE ENTRIES
-#HIGHER CONTENTION – KEYSPACE OF 1000 FOR ALL SERVERS, POWER OF 2 NUMBER FOR THE NUMBER OF HASHTABLE ENTRIES
-#WRITES PER TRANSACTION – 20% OR 50%
-#SIZE OF TRANSACTIONS – SHORT (5 OBJECTS) OR LONG (20 OBJECTS)
+#!/bin/bash
 
-# NSERVER SHOULD BE 16 FOR OVERALL TESTS
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=8
 else
 	NSERVER=$1
 fi
 
-# NTTRANS SHOULD BE 5000 INSTEAD???
 if [ -z $2 ]
 then
-	NTTRANS=5000
+	NKEYS=1000
+else NKEYS=$2
+fi
+
+if [ -z $3 ]
+then
+	NCLIENT=4
 else
-	NTTRANS=$2
+	NCLIENT=$3
+fi
+
+if [ -z $4 ]
+then
+	WRITES=30
+else
+	WRITES=$4
+fi
+
+if [ -z $5 ]
+then
+	NTRANS=500
+else
+	NTRANS=$5
+fi
+
+
+if [ -z $6 ]
+then
+	NOBJTRANS=2
+else
+	NOBJTRANS=$6
 fi
 #=$(expr $5 - 1)
 #fi
 
-# NMAXCLIENTS SHOULD BE 16 FOR OVERALL TESTS
-if [ -z $3 ]
+if [ -z $7 ]
 then
-	NMAXCLIENTS=16
+	NHTENTRIES=128
 else
-	NMAXCLIENTS=$3
+	NHTENTRIES=$7
 fi
 
-echo "Compiling all files needed for DHT..."
-./compileDHT.sh
-# WRITES - should loop first through 20 then through 50
-#WRITES=20
-for WRITES in $(seq 20 30 50); 
+for i in $(seq 0 0);
 do
-    #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
-    NOBJTRANS=5
-    for NOBJTRANS in $(seq 5 15 20);
-    do
-        # CONTENTION- should loop first using a key space limited to 1000 keys, and a number of entries for a hash table
-        # that is a power of 2, for more collision, thus, greater contention
-        # and then move to a case in which there are 10000 keys available and a lower number of entries but of a prime number
-        # which would render less collisions and, thus, lower contention
-        NKEYS=1000
-        NHTENTRIES=128
-        for NKEYS in $(seq 1000 9000 10000);
-        do
-            echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-            NCLIENT=2
-            while [[ $NCLIENT -le $NMAXCLIENTS ]];
-            do
-                NTRANS=$(($NTTRANS/$NCLIENT))
-                echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
-                    for i in $(seq 0 9);
-                    do
-                        echo "Test $i for TRMILocks"
-                        printf "TRMILocks\t$NCLIENT\t"
-                        ./runDHTLocks.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS $NHTENTRIES
-                    done
-                let "NCLIENT*=2"
-            done
-            let "NHENTRIES=97"
-        done
-    done
+  	java DHT.DHTLocks.DHTCoordinator $NSERVER $NCLIENT $NKEYS&
+
+  	pid=$!
+  	printf "CM ID:\t$CM\t"
+  	for i in $(seq 0 $(($NSERVER - 1)));
+  	do
+		taskset -c $(($i+$NCLIENT)) java DHT.DHTLocks.DHTServer $i $NHTENTRIES &
+  	done
+
+  	for i in $(seq 0 $(($NCLIENT-1)));
+  	do
+		#-Djava.rmi.server.logCalls=true
+		taskset -c $i java DHT.DHTLocks.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+ 	done
+ 	wait $pid
 done
+
+
 

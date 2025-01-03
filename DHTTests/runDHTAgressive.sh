@@ -60,7 +60,7 @@ do
                     do
                         echo "Test $i for TRMIAgressive"
                         printf "TRMIAgressive\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 7 $NHTENTRIES
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 7 $NHTENTRIES
                     done
                 let "NCLIENT*=2"
             done

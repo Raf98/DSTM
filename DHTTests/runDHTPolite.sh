@@ -76,7 +76,7 @@ do
                     do
                         echo "Test $i for TRMIPolite"
                         printf "TRMIPolite\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $MIN_DELAY $MAX_DELAY
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $NHTENTRIES $MIN_DELAY $MAX_DELAY
                     done
                 let "NCLIENT*=2"
             done

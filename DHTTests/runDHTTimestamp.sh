@@ -74,7 +74,7 @@ do
                     do
                         echo "Test $i for TRMITimestamp"
                         printf "TRMITimestamp\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $DELAY $INTERVALS
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 4 $NHTENTRIES $DELAY $INTERVALS
                     done
                 let "NCLIENT*=2"
             done

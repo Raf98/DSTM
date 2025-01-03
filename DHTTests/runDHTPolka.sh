@@ -67,7 +67,7 @@ do
                     do
                         echo "Test $i for TRMIPolka"
                         printf "TRMIPolka\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $MIN_DELAY
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $NHTENTRIES $MIN_DELAY
                     done
                 let "NCLIENT*=2"
             done

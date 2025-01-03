@@ -67,7 +67,7 @@ do
                     do
                         echo "Test $i for TRMIKindergarten"
                         printf "TRMIKindergarten\t$NCLIENT\t"
-                        ./runDHT.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $DELAY_INTERVAL
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 5 $NHTENTRIES $DELAY_INTERVAL
                     done
                 let "NCLIENT*=2"
             done
