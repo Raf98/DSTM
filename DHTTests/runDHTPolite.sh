@@ -78,7 +78,7 @@ do
                     done
                 let "NCLIENT*=2"
             done
-            let "NHENTRIES=97"
+            let "NHTENTRIES=97"
         done
     done
 done

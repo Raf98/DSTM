@@ -17,7 +17,7 @@ import TinyTM.Transaction;
 
 public class DHTClient {
     public static void main(String[] args) throws Exception {
-        System.out.println("começa");
+        //System.out.println("começa");
 
         int clientid = Integer.parseInt(args[0]);               // i in NCLIENT
         int servers = Integer.parseInt(args[1]);                // NSERVER
@@ -75,7 +75,7 @@ class DHTSaveData implements NewSaveData {
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
                 Arrays.asList("aborts", /*DHT*/Transaction.aborts.get() + ""));
 
-        System.out.println("gravando arquivo");
+        //System.out.println("gravando arquivo");
 
         FileWriter csvWriter = new FileWriter("client" + clientid + ".out");
 
