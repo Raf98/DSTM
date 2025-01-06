@@ -51,12 +51,8 @@ else
 	NHTENTRIES=$7
 fi
 
-# Moves to previous directory to run the bash file that compiles all Java files needed
-# and to use the DHTLocks .class files
+# Moves to previous directory to run and use the DHTLocks .class files
 cd -
-
-echo "Compiling all files needed for the DHT benchmark..."
-./compileDHT.sh
 
 for i in $(seq 0 0);
 do

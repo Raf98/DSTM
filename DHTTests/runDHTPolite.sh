@@ -48,6 +48,15 @@ else
 	MAX_DELAY=$5
 fi
 
+# Moves to previous directory to run the bash file that compiles all Java files needed
+cd -
+
+echo "Compiling all files needed for the DHT benchmark..."
+./compileDHT.sh
+
+# Move back to the current directory to run the tests
+cd DHTTests
+
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
 for WRITES in $(seq 20 30 50); 

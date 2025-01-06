@@ -41,7 +41,6 @@ else
 	DELAY_INTERVAL=$4
 fi
 
-
 # Moves to previous directory to run the bash file that compiles all Java files needed
 cd -
 

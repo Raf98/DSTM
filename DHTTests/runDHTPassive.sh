@@ -39,6 +39,15 @@ else
 	MAX_ABORTS=$4
 fi
 
+# Moves to previous directory to run the bash file that compiles all Java files needed
+cd -
+
+echo "Compiling all files needed for the DHT benchmark..."
+./compileDHT.sh
+
+# Move back to the current directory to run the tests
+cd DHTTests
+
 # Move back to the current directory to run the tests
 #cd DHTTests
 

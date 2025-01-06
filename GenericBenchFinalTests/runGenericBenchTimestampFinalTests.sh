@@ -55,7 +55,7 @@ echo "Compiling all files needed for the generic benchmark..."
 ./compileGenericBench.sh
 
 # Move back to the current directory to run the tests
-cd GenericBranchdDynamicParamsTests
+cd GenericBenchFinalTests
 
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
