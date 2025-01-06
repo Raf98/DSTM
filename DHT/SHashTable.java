@@ -144,6 +144,8 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         return commits.get();
     }
 
+    // check if a head has alreday been opened and, if so, return its index
+    // it should be refactor to use a hash map maybe (????)
     private int tmObjAlreadyOpen(TMObjServer<INode<Integer>>[] headsTMObjServer, int currentIndex) {
         for (int i = 0; i < currentIndex; i++) {
             if (headsTMObjServer[i].hashCode() == headsTMObjServer[currentIndex].hashCode()) {
@@ -202,6 +204,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     public boolean[] insertMultiple(int[] keys, int[] values) throws RemoteException, Exception {
         TMObjServer<INode<Integer>>[] headsTMObjServer = new TMObjServer[keys.length];
 
+        // get the head of the LL for which the key is hashed
         for (int i = 0; i < keys.length; i++) {
             headsTMObjServer[i] = heads[keys[i] % numberHTEntries];
             //.println("KEY: " + keys[i] + "; " + "TMOBJ: " + headsTMObjServer[i].hashCode());
@@ -217,6 +220,9 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 INode<Integer>[] headNodes = new SNode[keys.length];
 
                 for (int i = 0; i < keys.length; i++) {
+                    // if another key has already open a same head for write,
+                    // retrieve instead of trying to reopening it for write within  the same transaction,
+                    // which results in an error
                     int openedIndex = tmObjAlreadyOpen(headsTMObjServer, i);
 
                     if (openedIndex == -1) {
