@@ -50,6 +50,8 @@ public interface ITransaction extends Remote {
 
   public int getPriority() throws RemoteException;
 
+  public void setPriority(int priority) throws RemoteException;
+
   public long getTimestamp() throws RemoteException;
 
   public boolean getDefunct() throws RemoteException;

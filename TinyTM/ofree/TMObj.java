@@ -79,8 +79,11 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
         // return localRef;
         // System.out.println("openread cliente pedindo para abrir");
         // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
-        me.priority.incrementAndGet();  // increments priority when opening an object to read
-        me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
+
+        // the 2 lines below have been moved to TMObjServer's openReadRemote, since it has effect also
+        // on locally handled TMObjs this way (DHT)
+        //me.priority.incrementAndGet();  // increments priority when opening an object to read
+        //me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
         T result = (T) server.openReadRemote(me);
         // localRef = result;
         return result;
@@ -108,8 +111,11 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
         // }
         // System.out.println("openwrite cliente pedindo para abrir");
         // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
-        me.priority.incrementAndGet(); // increments priority when opening an object to write
-        me.defunct.set(false);
+
+        // the 2 lines below have been moved to TMObjServer's openWriteRemote, since it has effect also
+        // on locally handled TMObjs this way (DHT)
+        //me.priority.incrementAndGet(); // increments priority when opening an object to write
+        //me.defunct.set(false);
         T result = (T) server.openWriteRemote(me);
         // localRef = result;
         return result;

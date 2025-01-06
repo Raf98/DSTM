@@ -185,13 +185,13 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       }
 
       //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
+      System.out.println("CURRENT PRIORITY: " + me.getPriority());
 
       try {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
           commits.getAndIncrement();
-          // System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " +
-          // commits.get());
+          //System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
 
           return result;
         }
@@ -206,7 +206,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       }
       aborts.getAndIncrement();
       //System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
-      //System.out.println("ABORTED: " + aborts.get());
+      System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
   }
@@ -215,6 +215,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public int getPriority() throws RemoteException {
     // System.out.println("GET: " + priority.get());
     return priority.get();
+  }
+
+  @Override
+  public void setPriority(int priority) throws RemoteException {
+    this.priority.set(priority);
   }
 
   @Override

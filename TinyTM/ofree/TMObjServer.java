@@ -24,7 +24,7 @@ import TinyTM.*;
 //import TinyTM.contention.ContentionManager;
 import TinyTM.exceptions.AbortedException;
 import TinyTM.exceptions.PanicException;
-import TinyTM.Copyable;
+
 import java.util.concurrent.atomic.AtomicReference;
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
@@ -68,15 +68,20 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
       ITransaction writer = oldLocator.owner.get();
       switch (writer.getStatus()) {
         case COMMITTED:
+          tx.setPriority(0);
+          tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
           // System.out.println("committed");
           newLocator.oldVersion = oldLocator.newVersion;
           break;
         case ABORTED:
+          tx.setDefunct(false);
           // System.out.println("Abort");
           newLocator.oldVersion = oldLocator.oldVersion;
           break;
         case ACTIVE: // tx.abort(); throw new AbortedException();
           // writer.abort();
+          tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to write
+          tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
           tx.CMresolve(writer);
           continue;
         default:
@@ -145,18 +150,23 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     switch (writer.getStatus()) {
       case COMMITTED:
+        tx.setPriority(0);
+        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.newVersion;
         if (writer != Transaction.COMMITTED) {
           locator.owner.compareAndSet(writer, Transaction.COMMITTED);
         }
         break;
       case ABORTED:
+        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.oldVersion;
         if (writer != Transaction.ABORTED) {
           locator.owner.compareAndSet(writer, Transaction.ABORTED);
         }
         break;
       case ACTIVE:
+        tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to read
+        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.oldVersion;
         break;
       default:
