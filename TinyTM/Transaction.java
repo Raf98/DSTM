@@ -185,7 +185,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       }
 
       //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
-      System.out.println("CURRENT PRIORITY: " + me.getPriority());
+      //System.out.println("CURRENT PRIORITY: " + me.getPriority());
 
       try {
         result = xaction.call();
@@ -206,7 +206,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       }
       aborts.getAndIncrement();
       //System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
-      System.out.println("ABORTED: " + aborts.get());
+      //System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
   }

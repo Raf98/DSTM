@@ -24,15 +24,16 @@ public class DHTServer {
         // If CM is not Less or Agressive, that have no settable parameters
         if (args.length > 3 && contentionManager < 6) {
             maxAborts_minDelay_delay = Integer.parseInt(args[3]);
+
+            System.out.println("Contention Manager Dynamic Parameters:");
+            System.out.println("maxAborts/minDelay/delay: " + maxAborts_minDelay_delay);
             
             if (args.length > 4 && contentionManager > 0) {
                 maxDelay_intervals = Integer.parseInt(args[4]);
+
+                System.out.println("maxDelay_intervals: " + maxDelay_intervals);
             }
         }
-
-        System.out.println("Contention Manager Dynamic Parameters:");
-        System.out.println("maxAborts/minDelay/delay: " + maxAborts_minDelay_delay);
-        System.out.println("maxDelay_intervals: " + maxDelay_intervals);
 
         /*
         //IHashTable hashTableImp = new SHashTable("ht" + id);

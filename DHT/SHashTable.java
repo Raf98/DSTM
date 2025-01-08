@@ -223,22 +223,27 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                     // if another key has already open a same head for write,
                     // retrieve instead of trying to reopening it for write within  the same transaction,
                     // which results in an error
-                    int openedIndex = tmObjAlreadyOpen(headsTMObjServer, i);
+                    /*int openedIndex = tmObjAlreadyOpen(headsTMObjServer, i);
 
                     if (openedIndex == -1) {
                         headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction); 
                     } else {
                         //System.out.println("ALREADY OPENED: " + headNodes[openedIndex]);
                         headNodes[i] = headNodes[openedIndex];
-                    }
+                    }*/
 
                     //System.out.println("WRITING..." + i + ", KEY: " + keys[i]);
+
+                    // open the head of the current LL for reading, because it will be needed to check
+                    // whether or not it should be written (its next field, more specifically)
+                    headNodes[i] = headsTMObjServer[i].openReadRemote(localTransaction);
 
                     INode<Integer> newNode = new SNode<>(keys[i], values[i]);
                     TMObjServer<INode<Integer>> newNodeTmObjServer = new TMObjServer<INode<Integer>>(newNode);
 
                     if (headNodes[i].getNext() == null) {
                         //System.out.println("FIRST INSERT");
+                        headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction);
                         headNodes[i].setNext(newNodeTmObjServer);
                         //System.out.println("FIRST:" + newNode.toString());
                         inserteds[i] = true;
