@@ -177,7 +177,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                     for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); tmObjServerNode != null;) {
                         INode<Integer> node;
                         node = tmObjServerNode.openReadRemote(localTransaction);
-                        //System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " +node.getValue());
+                        System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
                         if (node.getKey() == keys[i]) {
                             nodesFound[i] = node;
                             break;
@@ -185,8 +185,6 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
                         tmObjServerNode = node.getNext();
                     }
-
-                    nodesFound[i] = null;
                 }
 
                 return nodesFound;
@@ -245,16 +243,16 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                         //System.out.println("FIRST INSERT");
                         headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction);
                         headNodes[i].setNext(newNodeTmObjServer);
-                        //System.out.println("FIRST:" + newNode.toString());
+                        System.out.println("FIRST NODE:" + newNode.toString());
                         inserteds[i] = true;
                     } else {
                         for (TMObjServer<INode<Integer>> tmObjServerNode = headNodes[i].getNext(); tmObjServerNode != null;) {
                             INode<Integer> node;
                             node = tmObjServerNode.openReadRemote(localTransaction);
 
-                            //System.out.println("CURRENT NODE:" + node.toString());
+                            System.out.println("CURRENT NODE:" + node.toString());
                             if (node.getKey() == keys[i]) {
-                                //System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(), values[i]);
+                                System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(), values[i]);
                                 node.setValue(values[i]);
                                 inserteds[i] = true;
                                 break;
