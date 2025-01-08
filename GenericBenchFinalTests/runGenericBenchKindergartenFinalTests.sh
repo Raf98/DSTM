@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=8
+	NSERVER=16
 else
 	NSERVER=$1
 fi
@@ -29,7 +29,7 @@ fi
 # NMAXCLIENTS SHOULD BE 32 INSTEAD
 if [ -z $3 ]
 then
-	NMAXCLIENTS=8
+	NMAXCLIENTS=16
 else
 	NMAXCLIENTS=$3
 fi
