@@ -243,7 +243,9 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                         //System.out.println("FIRST INSERT");
                         headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction);
                         headNodes[i].setNext(newNodeTmObjServer);
-                        System.out.println("FIRST NODE:" + newNode.toString());
+                        System.out.println("FIRST NODE: " + newNode.toString() + 
+                                           "; INDEX: " + keys[i] % numberHTEntries + 
+                                           "; SERVER: " + addressName);
                         inserteds[i] = true;
                     } else {
                         for (TMObjServer<INode<Integer>> tmObjServerNode = headNodes[i].getNext(); tmObjServerNode != null;) {
@@ -252,12 +254,14 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
                             System.out.println("CURRENT NODE:" + node.toString());
                             if (node.getKey() == keys[i]) {
-                                System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(), values[i]);
+                                System.out.printf("KEY %d; INDEX %d; SERVER %s: UPDATING VALUE FROM %d TO %d!\n", 
+                                                    keys[i], keys[i] % numberHTEntries, addressName, node.getValue(), values[i]);
                                 node.setValue(values[i]);
                                 inserteds[i] = true;
                                 break;
                             } else if (node.getNext() == null) {
-                                //System.out.println("NEXT INSERT");
+                                System.out.printf("KEY %d; INDEX %d; SERVER %s: INSERTING %d!\n", 
+                                                    keys[i], keys[i] % numberHTEntries, addressName, values[i]);
                                 node = tmObjServerNode.openWriteRemote(Transaction.getLocal());
                                 node.setNext(newNodeTmObjServer);
                                 inserteds[i] = true;
