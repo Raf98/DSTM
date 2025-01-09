@@ -221,7 +221,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         throw new PanicException(e);
       }
       aborts.getAndIncrement();
-      System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, aborts.get());
+      //System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, aborts.get());
       //System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
