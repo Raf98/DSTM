@@ -1,0 +1,3993 @@
+/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+Compiling all files needed for the DHT benchmark...
+NKEYS: 1000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 6873 milliseconds
+Current commits: 622
+Current aborts: 0
+Current commits: 1229
+Current aborts: 0
+Current commits: 1868
+Current aborts: 0
+Current commits: 2482
+Current aborts: 0
+Current commits: 3088
+Current aborts: 0
+Current commits: 3706
+Current aborts: 0
+Current commits: 4376
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+Time of execution: 6870 milliseconds
+Current commits: 661
+Current aborts: 0
+Current commits: 1290
+Current aborts: 0
+Current commits: 1933
+Current aborts: 0
+Current commits: 2584
+Current aborts: 0
+Current commits: 3201
+Current aborts: 0
+Current commits: 3813
+Current aborts: 0
+Current commits: 4423
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 7044 milliseconds
+Current commits: 648
+Current aborts: 0
+Current commits: 1295
+Current aborts: 0
+Current commits: 1917
+Current aborts: 0
+Current commits: 2568
+Current aborts: 0
+Current commits: 3177
+Current aborts: 0
+Current commits: 3801
+Current aborts: 0
+Current commits: 4390
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 6736 milliseconds
+Current commits: 619
+Current aborts: 0
+Current commits: 1225
+Current aborts: 0
+Current commits: 1904
+Current aborts: 0
+Current commits: 2488
+Current aborts: 0
+Current commits: 3123
+Current aborts: 0
+Current commits: 3740
+Current aborts: 0
+Current commits: 4388
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+THREAD: 1222647369, TRANSACTION: 1; ABORTED: 1
+Time of execution: 7041 milliseconds
+Current commits: 620
+Current aborts: 0
+Current commits: 1285
+Current aborts: 0
+Current commits: 1948
+Current aborts: 0
+Current commits: 2564
+Current aborts: 0
+Current commits: 3208
+Current aborts: 0
+Current commits: 3796
+Current aborts: 1
+Current commits: 4392
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 6887 milliseconds
+Current commits: 609
+Current aborts: 0
+Current commits: 1240
+Current aborts: 0
+Current commits: 1869
+Current aborts: 0
+Current commits: 2461
+Current aborts: 0
+Current commits: 3120
+Current aborts: 0
+Current commits: 3760
+Current aborts: 0
+Current commits: 4378
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 6715 milliseconds
+Current commits: 617
+Current aborts: 0
+Current commits: 1213
+Current aborts: 0
+Current commits: 1860
+Current aborts: 0
+Current commits: 2487
+Current aborts: 0
+Current commits: 3136
+Current aborts: 0
+Current commits: 3731
+Current aborts: 0
+Current commits: 4381
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+THREAD: 1784609505, TRANSACTION: 6; ABORTED: 1
+Time of execution: 7174 milliseconds
+Current commits: 609
+Current aborts: 0
+Current commits: 1220
+Current aborts: 0
+Current commits: 1869
+Current aborts: 1
+Current commits: 2500
+Current aborts: 1
+Current commits: 3118
+Current aborts: 1
+Current commits: 3693
+Current aborts: 1
+Current commits: 4360
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+THREAD: 2115891004, TRANSACTION: 20; ABORTED: 1
+Time of execution: 7243 milliseconds
+Current commits: 657
+Current aborts: 0
+Current commits: 1311
+Current aborts: 0
+Current commits: 1938
+Current aborts: 0
+Current commits: 2545
+Current aborts: 1
+Current commits: 3179
+Current aborts: 1
+Current commits: 3749
+Current aborts: 1
+Current commits: 4378
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 1490411484, TRANSACTION: 10; ABORTED: 1
+Time of execution: 7275 milliseconds
+Current commits: 582
+Current aborts: 0
+Current commits: 1228
+Current aborts: 0
+Current commits: 1820
+Current aborts: 1
+Current commits: 2407
+Current aborts: 1
+Current commits: 3101
+Current aborts: 1
+Current commits: 3704
+Current aborts: 1
+Current commits: 4363
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 4389 milliseconds
+Current commits: 620
+Current aborts: 0
+Current commits: 1244
+Current aborts: 0
+Current commits: 1845
+Current aborts: 0
+Current commits: 2501
+Current aborts: 0
+Current commits: 3109
+Current aborts: 0
+Current commits: 3720
+Current aborts: 0
+Current commits: 4363
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 250WRITES: 250
+
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 4397 milliseconds
+Current commits: 640
+Current aborts: 0
+Current commits: 1240
+Current aborts: 0
+Current commits: 1878
+Current aborts: 0
+Current commits: 2474
+Current aborts: 0
+Current commits: 3071
+Current aborts: 0
+Current commits: 3722
+Current aborts: 0
+Current commits: 4364
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 250
+WRITES: 250
+READS: 1000READS: 1000
+WRITES: 250
+WRITES: 250
+
+READS: 1000
+READS: 1000
+Time of execution: 4475 milliseconds
+Current commits: 672
+Current aborts: 0
+Current commits: 1327
+Current aborts: 0
+Current commits: 1910
+Current aborts: 0
+Current commits: 2554
+Current aborts: 0
+Current commits: 3156
+Current aborts: 0
+Current commits: 3766
+Current aborts: 0
+Current commits: 4387
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 4374 milliseconds
+Current commits: 639
+Current aborts: 0
+Current commits: 1280
+Current aborts: 0
+Current commits: 1930
+Current aborts: 0
+Current commits: 2536
+Current aborts: 0
+Current commits: 3150
+Current aborts: 0
+Current commits: 3775
+Current aborts: 0
+Current commits: 4393
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 4472 milliseconds
+Current commits: 635
+Current aborts: 0
+Current commits: 1270
+Current aborts: 0
+Current commits: 1917
+Current aborts: 0
+Current commits: 2528
+Current aborts: 0
+Current commits: 3146
+Current aborts: 0
+Current commits: 3770
+Current aborts: 0
+Current commits: 4411
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000WRITES: 250
+WRITES: 250
+
+READS: 1000
+READS: 1000
+Time of execution: 4422 milliseconds
+Current commits: 634
+Current aborts: 0
+Current commits: 1256
+Current aborts: 0
+Current commits: 1889
+Current aborts: 0
+Current commits: 2536
+Current aborts: 0
+Current commits: 3153
+Current aborts: 0
+Current commits: 3783
+Current aborts: 0
+Current commits: 4383
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000WRITES: 250
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+THREAD: 1835606465, TRANSACTION: 18; ABORTED: 1
+Time of execution: 4439 milliseconds
+Current commits: 616
+Current aborts: 1
+Current commits: 1221
+Current aborts: 1
+Current commits: 1870
+Current aborts: 1
+Current commits: 2511
+Current aborts: 1
+Current commits: 3108
+Current aborts: 1
+Current commits: 3696
+Current aborts: 1
+Current commits: 4363
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 4467 milliseconds
+Current commits: 640
+Current aborts: 0
+Current commits: 1289
+Current aborts: 0
+Current commits: 1896
+Current aborts: 0
+Current commits: 2488
+Current aborts: 0
+Current commits: 3094
+Current aborts: 0
+Current commits: 3726
+Current aborts: 0
+Current commits: 4384
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250WRITES: 250
+
+READS: 1000
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+Time of execution: 4483 milliseconds
+Current commits: 655
+Current aborts: 0
+Current commits: 1254
+Current aborts: 0
+Current commits: 1913
+Current aborts: 0
+Current commits: 2564
+Current aborts: 0
+Current commits: 3165
+Current aborts: 0
+Current commits: 3769
+Current aborts: 0
+Current commits: 4340
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 4420 milliseconds
+Current commits: 616
+Current aborts: 0
+Current commits: 1232
+Current aborts: 0
+Current commits: 1863
+Current aborts: 0
+Current commits: 2494
+Current aborts: 0
+Current commits: 3142
+Current aborts: 0
+Current commits: 3767
+Current aborts: 0
+Current commits: 4382
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 697629332, TRANSACTION: 23; ABORTED: 1
+THREAD: 833267801, TRANSACTION: 25; ABORTED: 2
+THREAD: 1860517185, TRANSACTION: 39; ABORTED: 3
+Time of execution: 3882 milliseconds
+Current commits: 592
+Current aborts: 3
+Current commits: 1242
+Current aborts: 3
+Current commits: 1869
+Current aborts: 3
+Current commits: 2510
+Current aborts: 3
+Current commits: 3122
+Current aborts: 3
+Current commits: 3769
+Current aborts: 3
+Current commits: 4383
+Current aborts: 3
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+READS: 500
+
+WRITES: 125
+READS: 500READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+
+THREAD: 1970468971, TRANSACTION: 9; ABORTED: 1
+THREAD: 140032823, TRANSACTION: 13; ABORTED: 2
+THREAD: 1709267259, TRANSACTION: 20; ABORTED: 1
+THREAD: 248684473, TRANSACTION: 25; ABORTED: 3
+THREAD: 1709267259, TRANSACTION: 81; ABORTED: 2
+THREAD: 696445786, TRANSACTION: 38; ABORTED: 3
+THREAD: 1709267259, TRANSACTION: 81; ABORTED: 4
+Time of execution: 4134 milliseconds
+Current commits: 612
+Current aborts: 0
+Current commits: 1235
+Current aborts: 0
+Current commits: 1903
+Current aborts: 0
+Current commits: 2535
+Current aborts: 0
+Current commits: 3134
+Current aborts: 0
+Current commits: 3743
+Current aborts: 0
+Current commits: 4382
+Current aborts: 3
+Current commits: 5000
+Current aborts: 7
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500
+READS: 500
+
+READS: 500
+
+THREAD: 1487340821, TRANSACTION: 9; ABORTED: 1
+THREAD: 112260961, TRANSACTION: 27; ABORTED: 2
+Time of execution: 3749 milliseconds
+Current commits: 640
+Current aborts: 0
+Current commits: 1235
+Current aborts: 0
+Current commits: 1932
+Current aborts: 0
+Current commits: 2527
+Current aborts: 2
+Current commits: 3127
+Current aborts: 2
+Current commits: 3714
+Current aborts: 2
+Current commits: 4356
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 3642 milliseconds
+Current commits: 612
+Current aborts: 0
+Current commits: 1221
+Current aborts: 0
+Current commits: 1798
+Current aborts: 0
+Current commits: 2421
+Current aborts: 0
+Current commits: 3064
+Current aborts: 0
+Current commits: 3687
+Current aborts: 0
+Current commits: 4358
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500WRITES: 125
+READS: 500
+WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 3503 milliseconds
+Current commits: 637
+Current aborts: 0
+Current commits: 1222
+Current aborts: 0
+Current commits: 1845
+Current aborts: 0
+Current commits: 2483
+Current aborts: 0
+Current commits: 3097
+Current aborts: 0
+Current commits: 3773
+Current aborts: 0
+Current commits: 4380
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+
+READS: 500
+WRITES: 125
+
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 3527 milliseconds
+Current commits: 595
+Current aborts: 0
+Current commits: 1233
+Current aborts: 0
+Current commits: 1861
+Current aborts: 0
+Current commits: 2491
+Current aborts: 0
+Current commits: 3148
+Current aborts: 0
+Current commits: 3762
+Current aborts: 0
+Current commits: 4392
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 3415 milliseconds
+Current commits: 663
+Current aborts: 0
+Current commits: 1242
+Current aborts: 0
+Current commits: 1854
+Current aborts: 0
+Current commits: 2494
+Current aborts: 0
+Current commits: 3103
+Current aborts: 0
+Current commits: 3731
+Current aborts: 0
+Current commits: 4353
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+THREAD: 1483056894, TRANSACTION: 39; ABORTED: 1
+THREAD: 171848817, TRANSACTION: 40; ABORTED: 2
+Time of execution: 3635 milliseconds
+Current commits: 660
+Current aborts: 2
+Current commits: 1292
+Current aborts: 2
+Current commits: 1924
+Current aborts: 2
+Current commits: 2544
+Current aborts: 2
+Current commits: 3156
+Current aborts: 2
+Current commits: 3761
+Current aborts: 2
+Current commits: 4365
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 39840550, TRANSACTION: 30; ABORTED: 1
+Time of execution: 3832 milliseconds
+Current commits: 626
+Current aborts: 0
+Current commits: 1258
+Current aborts: 0
+Current commits: 1893
+Current aborts: 0
+Current commits: 2537
+Current aborts: 0
+Current commits: 3165
+Current aborts: 0
+Current commits: 3794
+Current aborts: 1
+Current commits: 4367
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+WRITES: 125
+
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 602576144, TRANSACTION: 1; ABORTED: 1
+Time of execution: 3487 milliseconds
+Current commits: 603
+Current aborts: 1
+Current commits: 1178
+Current aborts: 1
+Current commits: 1760
+Current aborts: 1
+Current commits: 2427
+Current aborts: 1
+Current commits: 3081
+Current aborts: 1
+Current commits: 3723
+Current aborts: 1
+Current commits: 4354
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+NKEYS: 10000 NHTENTRIES: 97 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 7790 milliseconds
+Current commits: 613
+Current aborts: 0
+Current commits: 1285
+Current aborts: 0
+Current commits: 1872
+Current aborts: 0
+Current commits: 2510
+Current aborts: 0
+Current commits: 3143
+Current aborts: 0
+Current commits: 3740
+Current aborts: 0
+Current commits: 4339
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000READS: 2000
+
+Time of execution: 7684 milliseconds
+Current commits: 597
+Current aborts: 0
+Current commits: 1260
+Current aborts: 0
+Current commits: 1886
+Current aborts: 0
+Current commits: 2484
+Current aborts: 0
+Current commits: 3113
+Current aborts: 0
+Current commits: 3774
+Current aborts: 0
+Current commits: 4396
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxDelay_intervals: 80
+
+
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 7811 milliseconds
+Current commits: 606
+Current aborts: 0
+Current commits: 1226
+Current aborts: 0
+Current commits: 1818
+Current aborts: 0
+Current commits: 2464
+Current aborts: 0
+Current commits: 3101
+Current aborts: 0
+Current commits: 3736
+Current aborts: 0
+Current commits: 4366
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 7711 milliseconds
+Current commits: 599
+Current aborts: 0
+Current commits: 1225
+Current aborts: 0
+Current commits: 1856
+Current aborts: 0
+Current commits: 2460
+Current aborts: 0
+Current commits: 3076
+Current aborts: 0
+Current commits: 3670
+Current aborts: 0
+Current commits: 4312
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 1727334046, TRANSACTION: 4; ABORTED: 1
+Time of execution: 7918 milliseconds
+Current commits: 635
+Current aborts: 0
+Current commits: 1290
+Current aborts: 0
+Current commits: 1924
+Current aborts: 0
+Current commits: 2542
+Current aborts: 0
+Current commits: 3167
+Current aborts: 1
+Current commits: 3789
+Current aborts: 1
+Current commits: 4372
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+THREAD: 1472347353, TRANSACTION: 9; ABORTED: 1
+THREAD: 2121257349, TRANSACTION: 18; ABORTED: 2
+Time of execution: 8140 milliseconds
+Current commits: 627
+Current aborts: 0
+Current commits: 1252
+Current aborts: 0
+Current commits: 1902
+Current aborts: 0
+Current commits: 2496
+Current aborts: 0
+Current commits: 3117
+Current aborts: 2
+Current commits: 3707
+Current aborts: 2
+Current commits: 4337
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 7747 milliseconds
+Current commits: 609
+Current aborts: 0
+Current commits: 1223
+Current aborts: 0
+Current commits: 1840
+Current aborts: 0
+Current commits: 2518
+Current aborts: 0
+Current commits: 3140
+Current aborts: 0
+Current commits: 3765
+Current aborts: 0
+Current commits: 4356
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 73968452, TRANSACTION: 5; ABORTED: 1
+Time of execution: 7752 milliseconds
+Current commits: 609
+Current aborts: 0
+Current commits: 1194
+Current aborts: 0
+Current commits: 1820
+Current aborts: 0
+Current commits: 2477
+Current aborts: 0
+Current commits: 3099
+Current aborts: 0
+Current commits: 3773
+Current aborts: 1
+Current commits: 4384
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+Time of execution: 7663 milliseconds
+Current commits: 643
+Current aborts: 0
+Current commits: 1279
+Current aborts: 0
+Current commits: 1908
+Current aborts: 0
+Current commits: 2531
+Current aborts: 0
+Current commits: 3158
+Current aborts: 0
+Current commits: 3804
+Current aborts: 0
+Current commits: 4433
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 7792 milliseconds
+Current commits: 629
+Current aborts: 0
+Current commits: 1254
+Current aborts: 0
+Current commits: 1874
+Current aborts: 0
+Current commits: 2472
+Current aborts: 0
+Current commits: 3068
+Current aborts: 0
+Current commits: 3711
+Current aborts: 0
+Current commits: 4363
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+THREAD: 395617660, TRANSACTION: 1; ABORTED: 1
+Time of execution: 5206 milliseconds
+Current commits: 604
+Current aborts: 0
+Current commits: 1241
+Current aborts: 1
+Current commits: 1897
+Current aborts: 1
+Current commits: 2503
+Current aborts: 1
+Current commits: 3157
+Current aborts: 1
+Current commits: 3797
+Current aborts: 1
+Current commits: 4392
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 4884 milliseconds
+Current commits: 620
+Current aborts: 0
+Current commits: 1248
+Current aborts: 0
+Current commits: 1906
+Current aborts: 0
+Current commits: 2517
+Current aborts: 0
+Current commits: 3121
+Current aborts: 0
+Current commits: 3737
+Current aborts: 0
+Current commits: 4346
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+THREAD: 137836226, TRANSACTION: 12; ABORTED: 1
+THREAD: 566046892, TRANSACTION: 11; ABORTED: 2
+Time of execution: 5221 milliseconds
+Current commits: 587
+Current aborts: 0
+Current commits: 1227
+Current aborts: 0
+Current commits: 1869
+Current aborts: 0
+Current commits: 2502
+Current aborts: 0
+Current commits: 3112
+Current aborts: 2
+Current commits: 3710
+Current aborts: 2
+Current commits: 4356
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+THREAD: 2035824222, TRANSACTION: 2; ABORTED: 1
+THREAD: 1826775321, TRANSACTION: 11; ABORTED: 1
+THREAD: 1230867075, TRANSACTION: 201; ABORTED: 1
+Time of execution: 5240 milliseconds
+Current commits: 635
+Current aborts: 0
+Current commits: 1282
+Current aborts: 0
+Current commits: 1881
+Current aborts: 0
+Current commits: 2497
+Current aborts: 0
+Current commits: 3116
+Current aborts: 0
+Current commits: 3764
+Current aborts: 1
+Current commits: 4366
+Current aborts: 2
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000
+THREAD: 1885779324, TRANSACTION: 11; ABORTED: 1
+THREAD: 1885779324, TRANSACTION: 25; ABORTED: 2
+THREAD: 2128545840, TRANSACTION: 16; ABORTED: 3
+THREAD: 2112965014, TRANSACTION: 18; ABORTED: 4
+THREAD: 228703188, TRANSACTION: 24; ABORTED: 5
+Time of execution: 5412 milliseconds
+Current commits: 628
+Current aborts: 0
+Current commits: 1278
+Current aborts: 0
+Current commits: 1940
+Current aborts: 0
+Current commits: 2559
+Current aborts: 0
+Current commits: 3194
+Current aborts: 5
+Current commits: 3788
+Current aborts: 5
+Current commits: 4357
+Current aborts: 5
+Current commits: 5000
+Current aborts: 5
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250WRITES: 250
+READS: 1000
+
+WRITES: 250
+READS: 1000READS: 1000READS: 1000
+
+
+THREAD: 1871011273, TRANSACTION: 3; ABORTED: 1
+Time of execution: 4816 milliseconds
+Current commits: 633
+Current aborts: 0
+Current commits: 1277
+Current aborts: 0
+Current commits: 1869
+Current aborts: 0
+Current commits: 2478
+Current aborts: 0
+Current commits: 3111
+Current aborts: 0
+Current commits: 3719
+Current aborts: 0
+Current commits: 4327
+Current aborts: 0
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+THREAD: 1030424352, TRANSACTION: 1; ABORTED: 1
+THREAD: 1043244427, TRANSACTION: 12; ABORTED: 1
+THREAD: 771181875, TRANSACTION: 21; ABORTED: 1
+Time of execution: 5242 milliseconds
+Current commits: 634
+Current aborts: 0
+Current commits: 1263
+Current aborts: 1
+Current commits: 1938
+Current aborts: 1
+Current commits: 2545
+Current aborts: 1
+Current commits: 3178
+Current aborts: 1
+Current commits: 3784
+Current aborts: 2
+Current commits: 4374
+Current aborts: 3
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250READS: 1000
+
+READS: 1000
+READS: 1000
+Time of execution: 4820 milliseconds
+Current commits: 650
+Current aborts: 0
+Current commits: 1244
+Current aborts: 0
+Current commits: 1870
+Current aborts: 0
+Current commits: 2506
+Current aborts: 0
+Current commits: 3128
+Current aborts: 0
+Current commits: 3708
+Current aborts: 0
+Current commits: 4350
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+THREAD: 91737354, TRANSACTION: 1; ABORTED: 1
+THREAD: 592712111, TRANSACTION: 5; ABORTED: 2
+Time of execution: 5109 milliseconds
+Current commits: 588
+Current aborts: 0
+Current commits: 1200
+Current aborts: 0
+Current commits: 1833
+Current aborts: 0
+Current commits: 2461
+Current aborts: 0
+Current commits: 3112
+Current aborts: 0
+Current commits: 3727
+Current aborts: 0
+Current commits: 4347
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000READS: 1000
+
+
+THREAD: 1769862820, TRANSACTION: 1; ABORTED: 1
+Time of execution: 5108 milliseconds
+Current commits: 613
+Current aborts: 1
+Current commits: 1247
+Current aborts: 1
+Current commits: 1856
+Current aborts: 1
+Current commits: 2452
+Current aborts: 1
+Current commits: 3154
+Current aborts: 1
+Current commits: 3795
+Current aborts: 1
+Current commits: 4385
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 1708994630, TRANSACTION: 18; ABORTED: 1
+Time of execution: 3412 milliseconds
+Current commits: 647
+Current aborts: 1
+Current commits: 1252
+Current aborts: 1
+Current commits: 1898
+Current aborts: 1
+Current commits: 2524
+Current aborts: 1
+Current commits: 3126
+Current aborts: 1
+Current commits: 3750
+Current aborts: 1
+Current commits: 4370
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500READS: 500
+READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+THREAD: 722198790, TRANSACTION: 12; ABORTED: 1
+THREAD: 2051540390, TRANSACTION: 3; ABORTED: 1
+THREAD: 510876134, TRANSACTION: 2; ABORTED: 1
+THREAD: 722198790, TRANSACTION: 55; ABORTED: 2
+Time of execution: 3959 milliseconds
+Current commits: 666
+Current aborts: 2
+Current commits: 1283
+Current aborts: 3
+Current commits: 1879
+Current aborts: 3
+Current commits: 2501
+Current aborts: 3
+Current commits: 3104
+Current aborts: 3
+Current commits: 3735
+Current aborts: 4
+Current commits: 4357
+Current aborts: 4
+Current commits: 5000
+Current aborts: 4
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500READS: 500
+READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 380296747, TRANSACTION: 15; ABORTED: 1
+THREAD: 899751125, TRANSACTION: 29; ABORTED: 2
+THREAD: 2072416219, TRANSACTION: 31; ABORTED: 3
+THREAD: 2011372693, TRANSACTION: 22; ABORTED: 1
+Time of execution: 3862 milliseconds
+Current commits: 610
+Current aborts: 0
+Current commits: 1185
+Current aborts: 0
+Current commits: 1811
+Current aborts: 1
+Current commits: 2508
+Current aborts: 1
+Current commits: 3141
+Current aborts: 1
+Current commits: 3761
+Current aborts: 1
+Current commits: 4401
+Current aborts: 4
+Current commits: 5000
+Current aborts: 4
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+THREAD: 1170772226, TRANSACTION: 6; ABORTED: 1
+THREAD: 1319467407, TRANSACTION: 8; ABORTED: 2
+THREAD: 1170772226, TRANSACTION: 47; ABORTED: 3
+THREAD: 2047972969, TRANSACTION: 17; ABORTED: 4
+THREAD: 1983983179, TRANSACTION: 20; ABORTED: 5
+THREAD: 723498467, TRANSACTION: 14; ABORTED: 1
+THREAD: 1173800890, TRANSACTION: 23; ABORTED: 2
+Time of execution: 3880 milliseconds
+Current commits: 620
+Current aborts: 0
+Current commits: 1213
+Current aborts: 0
+Current commits: 1863
+Current aborts: 0
+Current commits: 2492
+Current aborts: 0
+Current commits: 3099
+Current aborts: 0
+Current commits: 3754
+Current aborts: 5
+Current commits: 4370
+Current aborts: 7
+Current commits: 5000
+Current aborts: 7
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+
+READS: 500
+THREAD: 758290697, TRANSACTION: 5; ABORTED: 1
+Time of execution: 3569 milliseconds
+Current commits: 621
+Current aborts: 0
+Current commits: 1252
+Current aborts: 0
+Current commits: 1866
+Current aborts: 0
+Current commits: 2509
+Current aborts: 0
+Current commits: 3173
+Current aborts: 1
+Current commits: 3785
+Current aborts: 1
+Current commits: 4381
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+READS: 500
+
+WRITES: 125
+READS: 500READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+THREAD: 755404642, TRANSACTION: 36; ABORTED: 1
+Time of execution: 3643 milliseconds
+Current commits: 683
+Current aborts: 0
+Current commits: 1323
+Current aborts: 0
+Current commits: 1924
+Current aborts: 0
+Current commits: 2520
+Current aborts: 0
+Current commits: 3143
+Current aborts: 0
+Current commits: 3794
+Current aborts: 1
+Current commits: 4395
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 3564 milliseconds
+Current commits: 606
+Current aborts: 0
+Current commits: 1235
+Current aborts: 0
+Current commits: 1844
+Current aborts: 0
+Current commits: 2477
+Current aborts: 0
+Current commits: 3088
+Current aborts: 0
+Current commits: 3739
+Current aborts: 0
+Current commits: 4363
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 1709864933, TRANSACTION: 2; ABORTED: 1
+Time of execution: 3653 milliseconds
+Current commits: 638
+Current aborts: 0
+Current commits: 1284
+Current aborts: 0
+Current commits: 1895
+Current aborts: 0
+Current commits: 2517
+Current aborts: 0
+Current commits: 3130
+Current aborts: 0
+Current commits: 3748
+Current aborts: 1
+Current commits: 4340
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxDelay_intervals: 80
+
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+THREAD: 1336009193, TRANSACTION: 2; ABORTED: 1
+THREAD: 251721121, TRANSACTION: 39; ABORTED: 2
+THREAD: 1251077314, TRANSACTION: 12; ABORTED: 3
+THREAD: 728504412, TRANSACTION: 15; ABORTED: 4
+THREAD: 1336009193, TRANSACTION: 62; ABORTED: 5
+THREAD: 1031920186, TRANSACTION: 25; ABORTED: 6
+THREAD: 1031920186, TRANSACTION: 75; ABORTED: 7
+THREAD: 668449613, TRANSACTION: 36; ABORTED: 8
+THREAD: 251721121, TRANSACTION: 39; ABORTED: 9
+THREAD: 167342827, TRANSACTION: 60; ABORTED: 10
+THREAD: 1203409447, TRANSACTION: 63; ABORTED: 11
+THREAD: 668449613, TRANSACTION: 142; ABORTED: 12
+THREAD: 1031920186, TRANSACTION: 75; ABORTED: 13
+THREAD: 668449613, TRANSACTION: 142; ABORTED: 14
+Time of execution: 4329 milliseconds
+Current commits: 622
+Current aborts: 0
+Current commits: 1278
+Current aborts: 0
+Current commits: 1937
+Current aborts: 14
+Current commits: 2563
+Current aborts: 14
+Current commits: 3169
+Current aborts: 14
+Current commits: 3765
+Current aborts: 14
+Current commits: 4373
+Current aborts: 14
+Current commits: 5000
+Current aborts: 14
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+THREAD: 1925889665, TRANSACTION: 11; ABORTED: 1
+THREAD: 1742580098, TRANSACTION: 81; ABORTED: 2
+THREAD: 472204145, TRANSACTION: 19; ABORTED: 3
+THREAD: 1742580098, TRANSACTION: 81; ABORTED: 4
+Time of execution: 3843 milliseconds
+Current commits: 657
+Current aborts: 0
+Current commits: 1277
+Current aborts: 0
+Current commits: 1895
+Current aborts: 4
+Current commits: 2534
+Current aborts: 4
+Current commits: 3183
+Current aborts: 4
+Current commits: 3784
+Current aborts: 4
+Current commits: 4393
+Current aborts: 4
+Current commits: 5000
+Current aborts: 4
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+NKEYS: 1000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 2147089161, TRANSACTION: 1; ABORTED: 1
+THREAD: 913353384, TRANSACTION: 12; ABORTED: 2
+THREAD: 913353384, TRANSACTION: 12; ABORTED: 3
+THREAD: 2147089161, TRANSACTION: 19; ABORTED: 4
+Time of execution: 8385 milliseconds
+Current commits: 624
+Current aborts: 0
+Current commits: 1221
+Current aborts: 0
+Current commits: 1798
+Current aborts: 0
+Current commits: 2446
+Current aborts: 0
+Current commits: 3096
+Current aborts: 4
+Current commits: 3744
+Current aborts: 4
+Current commits: 4376
+Current aborts: 4
+Current commits: 5000
+Current aborts: 4
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80maxAborts/minDelay/delay: 512
+
+
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 7246 milliseconds
+Current commits: 596
+Current aborts: 0
+Current commits: 1247
+Current aborts: 0
+Current commits: 1863
+Current aborts: 0
+Current commits: 2499
+Current aborts: 0
+Current commits: 3086
+Current aborts: 0
+Current commits: 3739
+Current aborts: 0
+Current commits: 4401
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000READS: 2000
+
+THREAD: 1604661832, TRANSACTION: 1; ABORTED: 1
+THREAD: 163909697, TRANSACTION: 3; ABORTED: 1
+THREAD: 704627538, TRANSACTION: 9; ABORTED: 1
+Time of execution: 7839 milliseconds
+Current commits: 619
+Current aborts: 1
+Current commits: 1255
+Current aborts: 1
+Current commits: 1905
+Current aborts: 2
+Current commits: 2507
+Current aborts: 3
+Current commits: 3139
+Current aborts: 3
+Current commits: 3753
+Current aborts: 3
+Current commits: 4375
+Current aborts: 3
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 7228 milliseconds
+Current commits: 615
+Current aborts: 0
+Current commits: 1235
+Current aborts: 0
+Current commits: 1845
+Current aborts: 0
+Current commits: 2446
+Current aborts: 0
+Current commits: 3082
+Current aborts: 0
+Current commits: 3719
+Current aborts: 0
+Current commits: 4380
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 557319013, TRANSACTION: 7; ABORTED: 1
+Time of execution: 7701 milliseconds
+Current commits: 660
+Current aborts: 1
+Current commits: 1273
+Current aborts: 1
+Current commits: 1901
+Current aborts: 1
+Current commits: 2552
+Current aborts: 1
+Current commits: 3126
+Current aborts: 1
+Current commits: 3758
+Current aborts: 1
+Current commits: 4406
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 509822337, TRANSACTION: 10; ABORTED: 1
+Time of execution: 7513 milliseconds
+Current commits: 626
+Current aborts: 0
+Current commits: 1259
+Current aborts: 0
+Current commits: 1898
+Current aborts: 1
+Current commits: 2526
+Current aborts: 1
+Current commits: 3146
+Current aborts: 1
+Current commits: 3772
+Current aborts: 1
+Current commits: 4384
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80
+maxDelay_intervals: 80
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+THREAD: 646193749, TRANSACTION: 4; ABORTED: 1
+THREAD: 905696086, TRANSACTION: 6; ABORTED: 2
+THREAD: 958025215, TRANSACTION: 10; ABORTED: 1
+Time of execution: 8127 milliseconds
+Current commits: 583
+Current aborts: 0
+Current commits: 1228
+Current aborts: 0
+Current commits: 1812
+Current aborts: 0
+Current commits: 2442
+Current aborts: 2
+Current commits: 3066
+Current aborts: 3
+Current commits: 3730
+Current aborts: 3
+Current commits: 4336
+Current aborts: 3
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512maxAborts/minDelay/delay: 512
+
+maxDelay_intervals: 80maxDelay_intervals: 80
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 80
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 1
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 2
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 3
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 4
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 5
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 6
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 7
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 8
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 9
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 10
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 11
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 12
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 13
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 14
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 15
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 16
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 17
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 18
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 19
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 20
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 21
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 22
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 23
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 24
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 25
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 26
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 27
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 28
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 29
+THREAD 70165887 CURRENT DELAY INTERVAL: 512
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 30
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 31
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 32
+THREAD 452421778 CURRENT DELAY INTERVAL: 1024
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 33
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 34
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 35
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 36
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 37
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 38
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 39
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 40
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 41
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 42
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 43
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 44
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 45
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 46
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 47
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 48
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 49
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 50
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 51
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 52
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 53
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 54
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 55
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 56
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 57
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 58
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 59
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 60
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 61
+THREAD 70165887 CURRENT DELAY INTERVAL: 2048
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 62
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 63
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 64
+THREAD 452421778 CURRENT DELAY INTERVAL: 4096
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 65
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 66
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 67
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 68
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 69
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 70
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 71
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 72
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 73
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 74
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 75
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 76
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 77
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 78
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 79
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 80
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 81
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 82
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 83
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 84
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 85
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 86
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 87
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 88
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 89
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 90
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 91
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 92
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 93
+THREAD 70165887 CURRENT DELAY INTERVAL: 8192
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 94
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 95
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 96
+THREAD 452421778 CURRENT DELAY INTERVAL: 16384
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 97
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 98
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 99
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 100
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 101
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 102
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 103
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 104
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 105
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 106
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 107
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 108
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 109
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 110
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 111
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 112
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 113
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 114
+THREAD: 452421778, TRANSACTION: 4; ABORTED: 115
+THREAD: 70165887, TRANSACTION: 3; ABORTED: 116
