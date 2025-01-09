@@ -16,4 +16,12 @@ public class Less extends ContentionManager {
             throw new AbortedException();
         }
     }
+
+    @Override
+    public int getFirstParam() {
+        return 0;
+    }
+
+    @Override
+    public void setFirstParam(int firstParam) {};
 }

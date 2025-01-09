@@ -39,4 +39,14 @@ public class Karma extends ContentionManager {
             attempts = 0;
         }
     }
+
+  @Override
+  public int getFirstParam() {
+    return delay;
+  }
+
+  @Override
+  public void setFirstParam(int firstParam) {
+    delay = firstParam;
+  }
 }

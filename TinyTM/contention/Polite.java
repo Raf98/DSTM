@@ -55,4 +55,14 @@ public class Polite extends ContentionManager {
       delay = MIN_DELAY;
     }
   }
+
+  @Override
+  public int getFirstParam() {
+    return MIN_DELAY;
+  }
+
+  @Override
+  public void setFirstParam(int firstParam) {
+    MIN_DELAY = firstParam;
+  }
 }

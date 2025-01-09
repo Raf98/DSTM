@@ -9,11 +9,11 @@ import TinyTM.exceptions.*;
 public class Passive extends ContentionManager {
   private static /* final */ int MAX_ABORTS;
   private int aborts;
-  //private boolean abortEnemy = false;
+  // private boolean abortEnemy = false;
 
   public Passive() {
     this.aborts = 0;
-    MAX_ABORTS = 32;//10;
+    MAX_ABORTS = 32;// 10;
   }
 
   public Passive(final int maxAborts) {
@@ -22,19 +22,21 @@ public class Passive extends ContentionManager {
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
-    /*if (aborts < MAX_ABORTS) {
-      aborts++;
-    } else {
-      aborts = 1;
-      abortEnemy = !abortEnemy;
-    }
-
-    if (!abortEnemy) {
-      other.abort();
-    } else {
-      me.abort();
-      throw new AbortedException();
-    }*/
+    /*
+     * if (aborts < MAX_ABORTS) {
+     * aborts++;
+     * } else {
+     * aborts = 1;
+     * abortEnemy = !abortEnemy;
+     * }
+     * 
+     * if (!abortEnemy) {
+     * other.abort();
+     * } else {
+     * me.abort();
+     * throw new AbortedException();
+     * }
+     */
 
     if (aborts < MAX_ABORTS) {
       aborts++;
@@ -45,5 +47,15 @@ public class Passive extends ContentionManager {
       other.abort();
     }
 
+  }
+
+  @Override
+  public int getFirstParam() {
+    return MAX_ABORTS;
+  }
+
+  @Override
+  public void setFirstParam(int firstParam) {
+    MAX_ABORTS = firstParam;
   }
 }

@@ -26,13 +26,7 @@ public class Kindergarten extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-        if (backedOff) {
-            //System.out.println("ATTACKING BACKED OFF! ABORT IT...");
-            backedOff = false;
-            me.abort();
-            throw new AbortedException();
-        }
-        else if (hitList.contains(other.hashCode())) { //hitSet.contains(other.hashCode()
+       if (hitList.contains(other.hashCode())) { //hitSet.contains(other.hashCode()
             /*System.out.println("HIT AGAIN! ABORT ENEMY...");
             System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
             System.out.println("ENEMY TRANSACTION: " + other.hashCode());*/
@@ -50,10 +44,22 @@ public class Kindergarten extends ContentionManager {
             //hitSet.add(other.hashCode());
             try {
                 Thread.sleep(delayInterval);
-                backedOff = true;
+                //backedOff = true;
+                //me.abort();
+                //throw new AbortedException();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
         }
+    }
+
+    @Override
+    public int getFirstParam() {
+        return delayInterval;
+    }
+
+    @Override
+    public void setFirstParam(int firstParam) {
+        delayInterval = firstParam;
     }
 }

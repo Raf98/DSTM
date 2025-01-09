@@ -47,6 +47,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   // public enum Status {ABORTED, ACTIVE, COMMITTED};
   static public final AtomicInteger commits = new AtomicInteger(0);
   static public final AtomicInteger aborts = new AtomicInteger(0);
+  static public final AtomicInteger transactionId = new AtomicInteger(0);
 
   public AtomicInteger priority = new AtomicInteger(0);
   public AtomicLong timestamp;
@@ -57,6 +58,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public static final Transaction ABORTED = initABORTED();
   public static ContentionManager cm;
   public static CMEnum cmName;
+  public static int originalFirstParam;
   private final AtomicReference<Status> status;
   private ReadSet readset = new ReadSet();
   static ThreadLocal<Transaction> local = new ThreadLocal<Transaction>() {
@@ -173,6 +175,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     long transactionTimestamp = -1;
     int transactionPriority = -1;
 
+    int transactionNum = transactionId.incrementAndGet();
+    int transactionAborts = 0;
+
     while (!myThread.isInterrupted()) {
       me = new Transaction();
       Transaction.setLocal(me);
@@ -193,11 +198,22 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
           commits.getAndIncrement();
           //System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
 
+          if (cmName.equals(CMEnum.Kindergarten) && cm.getFirstParam() != originalFirstParam) {
+            cm.setFirstParam(originalFirstParam);
+          }
+
           return result;
         }
       } catch (AbortedException e) {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
+        ++transactionAborts;
+
+        if (transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
+          System.out.printf("THREAD: %d; CURRENT DELAY INTERVAL: %d\n", myThread.hashCode(), cm.getFirstParam());
+          cm.setFirstParam(cm.getFirstParam() * 2);
+        }
+
       } catch (InterruptedException e) {
         myThread.interrupt();
       } catch (Exception e) {
@@ -205,7 +221,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         throw new PanicException(e);
       }
       aborts.getAndIncrement();
-      //System.out.println("TRANSACTION " + me.toString() + "; ABORTED: " + aborts.get());
+      System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, aborts.get());
       //System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
@@ -297,6 +313,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay,
       int maxDelay_intervals) {
     cmName = CMEnum.fromId(contentionManager);
+    Transaction.originalFirstParam = maxAborts_minDelay_delay;
     switch (cmName) {
       case Passive:
         cm = new Passive(maxAborts_minDelay_delay);

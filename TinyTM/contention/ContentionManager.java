@@ -33,6 +33,8 @@ import java.rmi.*;
  */
 public abstract class ContentionManager {
 
+  public static CMEnum cmEnum;
+
   static ThreadLocal<ContentionManager> local = new ThreadLocal<ContentionManager>() {
 
     @Override
@@ -54,4 +56,7 @@ public abstract class ContentionManager {
   public static void setLocal(ContentionManager m) {
     local.set(m);
   }
+
+  public abstract int getFirstParam();
+  public abstract void setFirstParam(int firstParam);
 }

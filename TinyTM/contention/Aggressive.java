@@ -12,4 +12,12 @@ public class Aggressive extends ContentionManager {
         other.abort();
     }
 
+    @Override
+    public int getFirstParam() {
+        return 0;
+    }
+
+    @Override
+    public void setFirstParam(int firstParam) {};
+
 }
