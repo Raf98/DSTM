@@ -19,7 +19,7 @@ fi
 # NTTRANS SHOULD BE 5000 INSTEAD???
 if [ -z $2 ]
 then
-	NTTRANS=1000
+	NTTRANS=5000
 else
 	NTTRANS=$2
 fi

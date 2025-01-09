@@ -175,8 +175,8 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     long transactionTimestamp = -1;
     int transactionPriority = -1;
 
-    int transactionNum = transactionId.incrementAndGet();
-    int transactionAborts = 0;
+    //int transactionNum = transactionId.incrementAndGet();
+    //int transactionAborts = 0;
 
     while (!myThread.isInterrupted()) {
       me = new Transaction();
@@ -207,12 +207,12 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       } catch (AbortedException e) {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
-        ++transactionAborts;
+        /*++transactionAborts;
 
         if (transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
           System.out.printf("THREAD: %d; CURRENT DELAY INTERVAL: %d\n", myThread.hashCode(), cm.getFirstParam());
           cm.setFirstParam(cm.getFirstParam() * 2);
-        }
+        }*/
 
       } catch (InterruptedException e) {
         myThread.interrupt();
