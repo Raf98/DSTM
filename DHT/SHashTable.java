@@ -2,6 +2,7 @@ package DHT;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -170,6 +171,8 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             public INode<Integer>[] call() throws Exception {
                 Transaction localTransaction = Transaction.getLocal();
 
+                //System.out.println("KEYS TO READ: ");
+
                 INode<Integer>[] nodesFound = new INode[keys.length];
                 for (int i = 0; i < keys.length; i++) {
                     INode<Integer> headNode = headsTMObjServer[i].openReadRemote(localTransaction);
@@ -177,7 +180,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                     for (TMObjServer<INode<Integer>> tmObjServerNode = headNode.getNext(); tmObjServerNode != null;) {
                         INode<Integer> node;
                         node = tmObjServerNode.openReadRemote(localTransaction);
-                        System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
+                        //System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
                         if (node.getKey() == keys[i]) {
                             nodesFound[i] = node;
                             break;
@@ -185,8 +188,11 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
                         tmObjServerNode = node.getNext();
                     }
+                    //System.out.println(i);
+                    //System.out.print(i + ";");
+                    //System.out.printf("%d: %d;", i, keys[i]);
                 }
-
+                //System.out.println();
                 return nodesFound;
             }
         });
@@ -201,6 +207,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 	@Override
     public boolean[] insertMultiple(int[] keys, int[] values) throws RemoteException, Exception {
         TMObjServer<INode<Integer>>[] headsTMObjServer = new TMObjServer[keys.length];
+        HashMap<Integer, INode<Integer>> tmObjAlreadyOpenedMap = new HashMap<>();
 
         // get the head of the LL for which the key is hashed
         for (int i = 0; i < keys.length; i++) {
@@ -217,17 +224,25 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                 boolean[] inserteds = new boolean[keys.length];
                 INode<Integer>[] headNodes = new SNode[keys.length];
 
+                //System.out.println("KEYS TO WRITE: ");
+
                 for (int i = 0; i < keys.length; i++) {
                     // if another key has already open a same head for write,
                     // retrieve instead of trying to reopening it for write within  the same transaction,
                     // which results in an error
-                    /*int openedIndex = tmObjAlreadyOpen(headsTMObjServer, i);
 
+                    /*int openedIndex = tmObjAlreadyOpen(headsTMObjServer, i);
                     if (openedIndex == -1) {
                         headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction); 
                     } else {
                         //System.out.println("ALREADY OPENED: " + headNodes[openedIndex]);
                         headNodes[i] = headNodes[openedIndex];
+                    }*/
+                    /*headNodes[i] = tmObjAlreadyOpenedMap.get(headsTMObjServer[i].hashCode());
+
+                    if (headNodes[i] == null) {
+                        headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction);
+                        tmObjAlreadyOpenedMap.put(headsTMObjServer[i].hashCode(), headNodes[i]);
                     }*/
 
                     //System.out.println("WRITING..." + i + ", KEY: " + keys[i]);
@@ -243,25 +258,26 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                         //System.out.println("FIRST INSERT");
                         headNodes[i] = headsTMObjServer[i].openWriteRemote(localTransaction);
                         headNodes[i].setNext(newNodeTmObjServer);
-                        System.out.println("FIRST NODE: " + newNode.toString() + 
+                        /*System.out.println("FIRST NODE: " + newNode.toString() + 
                                            "; INDEX: " + keys[i] % numberHTEntries + 
-                                           "; SERVER: " + addressName);
+                                           "; SERVER: " + addressName);*/
+                        //System.out.println(i);
                         inserteds[i] = true;
                     } else {
                         for (TMObjServer<INode<Integer>> tmObjServerNode = headNodes[i].getNext(); tmObjServerNode != null;) {
                             INode<Integer> node;
                             node = tmObjServerNode.openReadRemote(localTransaction);
 
-                            System.out.println("CURRENT NODE:" + node.toString());
+                            //System.out.println("CURRENT NODE:" + node.toString());
                             if (node.getKey() == keys[i]) {
-                                System.out.printf("KEY %d; INDEX %d; SERVER %s: UPDATING VALUE FROM %d TO %d!\n", 
-                                                    keys[i], keys[i] % numberHTEntries, addressName, node.getValue(), values[i]);
+                                /*System.out.printf("KEY %d; INDEX %d; SERVER %s: UPDATING VALUE FROM %d TO %d!\n", 
+                                                    keys[i], keys[i] % numberHTEntries, addressName, node.getValue(), values[i]);*/
                                 node.setValue(values[i]);
                                 inserteds[i] = true;
                                 break;
                             } else if (node.getNext() == null) {
-                                System.out.printf("KEY %d; INDEX %d; SERVER %s: INSERTING %d!\n", 
-                                                    keys[i], keys[i] % numberHTEntries, addressName, values[i]);
+                                /*System.out.printf("KEY %d; INDEX %d; SERVER %s: INSERTING %d!\n", 
+                                                    keys[i], keys[i] % numberHTEntries, addressName, values[i]);*/
                                 node = tmObjServerNode.openWriteRemote(Transaction.getLocal());
                                 node.setNext(newNodeTmObjServer);
                                 inserteds[i] = true;
@@ -269,7 +285,10 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
                             }
                             tmObjServerNode = node.getNext();
                         }
+                        //System.out.println(i);
                     }
+                    //System.out.println("ITERATION: " + i + ";");
+                    //System.out.printf("%d: %d;", i, keys[i]);
                 }
 
                 return inserteds;
