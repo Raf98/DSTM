@@ -62,8 +62,6 @@ public interface ITransaction extends Remote {
 
   public HashSet<Integer> getConflictList() throws RemoteException;
 
-  public void resetConflictList() throws RemoteException;
-
   public int getAborts() throws RemoteException;
 
   public int getCommits() throws RemoteException;

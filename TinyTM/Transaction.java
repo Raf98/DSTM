@@ -58,7 +58,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
 
   public static final Transaction COMMITTED = initCOMMITTED();
   public static final Transaction ABORTED = initABORTED();
-  public static ContentionManager cm;
+  public ContentionManager cm;
+  public static int maxAborts_minDelay_delay;
+  public static int maxDelay_intervals;
   public static CMEnum cmName;
   public static int originalFirstParam;
   private final AtomicReference<Status> status;
@@ -92,7 +94,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     super();
     status = new AtomicReference<Status>(Status.ACTIVE);
 
-    // cm = chooseCM(contentionManager);
+    cm = chooseCM();
     if (globalClock == null) {
       globalClock = (IGlobalClock) Naming.lookup("globalclock");
     }
@@ -176,6 +178,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     Thread myThread = Thread.currentThread();
     long transactionTimestamp = -1;
     int transactionPriority = -1;
+    HashSet<Integer> transactionConflictList = null;
 
     //int transactionNum = transactionId.incrementAndGet();
     //int transactionAborts = 0;
@@ -190,6 +193,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       if (transactionTimestamp != -1) {
         me.timestamp.set(transactionTimestamp);
       }
+      if (transactionConflictList != null) {
+        me.conflictList = transactionConflictList;
+      }
 
       //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
       //System.out.println("CURRENT PRIORITY: " + me.getPriority());
@@ -200,15 +206,16 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
           commits.getAndIncrement();
           //System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
 
-          if (cmName.equals(CMEnum.Kindergarten) && cm.getFirstParam() != originalFirstParam) {
-            cm.setFirstParam(originalFirstParam);
-          }
+          /*if (cmName.equals(CMEnum.Kindergarten) && me.cm.getFirstParam() != originalFirstParam) {
+            me.cm.setFirstParam(originalFirstParam);
+          }*/
 
           return result;
         }
       } catch (AbortedException e) {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
+        transactionConflictList = me.conflictList;
         /*++transactionAborts;
 
         if (transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
@@ -269,17 +276,19 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return cmName.getId() + ": " + cmName.toString();
   }
 
-  public static void setContentionManager(int contentionManager) throws RemoteException {
+  /*public static void setContentionManager(int contentionManager) throws RemoteException {
     cm = chooseCM(contentionManager);
-  }
+  }*/
 
   public static void setContentionManager(int contentionManager, int maxAborts_minDelay_delay,
       int maxDelay_intervals) throws RemoteException {
-    cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
+      cmName = CMEnum.fromId(contentionManager);  
+      Transaction.maxAborts_minDelay_delay = maxAborts_minDelay_delay;
+      Transaction.maxDelay_intervals = maxDelay_intervals;
+      //cm = chooseCM(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
   }
 
-  private static ContentionManager chooseCM(int contentionManager) {
-    cmName = CMEnum.fromId(contentionManager);
+  /*private ContentionManager chooseCM() {
     switch (cmName) {
       case Passive:
         cm = new Passive();
@@ -310,11 +319,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         break;
     }
     return cm;
-  }
+  }*/
 
-  private static ContentionManager chooseCM(int contentionManager, int maxAborts_minDelay_delay,
-      int maxDelay_intervals) {
-    cmName = CMEnum.fromId(contentionManager);
+  private ContentionManager chooseCM() {
     Transaction.originalFirstParam = maxAborts_minDelay_delay;
     switch (cmName) {
       case Passive:
@@ -351,10 +358,5 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   @Override
   public HashSet<Integer> getConflictList() throws RemoteException {
     return conflictList;
-  }
-
-  @Override
-  public void resetConflictList() throws RemoteException {
-    conflictList = new HashSet<>();
   }
 }

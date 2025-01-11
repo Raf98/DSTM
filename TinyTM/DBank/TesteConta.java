@@ -109,7 +109,7 @@ class TesteConta {
         // if (c==9) {System.out.println("9");} //else {System.out.println(c);}
         boolean result = true;
         int contentionManager = 0;
-        Transaction.setContentionManager(contentionManager);
+        Transaction.setContentionManager(contentionManager, 64, 256);
         Transaction.atomic(new Callable<Boolean>() {
           public Boolean call() throws Exception {
             IConta lc = contas[c].openWrite();

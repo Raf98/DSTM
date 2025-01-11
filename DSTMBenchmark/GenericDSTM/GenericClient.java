@@ -111,11 +111,8 @@ class GenericTransaction implements ExecTransaction {
     IObject lobjects[] = new IObject[robjects.length];
     int donewithdraw = 0;
 
-    if (usesDynamicParams) {
-      Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
-    } else {
-      Transaction.setContentionManager(contentionManager);
-    }
+    
+    Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
 
     donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
       public Integer call() throws Exception {

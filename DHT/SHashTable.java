@@ -21,21 +21,6 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
     static AtomicInteger commits = new AtomicInteger(0);
 
     @SuppressWarnings("unchecked")
-    public SHashTable(int machineId, int numberHTEntries, int contentionManager) throws RemoteException {
-        this.addressName = "ht" + machineId;
-        this.numberHTEntries = numberHTEntries;
-
-        heads = new TMObjServer[numberHTEntries];
-        for (int i = 0; i < numberHTEntries; ++i) {
-            SNode<Integer> newLLHead = new SNode<Integer>(-1, i);
-            // System.out.println("NEW NODE NAME CREATED: " + newLLHead.toString());
-            heads[i] = new TMObjServer<INode<Integer>>(newLLHead);
-        }
-
-        Transaction.setContentionManager(contentionManager);
-    }
-
-    @SuppressWarnings("unchecked")
     public SHashTable(int machineId, int numberHTEntries, int contentionManager,
             int maxAborts_minDelay_delay, int maxDelay_intervals) throws RemoteException {
         this.addressName = "ht" + machineId;

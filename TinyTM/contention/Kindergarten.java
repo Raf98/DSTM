@@ -4,6 +4,7 @@ import java.rmi.RemoteException;
 
 import TinyTM.ITransaction;
 import TinyTM.Transaction;
+import TinyTM.exceptions.AbortedException;
 
 public class Kindergarten extends ContentionManager {
     int delayInterval;// = 64;
@@ -15,6 +16,7 @@ public class Kindergarten extends ContentionManager {
 
     // ELIMINATE INTERVALS, INTEGRATE IT TO DELAY (FIXED INTERVAL)
     public Kindergarten(int delay) {
+        //System.out.println("KINDERGARTEN INITIALIZED!");
         this.delayInterval = delay;
     }
 
@@ -36,8 +38,8 @@ public class Kindergarten extends ContentionManager {
             try {
                 Thread.sleep(delayInterval);
                 //backedOff = true;
-                //me.abort();
-                //throw new AbortedException();
+                me.abort();
+                throw new AbortedException();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

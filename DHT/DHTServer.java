@@ -51,12 +51,8 @@ public class DHTServer {
 
         Remote localHashTable;
         
-        if (args.length < 3) {
-            localHashTable = new SHashTable(id, numberHTEntries, contentionManager);
-        } else {
-            localHashTable = new SHashTable(id, numberHTEntries, contentionManager,
+        localHashTable = new SHashTable(id, numberHTEntries, contentionManager,
                                                         maxAborts_minDelay_delay, maxDelay_intervals);
-        }
 
         //ServerApp server = new ServerApp();
         try {

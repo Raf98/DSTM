@@ -35,7 +35,7 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             heads[i] = newLLHead;
         }
 
-        Transaction.setContentionManager(contentionManager);
+        Transaction.setContentionManager(contentionManager, 0, 0);
     }
 
     @SuppressWarnings({ "unchecked" })

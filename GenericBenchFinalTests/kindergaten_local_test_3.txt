@@ -1,0 +1,37 @@
+/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 500
+maxAborts/minDelay/delay: 512
+READS: 2000
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+Time of execution: 50083 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 99 
+Total of set minus: 730 
+Total of set plus: 998 
+Total of gets: 20000 
+Total of transfer: 1002 
+Total of operations: 22730
+Total value of fields: 3226800 (Expected: 3226800)
+Test 1 for TRMIKindergarten: 512 delayInterval
+TRMIKindergarten	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+WRITES: 500
+READS: 2000
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000

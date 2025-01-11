@@ -103,7 +103,7 @@ class TesteTransferencia {
         boolean result = true;
         int contentionManager = 0;
 
-        Transaction.setContentionManager(contentionManager);
+        Transaction.setContentionManager(contentionManager,  64, 256);
         result = Transaction.atomic(new Callable<Boolean>() {
           public Boolean call() throws Exception {
             // IConta lc1 = contas[c1].openWrite();
