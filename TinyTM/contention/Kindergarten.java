@@ -38,8 +38,8 @@ public class Kindergarten extends ContentionManager {
             try {
                 Thread.sleep(delayInterval);
                 //backedOff = true;
-                me.abort();
-                throw new AbortedException();
+                //me.abort();
+                //throw new AbortedException();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

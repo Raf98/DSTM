@@ -72,13 +72,13 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             System.out.println("READING: KEY: " + node.getKey() + ", " + "VALUE: " + node.getValue());
             if (node.getKey() == key) {
                 nodeFound = node;
-                System.out.println("NODE FOUND!");
+                //System.out.println("NODE FOUND!");
                 break;
             }
         }
 
         if (nodeFound == null) {
-            System.out.println("NODE NOT FOUND!");
+            //System.out.println("NODE NOT FOUND!");
         }
 
         //commits.incrementAndGet();
@@ -93,20 +93,19 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
         INode<Integer> headNode = heads[key % numberHTEntries];
 
         while (!this.tryLock()) {
-            System.out.println("LOCKED: " + aborts.get());
+            //System.out.println("LOCKED: " + aborts.get());
             aborts.getAndIncrement();
         }
 
         boolean inserted = false;
         // System.out.println("Current CM: " + Transaction.getContentionManager());
-        System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
+        //System.out.println("WRITING: KEY: " + key + ", " + "VALUE: " + value);
 
         INode<Integer> newNode = new SNode<>(key, value);
 
         if (headNode.getNext() == null) {
-            System.out.println("FIRST INSERT");
             headNode.setNext(newNode);
-            System.out.println("FIRST:" + newNode.toString());
+            //System.out.println("FIRST:" + newNode.toString());
             inserted = true;
             commits.incrementAndGet();
         } else {
@@ -114,14 +113,14 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
 
                 System.out.println("CURRENT NODE:" + node.toString());
                 if (node.getKey() == key) {
-                    System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getValue(), value);
+                    //System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", key, node.getValue(), value);
                     node.setValue(value);
 
                     inserted = true;
                     commits.incrementAndGet();
                     break;
                 } else if (node.getNext() == null) {
-                    System.out.println("NEXT INSERT");
+                    //System.out.println("NEXT INSERT");
                     node.setNext(newNode);
 
                     inserted = true;
@@ -218,25 +217,24 @@ public class SHashTable extends UnicastRemoteObject implements IHashTable {
             INode<Integer> newNode = new SNode<>(keys[i], values[i]);
 
             if (headNodes[i].getNext() == null) {
-                System.out.println("FIRST INSERT");
                 headNodes[i].setNext(newNode);
-                System.out.println("FIRST:" + newNode.toString());
+                //System.out.println("FIRST:" + newNode.toString());
                 inserteds[i] = true;
                 //commits.incrementAndGet();
             } else {
                 for (INode<Integer> node = headNodes[i].getNext();;) {
 
-                    System.out.println("CURRENT NODE:" + node.toString());
+                    //System.out.println("CURRENT NODE:" + node.toString());
                     if (node.getKey() == keys[i]) {
-                        System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(),
-                                values[i]);
+                        /*System.out.printf("KEY %d: UPDATING VALUE FROM %d TO %d!\n", keys[i], node.getValue(),
+                                values[i]);*/
                         node.setValue(values[i]);
 
                         inserteds[i] = true;
                         //commits.incrementAndGet();
                         break;
                     } else if (node.getNext() == null) {
-                        System.out.println("NEXT INSERT");
+                        //System.out.println("NEXT INSERT");
                         node.setNext(newNode);
 
                         inserteds[i] = true;

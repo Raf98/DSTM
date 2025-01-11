@@ -180,8 +180,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     int transactionPriority = -1;
     HashSet<Integer> transactionConflictList = null;
 
-    //int transactionNum = transactionId.incrementAndGet();
-    //int transactionAborts = 0;
+    int transactionNum = transactionId.incrementAndGet();
+    int transactionAborts = 0;
+    int currentDelay = Transaction.maxAborts_minDelay_delay;
 
     while (!myThread.isInterrupted()) {
       me = new Transaction();
@@ -193,9 +194,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       if (transactionTimestamp != -1) {
         me.timestamp.set(transactionTimestamp);
       }
-      if (transactionConflictList != null) {
+      /*if (transactionConflictList != null) {
         me.conflictList = transactionConflictList;
-      }
+      }*/
+
+      /*if (transactionAborts > 0 && transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
+        currentDelay *= 2;
+        me.cm.setFirstParam(currentDelay);    
+        System.out.printf("THREAD: %d; CURRENT DELAY INTERVAL: %d\n", myThread.hashCode(), me.cm.getFirstParam());    
+      }*/
 
       //System.out.println("CURRENT TIMESTAMP: " + me.getTimestamp());
       //System.out.println("CURRENT PRIORITY: " + me.getPriority());
@@ -204,25 +211,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
           commits.getAndIncrement();
-          //System.out.println("TRANSACTION " + me.toString() +"; COMMITED: " + commits.get());
-
-          /*if (cmName.equals(CMEnum.Kindergarten) && me.cm.getFirstParam() != originalFirstParam) {
-            me.cm.setFirstParam(originalFirstParam);
-          }*/
+          //System.out.printf("THREAD: %d TRANSACTION %d; COMMITTED: %d\n", myThread.hashCode(), transactionNum, commits.get());
 
           return result;
         }
       } catch (AbortedException e) {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
-        transactionConflictList = me.conflictList;
-        /*++transactionAborts;
-
-        if (transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
-          System.out.printf("THREAD: %d; CURRENT DELAY INTERVAL: %d\n", myThread.hashCode(), cm.getFirstParam());
-          cm.setFirstParam(cm.getFirstParam() * 2);
-        }*/
-
+        //transactionConflictList = me.conflictList;
+        ++transactionAborts;
       } catch (InterruptedException e) {
         myThread.interrupt();
       } catch (Exception e) {
@@ -230,7 +227,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         throw new PanicException(e);
       }
       aborts.getAndIncrement();
-      //System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, aborts.get());
+      //System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, transactionAborts);
       //System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
