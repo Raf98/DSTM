@@ -1,20 +1,13 @@
 package TinyTM.contention;
 
 import java.rmi.RemoteException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.HashSet;
-import java.util.Set;
 
 import TinyTM.ITransaction;
 import TinyTM.Transaction;
-import TinyTM.exceptions.AbortedException;
 
 public class Kindergarten extends ContentionManager {
     int delayInterval;// = 64;
     boolean backedOff = false;
-    //List<Integer> hitList = new ArrayList<>();
-    Set<Integer> hitSet = new HashSet<>();
 
     public Kindergarten() {
         delayInterval = 256;
@@ -26,13 +19,12 @@ public class Kindergarten extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-       if (hitSet.contains(other.hashCode())/*hitList.contains(other.hashCode())*/) { //hitSet.contains(other.hashCode())
+       if (me.conflictList.contains(other.hashCode())) {
             /*System.out.println("HIT AGAIN! ABORT ENEMY...");
             System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
             System.out.println("ENEMY TRANSACTION: " + other.hashCode());*/
 
-            //hitList.remove(hitList.indexOf(other.hashCode()));
-            hitSet.remove(other.hashCode());
+            me.conflictList.remove(other.hashCode());
             other.abort();
         } else {
 
@@ -40,8 +32,7 @@ public class Kindergarten extends ContentionManager {
             System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
             System.out.println("ENEMY TRANSACTION: " + other.hashCode());*/
             
-            //hitList.add(other.hashCode());
-            hitSet.add(other.hashCode());
+            me.conflictList.add(other.hashCode());
             try {
                 Thread.sleep(delayInterval);
                 //backedOff = true;

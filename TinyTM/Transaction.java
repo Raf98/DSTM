@@ -20,6 +20,7 @@ package TinyTM;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -52,6 +53,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public AtomicInteger priority = new AtomicInteger(0);
   public AtomicLong timestamp;
   public AtomicBoolean defunct = new AtomicBoolean(false);
+  public HashSet<Integer> conflictList = new HashSet<>();
   public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
@@ -344,5 +346,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         break;
     }
     return cm;
+  }
+
+  @Override
+  public HashSet<Integer> getConflictList() throws RemoteException {
+    return conflictList;
+  }
+
+  @Override
+  public void resetConflictList() throws RemoteException {
+    conflictList = new HashSet<>();
   }
 }

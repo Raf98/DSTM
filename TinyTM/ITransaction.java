@@ -17,6 +17,8 @@
 package TinyTM;
 
 import java.rmi.*;
+import java.util.HashSet;
+
 import TinyTM.ofree.TMObjServer;
 import TinyTM.ofree.ITMObjServer;
 //import java.util.concurrent.atomic.AtomicReference;
@@ -57,6 +59,10 @@ public interface ITransaction extends Remote {
   public boolean getDefunct() throws RemoteException;
 
   public void setDefunct(boolean isDefunct) throws RemoteException;
+
+  public HashSet<Integer> getConflictList() throws RemoteException;
+
+  public void resetConflictList() throws RemoteException;
 
   public int getAborts() throws RemoteException;
 
