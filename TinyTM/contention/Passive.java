@@ -43,7 +43,7 @@ public class Passive extends ContentionManager {
       me.abort();
       throw new AbortedException();
     } else {
-      aborts = 0;
+      //aborts = 0;
       other.abort();
     }
 
