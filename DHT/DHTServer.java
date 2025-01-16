@@ -72,9 +72,9 @@ public class DHTServer {
             System.exit(0);
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("SERVER APP EXCEPTION:");
+            /*System.out.println("SERVER APP EXCEPTION:");
 			System.out.println("Server ID: " + id + "; Server Port: " + (1666 + id));
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());*/
         }
         System.exit(0);
     }
