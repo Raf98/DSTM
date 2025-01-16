@@ -38,8 +38,9 @@ public class Passive extends ContentionManager {
      * }
      */
 
-    if (aborts < MAX_ABORTS) {
+    if (me.getAborts() < MAX_ABORTS) {
       aborts++;
+      //System.out.printf("%d ABORT ATTACKING %d ", me.getTransactionAborts(), me.hashCode());
       me.abort();
       throw new AbortedException();
     } else {

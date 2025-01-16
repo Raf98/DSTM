@@ -54,6 +54,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public AtomicLong timestamp;
   public AtomicBoolean defunct = new AtomicBoolean(false);
   public HashSet<Integer> conflictList = new HashSet<>();
+  public AtomicInteger transactionAborts = new AtomicInteger(0);
   public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
@@ -194,6 +195,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       if (transactionTimestamp != -1) {
         me.timestamp.set(transactionTimestamp);
       }
+      me.transactionAborts.set(transactionAborts);
       /*if (transactionConflictList != null) {
         me.conflictList = transactionConflictList;
       }*/
@@ -219,7 +221,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
         //transactionConflictList = me.conflictList;
-        ++transactionAborts;
+        transactionAborts = me.transactionAborts.incrementAndGet();
       } catch (InterruptedException e) {
         myThread.interrupt();
       } catch (Exception e) {
@@ -355,5 +357,10 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   @Override
   public HashSet<Integer> getConflictList() throws RemoteException {
     return conflictList;
+  }
+
+  @Override
+  public int getTransactionAborts() throws RemoteException {
+    return this.transactionAborts.get();
   }
 }
