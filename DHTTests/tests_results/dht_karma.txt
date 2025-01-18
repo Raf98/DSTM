@@ -15658,8 +15658,8 @@ Total of commits: 4992 (Expected: 4992)
 Total of inserts: 992 
 Total of gets: 4000 
 Total of aborts: 154 
-Exception in thread "main" Test 3 for TRMIKarma
-TRMIKarma	16	java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+Test 3 for TRMIKarma
+TRMIKarma	16	Exception in thread "main" java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
 	java.io.EOFException
 	at java.rmi/sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:255)
 	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:165)
