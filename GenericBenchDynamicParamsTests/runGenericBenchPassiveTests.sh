@@ -41,7 +41,7 @@ echo "Compiling all files needed for the generic benchmark..."
 ./compileGenericBench.sh
 
 # Move back to the current directory to run the tests
-cd GenericBranchdDynamicParamsTests
+cd GenericBenchDynamicParamsTests
 
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
@@ -63,8 +63,8 @@ do
                 NTRANS=$(($NTTRANS/$NCLIENT))
                 echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
             
-                max_aborts=32 #using 8 OR 16 ends up in a starvation situation, apparently (LOW CONTENTION/FEW WRITES/LONG TRANSACTIONS)
-                while [[ $max_aborts -le 128 ]];
+                max_aborts=512 #using 8 OR 16 ends up in a starvation situation, apparently (LOW CONTENTION/FEW WRITES/LONG TRANSACTIONS)
+                while [[ $max_aborts -le 2048 ]];
                 do
                     for i in $(seq 0 9);
                     do

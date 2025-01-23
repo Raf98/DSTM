@@ -1,0 +1,1761 @@
+/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 500, NTTRANS: 1000
+Test 0 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+Time of execution: 14331 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 538 
+Total of set minus: 159 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4559
+Total value of fields: 3203100 (Expected: 3203100)
+Test 1 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14112 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 497 
+Total of set minus: 131 
+Total of set plus: 158 
+Total of gets: 4000 
+Total of transfer: 242 
+Total of operations: 4531
+Total value of fields: 3202700 (Expected: 3202700)
+Test 2 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+Time of execution: 14595 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 575 
+Total of set minus: 148 
+Total of set plus: 186 
+Total of gets: 4000 
+Total of transfer: 214 
+Total of operations: 4548
+Total value of fields: 3203800 (Expected: 3203800)
+Test 3 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 100
+READS: 400
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+Time of execution: 14093 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 542 
+Total of set minus: 177 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4577
+Total value of fields: 3204300 (Expected: 3204300)
+Test 4 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+Time of execution: 14118 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 477 
+Total of set minus: 167 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4567
+Total value of fields: 3203700 (Expected: 3203700)
+Test 5 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13643 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 526 
+Total of set minus: 142 
+Total of set plus: 172 
+Total of gets: 4000 
+Total of transfer: 228 
+Total of operations: 4542
+Total value of fields: 3203000 (Expected: 3203000)
+Test 6 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14753 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 499 
+Total of set minus: 154 
+Total of set plus: 198 
+Total of gets: 4000 
+Total of transfer: 202 
+Total of operations: 4554
+Total value of fields: 3204400 (Expected: 3204400)
+Test 7 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14176 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 685 
+Total of set minus: 169 
+Total of set plus: 216 
+Total of gets: 4000 
+Total of transfer: 184 
+Total of operations: 4569
+Total value of fields: 3204700 (Expected: 3204700)
+Test 8 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 100
+READS: 400maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+Time of execution: 13610 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 508 
+Total of set minus: 165 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4565
+Total value of fields: 3203500 (Expected: 3203500)
+Test 9 for TRMIPassive: 32 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14848 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 488 
+Total of set minus: 170 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4570
+Total value of fields: 3202400 (Expected: 3202400)
+Test 0 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14002 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 619 
+Total of set minus: 157 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4557
+Total value of fields: 3203500 (Expected: 3203500)
+Test 1 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14194 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 584 
+Total of set minus: 167 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4567
+Total value of fields: 3204100 (Expected: 3204100)
+Test 2 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14414 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 686 
+Total of set minus: 172 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4572
+Total value of fields: 3203200 (Expected: 3203200)
+Test 3 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14260 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 579 
+Total of set minus: 155 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4555
+Total value of fields: 3202900 (Expected: 3202900)
+Test 4 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 13602 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 634 
+Total of set minus: 161 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4561
+Total value of fields: 3204300 (Expected: 3204300)
+Test 5 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 13739 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 686 
+Total of set minus: 144 
+Total of set plus: 188 
+Total of gets: 4000 
+Total of transfer: 212 
+Total of operations: 4544
+Total value of fields: 3204400 (Expected: 3204400)
+Test 6 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13846 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 530 
+Total of set minus: 157 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4557
+Total value of fields: 3204900 (Expected: 3204900)
+Test 7 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14578 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 502 
+Total of set minus: 171 
+Total of set plus: 230 
+Total of gets: 4000 
+Total of transfer: 170 
+Total of operations: 4571
+Total value of fields: 3205900 (Expected: 3205900)
+Test 8 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13937 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 490 
+Total of set minus: 161 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4561
+Total value of fields: 3203300 (Expected: 3203300)
+Test 9 for TRMIPassive: 64 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14011 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 677 
+Total of set minus: 184 
+Total of set plus: 228 
+Total of gets: 4000 
+Total of transfer: 172 
+Total of operations: 4584
+Total value of fields: 3204400 (Expected: 3204400)
+Test 0 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14375 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 658 
+Total of set minus: 160 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4560
+Total value of fields: 3204600 (Expected: 3204600)
+Test 1 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 13803 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 681 
+Total of set minus: 166 
+Total of set plus: 196 
+Total of gets: 4000 
+Total of transfer: 204 
+Total of operations: 4566
+Total value of fields: 3203000 (Expected: 3203000)
+Test 2 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 15006 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 734 
+Total of set minus: 162 
+Total of set plus: 180 
+Total of gets: 4000 
+Total of transfer: 220 
+Total of operations: 4562
+Total value of fields: 3201800 (Expected: 3201800)
+Test 3 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13742 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 487 
+Total of set minus: 150 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4550
+Total value of fields: 3203400 (Expected: 3203400)
+Test 4 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13877 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 548 
+Total of set minus: 159 
+Total of set plus: 196 
+Total of gets: 4000 
+Total of transfer: 204 
+Total of operations: 4559
+Total value of fields: 3203700 (Expected: 3203700)
+Test 5 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 13673 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 490 
+Total of set minus: 197 
+Total of set plus: 234 
+Total of gets: 4000 
+Total of transfer: 166 
+Total of operations: 4597
+Total value of fields: 3203700 (Expected: 3203700)
+Test 6 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14931 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 671 
+Total of set minus: 176 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4576
+Total value of fields: 3203200 (Expected: 3203200)
+Test 7 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 100
+READS: 400
+WRITES: 100
+READS: 400
+Time of execution: 14275 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 493 
+Total of set minus: 186 
+Total of set plus: 224 
+Total of gets: 4000 
+Total of transfer: 176 
+Total of operations: 4586
+Total value of fields: 3203800 (Expected: 3203800)
+Test 8 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 14121 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 685 
+Total of set minus: 170 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4570
+Total value of fields: 3203000 (Expected: 3203000)
+Test 9 for TRMIPassive: 128 max_aborts
+TRMIPassive	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 100WRITES: 100
+
+READS: 400READS: 400
+
+Time of execution: 13897 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 632 
+Total of set minus: 150 
+Total of set plus: 180 
+Total of gets: 4000 
+Total of transfer: 220 
+Total of operations: 4550
+Total value of fields: 3203000 (Expected: 3203000)
+clients: 4, transactions per client: 250, NTTRANS: 1000
+Test 0 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+
+WRITES: 50WRITES: 50WRITES: 50WRITES: 50
+
+
+
+READS: 200READS: 200READS: 200READS: 200
+
+
+
+Time of execution: 11980 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1803 
+Total of set minus: 180 
+Total of set plus: 216 
+Total of gets: 4000 
+Total of transfer: 184 
+Total of operations: 4580
+Total value of fields: 3203600 (Expected: 3203600)
+Test 1 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxAborts/minDelay/delay: 32maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 32
+WRITES: 50
+READS: 200maxDelay_intervals: 256
+
+WRITES: 50
+READS: 200
+Time of execution: 13781 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 2240 
+Total of set minus: 205 
+Total of set plus: 230 
+Total of gets: 4000 
+Total of transfer: 170 
+Total of operations: 4605
+Total value of fields: 3202500 (Expected: 3202500)
+Test 2 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32WRITES: 50WRITES: 50
+
+
+
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+Time of execution: 12068 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1948 
+Total of set minus: 157 
+Total of set plus: 208 
+Total of gets: 4000 
+Total of transfer: 192 
+Total of operations: 4557
+Total value of fields: 3205100 (Expected: 3205100)
+Test 3 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 50
+maxDelay_intervals: 256READS: 200
+
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 19455 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 4766 
+Total of set minus: 185 
+Total of set plus: 226 
+Total of gets: 4000 
+Total of transfer: 174 
+Total of operations: 4585
+Total value of fields: 3204100 (Expected: 3204100)
+Test 4 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 32
+WRITES: 50WRITES: 50
+WRITES: 50
+
+READS: 200
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 17856 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 4499 
+Total of set minus: 150 
+Total of set plus: 178 
+Total of gets: 4000 
+Total of transfer: 222 
+Total of operations: 4550
+Total value of fields: 3202800 (Expected: 3202800)
+Test 5 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 50
+READS: 200maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11778 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1566 
+Total of set minus: 157 
+Total of set plus: 190 
+Total of gets: 4000 
+Total of transfer: 210 
+Total of operations: 4557
+Total value of fields: 3203300 (Expected: 3203300)
+Test 6 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 32READS: 200
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 11972 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1596 
+Total of set minus: 148 
+Total of set plus: 176 
+Total of gets: 4000 
+Total of transfer: 224 
+Total of operations: 4548
+Total value of fields: 3202800 (Expected: 3202800)
+Test 7 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 32
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12230 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1838 
+Total of set minus: 160 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4560
+Total value of fields: 3203200 (Expected: 3203200)
+Test 8 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256
+WRITES: 50
+maxDelay_intervals: 256
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12072 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1692 
+Total of set minus: 145 
+Total of set plus: 182 
+Total of gets: 4000 
+Total of transfer: 218 
+Total of operations: 4545
+Total value of fields: 3203700 (Expected: 3203700)
+Test 9 for TRMIPassive: 32 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 32
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11924 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1469 
+Total of set minus: 168 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4568
+Total value of fields: 3204400 (Expected: 3204400)
+Test 0 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+maxAborts/minDelay/delay: 64
+READS: 200
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11927 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1683 
+Total of set minus: 149 
+Total of set plus: 184 
+Total of gets: 4000 
+Total of transfer: 216 
+Total of operations: 4549
+Total value of fields: 3203500 (Expected: 3203500)
+Test 1 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11691 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1565 
+Total of set minus: 182 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4582
+Total value of fields: 3202200 (Expected: 3202200)
+Test 2 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+WRITES: 50
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+READS: 200
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11898 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1616 
+Total of set minus: 165 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4565
+Total value of fields: 3204700 (Expected: 3204700)
+Test 3 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11969 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1694 
+Total of set minus: 151 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4551
+Total value of fields: 3204300 (Expected: 3204300)
+Test 4 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50WRITES: 50
+
+
+READS: 200
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12046 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1686 
+Total of set minus: 170 
+Total of set plus: 236 
+Total of gets: 4000 
+Total of transfer: 164 
+Total of operations: 4570
+Total value of fields: 3206600 (Expected: 3206600)
+Test 5 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200maxAborts/minDelay/delay: 64
+
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11835 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1721 
+Total of set minus: 193 
+Total of set plus: 218 
+Total of gets: 4000 
+Total of transfer: 182 
+Total of operations: 4593
+Total value of fields: 3202500 (Expected: 3202500)
+Test 6 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+maxAborts/minDelay/delay: 64
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 11735 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1680 
+Total of set minus: 135 
+Total of set plus: 172 
+Total of gets: 4000 
+Total of transfer: 228 
+Total of operations: 4535
+Total value of fields: 3203700 (Expected: 3203700)
+Test 7 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12032 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1799 
+Total of set minus: 161 
+Total of set plus: 204 
+Total of gets: 4000 
+Total of transfer: 196 
+Total of operations: 4561
+Total value of fields: 3204300 (Expected: 3204300)
+Test 8 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12124 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1569 
+Total of set minus: 171 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4571
+Total value of fields: 3204900 (Expected: 3204900)
+Test 9 for TRMIPassive: 64 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256WRITES: 50
+
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12061 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1723 
+Total of set minus: 145 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4545
+Total value of fields: 3204700 (Expected: 3204700)
+Test 0 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+WRITES: 50WRITES: 50WRITES: 50
+
+
+READS: 200READS: 200READS: 200
+
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 12010 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1901 
+Total of set minus: 156 
+Total of set plus: 188 
+Total of gets: 4000 
+Total of transfer: 212 
+Total of operations: 4556
+Total value of fields: 3203200 (Expected: 3203200)
+Test 1 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+WRITES: 50
+READS: 200READS: 200
+
+READS: 200
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 11953 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1543 
+Total of set minus: 165 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4565
+Total value of fields: 3202700 (Expected: 3202700)
+Test 2 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 12154 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1773 
+Total of set minus: 174 
+Total of set plus: 220 
+Total of gets: 4000 
+Total of transfer: 180 
+Total of operations: 4574
+Total value of fields: 3204600 (Expected: 3204600)
+Test 3 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+WRITES: 50maxAborts/minDelay/delay: 128
+
+READS: 200
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+WRITES: 50
+READS: 200
+Time of execution: 12073 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1584 
+Total of set minus: 151 
+Total of set plus: 180 
+Total of gets: 4000 
+Total of transfer: 220 
+Total of operations: 4551
+Total value of fields: 3202900 (Expected: 3202900)
+Test 4 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+READS: 200maxAborts/minDelay/delay: 128
+WRITES: 50
+READS: 200
+
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+
+READS: 200
+Time of execution: 12073 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1841 
+Total of set minus: 162 
+Total of set plus: 200 
+Total of gets: 4000 
+Total of transfer: 200 
+Total of operations: 4562
+Total value of fields: 3203800 (Expected: 3203800)
+Test 5 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50WRITES: 50
+
+maxAborts/minDelay/delay: 128
+READS: 200READS: 200
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+WRITES: 50
+READS: 200
+Time of execution: 11915 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1795 
+Total of set minus: 149 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4549
+Total value of fields: 3204300 (Expected: 3204300)
+Test 6 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 128
+maxAborts/minDelay/delay: 128
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50
+READS: 200WRITES: 50
+
+READS: 200
+Time of execution: 11704 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1524 
+Total of set minus: 158 
+Total of set plus: 192 
+Total of gets: 4000 
+Total of transfer: 208 
+Total of operations: 4558
+Total value of fields: 3203400 (Expected: 3203400)
+Test 7 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 50
+READS: 200
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50
+READS: 200
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+Time of execution: 12004 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1517 
+Total of set minus: 170 
+Total of set plus: 206 
+Total of gets: 4000 
+Total of transfer: 194 
+Total of operations: 4570
+Total value of fields: 3203600 (Expected: 3203600)
+Test 8 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 128
+WRITES: 50
+READS: 200maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 50
+maxAborts/minDelay/delay: 128
+READS: 200
+WRITES: 50
+READS: 200
+maxDelay_intervals: 256
+WRITES: 50
+READS: 200
+Time of execution: 11975 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1610 
+Total of set minus: 169 
+Total of set plus: 222 
+Total of gets: 4000 
+Total of transfer: 178 
+Total of operations: 4569
+Total value of fields: 3205300 (Expected: 3205300)
+Test 9 for TRMIPassive: 128 max_aborts
+TRMIPassive	4	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+maxAborts/minDelay/delay: 128
+maxDelay_intervals: 256maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256
+WRITES: 50
+WRITES: 50
+READS: 200
+READS: 200
+maxAborts/minDelay/delay: 128maxAborts/minDelay/delay: 128
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+WRITES: 50WRITES: 50
+
+READS: 200READS: 200
+
+Time of execution: 11750 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1566 
+Total of set minus: 163 
+Total of set plus: 212 
+Total of gets: 4000 
+Total of transfer: 188 
+Total of operations: 4563
+Total value of fields: 3204900 (Expected: 3204900)
+clients: 8, transactions per client: 125, NTTRANS: 1000
+Test 0 for TRMIPassive: 32 max_aborts
+TRMIPassive	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+
+READS: 100
+READS: 100
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 25
+maxAborts/minDelay/delay: 32
+READS: 100
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 25
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 32
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+Contention Manager Dynamic Parameters:
+READS: 100
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+Time of execution: 2759159 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1523616 
+Total of set minus: 141 
+Total of set plus: 196 
+Total of gets: 4000 
+Total of transfer: 204 
+Total of operations: 4541
+Total value of fields: 3205500 (Expected: 3205500)
+Test 1 for TRMIPassive: 32 max_aborts
+TRMIPassive	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256WRITES: 25WRITES: 25
+
+
+READS: 100READS: 100
+WRITES: 25
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+WRITES: 25
+READS: 100maxDelay_intervals: 256
+READS: 100
+
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+WRITES: 25
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+READS: 100
+WRITES: 25
+WRITES: 25
+READS: 100READS: 100
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
+Time of execution: 2909621 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1673061 
+Total of set minus: 157 
+Total of set plus: 194 
+Total of gets: 4000 
+Total of transfer: 206 
+Total of operations: 4557
+Total value of fields: 3203700 (Expected: 3203700)
+Test 2 for TRMIPassive: 32 max_aborts
+TRMIPassive	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32maxDelay_intervals: 256
+
+WRITES: 25
+
+maxDelay_intervals: 256
+READS: 100
+maxDelay_intervals: 256
+WRITES: 25
+WRITES: 25
+WRITES: 25
+READS: 100
+READS: 100READS: 100
+
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 25WRITES: 25
+READS: 100maxDelay_intervals: 256
+
+WRITES: 25
+
+READS: 100
+READS: 100
+Time of execution: 2416682 milliseconds
+Total of commits: 1000 (Expected: 1000)
+Total of aborts: 1347735 
+Total of set minus: 178 
+Total of set plus: 210 
+Total of gets: 4000 
+Total of transfer: 190 
+Total of operations: 4578
+Total value of fields: 3203200 (Expected: 3203200)
+Test 3 for TRMIPassive: 32 max_aborts
+TRMIPassive	8	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32maxAborts/minDelay/delay: 32
+
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxAborts/minDelay/delay: 32
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+WRITES: 25WRITES: 25
+
+READS: 100READS: 100
+
+maxAborts/minDelay/delay: 32WRITES: 25
+WRITES: 25WRITES: 25
+
+
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100READS: 100
+READS: 100
+
+READS: 100
+WRITES: 25
+READS: 100
+maxAborts/minDelay/delay: 32
+maxDelay_intervals: 256
+WRITES: 25
+READS: 100
