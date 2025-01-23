@@ -57,14 +57,14 @@ do
         do
 
             echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-            NCLIENT=16
+            NCLIENT=2
             while [[ $NCLIENT -le $NMAXCLIENTS ]];
             do
                 NTRANS=$(($NTTRANS/$NCLIENT))
                 echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
             
                 max_aborts=2048 #using 8 OR 16 ends up in a starvation situation, apparently (LOW CONTENTION/FEW WRITES/LONG TRANSACTIONS)
-                while [[ $max_aborts -le 4096 ]];
+                while [[ $max_aborts -le 8192 ]];
                 do
                     for i in $(seq 0 9);
                     do
