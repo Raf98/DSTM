@@ -55,6 +55,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public AtomicBoolean defunct = new AtomicBoolean(false);
   public HashSet<Integer> conflictList = new HashSet<>();
   public AtomicInteger transactionAborts = new AtomicInteger(0);
+  public AtomicInteger enemyAttempts = new AtomicInteger(0);
   public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
@@ -363,4 +364,14 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public int getTransactionAborts() throws RemoteException {
     return this.transactionAborts.get();
   }
+
+@Override
+public int getEnemyAttempts() throws RemoteException {
+  return this.enemyAttempts.get();
+}
+
+@Override
+public void setEnemyAttempts(int attempts) throws RemoteException {
+  this.enemyAttempts.set(attempts);
+}
 }

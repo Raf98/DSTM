@@ -63,6 +63,10 @@ public interface ITransaction extends Remote {
   public HashSet<Integer> getConflictList() throws RemoteException;
 
   public int getTransactionAborts() throws RemoteException;
+
+  public int getEnemyAttempts() throws RemoteException;
+
+  public void setEnemyAttempts(int enemyAttempts) throws RemoteException;
   
   public int getAborts() throws RemoteException;
 

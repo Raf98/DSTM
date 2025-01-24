@@ -4,8 +4,11 @@ import java.rmi.RemoteException;
 
 import TinyTM.ITransaction;
 import TinyTM.Transaction;
+import TinyTM.exceptions.AbortedException;
 
 public class Aggressive extends ContentionManager {
+
+    int maxAttempts = 256;
 
     @Override
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
@@ -17,16 +20,17 @@ public class Aggressive extends ContentionManager {
         // an enemy attempted to complete itself after conflicting and, if it passes this limit,
         // the enemy is set to defunct, so that it can be aborted, since both its attempts and
         // defunct flag would be reset whenever it opens a new transactional object
-       // if (!other.getConflictList().contains(me.hashCode()) || other.getDefunct()) {
+        if (!other.getConflictList().contains(me.hashCode()) || other.getDefunct()) {
             other.abort();
-        //    me.getConflictList().add(other.hashCode());
-        //} else {
-            /*other.setAttempts(other.getAttempts() + 1);
-            if (other.getAttempts() > attempts) {
+            me.getConflictList().add(other.hashCode());
+        } else {
+            other.setEnemyAttempts(other.getEnemyAttempts() + 1);
+            if (other.getEnemyAttempts() > maxAttempts) {
                 other.setDefunct(true);
-            }*/
-            //me.abort();
-        //}
+            }
+            me.abort();
+            throw new AbortedException();
+        }
     }
 
     @Override

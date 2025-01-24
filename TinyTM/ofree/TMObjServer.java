@@ -58,31 +58,41 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     Locator locator = start.get();
     if (locator.owner.hashCode() == tx.hashCode()) {
+      tx.setEnemyAttempts(0);     // reset transaction's enemies attempts whenever when opening an object to write
+      tx.setDefunct(false);           // if it performs any transaction-related operation, defunct should be reset
       return (T) locator.newVersion;
     }
     // System.out.println ("open write servidor");
     Locator newLocator = new Locator();
     newLocator.owner = new AtomicReference(tx);
+
     while (true) {
       Locator oldLocator = start.get();
-      ITransaction writer = oldLocator.owner.get();
+      ITransaction writer = oldLocator.owner.get();   // this is the transaction that is writing or wrote last on the object
+
+      tx.setEnemyAttempts(0);     // reset transaction's enemies attempts whenever when opening an object to write
+      tx.setDefunct(false);           // if it performs any transaction-related operation, defunct should be reset
+
       switch (writer.getStatus()) {
         case COMMITTED:
           tx.setPriority(0);
-          tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
+          //tx.setEnemyAttempts(0);
+          //tx.setDefunct(false);          
           // System.out.println("committed");
           newLocator.oldVersion = oldLocator.newVersion;
           break;
         case ABORTED:
-          tx.setDefunct(false);
+          //tx.setEnemyAttempts(0);
+          //tx.setDefunct(false);
           // System.out.println("Abort");
           newLocator.oldVersion = oldLocator.oldVersion;
           break;
         case ACTIVE: // tx.abort(); throw new AbortedException();
           // writer.abort();
-          tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to write
-          tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
-          tx.CMresolve(writer);
+          tx.setPriority(tx.getPriority() + 1);     // increments priority when opening an object to write
+          //tx.setEnemyAttempts(0);                 // reset transaction's enemies attempts whenever when opening an object to write 
+          //tx.setDefunct(false);                   // if it performs any transaction-related operation, defunct should be reset
+          tx.CMresolve(writer);                     // if writer is already working on the same object, call the CM
           continue;
         default:
           throw new PanicException("Unexpected transaction state: " + writer.getStatus());
@@ -140,6 +150,10 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
   @SuppressWarnings("unchecked")
   public T openReadRemote(ITransaction tx) throws RemoteException {
     Locator locator = start.get();
+
+    tx.setEnemyAttempts(0);    // reset transaction's enemies attempts whenever when opening an object to read
+    tx.setDefunct(false);
+
     if (locator.owner.get().hashCode() == tx.hashCode()) {
       return (T) locator.newVersion;
     }
@@ -150,15 +164,17 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     switch (writer.getStatus()) {
       case COMMITTED:
-        tx.setPriority(0);
-        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
+        // that's an error, since this is switching over the status of the transaction that currently holds the object,
+        // and not the incoming transaction tx, that's trying to have access over it, as in TMObj's switch statement
+        //tx.setPriority(0);
+        //tx.setDefunct(false);           // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.newVersion;
         if (writer != Transaction.COMMITTED) {
           locator.owner.compareAndSet(writer, Transaction.COMMITTED);
         }
         break;
       case ABORTED:
-        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
+        //tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.oldVersion;
         if (writer != Transaction.ABORTED) {
           locator.owner.compareAndSet(writer, Transaction.ABORTED);
@@ -166,7 +182,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
         break;
       case ACTIVE:
         tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to read
-        tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
+        //tx.setDefunct(false);          // if it performs any transaction-related operation, defunct should be reset
         version = (T) locator.oldVersion;
         break;
       default:
