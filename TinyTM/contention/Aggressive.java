@@ -8,7 +8,7 @@ import TinyTM.exceptions.AbortedException;
 
 public class Aggressive extends ContentionManager {
 
-    int maxAttempts = 256;
+    int maxAttempts = 2048;
 
     @Override
     public void resolve(Transaction me, ITransaction other) throws RemoteException {

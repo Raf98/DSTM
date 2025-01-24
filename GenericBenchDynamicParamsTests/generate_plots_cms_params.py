@@ -8,7 +8,7 @@ import sys
 
 print(sys.argv)
 cm_selected = sys.argv[1]
-dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests.txt"
+dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests_new.txt"
 
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
@@ -210,8 +210,8 @@ for wp in writes_percentage:
 
 if not os.path.exists("10Tests"):
     os.makedirs("10Tests")
-if not os.path.exists("10Tests/" + contention_manager):
-    os.makedirs("10Tests/" + contention_manager)
+if not os.path.exists("10Tests/" + contention_manager + "_new"):
+    os.makedirs("10Tests/" + contention_manager + "_new")
 
 multiply_factor = 1.15 if maxdelay_intervals == 0 else 1.08 
 
@@ -294,7 +294,7 @@ for wp in writes_percentage:
             fig.set_figheight(10)
             fig.set_figwidth(19)
 
-            fig.savefig(f"10Tests/{contention_manager}/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
+            fig.savefig(f"10Tests/{contention_manager}_new/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
             n+=1
             i+=1
 

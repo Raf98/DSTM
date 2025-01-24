@@ -36,7 +36,7 @@ fi
 
 if [ -z $4 ]
 then
-	MAX_ABORTS=128
+	MAX_ABORTS=4096
 else
 	MAX_ABORTS=$4
 fi
