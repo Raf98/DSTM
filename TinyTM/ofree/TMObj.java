@@ -72,11 +72,8 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
 
     switch (me.getStatus()) {
       case COMMITTED:
-        //me.priority.set(0);
-        //me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
         return (T) server.openSequential();
       case ABORTED:
-        //me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
         throw new AbortedException();
       case ACTIVE:
         // if (localRef != null)
@@ -84,10 +81,6 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
         // System.out.println("openread cliente pedindo para abrir");
         // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
 
-        // the 2 lines below have been moved to TMObjServer's openReadRemote, since it has effect also
-        // on locally handled TMObjs this way (DHT)
-        //me.priority.incrementAndGet();  // increments priority when opening an object to read
-        //me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
         T result = (T) server.openReadRemote(me);
         // localRef = result;
         return result;
@@ -106,14 +99,8 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
 
     switch (me.getStatus()) {
       case COMMITTED:
-        // if a transactional already committed, it won't be compared against an ACTIVE one, thus, its priority doesn't need to be reset
-        //me.priority.set(0);           
-        //me.setEnemyAttempts(0);
-        //me.defunct.set(false);          // if it performs any transaction-related operation, defunct should be reset
         return (T) server.openSequential();
       case ABORTED:
-        //me.setEnemyAttempts(0);
-        //me.defunct.set(false);
         throw new AbortedException();
       case ACTIVE:
         // if (localRef != null){
@@ -123,11 +110,6 @@ public class TMObj<T extends Copyable<T>> { // extends TinyTM.AtomicObject<T> {
         // System.out.println("openwrite cliente pedindo para abrir");
         // ITransaction stub = (ITransaction) UnicastRemoteObject.exportObject(me, 0);
 
-        // this switch statement is on the current transaction's status, while openWriteRemote works based on
-        // the transaction that currently owns this object, however, its priority will still be increased if there is
-        // another active enemy transaction, thus, it should not incremented here still
-        //me.priority.incrementAndGet(); // increments priority when opening an object to write
-        //me.defunct.set(false);
         T result = (T) server.openWriteRemote(me);
         // localRef = result;
         return result;
