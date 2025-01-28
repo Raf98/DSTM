@@ -53,9 +53,9 @@ do
         # that is a power of 2, for more collision, thus, greater contention
         # and then move to a case in which there are 10000 keys available and a lower number of entries but of a prime number
         # which would render less collisions and, thus, lower contention
-        NKEYS=1000
-        NHTENTRIES=128
-        for NKEYS in $(seq 1000 9000 10000);
+        NKEYS=10000
+        NHTENTRIES=512
+        for NHTENTRIES in $(seq 512 285 797);
         do
             echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
             NCLIENT=2
@@ -71,7 +71,7 @@ do
                     done
                 let "NCLIENT*=2"
             done
-            let "NHTENTRIES=97"
+            #let "NHTENTRIES=97"
         done
     done
 done
