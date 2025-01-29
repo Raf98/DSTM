@@ -1,6 +1,6 @@
 /home/rddsantos/DSTM
 Compiling all files needed for the generic benchmark...
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -1945,7 +1945,7 @@ Total of gets: 20000
 Total of transfer: 1002 
 Total of operations: 22713
 Total value of fields: 6425300 (Expected: 6425300)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -3890,7 +3890,7 @@ Total of gets: 20000
 Total of transfer: 1010 
 Total of operations: 22686
 Total value of fields: 32027200 (Expected: 32027200)
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -5835,7 +5835,7 @@ Total of gets: 80000
 Total of transfer: 4960 
 Total of operations: 94756
 Total value of fields: 6412400 (Expected: 6412400)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -7780,7 +7780,7 @@ Total of gets: 80000
 Total of transfer: 5050 
 Total of operations: 94668
 Total value of fields: 32012200 (Expected: 32012200)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -9725,7 +9725,7 @@ Total of gets: 12480
 Total of transfer: 2536 
 Total of operations: 19226
 Total value of fields: 6470200 (Expected: 6470200)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -11670,7 +11670,7 @@ Total of gets: 12480
 Total of transfer: 2570 
 Total of operations: 19182
 Total value of fields: 32071200 (Expected: 32071200)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM
@@ -13615,7 +13615,7 @@ Total of gets: 49920
 Total of transfer: 11930 
 Total of operations: 87570
 Total value of fields: 6434000 (Expected: 6434000)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPolite: 128 min_delay; 4096 max_delay
 TRMIPolite	2	/home/rddsantos/DSTM

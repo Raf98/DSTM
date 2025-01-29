@@ -4,54 +4,54 @@ from scipy.stats import kstest
 from matplotlib import pyplot as plt
 import math
 import os
-import sys
 
-print(sys.argv)
-cm_selected = sys.argv[1]
-generic_final_test_filename = "tests_results/generic_" + cm_selected + "_final_tests.txt"
-#generic_final_test_filename = "kindergarten_out_test_list.txt"
-#generic_final_test_filename = "kindergarten_out_test_set.txt"
+contention_managers = ["Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
-lines = open(generic_final_test_filename, "r").readlines()
-
-contention_managers = ["Agressive", "Less", "Kindergarten", "Timestamp", "Polka", "Karma", "Polite", "Passive"]
 use_cases = []
 tests_cms = []
 cm_clients = []
 executions_time = []
 aborts = []
-cm_params_configs = []
 
-for line in lines:
-    if line.startswith("NOBJSERVER:"):
-        use_cases.append(line)
-    elif line.startswith("Total of aborts"):
-        aborts.append(line)
-    elif line.startswith("Test"):
-        tests_cms.append(line)
-        cm_param_config = line.split(":")[1].strip()
-        if cm_param_config not in cm_params_configs:
-            cm_params_configs.append(cm_param_config)
-    else:
-        if line.startswith("TRMI"):
-            cm_clients.append(line)
-        if "Time of execution" in line:
-            executions_time.append(line)
 
-print(len(use_cases))
-print(len(tests_cms))
-print(len(cm_clients))
-print(len(executions_time))
-print(len(aborts))
+for cm in contention_managers:
+    dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results.txt"
 
-# for use_case in use_cases:
-#     print(use_case)
-#     for i in range(len(cm_clients)):
-#         print(i)
-#         print(tests_cms[i], end="")
-#         print(cm_clients[i], end="")
-#         print(executions_time[i], end="")
-#         print(aborts[i], end="")
+    lines = open(dht_tests_filename, "r").readlines()
+
+    for line in lines:
+        if line.startswith("NOBJSERVER:"):
+            use_cases.append(line)
+        elif line.startswith("Total of aborts"):
+            aborts.append(line)
+        elif line.startswith("Test"):
+            tests_cms.append(line)
+        else:
+            if line.startswith("TRMI"):
+                cm_clients.append(line)
+            if "Time of execution" in line:
+                executions_time.append(line)
+
+    print(len(use_cases))
+    print(len(tests_cms))
+    print(len(cm_clients))
+    print(len(executions_time))
+    print(len(aborts))
+
+for use_case in use_cases:
+        print(f"USE CASE: {use_case}")
+        #print(cm_clients)
+
+        '''
+        for i in range(len(cm_clients)):
+            print(i)
+            print(tests_cms[i], end="")
+            print(cm_clients[i], end="")
+            print(executions_time[i], end="")
+            print(aborts[i], end="")
+        '''
+
+print("FINISHED PRINTING USE CASES")
 
 writes_percentage = [20, 50]
 objs_per_transaction = [5, 20]
@@ -60,71 +60,30 @@ number_of_clients = [2, 4, 8, 16]
 number_of_tests = 10
 test_cases_dict = {}
 
-print(cm_params_configs)
-
-contention_manager = cm_clients[0].split(" ")[0].split("TRMI")[1].split("\t")[0]
-
-param0_title = ""
-param1_title = ""
-
-maxaborts_mindelay_delay = 0
-maxdelay_intervals = 0
-
-maxaborts_mindelay_delay = 0
-maxdelay_intervals = 0
-
-if "; " in cm_params_configs[0]:
-    two_params = cm_params_configs[0].split("; ")
-    param0 = two_params[0]
-    param1 = two_params[1]
-    param0_title = param0.split(" ")[1]
-    param1_title = param1.split(" ")[1]
-else:
-    param0 = cm_params_configs[0].split(" ")
-    param0_title = param0[0]
-
-if "; " in cm_params_configs[0]:
-    two_params = cm_params_configs[0].split("; ")
-    param0 = two_params[0]
-    param1 = two_params[1]
-
-    maxaborts_mindelay_delay = int(param0.split(" ")[0])
-    maxdelay_intervals = int(param1.split(" ")[0])
-else:
-    for cm_param_config in cm_params_configs:
-        param0 = cm_params_configs[0].split(" ")
-
-        maxaborts_mindelay_delay = int(param0[0])
-
-
-# print(param0_title)
-# print(maxaborts_mindelay_delay_arr)
-# print(param1_title)
-# print(maxdelay_intervals_arr)
-
-
 for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
             test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"] = {
-                 noc: [] for noc in number_of_clients
+                cm: {noc: [] for noc in number_of_clients} for cm in contention_managers
             }
-#print(test_cases_dict)
+print(test_cases_dict)
 
 i = 0
 
-for wp in writes_percentage:
-    for opt in objs_per_transaction:
-        for ops in objs_per_server:
-            for noc in number_of_clients:
-                for test in range(10):
-                    print(executions_time[i])
-                    test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc].append(
-                        int(executions_time[i].split("Time of execution: ")[1].split(" milliseconds")[0]))
-                    i+=1
-                    print(i)
+for cm in contention_managers:
+    for wp in writes_percentage:
+        for opt in objs_per_transaction:
+            for ops in objs_per_server:
+                for noc in number_of_clients:
+                    for test in range(number_of_tests):
+                        print(cm)
+                        print(tests_cms[i])
+                        print(executions_time[i])
+                        test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc].append(
+                            int(executions_time[i].split("Time of execution: ")[1].split(" milliseconds")[0]))
+                        i+=1
 
-#print(test_cases_dict)
+print(test_cases_dict)
 
 test_cases_avgs_dict = {}
 
@@ -132,102 +91,101 @@ for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
             test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"] = {
-                noc: {"avg": 0, "max_error": 0} for noc in number_of_clients
+                cm: {noc: {"avg": 0} for noc in number_of_clients} for cm in contention_managers
             }
 
 for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
-            for noc in number_of_clients:
-                avg = 0
-                min_value = 999999
-                max_value = -1
-                for test in range(number_of_tests):
-                    avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc][test]
-                    max_value = max(max_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc][test])
-                    min_value = min(min_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc][test])
-                avg /= number_of_tests * 1000
-                #print("MIN VALUE: " + str(min_value))
-                min_value /= 1000
-                max_value /= 1000
-                max_error = (max_value - min_value)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["avg"] = round(avg, 2)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["min"] = round(min_value, 2)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["max"] = round(max_value, 2)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["lower_bound"] = round(avg - min_value, 2)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["upper_bound"] = round(max_value - avg, 2)
-                test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["max_error"] = round(max_error, 2)
-#print("AVERAGES:")
-#print(test_cases_avgs_dict)
+            for cm in contention_managers:
+                for noc in number_of_clients:
+                    avg = 0
+                    min_value = 999999
+                    max_value = -1
+                    for test in range(number_of_tests):
+                        avg += test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc][test]
+                        max_value = max(max_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc][test])
+                        min_value = min(min_value, test_cases_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc][test])
+                    avg /= number_of_tests*1000
+                    min_value /= 1000
+                    max_value /= 1000
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["avg"] = round(avg, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["min"] = round(min_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["max"] = round(max_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["lower_bound"] = round(avg - min_value, 2)
+                    test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["upper_bound"] = round(max_value - avg, 2)
 
-counts = []
-mins = []
-maxs = []
-lowers = []
-uppers = []
-errors = []
+print(test_cases_avgs_dict)
 
-#print(counts)
+counts = [[] for i in range(8)]
+mins = [[] for i in range(8)]
+maxs = [[] for i in range(8)]
+lowers = [[] for i in range(8)]
+uppers = [[] for i in range(8)]
+
+print(counts)
 
 i = 0
 for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
-            j = 0
-            count = []
-            min_value = []
-            max_value = []
-            lower_bound = []
-            upper_bound = []
-            error = []
-            for noc in number_of_clients:
-                count.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["avg"])
-                min_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["min"])
-                max_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["max"])
-                lower_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["lower_bound"])
-                upper_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["upper_bound"])
-                error.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][noc]["max_error"])
-                j += 1
-            #print(count)
-            counts.append(count)
-            mins.append(min_value)
-            maxs.append(max_value)
-            lowers.append(lower_bound)
-            uppers.append(upper_bound)
-            errors.append(error)
+            for cm in contention_managers:
+                j = 0
+                count = []
+                count = []
+                min_value = []
+                max_value = []
+                lower_bound = []
+                upper_bound = []
+                for noc in number_of_clients:
+                    count.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["avg"])
+                    min_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["min"])
+                    max_value.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["max"])
+                    lower_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["lower_bound"])
+                    upper_bound.append(test_cases_avgs_dict[f"NOBJSERVER: {ops}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["upper_bound"])
+                    j += 1
+                #print(count)
+                counts[i].append(count)
+                mins[i].append(min_value)
+                maxs[i].append(max_value)
+                lowers[i].append(lower_bound)
+                uppers[i].append(upper_bound)
+            i+=1
 
-#print(counts)
+print(counts)
 
-if not os.path.exists(contention_manager):
-    os.makedirs(contention_manager)
+if not os.path.exists("Plots"):
+    os.makedirs("Plots")
 
-multiply_factor = 1.15 if maxdelay_intervals == 0 else 1.08 
-
+multiply_factor = 1.05
 
 i = 0
 n = 0
 for wp in writes_percentage:
     for opt in objs_per_transaction:
         for ops in objs_per_server:
-            avgs = 0
-            min_values = 0
-            max_values = 0
-            lower_bounds = 0
-            upper_bounds = 0
-            max_errors = 0
+            avgs = {}
+            min_values = {}
+            max_values = {}
+            lower_bounds = {}
+            upper_bounds = {}
+            j = 0
             max = 0
 
-            print(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
-            #print(counts[i])
-            local_max = np.array(maxs[i]).max() #np.array(counts[i][j]).max() + np.array(errors[i][j]).max()
-            max = local_max if local_max > max else max
-            max *= multiply_factor
-            avgs = counts[i]
-            min_values = mins[i]
-            max_values = maxs[i]
-            lower_bounds = lowers[i]
-            upper_bounds = uppers[i]
-            max_errors = errors[i]
+            print(f"NOBJSERVER: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}")
+            for cm in contention_managers:
+                print(counts[i][j])
+                local_max = np.array(maxs[i][j]).max()
+                max = local_max if local_max > max else max
+                max *= multiply_factor
+
+                avgs[cm] = counts[i][j]
+                min_values[cm] = mins[i][j]
+                max_values[cm] = maxs[i][j]
+                lower_bounds[cm] = lowers[i][j]
+                upper_bounds[cm] = uppers[i][j]
+
+                j+=1
 
             x = np.arange(len(number_of_clients))  # the label locations
             width = 0.1  # the width of the bars
@@ -235,40 +193,38 @@ for wp in writes_percentage:
 
             fig, ax = plt.subplots(layout='constrained')
 
-            #print(avgs)
-            offset = width * multiplier
-            #y_lower_bound = np.array(avgs[attribute]) - np.array(min_values[attribute])
-            #y_upper_bound =np.array(max_values[attribute]) - np.array(avgs[attribute])
-            error_bounds = [lower_bounds, upper_bounds]
-            #print(error_bounds)
+            for attribute, measurement in avgs.items():
+                print(attribute)
+                print(measurement)
+                offset = width * multiplier
+                error_bounds = [lower_bounds[attribute], upper_bounds[attribute]]
 
-            bars = ax.bar(x = x + offset, height = avgs, width = width, yerr = error_bounds, 
-                           capsize = 10, label = number_of_clients, edgecolor = 'black', zorder=3)
-            for index, bar in enumerate(bars):
-                height = bar.get_height()
-                print(max_error)
-                max_error = max_errors[index]
-                lower_bound = lower_bounds[index]
-                upper_bound = upper_bounds[index]
-                ax.text(x = bar.get_x() + bar.get_width()/2, y = height, s = f'{height:.2f}', 
-                        horizontalalignment='center', verticalalignment='bottom')
-                
-                if lower_bound > max / 10:
-                    min_value = min_values[index]
-                    #print("MIN VALUE: " + str(min_value))
-                    ax.text(x = bar.get_x() + bar.get_width()/2, y = min_value, s = f'{min_value:.2f}', 
-                        horizontalalignment='center', verticalalignment='bottom')
-                
-                if upper_bound > max / 10:
-                    max_value = max_values[index]
-                    ax.text(x = bar.get_x() + bar.get_width()/2, y = max_value, s = f'{max_value:.2f}', 
-                        horizontalalignment='center', verticalalignment='bottom')
-            #ax.bar_label(bars, padding=0)
+                bars = ax.bar(x = x + offset, height = measurement, width = width, yerr = error_bounds, 
+                               capsize = 10, label = attribute, edgecolor = 'black', zorder=3)
+                for index, bar in enumerate(bars):
+                    height = bar.get_height()
+                    lower_bound = lower_bounds[attribute][index]
+                    upper_bound = upper_bounds[attribute][index]
+
+                    ax.text(x = bar.get_x() + bar.get_width()/2, y = height, s = f'{height:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                    
+                    if lower_bound > max / 10:
+                        min_value = min_values[attribute][index]
+                        #print("MIN VALUE: " + str(min_value))
+                        ax.text(x = bar.get_x() + bar.get_width()/2, y = min_value, s = f'{min_value:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                    
+                    if upper_bound > max / 10:
+                        max_value = max_values[attribute][index]
+                        ax.text(x = bar.get_x() + bar.get_width()/2, y = max_value, s = f'{max_value:.2f}', 
+                            horizontalalignment='center', verticalalignment='bottom')
+                #ax.bar_label(bars, padding=0)
                 multiplier += 1
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
             ax.set_ylabel('Time (seconds)', fontsize=20)
-            ax.set_title(f"{contention_manager}\nObjects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
+            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
             ax.set_xticks(x + width, number_of_clients)
             ax.legend(loc='upper right', ncols=1, prop={'size': 18})
             ax.set_ylim(0, max)
@@ -278,10 +234,11 @@ for wp in writes_percentage:
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
-
-            fig.savefig(f"{contention_manager}/Set/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
+            fig.savefig(f"Plots/NOBJSERVER_{ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
             n+=1
             i+=1
 
 print(n)
 plt.show()
+
+

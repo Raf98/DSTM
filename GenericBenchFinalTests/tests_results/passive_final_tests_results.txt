@@ -1,6 +1,6 @@
 /home/rddsantos/DSTM
 Compiling all files needed for the generic benchmark...
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -1945,7 +1945,7 @@ Total of gets: 20000
 Total of transfer: 1008 
 Total of operations: 22711
 Total value of fields: 6424900 (Expected: 6424900)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -3890,7 +3890,7 @@ Total of gets: 20000
 Total of transfer: 966 
 Total of operations: 22726
 Total value of fields: 32027600 (Expected: 32027600)
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -5835,7 +5835,7 @@ Total of gets: 80000
 Total of transfer: 5060 
 Total of operations: 94645
 Total value of fields: 6413500 (Expected: 6413500)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -7780,7 +7780,7 @@ Total of gets: 80000
 Total of transfer: 4680 
 Total of operations: 95050
 Total value of fields: 32011000 (Expected: 32011000)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -9725,7 +9725,7 @@ Total of gets: 12480
 Total of transfer: 2562 
 Total of operations: 19191
 Total value of fields: 6471100 (Expected: 6471100)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -11670,7 +11670,7 @@ Total of gets: 12480
 Total of transfer: 2570 
 Total of operations: 19186
 Total value of fields: 32070800 (Expected: 32070800)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM
@@ -13615,7 +13615,7 @@ Total of gets: 49920
 Total of transfer: 12510 
 Total of operations: 87058
 Total value of fields: 6427200 (Expected: 6427200)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIPassive: 4096 maxAborts
 TRMIPassive	2	/home/rddsantos/DSTM

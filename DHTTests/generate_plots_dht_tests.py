@@ -32,20 +32,23 @@ for cm in contention_managers:
             if "Time of execution" in line:
                 executions_time.append(line)
 
-    print(len(use_cases))
-    print(len(tests_cms))
-    print(len(cm_clients))
-    print(len(executions_time))
-    print(len(aborts))
 
-    for use_case in use_cases:
-        print(use_case)
-        for i in range(len(cm_clients)):
-            print(i)
-            print(tests_cms[i], end="")
-            print(cm_clients[i], end="")
-            print(executions_time[i], end="")
-            print(aborts[i], end="")
+print(len(use_cases))
+print(len(tests_cms))
+print(len(cm_clients))
+print(len(executions_time))
+print(len(aborts))
+
+'''
+for use_case in use_cases:
+    print(use_case)
+    for i in range(len(cm_clients)):
+        print(i)
+        print(tests_cms[i], end="")
+        print(cm_clients[i], end="")
+        print(executions_time[i], end="")
+        print(aborts[i], end="")
+'''
 
 writes_percentage = [20, 50]
 objs_per_transaction = [5, 20]
@@ -66,13 +69,15 @@ print(test_cases_dict)
 
 i = 0
 
-for wp in writes_percentage:
-    for opt in objs_per_transaction:
-        for nok in number_of_keys:
-            for cm in contention_managers:
+for cm in contention_managers:
+    for wp in writes_percentage:
+        for opt in objs_per_transaction:
+            for nok in number_of_keys:
                 for noc in number_of_clients:
                     for test in range(number_of_tests):
-                        #print(executions_time[i])
+                        print(cm)
+                        print(tests_cms[i])
+                        print(executions_time[i])
                         test_cases_dict[f"NKEYS: {nok}, NHTENTRIES: {number_of_ht_entries[nok]}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc].append(
                             int(executions_time[i].split("Time of execution: ")[1].split(" milliseconds")[0]))
                         i+=1

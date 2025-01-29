@@ -70,7 +70,7 @@ do
         for NOBJSERVER in $(seq 100 400 500);
         do
     
-            echo "NOBJSERVER: $NOBJSERVER, WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+            echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
             NCLIENT=2
             while [[ $NCLIENT -le $NMAXCLIENTS ]];
             do

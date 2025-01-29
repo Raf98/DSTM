@@ -1,6 +1,6 @@
 /home/rddsantos/DSTM
 Compiling all files needed for the generic benchmark...
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -1945,7 +1945,7 @@ Total of gets: 20000
 Total of transfer: 988 
 Total of operations: 22677
 Total value of fields: 6430300 (Expected: 6430300)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -3890,7 +3890,7 @@ Total of gets: 20000
 Total of transfer: 1022 
 Total of operations: 22692
 Total value of fields: 32025400 (Expected: 32025400)
-NOBJSERVER: 100, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -5835,7 +5835,7 @@ Total of gets: 80000
 Total of transfer: 4760 
 Total of operations: 94943
 Total value of fields: 6413700 (Expected: 6413700)
-NOBJSERVER: 500, WRITES: 20 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 20 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -7780,7 +7780,7 @@ Total of gets: 80000
 Total of transfer: 4930 
 Total of operations: 94771
 Total value of fields: 32013900 (Expected: 32013900)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -9725,7 +9725,7 @@ Total of gets: 12480
 Total of transfer: 2418 
 Total of operations: 19305
 Total value of fields: 6474100 (Expected: 6474100)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 5
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 5
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -11670,7 +11670,7 @@ Total of gets: 12480
 Total of transfer: 2412 
 Total of operations: 19273
 Total value of fields: 32077900 (Expected: 32077900)
-NOBJSERVER: 100, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 100 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
@@ -13615,7 +13615,7 @@ Total of gets: 49920
 Total of transfer: 12660 
 Total of operations: 86874
 Total value of fields: 6430600 (Expected: 6430600)
-NOBJSERVER: 500, WRITES: 50 NOBJTRANS: 20
+NOBJSERVER: 500 WRITES: 50 NOBJTRANS: 20
 clients: 2, transactions per client: 2500, NTTRANS: 5000
 Test 0 for TRMIKarma: 64 delay
 TRMIKarma	2	/home/rddsantos/DSTM
