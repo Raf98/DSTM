@@ -35,6 +35,12 @@ public class DHTClient {
         RObject[] robjects;
         int op;
         
+        // the shuffling should be done for each table, before operating over them
+        // since a transaction is done over one hash table/server only
+        // however, since each transaction writes either 5 or 20 key-value pairs under one machine
+        // it will probably fill a handful of those tables before reading from them
+        // so, it isn't much of an issue
+
         OperationsShuffler opsShuffler = new OperationsShuffler();
         Integer[] shuffledOps = opsShuffler.shuffledArray(transactions, writes);
 
