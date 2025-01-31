@@ -1,0 +1,6784 @@
+['generate_plots_cms_params_old.py', 'kindergarten']
+8
+960
+960
+960
+960
+['128 delayInterval', '256 delayInterval', '512 delayInterval']
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40069 milliseconds
+
+1
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40260 milliseconds
+
+2
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40049 milliseconds
+
+3
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40449 milliseconds
+
+4
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39881 milliseconds
+
+5
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39473 milliseconds
+
+6
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39794 milliseconds
+
+7
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39654 milliseconds
+
+8
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39849 milliseconds
+
+9
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 39465 milliseconds
+
+10
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40185 milliseconds
+
+11
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40680 milliseconds
+
+12
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40702 milliseconds
+
+13
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40998 milliseconds
+
+14
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40510 milliseconds
+
+15
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41793 milliseconds
+
+16
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41142 milliseconds
+
+17
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41193 milliseconds
+
+18
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41647 milliseconds
+
+19
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40949 milliseconds
+
+20
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42559 milliseconds
+
+21
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 41047 milliseconds
+
+22
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 41578 milliseconds
+
+23
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42346 milliseconds
+
+24
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42400 milliseconds
+
+25
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42272 milliseconds
+
+26
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42443 milliseconds
+
+27
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42509 milliseconds
+
+28
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 41703 milliseconds
+
+29
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42220 milliseconds
+
+30
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29425 milliseconds
+
+31
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29440 milliseconds
+
+32
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28947 milliseconds
+
+33
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28685 milliseconds
+
+34
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29644 milliseconds
+
+35
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28833 milliseconds
+
+36
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28578 milliseconds
+
+37
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29165 milliseconds
+
+38
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28543 milliseconds
+
+39
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29128 milliseconds
+
+40
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30897 milliseconds
+
+41
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30209 milliseconds
+
+42
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30607 milliseconds
+
+43
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31778 milliseconds
+
+44
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30319 milliseconds
+
+45
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30818 milliseconds
+
+46
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30726 milliseconds
+
+47
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30500 milliseconds
+
+48
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30676 milliseconds
+
+49
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31683 milliseconds
+
+50
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 33379 milliseconds
+
+51
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32941 milliseconds
+
+52
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32670 milliseconds
+
+53
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 31947 milliseconds
+
+54
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32036 milliseconds
+
+55
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 31887 milliseconds
+
+56
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32719 milliseconds
+
+57
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 33139 milliseconds
+
+58
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 31547 milliseconds
+
+59
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32813 milliseconds
+
+60
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23001 milliseconds
+
+61
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23177 milliseconds
+
+62
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23263 milliseconds
+
+63
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23136 milliseconds
+
+64
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23208 milliseconds
+
+65
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22895 milliseconds
+
+66
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23734 milliseconds
+
+67
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23086 milliseconds
+
+68
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23392 milliseconds
+
+69
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 24039 milliseconds
+
+70
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24232 milliseconds
+
+71
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25518 milliseconds
+
+72
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24738 milliseconds
+
+73
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24650 milliseconds
+
+74
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24417 milliseconds
+
+75
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25141 milliseconds
+
+76
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24942 milliseconds
+
+77
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25433 milliseconds
+
+78
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25106 milliseconds
+
+79
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24341 milliseconds
+
+80
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26930 milliseconds
+
+81
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27491 milliseconds
+
+82
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26373 milliseconds
+
+83
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26876 milliseconds
+
+84
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27958 milliseconds
+
+85
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27278 milliseconds
+
+86
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27879 milliseconds
+
+87
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27934 milliseconds
+
+88
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27213 milliseconds
+
+89
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 28164 milliseconds
+
+90
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 21203 milliseconds
+
+91
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20152 milliseconds
+
+92
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 21370 milliseconds
+
+93
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 21486 milliseconds
+
+94
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 21269 milliseconds
+
+95
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20522 milliseconds
+
+96
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20930 milliseconds
+
+97
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20818 milliseconds
+
+98
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20817 milliseconds
+
+99
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20806 milliseconds
+
+100
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22564 milliseconds
+
+101
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22216 milliseconds
+
+102
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21991 milliseconds
+
+103
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22622 milliseconds
+
+104
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21651 milliseconds
+
+105
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22555 milliseconds
+
+106
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22440 milliseconds
+
+107
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22505 milliseconds
+
+108
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22626 milliseconds
+
+109
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 23056 milliseconds
+
+110
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25221 milliseconds
+
+111
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26964 milliseconds
+
+112
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25466 milliseconds
+
+113
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24086 milliseconds
+
+114
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24453 milliseconds
+
+115
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25965 milliseconds
+
+116
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24701 milliseconds
+
+117
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24863 milliseconds
+
+118
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24827 milliseconds
+
+119
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25144 milliseconds
+
+120
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40221 milliseconds
+
+121
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40516 milliseconds
+
+122
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40300 milliseconds
+
+123
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40185 milliseconds
+
+124
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40680 milliseconds
+
+125
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40695 milliseconds
+
+126
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40902 milliseconds
+
+127
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40504 milliseconds
+
+128
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40508 milliseconds
+
+129
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 40532 milliseconds
+
+130
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40922 milliseconds
+
+131
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 42760 milliseconds
+
+132
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41771 milliseconds
+
+133
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41554 milliseconds
+
+134
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41863 milliseconds
+
+135
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41871 milliseconds
+
+136
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41020 milliseconds
+
+137
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 41542 milliseconds
+
+138
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 42022 milliseconds
+
+139
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40885 milliseconds
+
+140
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42491 milliseconds
+
+141
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42613 milliseconds
+
+142
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42433 milliseconds
+
+143
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42463 milliseconds
+
+144
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43399 milliseconds
+
+145
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42514 milliseconds
+
+146
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42839 milliseconds
+
+147
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42882 milliseconds
+
+148
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42819 milliseconds
+
+149
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42720 milliseconds
+
+150
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28859 milliseconds
+
+151
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28994 milliseconds
+
+152
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28863 milliseconds
+
+153
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29716 milliseconds
+
+154
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28762 milliseconds
+
+155
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29137 milliseconds
+
+156
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28714 milliseconds
+
+157
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28931 milliseconds
+
+158
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29610 milliseconds
+
+159
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29127 milliseconds
+
+160
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31372 milliseconds
+
+161
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31267 milliseconds
+
+162
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30640 milliseconds
+
+163
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30524 milliseconds
+
+164
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31324 milliseconds
+
+165
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30706 milliseconds
+
+166
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30766 milliseconds
+
+167
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30607 milliseconds
+
+168
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30452 milliseconds
+
+169
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 30585 milliseconds
+
+170
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32325 milliseconds
+
+171
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32760 milliseconds
+
+172
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32664 milliseconds
+
+173
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32245 milliseconds
+
+174
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32757 milliseconds
+
+175
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32177 milliseconds
+
+176
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 33105 milliseconds
+
+177
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32259 milliseconds
+
+178
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 33637 milliseconds
+
+179
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 32791 milliseconds
+
+180
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23057 milliseconds
+
+181
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22756 milliseconds
+
+182
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23613 milliseconds
+
+183
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23264 milliseconds
+
+184
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22898 milliseconds
+
+185
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22972 milliseconds
+
+186
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22618 milliseconds
+
+187
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22494 milliseconds
+
+188
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 23017 milliseconds
+
+189
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 22338 milliseconds
+
+190
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25580 milliseconds
+
+191
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24775 milliseconds
+
+192
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25009 milliseconds
+
+193
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 23989 milliseconds
+
+194
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25167 milliseconds
+
+195
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25307 milliseconds
+
+196
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24759 milliseconds
+
+197
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25016 milliseconds
+
+198
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 24765 milliseconds
+
+199
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 25312 milliseconds
+
+200
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27114 milliseconds
+
+201
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27381 milliseconds
+
+202
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 28168 milliseconds
+
+203
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 28472 milliseconds
+
+204
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27773 milliseconds
+
+205
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26991 milliseconds
+
+206
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27320 milliseconds
+
+207
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27279 milliseconds
+
+208
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 27252 milliseconds
+
+209
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 26639 milliseconds
+
+210
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20660 milliseconds
+
+211
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 21340 milliseconds
+
+212
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20113 milliseconds
+
+213
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20193 milliseconds
+
+214
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20758 milliseconds
+
+215
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20617 milliseconds
+
+216
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20986 milliseconds
+
+217
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20606 milliseconds
+
+218
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20007 milliseconds
+
+219
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 20639 milliseconds
+
+220
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21586 milliseconds
+
+221
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21277 milliseconds
+
+222
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 22043 milliseconds
+
+223
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21642 milliseconds
+
+224
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21811 milliseconds
+
+225
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21715 milliseconds
+
+226
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21708 milliseconds
+
+227
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21148 milliseconds
+
+228
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21645 milliseconds
+
+229
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 21729 milliseconds
+
+230
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25185 milliseconds
+
+231
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24170 milliseconds
+
+232
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24425 milliseconds
+
+233
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 25197 milliseconds
+
+234
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24240 milliseconds
+
+235
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24685 milliseconds
+
+236
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24081 milliseconds
+
+237
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24003 milliseconds
+
+238
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24778 milliseconds
+
+239
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 24242 milliseconds
+
+240
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 120054 milliseconds
+
+241
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 120667 milliseconds
+
+242
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 120066 milliseconds
+
+243
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 121593 milliseconds
+
+244
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 118266 milliseconds
+
+245
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 118126 milliseconds
+
+246
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 119121 milliseconds
+
+247
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 118652 milliseconds
+
+248
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 119642 milliseconds
+
+249
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 118414 milliseconds
+
+250
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 118329 milliseconds
+
+251
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 117243 milliseconds
+
+252
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 115436 milliseconds
+
+253
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 119560 milliseconds
+
+254
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 119016 milliseconds
+
+255
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 118688 milliseconds
+
+256
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 118297 milliseconds
+
+257
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 118795 milliseconds
+
+258
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 119913 milliseconds
+
+259
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 117815 milliseconds
+
+260
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118626 milliseconds
+
+261
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 119691 milliseconds
+
+262
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118493 milliseconds
+
+263
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 120591 milliseconds
+
+264
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118390 milliseconds
+
+265
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118491 milliseconds
+
+266
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118530 milliseconds
+
+267
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 119250 milliseconds
+
+268
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 118813 milliseconds
+
+269
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 120354 milliseconds
+
+270
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86764 milliseconds
+
+271
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 84095 milliseconds
+
+272
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85426 milliseconds
+
+273
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86233 milliseconds
+
+274
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85124 milliseconds
+
+275
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85378 milliseconds
+
+276
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88579 milliseconds
+
+277
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85196 milliseconds
+
+278
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 83642 milliseconds
+
+279
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87616 milliseconds
+
+280
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83992 milliseconds
+
+281
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82628 milliseconds
+
+282
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83089 milliseconds
+
+283
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 80908 milliseconds
+
+284
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84080 milliseconds
+
+285
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83185 milliseconds
+
+286
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84669 milliseconds
+
+287
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82798 milliseconds
+
+288
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84787 milliseconds
+
+289
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84425 milliseconds
+
+290
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 84599 milliseconds
+
+291
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 84867 milliseconds
+
+292
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85661 milliseconds
+
+293
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86689 milliseconds
+
+294
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85653 milliseconds
+
+295
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85014 milliseconds
+
+296
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 84909 milliseconds
+
+297
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86346 milliseconds
+
+298
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85251 milliseconds
+
+299
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 84481 milliseconds
+
+300
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 70850 milliseconds
+
+301
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 73541 milliseconds
+
+302
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 69070 milliseconds
+
+303
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 72633 milliseconds
+
+304
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 72921 milliseconds
+
+305
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 67139 milliseconds
+
+306
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 75977 milliseconds
+
+307
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 70682 milliseconds
+
+308
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 73794 milliseconds
+
+309
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 73840 milliseconds
+
+310
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 65489 milliseconds
+
+311
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 67812 milliseconds
+
+312
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66509 milliseconds
+
+313
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66435 milliseconds
+
+314
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66873 milliseconds
+
+315
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 68295 milliseconds
+
+316
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66808 milliseconds
+
+317
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 65063 milliseconds
+
+318
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 65653 milliseconds
+
+319
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 64954 milliseconds
+
+320
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 65829 milliseconds
+
+321
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66677 milliseconds
+
+322
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66553 milliseconds
+
+323
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 67633 milliseconds
+
+324
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 68166 milliseconds
+
+325
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 67891 milliseconds
+
+326
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 70785 milliseconds
+
+327
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66487 milliseconds
+
+328
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 68721 milliseconds
+
+329
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 68223 milliseconds
+
+330
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 64639 milliseconds
+
+331
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 65702 milliseconds
+
+332
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 60094 milliseconds
+
+333
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 58249 milliseconds
+
+334
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 64990 milliseconds
+
+335
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 64890 milliseconds
+
+336
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 61383 milliseconds
+
+337
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 60853 milliseconds
+
+338
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 61064 milliseconds
+
+339
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 61090 milliseconds
+
+340
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53047 milliseconds
+
+341
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54821 milliseconds
+
+342
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54429 milliseconds
+
+343
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53288 milliseconds
+
+344
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 56131 milliseconds
+
+345
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53883 milliseconds
+
+346
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 55315 milliseconds
+
+347
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 55068 milliseconds
+
+348
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54312 milliseconds
+
+349
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 55242 milliseconds
+
+350
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56474 milliseconds
+
+351
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 57362 milliseconds
+
+352
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 58559 milliseconds
+
+353
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55334 milliseconds
+
+354
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 57256 milliseconds
+
+355
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55152 milliseconds
+
+356
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56355 milliseconds
+
+357
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55912 milliseconds
+
+358
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56176 milliseconds
+
+359
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56788 milliseconds
+
+360
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125256 milliseconds
+
+361
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124836 milliseconds
+
+362
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125232 milliseconds
+
+363
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125484 milliseconds
+
+364
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125940 milliseconds
+
+365
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125123 milliseconds
+
+366
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124588 milliseconds
+
+367
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123977 milliseconds
+
+368
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125000 milliseconds
+
+369
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123814 milliseconds
+
+370
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123271 milliseconds
+
+371
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122035 milliseconds
+
+372
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 125170 milliseconds
+
+373
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 125192 milliseconds
+
+374
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124295 milliseconds
+
+375
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123883 milliseconds
+
+376
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124038 milliseconds
+
+377
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124806 milliseconds
+
+378
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123472 milliseconds
+
+379
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122918 milliseconds
+
+380
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 125234 milliseconds
+
+381
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124325 milliseconds
+
+382
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124412 milliseconds
+
+383
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 125762 milliseconds
+
+384
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124162 milliseconds
+
+385
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124692 milliseconds
+
+386
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124173 milliseconds
+
+387
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 123298 milliseconds
+
+388
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 126387 milliseconds
+
+389
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 125600 milliseconds
+
+390
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88745 milliseconds
+
+391
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87888 milliseconds
+
+392
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88654 milliseconds
+
+393
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89809 milliseconds
+
+394
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89169 milliseconds
+
+395
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87337 milliseconds
+
+396
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88556 milliseconds
+
+397
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 84992 milliseconds
+
+398
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87185 milliseconds
+
+399
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87963 milliseconds
+
+400
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84065 milliseconds
+
+401
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84184 milliseconds
+
+402
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83347 milliseconds
+
+403
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 86151 milliseconds
+
+404
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85048 milliseconds
+
+405
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83623 milliseconds
+
+406
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84459 milliseconds
+
+407
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 86470 milliseconds
+
+408
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84798 milliseconds
+
+409
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 86730 milliseconds
+
+410
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 87495 milliseconds
+
+411
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 88611 milliseconds
+
+412
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86493 milliseconds
+
+413
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 87873 milliseconds
+
+414
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86760 milliseconds
+
+415
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85605 milliseconds
+
+416
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 87415 milliseconds
+
+417
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86318 milliseconds
+
+418
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86985 milliseconds
+
+419
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86869 milliseconds
+
+420
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 68867 milliseconds
+
+421
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 73124 milliseconds
+
+422
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 70348 milliseconds
+
+423
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 76036 milliseconds
+
+424
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 71273 milliseconds
+
+425
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 74030 milliseconds
+
+426
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 73857 milliseconds
+
+427
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 70333 milliseconds
+
+428
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 72650 milliseconds
+
+429
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 72094 milliseconds
+
+430
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 67284 milliseconds
+
+431
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66922 milliseconds
+
+432
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66396 milliseconds
+
+433
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 64874 milliseconds
+
+434
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 64356 milliseconds
+
+435
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66820 milliseconds
+
+436
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 65992 milliseconds
+
+437
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66233 milliseconds
+
+438
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 66113 milliseconds
+
+439
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 67210 milliseconds
+
+440
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 65610 milliseconds
+
+441
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66501 milliseconds
+
+442
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 67723 milliseconds
+
+443
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 68823 milliseconds
+
+444
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66997 milliseconds
+
+445
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 67443 milliseconds
+
+446
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 68887 milliseconds
+
+447
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 66702 milliseconds
+
+448
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 67910 milliseconds
+
+449
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 69481 milliseconds
+
+450
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 56921 milliseconds
+
+451
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 57617 milliseconds
+
+452
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 62802 milliseconds
+
+453
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 59412 milliseconds
+
+454
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 59144 milliseconds
+
+455
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 59528 milliseconds
+
+456
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 61534 milliseconds
+
+457
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 57334 milliseconds
+
+458
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 60074 milliseconds
+
+459
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 63648 milliseconds
+
+460
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 51966 milliseconds
+
+461
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54054 milliseconds
+
+462
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 55030 milliseconds
+
+463
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54255 milliseconds
+
+464
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53634 milliseconds
+
+465
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53534 milliseconds
+
+466
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54233 milliseconds
+
+467
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 53368 milliseconds
+
+468
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54327 milliseconds
+
+469
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 54082 milliseconds
+
+470
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55792 milliseconds
+
+471
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55643 milliseconds
+
+472
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 59009 milliseconds
+
+473
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 54369 milliseconds
+
+474
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 54636 milliseconds
+
+475
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56959 milliseconds
+
+476
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 57100 milliseconds
+
+477
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 55889 milliseconds
+
+478
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 54395 milliseconds
+
+479
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 56110 milliseconds
+
+480
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44179 milliseconds
+
+481
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43587 milliseconds
+
+482
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44006 milliseconds
+
+483
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44789 milliseconds
+
+484
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 45010 milliseconds
+
+485
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43823 milliseconds
+
+486
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44523 milliseconds
+
+487
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43994 milliseconds
+
+488
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44398 milliseconds
+
+489
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43967 milliseconds
+
+490
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47247 milliseconds
+
+491
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 45975 milliseconds
+
+492
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 48258 milliseconds
+
+493
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46850 milliseconds
+
+494
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46963 milliseconds
+
+495
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 48247 milliseconds
+
+496
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47493 milliseconds
+
+497
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 48239 milliseconds
+
+498
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47747 milliseconds
+
+499
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47069 milliseconds
+
+500
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 48993 milliseconds
+
+501
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 48404 milliseconds
+
+502
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49230 milliseconds
+
+503
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49700 milliseconds
+
+504
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 48518 milliseconds
+
+505
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 48238 milliseconds
+
+506
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49372 milliseconds
+
+507
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 50008 milliseconds
+
+508
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 50051 milliseconds
+
+509
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49341 milliseconds
+
+510
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36057 milliseconds
+
+511
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36394 milliseconds
+
+512
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35984 milliseconds
+
+513
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36414 milliseconds
+
+514
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36714 milliseconds
+
+515
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36597 milliseconds
+
+516
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35750 milliseconds
+
+517
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36028 milliseconds
+
+518
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36906 milliseconds
+
+519
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36847 milliseconds
+
+520
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40297 milliseconds
+
+521
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39465 milliseconds
+
+522
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39412 milliseconds
+
+523
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39413 milliseconds
+
+524
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39301 milliseconds
+
+525
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40173 milliseconds
+
+526
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39643 milliseconds
+
+527
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39276 milliseconds
+
+528
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40017 milliseconds
+
+529
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 40302 milliseconds
+
+530
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 41902 milliseconds
+
+531
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43458 milliseconds
+
+532
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43099 milliseconds
+
+533
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42535 milliseconds
+
+534
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 41963 milliseconds
+
+535
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42362 milliseconds
+
+536
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43980 milliseconds
+
+537
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42697 milliseconds
+
+538
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42878 milliseconds
+
+539
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 44876 milliseconds
+
+540
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 32112 milliseconds
+
+541
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30381 milliseconds
+
+542
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 32305 milliseconds
+
+543
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 32023 milliseconds
+
+544
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 31286 milliseconds
+
+545
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 31305 milliseconds
+
+546
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30814 milliseconds
+
+547
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 31376 milliseconds
+
+548
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 31456 milliseconds
+
+549
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 32174 milliseconds
+
+550
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34985 milliseconds
+
+551
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33806 milliseconds
+
+552
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33256 milliseconds
+
+553
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 35418 milliseconds
+
+554
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33938 milliseconds
+
+555
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 35090 milliseconds
+
+556
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34378 milliseconds
+
+557
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34796 milliseconds
+
+558
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34066 milliseconds
+
+559
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34788 milliseconds
+
+560
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 39467 milliseconds
+
+561
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37117 milliseconds
+
+562
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38150 milliseconds
+
+563
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37800 milliseconds
+
+564
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 39825 milliseconds
+
+565
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38823 milliseconds
+
+566
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38743 milliseconds
+
+567
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37982 milliseconds
+
+568
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38387 milliseconds
+
+569
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38926 milliseconds
+
+570
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30347 milliseconds
+
+571
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30690 milliseconds
+
+572
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30359 milliseconds
+
+573
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29321 milliseconds
+
+574
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28761 milliseconds
+
+575
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29185 milliseconds
+
+576
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29391 milliseconds
+
+577
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30122 milliseconds
+
+578
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29133 milliseconds
+
+579
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29136 milliseconds
+
+580
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31585 milliseconds
+
+581
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31920 milliseconds
+
+582
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32180 milliseconds
+
+583
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32339 milliseconds
+
+584
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32337 milliseconds
+
+585
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31527 milliseconds
+
+586
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31788 milliseconds
+
+587
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33158 milliseconds
+
+588
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31433 milliseconds
+
+589
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31690 milliseconds
+
+590
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37550 milliseconds
+
+591
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37150 milliseconds
+
+592
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37512 milliseconds
+
+593
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37446 milliseconds
+
+594
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38629 milliseconds
+
+595
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37393 milliseconds
+
+596
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35806 milliseconds
+
+597
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37766 milliseconds
+
+598
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36516 milliseconds
+
+599
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37108 milliseconds
+
+600
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44358 milliseconds
+
+601
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44903 milliseconds
+
+602
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44645 milliseconds
+
+603
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43389 milliseconds
+
+604
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44779 milliseconds
+
+605
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44082 milliseconds
+
+606
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43605 milliseconds
+
+607
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43802 milliseconds
+
+608
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 44224 milliseconds
+
+609
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 43782 milliseconds
+
+610
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 45974 milliseconds
+
+611
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46388 milliseconds
+
+612
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46509 milliseconds
+
+613
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47112 milliseconds
+
+614
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47083 milliseconds
+
+615
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46623 milliseconds
+
+616
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 45975 milliseconds
+
+617
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47579 milliseconds
+
+618
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 46974 milliseconds
+
+619
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 47848 milliseconds
+
+620
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 50090 milliseconds
+
+621
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49159 milliseconds
+
+622
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 47226 milliseconds
+
+623
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49060 milliseconds
+
+624
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49206 milliseconds
+
+625
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 48368 milliseconds
+
+626
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49873 milliseconds
+
+627
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49267 milliseconds
+
+628
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49784 milliseconds
+
+629
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 49184 milliseconds
+
+630
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 34918 milliseconds
+
+631
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36561 milliseconds
+
+632
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35334 milliseconds
+
+633
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35625 milliseconds
+
+634
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36209 milliseconds
+
+635
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35827 milliseconds
+
+636
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 36157 milliseconds
+
+637
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35314 milliseconds
+
+638
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35189 milliseconds
+
+639
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 35135 milliseconds
+
+640
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39678 milliseconds
+
+641
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39822 milliseconds
+
+642
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 37802 milliseconds
+
+643
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 38695 milliseconds
+
+644
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 38284 milliseconds
+
+645
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 38580 milliseconds
+
+646
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39566 milliseconds
+
+647
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 38677 milliseconds
+
+648
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 39616 milliseconds
+
+649
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 38322 milliseconds
+
+650
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 44097 milliseconds
+
+651
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42326 milliseconds
+
+652
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 40643 milliseconds
+
+653
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42333 milliseconds
+
+654
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42848 milliseconds
+
+655
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42428 milliseconds
+
+656
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42943 milliseconds
+
+657
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 42740 milliseconds
+
+658
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43857 milliseconds
+
+659
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 43508 milliseconds
+
+660
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30944 milliseconds
+
+661
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30102 milliseconds
+
+662
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 31423 milliseconds
+
+663
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30183 milliseconds
+
+664
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30880 milliseconds
+
+665
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30141 milliseconds
+
+666
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30386 milliseconds
+
+667
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30784 milliseconds
+
+668
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30624 milliseconds
+
+669
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30097 milliseconds
+
+670
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33763 milliseconds
+
+671
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34033 milliseconds
+
+672
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33643 milliseconds
+
+673
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34070 milliseconds
+
+674
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34997 milliseconds
+
+675
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34666 milliseconds
+
+676
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33757 milliseconds
+
+677
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33871 milliseconds
+
+678
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 33097 milliseconds
+
+679
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 34016 milliseconds
+
+680
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38504 milliseconds
+
+681
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35749 milliseconds
+
+682
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38165 milliseconds
+
+683
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 39903 milliseconds
+
+684
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36737 milliseconds
+
+685
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37986 milliseconds
+
+686
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38015 milliseconds
+
+687
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 37623 milliseconds
+
+688
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38958 milliseconds
+
+689
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 38414 milliseconds
+
+690
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29102 milliseconds
+
+691
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29411 milliseconds
+
+692
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 28722 milliseconds
+
+693
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29094 milliseconds
+
+694
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 30183 milliseconds
+
+695
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29126 milliseconds
+
+696
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29481 milliseconds
+
+697
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29424 milliseconds
+
+698
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29571 milliseconds
+
+699
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 29221 milliseconds
+
+700
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31224 milliseconds
+
+701
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31728 milliseconds
+
+702
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31357 milliseconds
+
+703
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31386 milliseconds
+
+704
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31605 milliseconds
+
+705
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32221 milliseconds
+
+706
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31831 milliseconds
+
+707
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 31156 milliseconds
+
+708
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32853 milliseconds
+
+709
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 32034 milliseconds
+
+710
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36152 milliseconds
+
+711
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36856 milliseconds
+
+712
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36947 milliseconds
+
+713
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35240 milliseconds
+
+714
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35375 milliseconds
+
+715
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35420 milliseconds
+
+716
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35610 milliseconds
+
+717
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 35414 milliseconds
+
+718
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 34911 milliseconds
+
+719
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 36199 milliseconds
+
+720
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124298 milliseconds
+
+721
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 119856 milliseconds
+
+722
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 121421 milliseconds
+
+723
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123327 milliseconds
+
+724
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123148 milliseconds
+
+725
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 121782 milliseconds
+
+726
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123105 milliseconds
+
+727
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 120888 milliseconds
+
+728
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 121819 milliseconds
+
+729
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 121846 milliseconds
+
+730
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122972 milliseconds
+
+731
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122189 milliseconds
+
+732
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123569 milliseconds
+
+733
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122171 milliseconds
+
+734
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122807 milliseconds
+
+735
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123972 milliseconds
+
+736
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123938 milliseconds
+
+737
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122577 milliseconds
+
+738
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 121993 milliseconds
+
+739
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124098 milliseconds
+
+740
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127813 milliseconds
+
+741
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127039 milliseconds
+
+742
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 126406 milliseconds
+
+743
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 126459 milliseconds
+
+744
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 124580 milliseconds
+
+745
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127855 milliseconds
+
+746
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127345 milliseconds
+
+747
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127305 milliseconds
+
+748
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127111 milliseconds
+
+749
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 126592 milliseconds
+
+750
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100748 milliseconds
+
+751
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100822 milliseconds
+
+752
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100020 milliseconds
+
+753
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 97061 milliseconds
+
+754
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100435 milliseconds
+
+755
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100317 milliseconds
+
+756
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 102382 milliseconds
+
+757
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100286 milliseconds
+
+758
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 101322 milliseconds
+
+759
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 102549 milliseconds
+
+760
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 99036 milliseconds
+
+761
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101038 milliseconds
+
+762
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 99787 milliseconds
+
+763
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 99347 milliseconds
+
+764
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100807 milliseconds
+
+765
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 102780 milliseconds
+
+766
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101015 milliseconds
+
+767
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100237 milliseconds
+
+768
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100865 milliseconds
+
+769
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100585 milliseconds
+
+770
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 106907 milliseconds
+
+771
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 104437 milliseconds
+
+772
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 104207 milliseconds
+
+773
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 107686 milliseconds
+
+774
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 105965 milliseconds
+
+775
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 105502 milliseconds
+
+776
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 104371 milliseconds
+
+777
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 105878 milliseconds
+
+778
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 105068 milliseconds
+
+779
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 107052 milliseconds
+
+780
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89048 milliseconds
+
+781
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90975 milliseconds
+
+782
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91910 milliseconds
+
+783
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89266 milliseconds
+
+784
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91258 milliseconds
+
+785
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 94856 milliseconds
+
+786
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91343 milliseconds
+
+787
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91453 milliseconds
+
+788
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91671 milliseconds
+
+789
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 94545 milliseconds
+
+790
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 90997 milliseconds
+
+791
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 89528 milliseconds
+
+792
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 90441 milliseconds
+
+793
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 89403 milliseconds
+
+794
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 91221 milliseconds
+
+795
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 91363 milliseconds
+
+796
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 91992 milliseconds
+
+797
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 90553 milliseconds
+
+798
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 88725 milliseconds
+
+799
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 89501 milliseconds
+
+800
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 94801 milliseconds
+
+801
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 93587 milliseconds
+
+802
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 93186 milliseconds
+
+803
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 95469 milliseconds
+
+804
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 93349 milliseconds
+
+805
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 92835 milliseconds
+
+806
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 94231 milliseconds
+
+807
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 91929 milliseconds
+
+808
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 94486 milliseconds
+
+809
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 93672 milliseconds
+
+810
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86196 milliseconds
+
+811
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 92318 milliseconds
+
+812
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87564 milliseconds
+
+813
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89690 milliseconds
+
+814
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 89789 milliseconds
+
+815
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90190 milliseconds
+
+816
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86266 milliseconds
+
+817
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90858 milliseconds
+
+818
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91493 milliseconds
+
+819
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86645 milliseconds
+
+820
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85550 milliseconds
+
+821
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84036 milliseconds
+
+822
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 83781 milliseconds
+
+823
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 84899 milliseconds
+
+824
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85170 milliseconds
+
+825
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 86094 milliseconds
+
+826
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85937 milliseconds
+
+827
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85785 milliseconds
+
+828
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 87351 milliseconds
+
+829
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82182 milliseconds
+
+830
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 89639 milliseconds
+
+831
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86892 milliseconds
+
+832
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 88724 milliseconds
+
+833
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 89553 milliseconds
+
+834
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86243 milliseconds
+
+835
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85616 milliseconds
+
+836
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 89114 milliseconds
+
+837
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 88044 milliseconds
+
+838
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 87166 milliseconds
+
+839
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 86598 milliseconds
+
+840
+2
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124967 milliseconds
+
+841
+2
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124766 milliseconds
+
+842
+2
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124574 milliseconds
+
+843
+2
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124355 milliseconds
+
+844
+2
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 123719 milliseconds
+
+845
+2
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125523 milliseconds
+
+846
+2
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124512 milliseconds
+
+847
+2
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 125505 milliseconds
+
+848
+2
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 124248 milliseconds
+
+849
+2
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 126705 milliseconds
+
+850
+2
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 125620 milliseconds
+
+851
+2
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 121710 milliseconds
+
+852
+2
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 123054 milliseconds
+
+853
+2
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 126566 milliseconds
+
+854
+2
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 126325 milliseconds
+
+855
+2
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124035 milliseconds
+
+856
+2
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 126537 milliseconds
+
+857
+2
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 122961 milliseconds
+
+858
+2
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 125652 milliseconds
+
+859
+2
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 124293 milliseconds
+
+860
+2
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127833 milliseconds
+
+861
+2
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 129648 milliseconds
+
+862
+2
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 128581 milliseconds
+
+863
+2
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 131109 milliseconds
+
+864
+2
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 130556 milliseconds
+
+865
+2
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 127927 milliseconds
+
+866
+2
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 129175 milliseconds
+
+867
+2
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 129332 milliseconds
+
+868
+2
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 131060 milliseconds
+
+869
+2
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 129514 milliseconds
+
+870
+4
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 101315 milliseconds
+
+871
+4
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 97875 milliseconds
+
+872
+4
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100183 milliseconds
+
+873
+4
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 98698 milliseconds
+
+874
+4
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 102016 milliseconds
+
+875
+4
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 99356 milliseconds
+
+876
+4
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 101206 milliseconds
+
+877
+4
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 100673 milliseconds
+
+878
+4
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 99256 milliseconds
+
+879
+4
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 99327 milliseconds
+
+880
+4
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101109 milliseconds
+
+881
+4
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101093 milliseconds
+
+882
+4
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 98727 milliseconds
+
+883
+4
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 102015 milliseconds
+
+884
+4
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100281 milliseconds
+
+885
+4
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 99366 milliseconds
+
+886
+4
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101361 milliseconds
+
+887
+4
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 98597 milliseconds
+
+888
+4
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 100607 milliseconds
+
+889
+4
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 101508 milliseconds
+
+890
+4
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 107960 milliseconds
+
+891
+4
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 106872 milliseconds
+
+892
+4
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 106506 milliseconds
+
+893
+4
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 107306 milliseconds
+
+894
+4
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 104096 milliseconds
+
+895
+4
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 103465 milliseconds
+
+896
+4
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 106582 milliseconds
+
+897
+4
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 105538 milliseconds
+
+898
+4
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 104042 milliseconds
+
+899
+4
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 103982 milliseconds
+
+900
+8
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 91723 milliseconds
+
+901
+8
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88997 milliseconds
+
+902
+8
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88147 milliseconds
+
+903
+8
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 93488 milliseconds
+
+904
+8
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88187 milliseconds
+
+905
+8
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 92041 milliseconds
+
+906
+8
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86825 milliseconds
+
+907
+8
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 92320 milliseconds
+
+908
+8
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90980 milliseconds
+
+909
+8
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90632 milliseconds
+
+910
+8
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 87101 milliseconds
+
+911
+8
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 87342 milliseconds
+
+912
+8
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 89581 milliseconds
+
+913
+8
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 89741 milliseconds
+
+914
+8
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 88303 milliseconds
+
+915
+8
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 87634 milliseconds
+
+916
+8
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 90166 milliseconds
+
+917
+8
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 87061 milliseconds
+
+918
+8
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 88272 milliseconds
+
+919
+8
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 86847 milliseconds
+
+920
+8
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 92922 milliseconds
+
+921
+8
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 94419 milliseconds
+
+922
+8
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 95594 milliseconds
+
+923
+8
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 90211 milliseconds
+
+924
+8
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 92974 milliseconds
+
+925
+8
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 94993 milliseconds
+
+926
+8
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 92027 milliseconds
+
+927
+8
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 91840 milliseconds
+
+928
+8
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 91367 milliseconds
+
+929
+8
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 92818 milliseconds
+
+930
+16
+128 delayInterval
+Test 0 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88085 milliseconds
+
+931
+16
+128 delayInterval
+Test 1 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85203 milliseconds
+
+932
+16
+128 delayInterval
+Test 2 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 90789 milliseconds
+
+933
+16
+128 delayInterval
+Test 3 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85023 milliseconds
+
+934
+16
+128 delayInterval
+Test 4 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 83464 milliseconds
+
+935
+16
+128 delayInterval
+Test 5 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88423 milliseconds
+
+936
+16
+128 delayInterval
+Test 6 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 87523 milliseconds
+
+937
+16
+128 delayInterval
+Test 7 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 85448 milliseconds
+
+938
+16
+128 delayInterval
+Test 8 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 88720 milliseconds
+
+939
+16
+128 delayInterval
+Test 9 for TRMIKindergarten: 128 delayInterval
+
+Time of execution: 86407 milliseconds
+
+940
+16
+256 delayInterval
+Test 0 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82298 milliseconds
+
+941
+16
+256 delayInterval
+Test 1 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 85236 milliseconds
+
+942
+16
+256 delayInterval
+Test 2 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82626 milliseconds
+
+943
+16
+256 delayInterval
+Test 3 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 78909 milliseconds
+
+944
+16
+256 delayInterval
+Test 4 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82971 milliseconds
+
+945
+16
+256 delayInterval
+Test 5 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82503 milliseconds
+
+946
+16
+256 delayInterval
+Test 6 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 81373 milliseconds
+
+947
+16
+256 delayInterval
+Test 7 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 81175 milliseconds
+
+948
+16
+256 delayInterval
+Test 8 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82268 milliseconds
+
+949
+16
+256 delayInterval
+Test 9 for TRMIKindergarten: 256 delayInterval
+
+Time of execution: 82331 milliseconds
+
+950
+16
+512 delayInterval
+Test 0 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85340 milliseconds
+
+951
+16
+512 delayInterval
+Test 1 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 88042 milliseconds
+
+952
+16
+512 delayInterval
+Test 2 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 82335 milliseconds
+
+953
+16
+512 delayInterval
+Test 3 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 83996 milliseconds
+
+954
+16
+512 delayInterval
+Test 4 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85427 milliseconds
+
+955
+16
+512 delayInterval
+Test 5 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85311 milliseconds
+
+956
+16
+512 delayInterval
+Test 6 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 87374 milliseconds
+
+957
+16
+512 delayInterval
+Test 7 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85863 milliseconds
+
+958
+16
+512 delayInterval
+Test 8 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 83325 milliseconds
+
+959
+16
+512 delayInterval
+Test 9 for TRMIKindergarten: 512 delayInterval
+
+Time of execution: 85402 milliseconds
+
+960
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:5
+[39.89, 29.04, 23.29, 20.94]
+CM PARAM CONFIG: 128 delayInterval
+[40.98, 30.82, 24.85, 22.42]
+CM PARAM CONFIG: 256 delayInterval
+[42.11, 32.51, 27.41, 25.17]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:5
+[40.5, 29.07, 22.9, 20.59]
+CM PARAM CONFIG: 128 delayInterval
+[41.62, 30.82, 24.97, 21.63]
+CM PARAM CONFIG: 256 delayInterval
+[42.72, 32.67, 27.44, 24.5]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:20
+[119.46, 85.81, 72.04, 62.3]
+CM PARAM CONFIG: 128 delayInterval
+[118.31, 83.46, 66.39, 54.55]
+CM PARAM CONFIG: 256 delayInterval
+[119.12, 85.35, 67.7, 56.54]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:20
+[124.92, 88.03, 72.26, 59.8]
+CM PARAM CONFIG: 128 delayInterval
+[123.91, 84.89, 66.22, 53.85]
+CM PARAM CONFIG: 256 delayInterval
+[124.8, 87.04, 67.61, 55.99]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:5
+[44.23, 36.37, 31.52, 29.64]
+CM PARAM CONFIG: 128 delayInterval
+[47.41, 39.73, 34.45, 32.0]
+CM PARAM CONFIG: 256 delayInterval
+[49.19, 42.98, 38.52, 37.29]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:5
+[44.16, 35.63, 30.56, 29.33]
+CM PARAM CONFIG: 128 delayInterval
+[46.81, 38.9, 33.99, 31.74]
+CM PARAM CONFIG: 256 delayInterval
+[49.12, 42.77, 38.01, 35.81]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:20
+[122.15, 100.59, 91.63, 89.1]
+CM PARAM CONFIG: 128 delayInterval
+[123.03, 100.55, 90.37, 85.08]
+CM PARAM CONFIG: 256 delayInterval
+[126.85, 105.71, 93.75, 87.76]
+CM PARAM CONFIG: 512 delayInterval
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:20
+[124.89, 99.99, 90.33, 86.91]
+CM PARAM CONFIG: 128 delayInterval
+[124.68, 100.47, 88.2, 82.17]
+CM PARAM CONFIG: 256 delayInterval
+[129.47, 105.63, 92.92, 85.24]
+CM PARAM CONFIG: 512 delayInterval
+8

@@ -1,0 +1,6784 @@
+['generate_plots_cms_params.py', 'passive']
+8
+960
+960
+960
+960
+['2048 max_aborts', '4096 max_aborts', '8192 max_aborts']
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37215 milliseconds
+
+1
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37073 milliseconds
+
+2
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37412 milliseconds
+
+3
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37127 milliseconds
+
+4
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37127 milliseconds
+
+5
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37410 milliseconds
+
+6
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37010 milliseconds
+
+7
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37383 milliseconds
+
+8
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 36899 milliseconds
+
+9
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37260 milliseconds
+
+10
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 36724 milliseconds
+
+11
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37911 milliseconds
+
+12
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37332 milliseconds
+
+13
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37189 milliseconds
+
+14
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37229 milliseconds
+
+15
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37410 milliseconds
+
+16
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 36783 milliseconds
+
+17
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37408 milliseconds
+
+18
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37148 milliseconds
+
+19
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37356 milliseconds
+
+20
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37229 milliseconds
+
+21
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37320 milliseconds
+
+22
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37143 milliseconds
+
+23
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 36873 milliseconds
+
+24
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37255 milliseconds
+
+25
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 36967 milliseconds
+
+26
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37221 milliseconds
+
+27
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37455 milliseconds
+
+28
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37302 milliseconds
+
+29
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37010 milliseconds
+
+30
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26110 milliseconds
+
+31
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26620 milliseconds
+
+32
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26204 milliseconds
+
+33
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25998 milliseconds
+
+34
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25813 milliseconds
+
+35
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25791 milliseconds
+
+36
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25430 milliseconds
+
+37
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25686 milliseconds
+
+38
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25759 milliseconds
+
+39
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26320 milliseconds
+
+40
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25992 milliseconds
+
+41
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25703 milliseconds
+
+42
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25909 milliseconds
+
+43
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25902 milliseconds
+
+44
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25828 milliseconds
+
+45
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 26064 milliseconds
+
+46
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25828 milliseconds
+
+47
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25418 milliseconds
+
+48
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 26600 milliseconds
+
+49
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25566 milliseconds
+
+50
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25342 milliseconds
+
+51
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25670 milliseconds
+
+52
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25633 milliseconds
+
+53
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25504 milliseconds
+
+54
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25662 milliseconds
+
+55
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26765 milliseconds
+
+56
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26404 milliseconds
+
+57
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25625 milliseconds
+
+58
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25815 milliseconds
+
+59
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25579 milliseconds
+
+60
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21776 milliseconds
+
+61
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21989 milliseconds
+
+62
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22264 milliseconds
+
+63
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21998 milliseconds
+
+64
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21502 milliseconds
+
+65
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21048 milliseconds
+
+66
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21104 milliseconds
+
+67
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21385 milliseconds
+
+68
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22277 milliseconds
+
+69
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22352 milliseconds
+
+70
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21283 milliseconds
+
+71
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22174 milliseconds
+
+72
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21344 milliseconds
+
+73
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22313 milliseconds
+
+74
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21461 milliseconds
+
+75
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22009 milliseconds
+
+76
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21462 milliseconds
+
+77
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22276 milliseconds
+
+78
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21762 milliseconds
+
+79
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21716 milliseconds
+
+80
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22195 milliseconds
+
+81
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21812 milliseconds
+
+82
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22327 milliseconds
+
+83
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22054 milliseconds
+
+84
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21865 milliseconds
+
+85
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21360 milliseconds
+
+86
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21837 milliseconds
+
+87
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22179 milliseconds
+
+88
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22422 milliseconds
+
+89
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21840 milliseconds
+
+90
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22285 milliseconds
+
+91
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22588 milliseconds
+
+92
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 23147 milliseconds
+
+93
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22474 milliseconds
+
+94
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22592 milliseconds
+
+95
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22848 milliseconds
+
+96
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22405 milliseconds
+
+97
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22816 milliseconds
+
+98
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22177 milliseconds
+
+99
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22361 milliseconds
+
+100
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 23128 milliseconds
+
+101
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22749 milliseconds
+
+102
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22006 milliseconds
+
+103
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21774 milliseconds
+
+104
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22706 milliseconds
+
+105
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 23014 milliseconds
+
+106
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22148 milliseconds
+
+107
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22195 milliseconds
+
+108
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22241 milliseconds
+
+109
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22921 milliseconds
+
+110
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22340 milliseconds
+
+111
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21972 milliseconds
+
+112
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22294 milliseconds
+
+113
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21942 milliseconds
+
+114
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21804 milliseconds
+
+115
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21846 milliseconds
+
+116
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22929 milliseconds
+
+117
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22128 milliseconds
+
+118
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 23036 milliseconds
+
+119
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22525 milliseconds
+
+120
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37654 milliseconds
+
+121
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37732 milliseconds
+
+122
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 38154 milliseconds
+
+123
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 38112 milliseconds
+
+124
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37463 milliseconds
+
+125
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37728 milliseconds
+
+126
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 38107 milliseconds
+
+127
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37943 milliseconds
+
+128
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 37772 milliseconds
+
+129
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 38211 milliseconds
+
+130
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37783 milliseconds
+
+131
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37761 milliseconds
+
+132
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37693 milliseconds
+
+133
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37870 milliseconds
+
+134
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 38128 milliseconds
+
+135
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 38096 milliseconds
+
+136
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37893 milliseconds
+
+137
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 38099 milliseconds
+
+138
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 37728 milliseconds
+
+139
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 38261 milliseconds
+
+140
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 38095 milliseconds
+
+141
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37743 milliseconds
+
+142
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37693 milliseconds
+
+143
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37985 milliseconds
+
+144
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37977 milliseconds
+
+145
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 38318 milliseconds
+
+146
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 38451 milliseconds
+
+147
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37901 milliseconds
+
+148
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37922 milliseconds
+
+149
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 37766 milliseconds
+
+150
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26169 milliseconds
+
+151
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25975 milliseconds
+
+152
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25950 milliseconds
+
+153
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25249 milliseconds
+
+154
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25967 milliseconds
+
+155
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26625 milliseconds
+
+156
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25937 milliseconds
+
+157
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25870 milliseconds
+
+158
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 25978 milliseconds
+
+159
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26229 milliseconds
+
+160
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 26429 milliseconds
+
+161
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25928 milliseconds
+
+162
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25684 milliseconds
+
+163
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25943 milliseconds
+
+164
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27055 milliseconds
+
+165
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 26176 milliseconds
+
+166
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25693 milliseconds
+
+167
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 26209 milliseconds
+
+168
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25706 milliseconds
+
+169
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 25564 milliseconds
+
+170
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26471 milliseconds
+
+171
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25944 milliseconds
+
+172
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26643 milliseconds
+
+173
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26066 milliseconds
+
+174
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25602 milliseconds
+
+175
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26312 milliseconds
+
+176
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26162 milliseconds
+
+177
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25403 milliseconds
+
+178
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 26269 milliseconds
+
+179
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 25158 milliseconds
+
+180
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21344 milliseconds
+
+181
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21810 milliseconds
+
+182
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21217 milliseconds
+
+183
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21972 milliseconds
+
+184
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21607 milliseconds
+
+185
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22024 milliseconds
+
+186
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21847 milliseconds
+
+187
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21353 milliseconds
+
+188
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21832 milliseconds
+
+189
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21987 milliseconds
+
+190
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21202 milliseconds
+
+191
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21909 milliseconds
+
+192
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21572 milliseconds
+
+193
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21619 milliseconds
+
+194
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21713 milliseconds
+
+195
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21654 milliseconds
+
+196
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21668 milliseconds
+
+197
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21907 milliseconds
+
+198
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21367 milliseconds
+
+199
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21375 milliseconds
+
+200
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21885 milliseconds
+
+201
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21792 milliseconds
+
+202
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21640 milliseconds
+
+203
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21584 milliseconds
+
+204
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21512 milliseconds
+
+205
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 20926 milliseconds
+
+206
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21558 milliseconds
+
+207
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22707 milliseconds
+
+208
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22005 milliseconds
+
+209
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21541 milliseconds
+
+210
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22785 milliseconds
+
+211
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22421 milliseconds
+
+212
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 21893 milliseconds
+
+213
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22543 milliseconds
+
+214
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22206 milliseconds
+
+215
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22456 milliseconds
+
+216
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 23212 milliseconds
+
+217
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22209 milliseconds
+
+218
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22488 milliseconds
+
+219
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 22908 milliseconds
+
+220
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22251 milliseconds
+
+221
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21997 milliseconds
+
+222
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22439 milliseconds
+
+223
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22555 milliseconds
+
+224
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22400 milliseconds
+
+225
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21859 milliseconds
+
+226
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22462 milliseconds
+
+227
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21845 milliseconds
+
+228
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 22598 milliseconds
+
+229
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 21950 milliseconds
+
+230
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22086 milliseconds
+
+231
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22398 milliseconds
+
+232
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21924 milliseconds
+
+233
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22678 milliseconds
+
+234
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22062 milliseconds
+
+235
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22195 milliseconds
+
+236
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22907 milliseconds
+
+237
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22476 milliseconds
+
+238
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 22630 milliseconds
+
+239
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 21972 milliseconds
+
+240
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 113632 milliseconds
+
+241
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114046 milliseconds
+
+242
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114335 milliseconds
+
+243
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114335 milliseconds
+
+244
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114263 milliseconds
+
+245
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114453 milliseconds
+
+246
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114596 milliseconds
+
+247
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114359 milliseconds
+
+248
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 114238 milliseconds
+
+249
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 113666 milliseconds
+
+250
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 113249 milliseconds
+
+251
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 113978 milliseconds
+
+252
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 113057 milliseconds
+
+253
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 114293 milliseconds
+
+254
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 114136 milliseconds
+
+255
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 114151 milliseconds
+
+256
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 113954 milliseconds
+
+257
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 114256 milliseconds
+
+258
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 113788 milliseconds
+
+259
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 114013 milliseconds
+
+260
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 114161 milliseconds
+
+261
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 113588 milliseconds
+
+262
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 114360 milliseconds
+
+263
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 113511 milliseconds
+
+264
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115245 milliseconds
+
+265
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 114216 milliseconds
+
+266
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 113355 milliseconds
+
+267
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 114329 milliseconds
+
+268
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115431 milliseconds
+
+269
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 114687 milliseconds
+
+270
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74407 milliseconds
+
+271
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73347 milliseconds
+
+272
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73652 milliseconds
+
+273
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74706 milliseconds
+
+274
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74540 milliseconds
+
+275
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73265 milliseconds
+
+276
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73279 milliseconds
+
+277
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73324 milliseconds
+
+278
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73829 milliseconds
+
+279
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73976 milliseconds
+
+280
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73462 milliseconds
+
+281
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73293 milliseconds
+
+282
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73076 milliseconds
+
+283
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74083 milliseconds
+
+284
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73631 milliseconds
+
+285
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73225 milliseconds
+
+286
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73645 milliseconds
+
+287
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74545 milliseconds
+
+288
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73959 milliseconds
+
+289
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74644 milliseconds
+
+290
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74350 milliseconds
+
+291
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74855 milliseconds
+
+292
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73493 milliseconds
+
+293
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74038 milliseconds
+
+294
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73576 milliseconds
+
+295
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73348 milliseconds
+
+296
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74247 milliseconds
+
+297
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73225 milliseconds
+
+298
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74093 milliseconds
+
+299
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73789 milliseconds
+
+300
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57080 milliseconds
+
+301
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57780 milliseconds
+
+302
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56273 milliseconds
+
+303
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56347 milliseconds
+
+304
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56829 milliseconds
+
+305
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57373 milliseconds
+
+306
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 58084 milliseconds
+
+307
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57206 milliseconds
+
+308
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57808 milliseconds
+
+309
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 54911 milliseconds
+
+310
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56819 milliseconds
+
+311
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57115 milliseconds
+
+312
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57218 milliseconds
+
+313
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57249 milliseconds
+
+314
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 58185 milliseconds
+
+315
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56874 milliseconds
+
+316
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57473 milliseconds
+
+317
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57051 milliseconds
+
+318
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56716 milliseconds
+
+319
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 55383 milliseconds
+
+320
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 57086 milliseconds
+
+321
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56811 milliseconds
+
+322
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56609 milliseconds
+
+323
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56214 milliseconds
+
+324
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 58449 milliseconds
+
+325
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56297 milliseconds
+
+326
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 55767 milliseconds
+
+327
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56123 milliseconds
+
+328
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56753 milliseconds
+
+329
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56703 milliseconds
+
+330
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 46731 milliseconds
+
+331
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 50108 milliseconds
+
+332
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 50077 milliseconds
+
+333
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 48517 milliseconds
+
+334
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51800 milliseconds
+
+335
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 52552 milliseconds
+
+336
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 53118 milliseconds
+
+337
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 49753 milliseconds
+
+338
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 48267 milliseconds
+
+339
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 48460 milliseconds
+
+340
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 48305 milliseconds
+
+341
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50442 milliseconds
+
+342
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51244 milliseconds
+
+343
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51358 milliseconds
+
+344
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 49029 milliseconds
+
+345
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 48434 milliseconds
+
+346
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 49247 milliseconds
+
+347
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51471 milliseconds
+
+348
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51923 milliseconds
+
+349
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 49796 milliseconds
+
+350
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 49514 milliseconds
+
+351
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 51449 milliseconds
+
+352
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 50546 milliseconds
+
+353
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 51830 milliseconds
+
+354
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 51555 milliseconds
+
+355
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 48715 milliseconds
+
+356
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 49882 milliseconds
+
+357
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 50166 milliseconds
+
+358
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 50418 milliseconds
+
+359
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 48654 milliseconds
+
+360
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 120091 milliseconds
+
+361
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119968 milliseconds
+
+362
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119253 milliseconds
+
+363
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 118667 milliseconds
+
+364
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119653 milliseconds
+
+365
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119750 milliseconds
+
+366
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119791 milliseconds
+
+367
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 120384 milliseconds
+
+368
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119737 milliseconds
+
+369
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119492 milliseconds
+
+370
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119139 milliseconds
+
+371
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 120370 milliseconds
+
+372
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119653 milliseconds
+
+373
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119628 milliseconds
+
+374
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119183 milliseconds
+
+375
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119373 milliseconds
+
+376
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119346 milliseconds
+
+377
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 121396 milliseconds
+
+378
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119582 milliseconds
+
+379
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119308 milliseconds
+
+380
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 120243 milliseconds
+
+381
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119801 milliseconds
+
+382
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 120171 milliseconds
+
+383
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119810 milliseconds
+
+384
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118777 milliseconds
+
+385
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119705 milliseconds
+
+386
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 120221 milliseconds
+
+387
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119698 milliseconds
+
+388
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 120176 milliseconds
+
+389
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119872 milliseconds
+
+390
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76773 milliseconds
+
+391
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76299 milliseconds
+
+392
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75756 milliseconds
+
+393
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76598 milliseconds
+
+394
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76000 milliseconds
+
+395
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76411 milliseconds
+
+396
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75534 milliseconds
+
+397
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75866 milliseconds
+
+398
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76649 milliseconds
+
+399
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76568 milliseconds
+
+400
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76129 milliseconds
+
+401
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76870 milliseconds
+
+402
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76082 milliseconds
+
+403
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75527 milliseconds
+
+404
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75703 milliseconds
+
+405
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75709 milliseconds
+
+406
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75853 milliseconds
+
+407
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76791 milliseconds
+
+408
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76255 milliseconds
+
+409
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76523 milliseconds
+
+410
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76424 milliseconds
+
+411
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75555 milliseconds
+
+412
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76653 milliseconds
+
+413
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76506 milliseconds
+
+414
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75545 milliseconds
+
+415
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76477 milliseconds
+
+416
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76638 milliseconds
+
+417
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76008 milliseconds
+
+418
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76134 milliseconds
+
+419
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75543 milliseconds
+
+420
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57255 milliseconds
+
+421
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57026 milliseconds
+
+422
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 58452 milliseconds
+
+423
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57695 milliseconds
+
+424
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56588 milliseconds
+
+425
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57321 milliseconds
+
+426
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56582 milliseconds
+
+427
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 58243 milliseconds
+
+428
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 57383 milliseconds
+
+429
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 56294 milliseconds
+
+430
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57078 milliseconds
+
+431
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 58289 milliseconds
+
+432
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57354 milliseconds
+
+433
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56458 milliseconds
+
+434
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56405 milliseconds
+
+435
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57326 milliseconds
+
+436
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57340 milliseconds
+
+437
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 56876 milliseconds
+
+438
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 58083 milliseconds
+
+439
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 57576 milliseconds
+
+440
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56062 milliseconds
+
+441
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56563 milliseconds
+
+442
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56430 milliseconds
+
+443
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 57370 milliseconds
+
+444
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 58110 milliseconds
+
+445
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56335 milliseconds
+
+446
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 57551 milliseconds
+
+447
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 57199 milliseconds
+
+448
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56620 milliseconds
+
+449
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 56839 milliseconds
+
+450
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 50354 milliseconds
+
+451
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 50618 milliseconds
+
+452
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51246 milliseconds
+
+453
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 49925 milliseconds
+
+454
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 49564 milliseconds
+
+455
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 50558 milliseconds
+
+456
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51351 milliseconds
+
+457
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51129 milliseconds
+
+458
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51808 milliseconds
+
+459
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 51688 milliseconds
+
+460
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 53022 milliseconds
+
+461
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50707 milliseconds
+
+462
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51719 milliseconds
+
+463
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50938 milliseconds
+
+464
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 47694 milliseconds
+
+465
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50569 milliseconds
+
+466
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50369 milliseconds
+
+467
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 49328 milliseconds
+
+468
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 50530 milliseconds
+
+469
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 51369 milliseconds
+
+470
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 49332 milliseconds
+
+471
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 48574 milliseconds
+
+472
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 52073 milliseconds
+
+473
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 50720 milliseconds
+
+474
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 52436 milliseconds
+
+475
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 50812 milliseconds
+
+476
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 49176 milliseconds
+
+477
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 48235 milliseconds
+
+478
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 51227 milliseconds
+
+479
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 48647 milliseconds
+
+480
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39229 milliseconds
+
+481
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39020 milliseconds
+
+482
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39624 milliseconds
+
+483
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 40079 milliseconds
+
+484
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39333 milliseconds
+
+485
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39726 milliseconds
+
+486
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39430 milliseconds
+
+487
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39216 milliseconds
+
+488
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39804 milliseconds
+
+489
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39812 milliseconds
+
+490
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 40108 milliseconds
+
+491
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39453 milliseconds
+
+492
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39381 milliseconds
+
+493
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39460 milliseconds
+
+494
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39285 milliseconds
+
+495
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39638 milliseconds
+
+496
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39753 milliseconds
+
+497
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39467 milliseconds
+
+498
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39486 milliseconds
+
+499
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39594 milliseconds
+
+500
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39848 milliseconds
+
+501
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39157 milliseconds
+
+502
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39307 milliseconds
+
+503
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39574 milliseconds
+
+504
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39166 milliseconds
+
+505
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39167 milliseconds
+
+506
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39536 milliseconds
+
+507
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39168 milliseconds
+
+508
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39522 milliseconds
+
+509
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39491 milliseconds
+
+510
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30555 milliseconds
+
+511
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30351 milliseconds
+
+512
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29938 milliseconds
+
+513
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30190 milliseconds
+
+514
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30520 milliseconds
+
+515
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 31208 milliseconds
+
+516
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30181 milliseconds
+
+517
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29624 milliseconds
+
+518
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30879 milliseconds
+
+519
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30921 milliseconds
+
+520
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29999 milliseconds
+
+521
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30263 milliseconds
+
+522
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29967 milliseconds
+
+523
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30165 milliseconds
+
+524
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30905 milliseconds
+
+525
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30668 milliseconds
+
+526
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30627 milliseconds
+
+527
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29956 milliseconds
+
+528
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30529 milliseconds
+
+529
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29898 milliseconds
+
+530
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30276 milliseconds
+
+531
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30433 milliseconds
+
+532
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30716 milliseconds
+
+533
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30004 milliseconds
+
+534
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30256 milliseconds
+
+535
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29884 milliseconds
+
+536
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29982 milliseconds
+
+537
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 31104 milliseconds
+
+538
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30408 milliseconds
+
+539
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29896 milliseconds
+
+540
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29156 milliseconds
+
+541
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28248 milliseconds
+
+542
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28327 milliseconds
+
+543
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28760 milliseconds
+
+544
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28488 milliseconds
+
+545
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28782 milliseconds
+
+546
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29377 milliseconds
+
+547
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29735 milliseconds
+
+548
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28540 milliseconds
+
+549
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28169 milliseconds
+
+550
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28205 milliseconds
+
+551
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28344 milliseconds
+
+552
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28867 milliseconds
+
+553
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29068 milliseconds
+
+554
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28395 milliseconds
+
+555
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29023 milliseconds
+
+556
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28374 milliseconds
+
+557
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27637 milliseconds
+
+558
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28461 milliseconds
+
+559
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28604 milliseconds
+
+560
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28011 milliseconds
+
+561
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28458 milliseconds
+
+562
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28296 milliseconds
+
+563
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28700 milliseconds
+
+564
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28538 milliseconds
+
+565
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27988 milliseconds
+
+566
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28087 milliseconds
+
+567
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28981 milliseconds
+
+568
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28490 milliseconds
+
+569
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28207 milliseconds
+
+570
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 35487 milliseconds
+
+571
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34524 milliseconds
+
+572
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34222 milliseconds
+
+573
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34869 milliseconds
+
+574
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34589 milliseconds
+
+575
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34418 milliseconds
+
+576
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 35298 milliseconds
+
+577
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 33833 milliseconds
+
+578
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 35421 milliseconds
+
+579
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 35158 milliseconds
+
+580
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34150 milliseconds
+
+581
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 33888 milliseconds
+
+582
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34806 milliseconds
+
+583
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 35631 milliseconds
+
+584
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 36122 milliseconds
+
+585
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 35103 milliseconds
+
+586
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34978 milliseconds
+
+587
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 35914 milliseconds
+
+588
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34818 milliseconds
+
+589
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 35115 milliseconds
+
+590
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35607 milliseconds
+
+591
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35186 milliseconds
+
+592
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34791 milliseconds
+
+593
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35351 milliseconds
+
+594
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35477 milliseconds
+
+595
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35350 milliseconds
+
+596
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34639 milliseconds
+
+597
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35335 milliseconds
+
+598
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34680 milliseconds
+
+599
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 35188 milliseconds
+
+600
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39516 milliseconds
+
+601
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 38916 milliseconds
+
+602
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39188 milliseconds
+
+603
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39432 milliseconds
+
+604
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39227 milliseconds
+
+605
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39257 milliseconds
+
+606
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39619 milliseconds
+
+607
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39372 milliseconds
+
+608
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39460 milliseconds
+
+609
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 39372 milliseconds
+
+610
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39154 milliseconds
+
+611
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39022 milliseconds
+
+612
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39517 milliseconds
+
+613
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39603 milliseconds
+
+614
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39509 milliseconds
+
+615
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39395 milliseconds
+
+616
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 40241 milliseconds
+
+617
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39310 milliseconds
+
+618
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39534 milliseconds
+
+619
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 39359 milliseconds
+
+620
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39196 milliseconds
+
+621
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39614 milliseconds
+
+622
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39564 milliseconds
+
+623
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39240 milliseconds
+
+624
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39084 milliseconds
+
+625
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39573 milliseconds
+
+626
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39778 milliseconds
+
+627
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39716 milliseconds
+
+628
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39377 milliseconds
+
+629
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 39278 milliseconds
+
+630
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29817 milliseconds
+
+631
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29758 milliseconds
+
+632
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29456 milliseconds
+
+633
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29770 milliseconds
+
+634
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30176 milliseconds
+
+635
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30167 milliseconds
+
+636
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30015 milliseconds
+
+637
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30743 milliseconds
+
+638
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 30467 milliseconds
+
+639
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 29700 milliseconds
+
+640
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29788 milliseconds
+
+641
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29632 milliseconds
+
+642
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 31258 milliseconds
+
+643
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 31812 milliseconds
+
+644
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29876 milliseconds
+
+645
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30849 milliseconds
+
+646
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29897 milliseconds
+
+647
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30302 milliseconds
+
+648
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 29619 milliseconds
+
+649
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 30370 milliseconds
+
+650
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30186 milliseconds
+
+651
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29589 milliseconds
+
+652
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29753 milliseconds
+
+653
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29569 milliseconds
+
+654
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29400 milliseconds
+
+655
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29452 milliseconds
+
+656
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29913 milliseconds
+
+657
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29946 milliseconds
+
+658
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 29812 milliseconds
+
+659
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 30055 milliseconds
+
+660
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 26902 milliseconds
+
+661
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 27509 milliseconds
+
+662
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28019 milliseconds
+
+663
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 27907 milliseconds
+
+664
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 27419 milliseconds
+
+665
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 27808 milliseconds
+
+666
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28218 milliseconds
+
+667
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28197 milliseconds
+
+668
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 27241 milliseconds
+
+669
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 28065 milliseconds
+
+670
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27344 milliseconds
+
+671
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27296 milliseconds
+
+672
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28216 milliseconds
+
+673
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27662 milliseconds
+
+674
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28525 milliseconds
+
+675
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28251 milliseconds
+
+676
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27797 milliseconds
+
+677
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 28432 milliseconds
+
+678
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27529 milliseconds
+
+679
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 27522 milliseconds
+
+680
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28048 milliseconds
+
+681
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28501 milliseconds
+
+682
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27489 milliseconds
+
+683
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28076 milliseconds
+
+684
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27839 milliseconds
+
+685
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27473 milliseconds
+
+686
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27880 milliseconds
+
+687
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 28409 milliseconds
+
+688
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27649 milliseconds
+
+689
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 27619 milliseconds
+
+690
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34864 milliseconds
+
+691
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34989 milliseconds
+
+692
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34720 milliseconds
+
+693
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34918 milliseconds
+
+694
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 33267 milliseconds
+
+695
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34441 milliseconds
+
+696
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 32615 milliseconds
+
+697
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 33686 milliseconds
+
+698
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34421 milliseconds
+
+699
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 34949 milliseconds
+
+700
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34880 milliseconds
+
+701
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 33986 milliseconds
+
+702
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 33533 milliseconds
+
+703
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34375 milliseconds
+
+704
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 35334 milliseconds
+
+705
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34802 milliseconds
+
+706
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34341 milliseconds
+
+707
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34450 milliseconds
+
+708
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 33943 milliseconds
+
+709
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 34751 milliseconds
+
+710
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34608 milliseconds
+
+711
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 33253 milliseconds
+
+712
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 33720 milliseconds
+
+713
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 33816 milliseconds
+
+714
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34460 milliseconds
+
+715
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34411 milliseconds
+
+716
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34906 milliseconds
+
+717
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 33059 milliseconds
+
+718
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34715 milliseconds
+
+719
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 34455 milliseconds
+
+720
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 115986 milliseconds
+
+721
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 117243 milliseconds
+
+722
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 115281 milliseconds
+
+723
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 115410 milliseconds
+
+724
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 115730 milliseconds
+
+725
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 116010 milliseconds
+
+726
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 115336 milliseconds
+
+727
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 116021 milliseconds
+
+728
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 116024 milliseconds
+
+729
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 116478 milliseconds
+
+730
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115472 milliseconds
+
+731
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 117403 milliseconds
+
+732
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115556 milliseconds
+
+733
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 116363 milliseconds
+
+734
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115664 milliseconds
+
+735
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115685 milliseconds
+
+736
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115813 milliseconds
+
+737
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 116353 milliseconds
+
+738
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115686 milliseconds
+
+739
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 115557 milliseconds
+
+740
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116058 milliseconds
+
+741
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115274 milliseconds
+
+742
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115956 milliseconds
+
+743
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116817 milliseconds
+
+744
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116068 milliseconds
+
+745
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116323 milliseconds
+
+746
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116143 milliseconds
+
+747
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115610 milliseconds
+
+748
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115759 milliseconds
+
+749
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 115716 milliseconds
+
+750
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85398 milliseconds
+
+751
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 83431 milliseconds
+
+752
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84534 milliseconds
+
+753
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85420 milliseconds
+
+754
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84813 milliseconds
+
+755
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85957 milliseconds
+
+756
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84499 milliseconds
+
+757
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85402 milliseconds
+
+758
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85453 milliseconds
+
+759
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84825 milliseconds
+
+760
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84834 milliseconds
+
+761
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84382 milliseconds
+
+762
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85995 milliseconds
+
+763
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 83892 milliseconds
+
+764
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85831 milliseconds
+
+765
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84371 milliseconds
+
+766
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85358 milliseconds
+
+767
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85606 milliseconds
+
+768
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84858 milliseconds
+
+769
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84293 milliseconds
+
+770
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 83898 milliseconds
+
+771
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85734 milliseconds
+
+772
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85918 milliseconds
+
+773
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84570 milliseconds
+
+774
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84848 milliseconds
+
+775
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 83842 milliseconds
+
+776
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84398 milliseconds
+
+777
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84702 milliseconds
+
+778
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84880 milliseconds
+
+779
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85545 milliseconds
+
+780
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73943 milliseconds
+
+781
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73403 milliseconds
+
+782
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74185 milliseconds
+
+783
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74495 milliseconds
+
+784
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74648 milliseconds
+
+785
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74481 milliseconds
+
+786
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73779 milliseconds
+
+787
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72967 milliseconds
+
+788
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73815 milliseconds
+
+789
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73012 milliseconds
+
+790
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74146 milliseconds
+
+791
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73323 milliseconds
+
+792
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73667 milliseconds
+
+793
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74501 milliseconds
+
+794
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72477 milliseconds
+
+795
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74002 milliseconds
+
+796
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72529 milliseconds
+
+797
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73977 milliseconds
+
+798
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74450 milliseconds
+
+799
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73753 milliseconds
+
+800
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72970 milliseconds
+
+801
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73114 milliseconds
+
+802
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73955 milliseconds
+
+803
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76122 milliseconds
+
+804
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73675 milliseconds
+
+805
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74589 milliseconds
+
+806
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72612 milliseconds
+
+807
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73445 milliseconds
+
+808
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72213 milliseconds
+
+809
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73411 milliseconds
+
+810
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 79057 milliseconds
+
+811
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75912 milliseconds
+
+812
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76551 milliseconds
+
+813
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 77728 milliseconds
+
+814
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75698 milliseconds
+
+815
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76633 milliseconds
+
+816
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 74855 milliseconds
+
+817
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 79550 milliseconds
+
+818
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76054 milliseconds
+
+819
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76501 milliseconds
+
+820
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 78002 milliseconds
+
+821
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 77330 milliseconds
+
+822
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 78320 milliseconds
+
+823
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 77976 milliseconds
+
+824
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 79796 milliseconds
+
+825
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 78139 milliseconds
+
+826
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 78082 milliseconds
+
+827
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 77618 milliseconds
+
+828
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 77693 milliseconds
+
+829
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76574 milliseconds
+
+830
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75234 milliseconds
+
+831
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72198 milliseconds
+
+832
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76787 milliseconds
+
+833
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75512 milliseconds
+
+834
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76708 milliseconds
+
+835
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 77695 milliseconds
+
+836
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76506 milliseconds
+
+837
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76528 milliseconds
+
+838
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 79214 milliseconds
+
+839
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 78596 milliseconds
+
+840
+2
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 117766 milliseconds
+
+841
+2
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 117536 milliseconds
+
+842
+2
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 118614 milliseconds
+
+843
+2
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119824 milliseconds
+
+844
+2
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 118231 milliseconds
+
+845
+2
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 117943 milliseconds
+
+846
+2
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 118431 milliseconds
+
+847
+2
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 117664 milliseconds
+
+848
+2
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 119459 milliseconds
+
+849
+2
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 118490 milliseconds
+
+850
+2
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 118129 milliseconds
+
+851
+2
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 118198 milliseconds
+
+852
+2
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 117867 milliseconds
+
+853
+2
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 118745 milliseconds
+
+854
+2
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 118988 milliseconds
+
+855
+2
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 117810 milliseconds
+
+856
+2
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 117804 milliseconds
+
+857
+2
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 119336 milliseconds
+
+858
+2
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 118825 milliseconds
+
+859
+2
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 117140 milliseconds
+
+860
+2
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118161 milliseconds
+
+861
+2
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118841 milliseconds
+
+862
+2
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118268 milliseconds
+
+863
+2
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118480 milliseconds
+
+864
+2
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 117728 milliseconds
+
+865
+2
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118959 milliseconds
+
+866
+2
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 116564 milliseconds
+
+867
+2
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118193 milliseconds
+
+868
+2
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 118199 milliseconds
+
+869
+2
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 119083 milliseconds
+
+870
+4
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84955 milliseconds
+
+871
+4
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84976 milliseconds
+
+872
+4
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 86907 milliseconds
+
+873
+4
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84216 milliseconds
+
+874
+4
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85714 milliseconds
+
+875
+4
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84588 milliseconds
+
+876
+4
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84763 milliseconds
+
+877
+4
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 85093 milliseconds
+
+878
+4
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84686 milliseconds
+
+879
+4
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 84064 milliseconds
+
+880
+4
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 83916 milliseconds
+
+881
+4
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85330 milliseconds
+
+882
+4
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84673 milliseconds
+
+883
+4
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84192 milliseconds
+
+884
+4
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85133 milliseconds
+
+885
+4
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85357 milliseconds
+
+886
+4
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85296 milliseconds
+
+887
+4
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 87133 milliseconds
+
+888
+4
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 85431 milliseconds
+
+889
+4
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 84961 milliseconds
+
+890
+4
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 86579 milliseconds
+
+891
+4
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85728 milliseconds
+
+892
+4
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84710 milliseconds
+
+893
+4
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84625 milliseconds
+
+894
+4
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 87181 milliseconds
+
+895
+4
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 83620 milliseconds
+
+896
+4
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85150 milliseconds
+
+897
+4
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 86051 milliseconds
+
+898
+4
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 85521 milliseconds
+
+899
+4
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 84646 milliseconds
+
+900
+8
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72397 milliseconds
+
+901
+8
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73132 milliseconds
+
+902
+8
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72310 milliseconds
+
+903
+8
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72308 milliseconds
+
+904
+8
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 71292 milliseconds
+
+905
+8
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72528 milliseconds
+
+906
+8
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72182 milliseconds
+
+907
+8
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73189 milliseconds
+
+908
+8
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73007 milliseconds
+
+909
+8
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 72667 milliseconds
+
+910
+8
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73141 milliseconds
+
+911
+8
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 71897 milliseconds
+
+912
+8
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 71123 milliseconds
+
+913
+8
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72874 milliseconds
+
+914
+8
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73080 milliseconds
+
+915
+8
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 71344 milliseconds
+
+916
+8
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73994 milliseconds
+
+917
+8
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72456 milliseconds
+
+918
+8
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 73154 milliseconds
+
+919
+8
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72482 milliseconds
+
+920
+8
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73992 milliseconds
+
+921
+8
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 71554 milliseconds
+
+922
+8
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73615 milliseconds
+
+923
+8
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72043 milliseconds
+
+924
+8
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 73542 milliseconds
+
+925
+8
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 71385 milliseconds
+
+926
+8
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 71555 milliseconds
+
+927
+8
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72874 milliseconds
+
+928
+8
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 72270 milliseconds
+
+929
+8
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 71257 milliseconds
+
+930
+16
+2048 max_aborts
+Test 0 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75042 milliseconds
+
+931
+16
+2048 max_aborts
+Test 1 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75935 milliseconds
+
+932
+16
+2048 max_aborts
+Test 2 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76837 milliseconds
+
+933
+16
+2048 max_aborts
+Test 3 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76683 milliseconds
+
+934
+16
+2048 max_aborts
+Test 4 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 78884 milliseconds
+
+935
+16
+2048 max_aborts
+Test 5 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75367 milliseconds
+
+936
+16
+2048 max_aborts
+Test 6 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 73296 milliseconds
+
+937
+16
+2048 max_aborts
+Test 7 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 76362 milliseconds
+
+938
+16
+2048 max_aborts
+Test 8 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 75224 milliseconds
+
+939
+16
+2048 max_aborts
+Test 9 for TRMIPassive: 2048 max_aborts
+
+Time of execution: 77635 milliseconds
+
+940
+16
+4096 max_aborts
+Test 0 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74710 milliseconds
+
+941
+16
+4096 max_aborts
+Test 1 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 77765 milliseconds
+
+942
+16
+4096 max_aborts
+Test 2 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76743 milliseconds
+
+943
+16
+4096 max_aborts
+Test 3 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75526 milliseconds
+
+944
+16
+4096 max_aborts
+Test 4 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 72040 milliseconds
+
+945
+16
+4096 max_aborts
+Test 5 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75835 milliseconds
+
+946
+16
+4096 max_aborts
+Test 6 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 75928 milliseconds
+
+947
+16
+4096 max_aborts
+Test 7 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76346 milliseconds
+
+948
+16
+4096 max_aborts
+Test 8 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 76502 milliseconds
+
+949
+16
+4096 max_aborts
+Test 9 for TRMIPassive: 4096 max_aborts
+
+Time of execution: 74042 milliseconds
+
+950
+16
+8192 max_aborts
+Test 0 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 80204 milliseconds
+
+951
+16
+8192 max_aborts
+Test 1 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76961 milliseconds
+
+952
+16
+8192 max_aborts
+Test 2 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 74348 milliseconds
+
+953
+16
+8192 max_aborts
+Test 3 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76544 milliseconds
+
+954
+16
+8192 max_aborts
+Test 4 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76042 milliseconds
+
+955
+16
+8192 max_aborts
+Test 5 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 77607 milliseconds
+
+956
+16
+8192 max_aborts
+Test 6 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 76511 milliseconds
+
+957
+16
+8192 max_aborts
+Test 7 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 75996 milliseconds
+
+958
+16
+8192 max_aborts
+Test 8 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 77759 milliseconds
+
+959
+16
+8192 max_aborts
+Test 9 for TRMIPassive: 8192 max_aborts
+
+Time of execution: 79324 milliseconds
+
+960
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:5
+[37.19, 25.97, 21.77, 22.57]
+CM PARAM CONFIG: 2048 max_aborts
+[37.25, 25.88, 21.78, 22.49]
+CM PARAM CONFIG: 4096 max_aborts
+[37.18, 25.8, 21.99, 22.28]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:5
+[37.89, 25.99, 21.7, 22.51]
+CM PARAM CONFIG: 2048 max_aborts
+[37.93, 26.04, 21.6, 22.24]
+CM PARAM CONFIG: 4096 max_aborts
+[37.99, 26.0, 21.71, 22.33]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:20
+[114.19, 73.83, 56.97, 49.94]
+CM PARAM CONFIG: 2048 max_aborts
+[113.89, 73.76, 57.01, 50.12]
+CM PARAM CONFIG: 4096 max_aborts
+[114.29, 73.9, 56.68, 50.27]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:20
+[119.68, 76.25, 57.28, 50.82]
+CM PARAM CONFIG: 2048 max_aborts
+[119.7, 76.14, 57.28, 50.62]
+CM PARAM CONFIG: 4096 max_aborts
+[119.85, 76.15, 56.91, 50.12]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:5
+[39.53, 30.44, 28.76, 34.78]
+CM PARAM CONFIG: 2048 max_aborts
+[39.56, 30.3, 28.5, 35.05]
+CM PARAM CONFIG: 4096 max_aborts
+[39.39, 30.3, 28.38, 35.16]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:5
+[39.34, 30.01, 27.73, 34.29]
+CM PARAM CONFIG: 2048 max_aborts
+[39.46, 30.34, 27.86, 34.44]
+CM PARAM CONFIG: 4096 max_aborts
+[39.44, 29.77, 27.9, 34.14]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:20
+[115.95, 84.97, 73.87, 76.85]
+CM PARAM CONFIG: 2048 max_aborts
+[115.96, 84.94, 73.68, 77.95]
+CM PARAM CONFIG: 4096 max_aborts
+[115.97, 84.83, 73.61, 76.5]
+CM PARAM CONFIG: 8192 max_aborts
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:20
+[118.4, 85.0, 72.5, 76.13]
+CM PARAM CONFIG: 2048 max_aborts
+[118.28, 85.14, 72.55, 75.54]
+CM PARAM CONFIG: 4096 max_aborts
+[118.25, 85.38, 72.41, 77.13]
+CM PARAM CONFIG: 8192 max_aborts
+8

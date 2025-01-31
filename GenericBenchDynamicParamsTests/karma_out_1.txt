@@ -1,0 +1,5824 @@
+['generate_plots_cms_params.py', 'karma']
+8
+960
+960
+960
+960
+['128 delay', '256 delay', '512 delay']
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 43706 milliseconds
+
+1
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 43452 milliseconds
+
+2
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 44121 milliseconds
+
+3
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 43814 milliseconds
+
+4
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 43741 milliseconds
+
+5
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 43623 milliseconds
+
+6
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 43605 milliseconds
+
+7
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 43882 milliseconds
+
+8
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 43698 milliseconds
+
+9
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 43514 milliseconds
+
+10
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 43396 milliseconds
+
+11
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 43449 milliseconds
+
+12
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 44706 milliseconds
+
+13
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 44620 milliseconds
+
+14
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 45165 milliseconds
+
+15
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 44611 milliseconds
+
+16
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 43607 milliseconds
+
+17
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 43712 milliseconds
+
+18
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 44034 milliseconds
+
+19
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 44226 milliseconds
+
+20
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 44593 milliseconds
+
+21
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 45603 milliseconds
+
+22
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 44832 milliseconds
+
+23
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 44801 milliseconds
+
+24
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 44749 milliseconds
+
+25
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 44836 milliseconds
+
+26
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 44351 milliseconds
+
+27
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 44588 milliseconds
+
+28
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 45490 milliseconds
+
+29
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 44975 milliseconds
+
+30
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 35728 milliseconds
+
+31
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 36269 milliseconds
+
+32
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 36469 milliseconds
+
+33
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 34723 milliseconds
+
+34
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 36437 milliseconds
+
+35
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 35932 milliseconds
+
+36
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 35289 milliseconds
+
+37
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 36165 milliseconds
+
+38
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 35742 milliseconds
+
+39
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 36054 milliseconds
+
+40
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 35628 milliseconds
+
+41
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 35669 milliseconds
+
+42
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 37167 milliseconds
+
+43
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 37398 milliseconds
+
+44
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 37055 milliseconds
+
+45
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 36805 milliseconds
+
+46
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 35825 milliseconds
+
+47
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 36323 milliseconds
+
+48
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 36676 milliseconds
+
+49
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 37870 milliseconds
+
+50
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 36477 milliseconds
+
+51
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 37362 milliseconds
+
+52
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 36231 milliseconds
+
+53
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 36788 milliseconds
+
+54
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 36890 milliseconds
+
+55
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 36434 milliseconds
+
+56
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 38868 milliseconds
+
+57
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 36811 milliseconds
+
+58
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 36862 milliseconds
+
+59
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 37148 milliseconds
+
+60
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 34827 milliseconds
+
+61
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 34447 milliseconds
+
+62
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 34311 milliseconds
+
+63
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 35672 milliseconds
+
+64
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 34131 milliseconds
+
+65
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 34520 milliseconds
+
+66
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 35250 milliseconds
+
+67
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 34461 milliseconds
+
+68
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 34800 milliseconds
+
+69
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 33791 milliseconds
+
+70
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 32834 milliseconds
+
+71
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 34257 milliseconds
+
+72
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 34635 milliseconds
+
+73
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 34485 milliseconds
+
+74
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 34126 milliseconds
+
+75
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 33292 milliseconds
+
+76
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 34664 milliseconds
+
+77
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 33665 milliseconds
+
+78
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 34068 milliseconds
+
+79
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 35105 milliseconds
+
+80
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 32940 milliseconds
+
+81
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 33131 milliseconds
+
+82
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 34593 milliseconds
+
+83
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 33368 milliseconds
+
+84
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 34030 milliseconds
+
+85
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 34408 milliseconds
+
+86
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 35148 milliseconds
+
+87
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 33904 milliseconds
+
+88
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 34957 milliseconds
+
+89
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 33464 milliseconds
+
+90
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 37483 milliseconds
+
+91
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 37722 milliseconds
+
+92
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 36267 milliseconds
+
+93
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 37329 milliseconds
+
+94
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 36150 milliseconds
+
+95
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 36568 milliseconds
+
+96
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 37138 milliseconds
+
+97
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 36786 milliseconds
+
+98
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 37129 milliseconds
+
+99
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 37499 milliseconds
+
+100
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 36369 milliseconds
+
+101
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 34539 milliseconds
+
+102
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 37244 milliseconds
+
+103
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 35320 milliseconds
+
+104
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 35101 milliseconds
+
+105
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 36193 milliseconds
+
+106
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 35705 milliseconds
+
+107
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 36109 milliseconds
+
+108
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 35342 milliseconds
+
+109
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 36239 milliseconds
+
+110
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 36057 milliseconds
+
+111
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 33240 milliseconds
+
+112
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 35830 milliseconds
+
+113
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 35683 milliseconds
+
+114
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 35971 milliseconds
+
+115
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 34804 milliseconds
+
+116
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 35156 milliseconds
+
+117
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 34347 milliseconds
+
+118
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 35891 milliseconds
+
+119
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 35287 milliseconds
+
+120
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 44634 milliseconds
+
+121
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 44248 milliseconds
+
+122
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 44760 milliseconds
+
+123
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 43971 milliseconds
+
+124
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 44510 milliseconds
+
+125
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 43822 milliseconds
+
+126
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 43239 milliseconds
+
+127
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 43660 milliseconds
+
+128
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 44826 milliseconds
+
+129
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 43672 milliseconds
+
+130
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 44246 milliseconds
+
+131
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 44128 milliseconds
+
+132
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 44344 milliseconds
+
+133
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 45920 milliseconds
+
+134
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 45127 milliseconds
+
+135
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 44380 milliseconds
+
+136
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 45811 milliseconds
+
+137
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 44474 milliseconds
+
+138
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 45269 milliseconds
+
+139
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 45322 milliseconds
+
+140
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 46390 milliseconds
+
+141
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 45396 milliseconds
+
+142
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 44403 milliseconds
+
+143
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 45698 milliseconds
+
+144
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 45666 milliseconds
+
+145
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 45295 milliseconds
+
+146
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 47094 milliseconds
+
+147
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 45806 milliseconds
+
+148
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 45373 milliseconds
+
+149
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 46273 milliseconds
+
+150
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 35978 milliseconds
+
+151
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 35690 milliseconds
+
+152
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 35796 milliseconds
+
+153
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 34786 milliseconds
+
+154
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 35454 milliseconds
+
+155
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 35477 milliseconds
+
+156
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 34915 milliseconds
+
+157
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 35071 milliseconds
+
+158
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 35796 milliseconds
+
+159
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 35666 milliseconds
+
+160
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 35863 milliseconds
+
+161
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 36284 milliseconds
+
+162
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 36119 milliseconds
+
+163
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 36634 milliseconds
+
+164
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 37523 milliseconds
+
+165
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 36573 milliseconds
+
+166
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 37595 milliseconds
+
+167
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 35184 milliseconds
+
+168
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 37257 milliseconds
+
+169
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 36116 milliseconds
+
+170
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 39381 milliseconds
+
+171
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 36357 milliseconds
+
+172
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 36557 milliseconds
+
+173
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 36424 milliseconds
+
+174
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 36795 milliseconds
+
+175
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 36879 milliseconds
+
+176
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 37757 milliseconds
+
+177
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 37373 milliseconds
+
+178
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 37174 milliseconds
+
+179
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 37322 milliseconds
+
+180
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 33730 milliseconds
+
+181
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 34665 milliseconds
+
+182
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 34463 milliseconds
+
+183
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 33640 milliseconds
+
+184
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 34309 milliseconds
+
+185
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 34511 milliseconds
+
+186
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 33410 milliseconds
+
+187
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 34576 milliseconds
+
+188
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 33707 milliseconds
+
+189
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 34219 milliseconds
+
+190
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 34023 milliseconds
+
+191
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 31595 milliseconds
+
+192
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 34183 milliseconds
+
+193
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 32543 milliseconds
+
+194
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 34186 milliseconds
+
+195
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 33013 milliseconds
+
+196
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 33868 milliseconds
+
+197
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 34245 milliseconds
+
+198
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 33389 milliseconds
+
+199
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 33532 milliseconds
+
+200
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 33444 milliseconds
+
+201
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 33833 milliseconds
+
+202
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 33850 milliseconds
+
+203
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 33834 milliseconds
+
+204
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 34697 milliseconds
+
+205
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 34298 milliseconds
+
+206
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 33081 milliseconds
+
+207
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 33159 milliseconds
+
+208
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 33743 milliseconds
+
+209
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 33673 milliseconds
+
+210
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 36685 milliseconds
+
+211
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 37729 milliseconds
+
+212
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 37368 milliseconds
+
+213
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 37504 milliseconds
+
+214
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 36380 milliseconds
+
+215
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 36523 milliseconds
+
+216
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 36778 milliseconds
+
+217
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 36183 milliseconds
+
+218
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 35880 milliseconds
+
+219
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 36325 milliseconds
+
+220
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 36911 milliseconds
+
+221
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 34345 milliseconds
+
+222
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 35266 milliseconds
+
+223
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 35393 milliseconds
+
+224
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 36972 milliseconds
+
+225
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 34524 milliseconds
+
+226
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 35398 milliseconds
+
+227
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 36571 milliseconds
+
+228
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 35863 milliseconds
+
+229
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 36208 milliseconds
+
+230
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 34556 milliseconds
+
+231
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 35267 milliseconds
+
+232
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 33386 milliseconds
+
+233
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 34668 milliseconds
+
+234
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 34113 milliseconds
+
+235
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 35223 milliseconds
+
+236
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 35862 milliseconds
+
+237
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 34609 milliseconds
+
+238
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 34495 milliseconds
+
+239
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 32766 milliseconds
+
+240
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 132521 milliseconds
+
+241
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 132139 milliseconds
+
+242
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 133637 milliseconds
+
+243
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 132094 milliseconds
+
+244
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 132720 milliseconds
+
+245
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 131388 milliseconds
+
+246
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 132833 milliseconds
+
+247
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 134322 milliseconds
+
+248
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 131880 milliseconds
+
+249
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 132928 milliseconds
+
+250
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 130883 milliseconds
+
+251
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 130528 milliseconds
+
+252
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 130802 milliseconds
+
+253
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 130765 milliseconds
+
+254
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 130171 milliseconds
+
+255
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 131906 milliseconds
+
+256
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 131585 milliseconds
+
+257
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 131688 milliseconds
+
+258
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 131692 milliseconds
+
+259
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 130724 milliseconds
+
+260
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 129440 milliseconds
+
+261
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 127723 milliseconds
+
+262
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 130229 milliseconds
+
+263
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 129876 milliseconds
+
+264
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 130690 milliseconds
+
+265
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 129122 milliseconds
+
+266
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 131329 milliseconds
+
+267
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 128222 milliseconds
+
+268
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 129238 milliseconds
+
+269
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 130433 milliseconds
+
+270
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 106818 milliseconds
+
+271
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 107313 milliseconds
+
+272
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 105952 milliseconds
+
+273
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 107224 milliseconds
+
+274
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 111072 milliseconds
+
+275
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 105491 milliseconds
+
+276
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 105727 milliseconds
+
+277
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 108030 milliseconds
+
+278
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 108041 milliseconds
+
+279
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 107960 milliseconds
+
+280
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 98891 milliseconds
+
+281
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 99855 milliseconds
+
+282
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 100431 milliseconds
+
+283
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 99242 milliseconds
+
+284
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 101134 milliseconds
+
+285
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 100111 milliseconds
+
+286
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 103177 milliseconds
+
+287
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 98264 milliseconds
+
+288
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 101037 milliseconds
+
+289
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 99136 milliseconds
+
+290
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 100244 milliseconds
+
+291
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 98780 milliseconds
+
+292
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 101879 milliseconds
+
+293
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 100576 milliseconds
+
+294
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 99048 milliseconds
+
+295
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 98825 milliseconds
+
+296
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 97040 milliseconds
+
+297
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 100655 milliseconds
+
+298
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 100595 milliseconds
+
+299
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 99802 milliseconds
+
+300
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 101563 milliseconds
+
+301
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 102339 milliseconds
+
+302
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 102236 milliseconds
+
+303
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 106298 milliseconds
+
+304
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 101800 milliseconds
+
+305
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 104982 milliseconds
+
+306
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 105461 milliseconds
+
+307
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 105068 milliseconds
+
+308
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 101648 milliseconds
+
+309
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 103276 milliseconds
+
+310
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 96240 milliseconds
+
+311
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 90471 milliseconds
+
+312
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 94985 milliseconds
+
+313
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 92506 milliseconds
+
+314
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 93379 milliseconds
+
+315
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 93711 milliseconds
+
+316
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 94343 milliseconds
+
+317
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 91666 milliseconds
+
+318
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 93356 milliseconds
+
+319
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 88323 milliseconds
+
+320
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 91648 milliseconds
+
+321
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 91429 milliseconds
+
+322
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 91375 milliseconds
+
+323
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 89873 milliseconds
+
+324
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 89814 milliseconds
+
+325
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 87941 milliseconds
+
+326
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 84466 milliseconds
+
+327
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 88558 milliseconds
+
+328
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 93899 milliseconds
+
+329
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 90430 milliseconds
+
+330
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 121283 milliseconds
+
+331
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 120554 milliseconds
+
+332
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 117360 milliseconds
+
+333
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 111726 milliseconds
+
+334
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 115995 milliseconds
+
+335
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 128475 milliseconds
+
+336
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 112188 milliseconds
+
+337
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 121299 milliseconds
+
+338
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 120751 milliseconds
+
+339
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 117707 milliseconds
+
+340
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 96076 milliseconds
+
+341
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 94785 milliseconds
+
+342
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 90440 milliseconds
+
+343
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 90705 milliseconds
+
+344
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 93473 milliseconds
+
+345
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 91097 milliseconds
+
+346
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 91520 milliseconds
+
+347
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 92749 milliseconds
+
+348
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 94294 milliseconds
+
+349
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 88917 milliseconds
+
+350
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 96943 milliseconds
+
+351
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 88289 milliseconds
+
+352
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 91269 milliseconds
+
+353
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 87290 milliseconds
+
+354
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 88358 milliseconds
+
+355
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 90072 milliseconds
+
+356
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 86726 milliseconds
+
+357
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 89696 milliseconds
+
+358
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 91700 milliseconds
+
+359
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 79509 milliseconds
+
+360
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 136800 milliseconds
+
+361
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 138270 milliseconds
+
+362
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 137860 milliseconds
+
+363
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 135556 milliseconds
+
+364
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 135027 milliseconds
+
+365
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 136818 milliseconds
+
+366
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 138027 milliseconds
+
+367
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 137456 milliseconds
+
+368
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 137511 milliseconds
+
+369
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 137372 milliseconds
+
+370
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 135346 milliseconds
+
+371
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 136667 milliseconds
+
+372
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 137107 milliseconds
+
+373
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 136390 milliseconds
+
+374
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 136024 milliseconds
+
+375
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 135665 milliseconds
+
+376
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 135445 milliseconds
+
+377
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 134924 milliseconds
+
+378
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 136565 milliseconds
+
+379
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 138595 milliseconds
+
+380
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 133435 milliseconds
+
+381
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 136157 milliseconds
+
+382
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 135795 milliseconds
+
+383
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 135060 milliseconds
+
+384
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 135156 milliseconds
+
+385
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 134701 milliseconds
+
+386
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 135847 milliseconds
+
+387
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 136156 milliseconds
+
+388
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 136303 milliseconds
+
+389
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 135251 milliseconds
+
+390
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 109462 milliseconds
+
+391
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 107954 milliseconds
+
+392
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 108054 milliseconds
+
+393
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 109168 milliseconds
+
+394
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 106344 milliseconds
+
+395
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 108890 milliseconds
+
+396
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 110498 milliseconds
+
+397
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 107849 milliseconds
+
+398
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 105990 milliseconds
+
+399
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 106016 milliseconds
+
+400
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 100162 milliseconds
+
+401
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 102883 milliseconds
+
+402
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 102822 milliseconds
+
+403
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 102624 milliseconds
+
+404
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 104020 milliseconds
+
+405
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 101699 milliseconds
+
+406
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 102181 milliseconds
+
+407
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 101931 milliseconds
+
+408
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 102148 milliseconds
+
+409
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 101011 milliseconds
+
+410
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 101083 milliseconds
+
+411
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 99266 milliseconds
+
+412
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 101335 milliseconds
+
+413
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 101736 milliseconds
+
+414
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 100063 milliseconds
+
+415
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 100992 milliseconds
+
+416
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 100080 milliseconds
+
+417
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 100068 milliseconds
+
+418
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 103053 milliseconds
+
+419
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 99952 milliseconds
+
+420
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 101297 milliseconds
+
+421
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 105781 milliseconds
+
+422
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 99405 milliseconds
+
+423
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 101116 milliseconds
+
+424
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 104880 milliseconds
+
+425
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 99347 milliseconds
+
+426
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 101885 milliseconds
+
+427
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 107674 milliseconds
+
+428
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 102560 milliseconds
+
+429
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 103557 milliseconds
+
+430
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 93484 milliseconds
+
+431
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 93311 milliseconds
+
+432
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 92569 milliseconds
+
+433
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 86770 milliseconds
+
+434
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 92686 milliseconds
+
+435
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 89951 milliseconds
+
+436
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 89706 milliseconds
+
+437
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 93458 milliseconds
+
+438
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 89913 milliseconds
+
+439
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 91493 milliseconds
+
+440
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 86285 milliseconds
+
+441
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 85717 milliseconds
+
+442
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 86129 milliseconds
+
+443
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 87597 milliseconds
+
+444
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 83808 milliseconds
+
+445
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 86422 milliseconds
+
+446
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 89338 milliseconds
+
+447
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 88203 milliseconds
+
+448
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 93373 milliseconds
+
+449
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 86099 milliseconds
+
+450
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 112904 milliseconds
+
+451
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 109168 milliseconds
+
+452
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 110552 milliseconds
+
+453
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 107287 milliseconds
+
+454
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 113020 milliseconds
+
+455
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 110278 milliseconds
+
+456
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 110726 milliseconds
+
+457
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 107879 milliseconds
+
+458
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 113845 milliseconds
+
+459
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 106280 milliseconds
+
+460
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 82273 milliseconds
+
+461
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 86242 milliseconds
+
+462
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 84346 milliseconds
+
+463
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 92725 milliseconds
+
+464
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 89516 milliseconds
+
+465
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 91638 milliseconds
+
+466
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 88081 milliseconds
+
+467
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 88052 milliseconds
+
+468
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 95309 milliseconds
+
+469
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 83786 milliseconds
+
+470
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 84980 milliseconds
+
+471
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 83186 milliseconds
+
+472
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 83889 milliseconds
+
+473
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 84411 milliseconds
+
+474
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 88195 milliseconds
+
+475
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 83851 milliseconds
+
+476
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 77521 milliseconds
+
+477
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 87249 milliseconds
+
+478
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 96492 milliseconds
+
+479
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 84302 milliseconds
+
+480
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 50170 milliseconds
+
+481
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 49961 milliseconds
+
+482
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 49078 milliseconds
+
+483
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 50396 milliseconds
+
+484
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 49755 milliseconds
+
+485
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 49494 milliseconds
+
+486
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 48764 milliseconds
+
+487
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 49480 milliseconds
+
+488
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 48960 milliseconds
+
+489
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 49042 milliseconds
+
+490
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 52115 milliseconds
+
+491
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 52362 milliseconds
+
+492
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 51772 milliseconds
+
+493
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 51913 milliseconds
+
+494
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 50748 milliseconds
+
+495
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 52599 milliseconds
+
+496
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 52610 milliseconds
+
+497
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 52080 milliseconds
+
+498
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 50971 milliseconds
+
+499
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 51920 milliseconds
+
+500
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 54077 milliseconds
+
+501
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 53928 milliseconds
+
+502
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 53037 milliseconds
+
+503
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 53089 milliseconds
+
+504
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 54580 milliseconds
+
+505
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 51921 milliseconds
+
+506
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 53480 milliseconds
+
+507
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 53129 milliseconds
+
+508
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 53854 milliseconds
+
+509
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 52889 milliseconds
+
+510
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 47252 milliseconds
+
+511
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 47639 milliseconds
+
+512
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 49042 milliseconds
+
+513
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 46870 milliseconds
+
+514
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 47099 milliseconds
+
+515
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 47593 milliseconds
+
+516
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 48293 milliseconds
+
+517
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 47996 milliseconds
+
+518
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 48696 milliseconds
+
+519
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 47894 milliseconds
+
+520
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 47497 milliseconds
+
+521
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 49220 milliseconds
+
+522
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 47710 milliseconds
+
+523
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 48159 milliseconds
+
+524
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 47829 milliseconds
+
+525
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 48991 milliseconds
+
+526
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 48335 milliseconds
+
+527
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 47930 milliseconds
+
+528
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 49962 milliseconds
+
+529
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 50042 milliseconds
+
+530
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 49249 milliseconds
+
+531
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 49615 milliseconds
+
+532
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 48101 milliseconds
+
+533
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 49239 milliseconds
+
+534
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 50899 milliseconds
+
+535
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 50334 milliseconds
+
+536
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 49562 milliseconds
+
+537
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 51682 milliseconds
+
+538
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 48101 milliseconds
+
+539
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 49816 milliseconds
+
+540
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 50212 milliseconds
+
+541
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 51777 milliseconds
+
+542
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 50467 milliseconds
+
+543
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 50835 milliseconds
+
+544
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 49581 milliseconds
+
+545
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 51331 milliseconds
+
+546
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 48487 milliseconds
+
+547
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 51394 milliseconds
+
+548
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 51096 milliseconds
+
+549
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 51480 milliseconds
+
+550
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 50403 milliseconds
+
+551
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 50845 milliseconds
+
+552
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 50523 milliseconds
+
+553
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 52265 milliseconds
+
+554
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 50014 milliseconds
+
+555
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 49709 milliseconds
+
+556
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 50211 milliseconds
+
+557
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 49896 milliseconds
+
+558
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 49052 milliseconds
+
+559
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 50615 milliseconds
+
+560
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 51795 milliseconds
+
+561
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 50908 milliseconds
+
+562
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 49745 milliseconds
+
+563
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 49052 milliseconds
+
+564
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 49660 milliseconds
+
+565
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 50770 milliseconds
+
+566
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 52567 milliseconds
+
+567
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 51487 milliseconds
+
+568
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 51289 milliseconds
+
+569
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 51562 milliseconds
+
+570
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 57933 milliseconds
+
+571
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 59641 milliseconds
+
+572
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 59077 milliseconds
+
+573
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 58284 milliseconds
+
+574
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 59111 milliseconds
+
+575
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 58815 milliseconds
+
+576
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 57847 milliseconds
+
+577
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 59173 milliseconds
+
+578
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 59461 milliseconds
+
+579
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 57988 milliseconds
+
+580
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 56893 milliseconds
+
+581
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 59190 milliseconds
+
+582
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 55174 milliseconds
+
+583
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 59049 milliseconds
+
+584
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 57506 milliseconds
+
+585
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 57704 milliseconds
+
+586
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 57407 milliseconds
+
+587
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 56460 milliseconds
+
+588
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 57779 milliseconds
+
+589
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 56442 milliseconds
+
+590
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 56022 milliseconds
+
+591
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 59249 milliseconds
+
+592
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 55778 milliseconds
+
+593
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 54555 milliseconds
+
+594
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 61060 milliseconds
+
+595
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 56040 milliseconds
+
+596
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 57262 milliseconds
+
+597
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 57187 milliseconds
+
+598
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 57392 milliseconds
+
+599
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 55837 milliseconds
+
+600
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 49195 milliseconds
+
+601
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 48444 milliseconds
+
+602
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 49199 milliseconds
+
+603
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 49248 milliseconds
+
+604
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 49174 milliseconds
+
+605
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 49360 milliseconds
+
+606
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 48553 milliseconds
+
+607
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 50077 milliseconds
+
+608
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 50113 milliseconds
+
+609
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 50331 milliseconds
+
+610
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 50542 milliseconds
+
+611
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 50817 milliseconds
+
+612
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 51916 milliseconds
+
+613
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 51719 milliseconds
+
+614
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 50441 milliseconds
+
+615
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 50397 milliseconds
+
+616
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 51851 milliseconds
+
+617
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 50693 milliseconds
+
+618
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 51766 milliseconds
+
+619
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 50114 milliseconds
+
+620
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 53303 milliseconds
+
+621
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 54031 milliseconds
+
+622
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 52744 milliseconds
+
+623
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 52550 milliseconds
+
+624
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 51857 milliseconds
+
+625
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 52750 milliseconds
+
+626
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 53525 milliseconds
+
+627
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 53683 milliseconds
+
+628
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 52575 milliseconds
+
+629
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 52249 milliseconds
+
+630
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 46342 milliseconds
+
+631
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 45313 milliseconds
+
+632
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 46597 milliseconds
+
+633
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 46656 milliseconds
+
+634
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 45521 milliseconds
+
+635
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 46450 milliseconds
+
+636
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 46676 milliseconds
+
+637
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 46623 milliseconds
+
+638
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 47155 milliseconds
+
+639
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 47150 milliseconds
+
+640
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 47448 milliseconds
+
+641
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 46993 milliseconds
+
+642
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 47258 milliseconds
+
+643
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 49018 milliseconds
+
+644
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 47679 milliseconds
+
+645
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 48933 milliseconds
+
+646
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 47360 milliseconds
+
+647
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 48880 milliseconds
+
+648
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 46351 milliseconds
+
+649
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 48761 milliseconds
+
+650
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 49644 milliseconds
+
+651
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 47939 milliseconds
+
+652
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 48491 milliseconds
+
+653
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 48410 milliseconds
+
+654
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 48523 milliseconds
+
+655
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 47569 milliseconds
+
+656
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 49880 milliseconds
+
+657
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 49400 milliseconds
+
+658
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 49162 milliseconds
+
+659
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 49416 milliseconds
+
+660
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 50165 milliseconds
+
+661
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 49172 milliseconds
+
+662
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 50385 milliseconds
+
+663
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 49585 milliseconds
+
+664
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 48041 milliseconds
+
+665
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 51707 milliseconds
+
+666
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 50453 milliseconds
+
+667
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 49020 milliseconds
+
+668
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 50763 milliseconds
+
+669
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 49015 milliseconds
+
+670
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 51077 milliseconds
+
+671
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 48002 milliseconds
+
+672
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 49478 milliseconds
+
+673
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 49546 milliseconds
+
+674
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 49793 milliseconds
+
+675
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 48320 milliseconds
+
+676
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 48069 milliseconds
+
+677
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 48223 milliseconds
+
+678
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 50205 milliseconds
+
+679
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 48390 milliseconds
+
+680
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 49874 milliseconds
+
+681
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 49909 milliseconds
+
+682
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 49780 milliseconds
+
+683
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 49283 milliseconds
+
+684
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 50195 milliseconds
+
+685
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 50720 milliseconds
+
+686
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 46587 milliseconds
+
+687
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 49370 milliseconds
+
+688
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 50759 milliseconds
+
+689
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 49783 milliseconds
+
+690
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 57082 milliseconds
+
+691
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 57625 milliseconds
+
+692
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 58261 milliseconds
+
+693
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 56926 milliseconds
+
+694
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 56021 milliseconds
+
+695
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 56686 milliseconds
+
+696
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 58354 milliseconds
+
+697
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 56708 milliseconds
+
+698
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 55878 milliseconds
+
+699
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 57921 milliseconds
+
+700
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 56673 milliseconds
+
+701
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 55697 milliseconds
+
+702
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 55488 milliseconds
+
+703
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 57370 milliseconds
+
+704
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 54765 milliseconds
+
+705
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 56306 milliseconds
+
+706
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 55162 milliseconds
+
+707
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 56223 milliseconds
+
+708
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 58501 milliseconds
+
+709
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 55883 milliseconds
+
+710
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 57312 milliseconds
+
+711
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 54917 milliseconds
+
+712
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 57871 milliseconds
+
+713
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 55332 milliseconds
+
+714
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 56340 milliseconds
+
+715
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 54798 milliseconds
+
+716
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 55150 milliseconds
+
+717
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 54157 milliseconds
+
+718
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 57009 milliseconds
+
+719
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 53455 milliseconds
+
+720
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 141818 milliseconds
+
+721
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 140215 milliseconds
+
+722
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 141387 milliseconds
+
+723
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 142665 milliseconds
+
+724
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 138969 milliseconds
+
+725
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 142532 milliseconds
+
+726
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 141925 milliseconds
+
+727
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 141020 milliseconds
+
+728
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 142750 milliseconds
+
+729
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 145563 milliseconds
+
+730
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 140603 milliseconds
+
+731
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 140203 milliseconds
+
+732
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 138273 milliseconds
+
+733
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 138250 milliseconds
+
+734
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 140143 milliseconds
+
+735
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 137945 milliseconds
+
+736
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 139064 milliseconds
+
+737
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 140007 milliseconds
+
+738
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 138803 milliseconds
+
+739
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 140434 milliseconds
+
+740
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 138551 milliseconds
+
+741
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 137581 milliseconds
+
+742
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 141022 milliseconds
+
+743
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 139327 milliseconds
+
+744
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 140688 milliseconds
+
+745
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 140554 milliseconds
+
+746
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 139248 milliseconds
+
+747
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 138251 milliseconds
+
+748
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 139127 milliseconds
+
+749
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 141346 milliseconds
+
+750
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 129232 milliseconds
+
+751
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 130129 milliseconds
+
+752
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 129069 milliseconds
+
+753
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 132149 milliseconds
+
+754
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 130197 milliseconds
+
+755
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 134150 milliseconds
+
+756
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 129874 milliseconds
+
+757
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 135474 milliseconds
+
+758
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 130067 milliseconds
+
+759
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 132015 milliseconds
+
+760
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 126260 milliseconds
+
+761
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 124604 milliseconds
+
+762
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 126587 milliseconds
+
+763
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 124863 milliseconds
+
+764
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 126659 milliseconds
+
+765
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 126492 milliseconds
+
+766
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 125643 milliseconds
+
+767
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 123957 milliseconds
+
+768
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 125892 milliseconds
+
+769
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 121701 milliseconds
+
+770
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 127515 milliseconds
+
+771
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 125063 milliseconds
+
+772
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 128262 milliseconds
+
+773
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 130328 milliseconds
+
+774
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 125207 milliseconds
+
+775
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 129747 milliseconds
+
+776
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 127706 milliseconds
+
+777
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 131290 milliseconds
+
+778
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 126767 milliseconds
+
+779
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 124367 milliseconds
+
+780
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 145746 milliseconds
+
+781
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 145745 milliseconds
+
+782
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 140599 milliseconds
+
+783
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 142989 milliseconds
+
+784
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 140369 milliseconds
+
+785
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 145096 milliseconds
+
+786
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 141847 milliseconds
+
+787
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 141022 milliseconds
+
+788
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 147843 milliseconds
+
+789
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 140487 milliseconds
+
+790
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 133829 milliseconds
+
+791
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 132855 milliseconds
+
+792
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 135540 milliseconds
+
+793
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 132367 milliseconds
+
+794
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 134652 milliseconds
+
+795
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 139058 milliseconds
+
+796
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 134487 milliseconds
+
+797
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 136047 milliseconds
+
+798
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 141724 milliseconds
+
+799
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 133427 milliseconds
+
+800
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 129564 milliseconds
+
+801
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 128266 milliseconds
+
+802
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 129211 milliseconds
+
+803
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 129669 milliseconds
+
+804
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 127590 milliseconds
+
+805
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 133361 milliseconds
+
+806
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 133221 milliseconds
+
+807
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 126003 milliseconds
+
+808
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 132001 milliseconds
+
+809
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 132635 milliseconds
+
+810
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 208041 milliseconds
+
+811
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 183300 milliseconds
+
+812
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 187936 milliseconds
+
+813
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 192841 milliseconds
+
+814
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 183153 milliseconds
+
+815
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 183181 milliseconds
+
+816
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 194549 milliseconds
+
+817
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 184914 milliseconds
+
+818
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 191049 milliseconds
+
+819
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 193616 milliseconds
+
+820
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 164092 milliseconds
+
+821
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 153321 milliseconds
+
+822
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 162794 milliseconds
+
+823
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 166097 milliseconds
+
+824
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 160911 milliseconds
+
+825
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 155329 milliseconds
+
+826
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 160894 milliseconds
+
+827
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 166315 milliseconds
+
+828
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 160769 milliseconds
+
+829
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 163294 milliseconds
+
+830
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 146895 milliseconds
+
+831
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 149418 milliseconds
+
+832
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 144499 milliseconds
+
+833
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 143541 milliseconds
+
+834
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 150241 milliseconds
+
+835
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 139224 milliseconds
+
+836
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 142328 milliseconds
+
+837
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 147575 milliseconds
+
+838
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 143832 milliseconds
+
+839
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 146468 milliseconds
+
+840
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 144897 milliseconds
+
+841
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 142244 milliseconds
+
+842
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 146472 milliseconds
+
+843
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 144270 milliseconds
+
+844
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 144044 milliseconds
+
+845
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 143903 milliseconds
+
+846
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 142985 milliseconds
+
+847
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 141926 milliseconds
+
+848
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 144345 milliseconds
+
+849
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 142101 milliseconds
+
+850
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 142537 milliseconds
+
+851
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 144719 milliseconds
+
+852
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 144447 milliseconds
+
+853
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 141512 milliseconds
+
+854
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 143336 milliseconds
+
+855
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 144630 milliseconds
+
+856
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 142823 milliseconds
+
+857
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 142998 milliseconds
+
+858
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 142642 milliseconds
+
+859
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 142312 milliseconds
+
+860
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 144085 milliseconds
+
+861
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 142045 milliseconds
+
+862
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 144273 milliseconds
+
+863
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 143800 milliseconds
+
+864
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 142787 milliseconds
+
+865
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 143119 milliseconds
+
+866
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 143737 milliseconds
+
+867
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 145011 milliseconds
+
+868
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 143025 milliseconds
+
+869
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 143086 milliseconds
+
+870
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 128714 milliseconds
+
+871
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 132504 milliseconds
+
+872
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 131041 milliseconds
+
+873
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 131974 milliseconds
+
+874
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 131002 milliseconds
+
+875
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 132126 milliseconds
+
+876
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 130432 milliseconds
+
+877
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 130383 milliseconds
+
+878
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 136277 milliseconds
+
+879
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 132829 milliseconds
+
+880
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 127154 milliseconds
+
+881
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 129404 milliseconds
+
+882
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 123917 milliseconds
+
+883
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 125190 milliseconds
+
+884
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 128689 milliseconds
+
+885
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 128669 milliseconds
+
+886
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 123934 milliseconds
+
+887
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 123795 milliseconds
+
+888
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 126632 milliseconds
+
+889
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 126969 milliseconds
+
+890
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 128756 milliseconds
+
+891
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 128205 milliseconds
+
+892
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 130015 milliseconds
+
+893
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 126225 milliseconds
+
+894
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 128377 milliseconds
+
+895
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 130141 milliseconds
+
+896
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 125981 milliseconds
+
+897
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 126037 milliseconds
+
+898
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 128198 milliseconds
+
+899
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 131738 milliseconds
+
+900
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 136628 milliseconds
+
+901
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 142641 milliseconds
+
+902
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 134170 milliseconds
+
+903
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 139410 milliseconds
+
+904
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 137174 milliseconds
+
+905
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 136990 milliseconds
+
+906
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 139324 milliseconds
+
+907
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 136234 milliseconds
+
+908
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 138203 milliseconds
+
+909
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 133986 milliseconds
+
+910
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 129976 milliseconds
+
+911
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 133108 milliseconds
+
+912
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 136967 milliseconds
+
+913
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 128032 milliseconds
+
+914
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 134762 milliseconds
+
+915
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 134459 milliseconds
+
+916
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 134166 milliseconds
+
+917
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 135330 milliseconds
+
+918
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 128279 milliseconds
+
+919
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 132912 milliseconds
+
+920
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 124774 milliseconds
+
+921
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 131544 milliseconds
+
+922
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 133174 milliseconds
+
+923
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 128258 milliseconds
+
+924
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 130569 milliseconds
+
+925
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 131751 milliseconds
+
+926
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 126985 milliseconds
+
+927
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 127826 milliseconds
+
+928
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 125776 milliseconds
+
+929
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 128128 milliseconds
+
+930
+128 delay
+Test 0 for TRMIKarma: 128 delay
+
+Time of execution: 172557 milliseconds
+
+931
+128 delay
+Test 1 for TRMIKarma: 128 delay
+
+Time of execution: 167256 milliseconds
+
+932
+128 delay
+Test 2 for TRMIKarma: 128 delay
+
+Time of execution: 182954 milliseconds
+
+933
+128 delay
+Test 3 for TRMIKarma: 128 delay
+
+Time of execution: 180397 milliseconds
+
+934
+128 delay
+Test 4 for TRMIKarma: 128 delay
+
+Time of execution: 181480 milliseconds
+
+935
+128 delay
+Test 5 for TRMIKarma: 128 delay
+
+Time of execution: 169066 milliseconds
+
+936
+128 delay
+Test 6 for TRMIKarma: 128 delay
+
+Time of execution: 174443 milliseconds
+
+937
+128 delay
+Test 7 for TRMIKarma: 128 delay
+
+Time of execution: 174218 milliseconds
+
+938
+128 delay
+Test 8 for TRMIKarma: 128 delay
+
+Time of execution: 176337 milliseconds
+
+939
+128 delay
+Test 9 for TRMIKarma: 128 delay
+
+Time of execution: 175658 milliseconds
+
+940
+256 delay
+Test 0 for TRMIKarma: 256 delay
+
+Time of execution: 142408 milliseconds
+
+941
+256 delay
+Test 1 for TRMIKarma: 256 delay
+
+Time of execution: 145845 milliseconds
+
+942
+256 delay
+Test 2 for TRMIKarma: 256 delay
+
+Time of execution: 150803 milliseconds
+
+943
+256 delay
+Test 3 for TRMIKarma: 256 delay
+
+Time of execution: 154512 milliseconds
+
+944
+256 delay
+Test 4 for TRMIKarma: 256 delay
+
+Time of execution: 150391 milliseconds
+
+945
+256 delay
+Test 5 for TRMIKarma: 256 delay
+
+Time of execution: 155007 milliseconds
+
+946
+256 delay
+Test 6 for TRMIKarma: 256 delay
+
+Time of execution: 153135 milliseconds
+
+947
+256 delay
+Test 7 for TRMIKarma: 256 delay
+
+Time of execution: 145500 milliseconds
+
+948
+256 delay
+Test 8 for TRMIKarma: 256 delay
+
+Time of execution: 141761 milliseconds
+
+949
+256 delay
+Test 9 for TRMIKarma: 256 delay
+
+Time of execution: 143521 milliseconds
+
+950
+512 delay
+Test 0 for TRMIKarma: 512 delay
+
+Time of execution: 139276 milliseconds
+
+951
+512 delay
+Test 1 for TRMIKarma: 512 delay
+
+Time of execution: 138298 milliseconds
+
+952
+512 delay
+Test 2 for TRMIKarma: 512 delay
+
+Time of execution: 142117 milliseconds
+
+953
+512 delay
+Test 3 for TRMIKarma: 512 delay
+
+Time of execution: 143006 milliseconds
+
+954
+512 delay
+Test 4 for TRMIKarma: 512 delay
+
+Time of execution: 136073 milliseconds
+
+955
+512 delay
+Test 5 for TRMIKarma: 512 delay
+
+Time of execution: 143529 milliseconds
+
+956
+512 delay
+Test 6 for TRMIKarma: 512 delay
+
+Time of execution: 141321 milliseconds
+
+957
+512 delay
+Test 7 for TRMIKarma: 512 delay
+
+Time of execution: 138627 milliseconds
+
+958
+512 delay
+Test 8 for TRMIKarma: 512 delay
+
+Time of execution: 138913 milliseconds
+
+959
+512 delay
+Test 9 for TRMIKarma: 512 delay
+
+Time of execution: 138658 milliseconds
+
+960
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:5
+[43.72, 35.88, 34.62, 37.01]
+CM PARAM CONFIG: 128 delay
+[44.15, 36.64, 34.11, 35.82]
+CM PARAM CONFIG: 256 delay
+[44.88, 36.99, 33.99, 35.23]
+CM PARAM CONFIG: 512 delay
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:5
+[44.13, 35.46, 34.12, 36.74]
+CM PARAM CONFIG: 128 delay
+[44.9, 36.51, 33.46, 35.75]
+CM PARAM CONFIG: 256 delay
+[45.74, 37.2, 33.76, 34.49]
+CM PARAM CONFIG: 512 delay
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:20
+[132.65, 107.36, 103.47, 118.73]
+CM PARAM CONFIG: 128 delay
+[131.07, 100.13, 92.9, 92.41]
+CM PARAM CONFIG: 256 delay
+[129.63, 99.74, 89.94, 88.99]
+CM PARAM CONFIG: 512 delay
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:20
+[137.07, 108.02, 102.75, 110.19]
+CM PARAM CONFIG: 128 delay
+[136.27, 102.15, 91.33, 88.2]
+CM PARAM CONFIG: 256 delay
+[135.39, 100.76, 87.3, 85.41]
+CM PARAM CONFIG: 512 delay
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:5
+[49.51, 47.84, 50.67, 58.73]
+CM PARAM CONFIG: 128 delay
+[51.91, 48.57, 50.35, 57.36]
+CM PARAM CONFIG: 256 delay
+[53.4, 49.66, 50.88, 57.04]
+CM PARAM CONFIG: 512 delay
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:5
+[49.37, 46.45, 49.83, 57.15]
+CM PARAM CONFIG: 128 delay
+[51.03, 47.87, 49.11, 56.21]
+CM PARAM CONFIG: 256 delay
+[52.93, 48.84, 49.63, 55.63]
+CM PARAM CONFIG: 512 delay
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:20
+[141.88, 131.24, 143.17, 190.26]
+CM PARAM CONFIG: 128 delay
+[139.37, 125.27, 135.4, 161.38]
+CM PARAM CONFIG: 256 delay
+[139.57, 127.63, 130.15, 145.4]
+CM PARAM CONFIG: 512 delay
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:20
+[143.72, 131.73, 137.48, 175.44]
+CM PARAM CONFIG: 128 delay
+[143.2, 126.44, 132.8, 148.29]
+CM PARAM CONFIG: 256 delay
+[143.5, 128.37, 128.88, 139.98]
+CM PARAM CONFIG: 512 delay
+8

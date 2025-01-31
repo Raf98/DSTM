@@ -1,0 +1,6784 @@
+['generate_plots_cms_params.py', 'polka']
+8
+960
+960
+960
+960
+['128 MIN_DELAY', '256 MIN_DELAY', '512 MIN_DELAY']
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43540 milliseconds
+
+1
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43005 milliseconds
+
+2
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44282 milliseconds
+
+3
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43436 milliseconds
+
+4
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43390 milliseconds
+
+5
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43035 milliseconds
+
+6
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 42789 milliseconds
+
+7
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43792 milliseconds
+
+8
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43188 milliseconds
+
+9
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43698 milliseconds
+
+10
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44589 milliseconds
+
+11
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 43923 milliseconds
+
+12
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 43811 milliseconds
+
+13
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 43651 milliseconds
+
+14
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44363 milliseconds
+
+15
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 43594 milliseconds
+
+16
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 45222 milliseconds
+
+17
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 43292 milliseconds
+
+18
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44469 milliseconds
+
+19
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44555 milliseconds
+
+20
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45803 milliseconds
+
+21
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45083 milliseconds
+
+22
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 44157 milliseconds
+
+23
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 44543 milliseconds
+
+24
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45228 milliseconds
+
+25
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45141 milliseconds
+
+26
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 46425 milliseconds
+
+27
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45101 milliseconds
+
+28
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 43421 milliseconds
+
+29
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 43859 milliseconds
+
+30
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35931 milliseconds
+
+31
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36314 milliseconds
+
+32
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36666 milliseconds
+
+33
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35933 milliseconds
+
+34
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35413 milliseconds
+
+35
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35752 milliseconds
+
+36
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35196 milliseconds
+
+37
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35485 milliseconds
+
+38
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35670 milliseconds
+
+39
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36190 milliseconds
+
+40
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36747 milliseconds
+
+41
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35967 milliseconds
+
+42
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 37298 milliseconds
+
+43
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35378 milliseconds
+
+44
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36980 milliseconds
+
+45
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35668 milliseconds
+
+46
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 37222 milliseconds
+
+47
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36126 milliseconds
+
+48
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36366 milliseconds
+
+49
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36109 milliseconds
+
+50
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36479 milliseconds
+
+51
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37825 milliseconds
+
+52
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37594 milliseconds
+
+53
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36363 milliseconds
+
+54
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36820 milliseconds
+
+55
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36887 milliseconds
+
+56
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 38710 milliseconds
+
+57
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37848 milliseconds
+
+58
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37274 milliseconds
+
+59
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37931 milliseconds
+
+60
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34145 milliseconds
+
+61
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36136 milliseconds
+
+62
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34200 milliseconds
+
+63
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34891 milliseconds
+
+64
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 33855 milliseconds
+
+65
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34435 milliseconds
+
+66
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34273 milliseconds
+
+67
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35361 milliseconds
+
+68
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34778 milliseconds
+
+69
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35319 milliseconds
+
+70
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34586 milliseconds
+
+71
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 33454 milliseconds
+
+72
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 33492 milliseconds
+
+73
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34455 milliseconds
+
+74
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35371 milliseconds
+
+75
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34715 milliseconds
+
+76
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34515 milliseconds
+
+77
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34495 milliseconds
+
+78
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 33430 milliseconds
+
+79
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34789 milliseconds
+
+80
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 32984 milliseconds
+
+81
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34469 milliseconds
+
+82
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34929 milliseconds
+
+83
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34728 milliseconds
+
+84
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34914 milliseconds
+
+85
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33625 milliseconds
+
+86
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34927 milliseconds
+
+87
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34596 milliseconds
+
+88
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33687 milliseconds
+
+89
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35366 milliseconds
+
+90
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36658 milliseconds
+
+91
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36623 milliseconds
+
+92
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36582 milliseconds
+
+93
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36594 milliseconds
+
+94
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 38472 milliseconds
+
+95
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 37675 milliseconds
+
+96
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 38122 milliseconds
+
+97
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 37458 milliseconds
+
+98
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36255 milliseconds
+
+99
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34877 milliseconds
+
+100
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35128 milliseconds
+
+101
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34943 milliseconds
+
+102
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35739 milliseconds
+
+103
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36748 milliseconds
+
+104
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35904 milliseconds
+
+105
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35705 milliseconds
+
+106
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 37819 milliseconds
+
+107
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 38375 milliseconds
+
+108
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34936 milliseconds
+
+109
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35565 milliseconds
+
+110
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35094 milliseconds
+
+111
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35653 milliseconds
+
+112
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35025 milliseconds
+
+113
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33311 milliseconds
+
+114
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35128 milliseconds
+
+115
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36067 milliseconds
+
+116
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35201 milliseconds
+
+117
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34981 milliseconds
+
+118
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34862 milliseconds
+
+119
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36049 milliseconds
+
+120
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44201 milliseconds
+
+121
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44598 milliseconds
+
+122
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44028 milliseconds
+
+123
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44209 milliseconds
+
+124
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44389 milliseconds
+
+125
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43918 milliseconds
+
+126
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44130 milliseconds
+
+127
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 44263 milliseconds
+
+128
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43965 milliseconds
+
+129
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 43700 milliseconds
+
+130
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44582 milliseconds
+
+131
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 45079 milliseconds
+
+132
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44855 milliseconds
+
+133
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44075 milliseconds
+
+134
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 45122 milliseconds
+
+135
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 45365 milliseconds
+
+136
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44849 milliseconds
+
+137
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44454 milliseconds
+
+138
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 44398 milliseconds
+
+139
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 45487 milliseconds
+
+140
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 46414 milliseconds
+
+141
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45286 milliseconds
+
+142
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45285 milliseconds
+
+143
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45720 milliseconds
+
+144
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 44518 milliseconds
+
+145
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 46009 milliseconds
+
+146
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45164 milliseconds
+
+147
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45517 milliseconds
+
+148
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 45064 milliseconds
+
+149
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 46090 milliseconds
+
+150
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35563 milliseconds
+
+151
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35972 milliseconds
+
+152
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36214 milliseconds
+
+153
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35321 milliseconds
+
+154
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35761 milliseconds
+
+155
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35120 milliseconds
+
+156
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35836 milliseconds
+
+157
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36382 milliseconds
+
+158
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35235 milliseconds
+
+159
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36743 milliseconds
+
+160
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35903 milliseconds
+
+161
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36817 milliseconds
+
+162
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36117 milliseconds
+
+163
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36869 milliseconds
+
+164
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36130 milliseconds
+
+165
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 37501 milliseconds
+
+166
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36353 milliseconds
+
+167
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36113 milliseconds
+
+168
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36045 milliseconds
+
+169
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35467 milliseconds
+
+170
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36283 milliseconds
+
+171
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37173 milliseconds
+
+172
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36192 milliseconds
+
+173
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 38016 milliseconds
+
+174
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36664 milliseconds
+
+175
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37910 milliseconds
+
+176
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 36484 milliseconds
+
+177
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37789 milliseconds
+
+178
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37888 milliseconds
+
+179
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 37255 milliseconds
+
+180
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36001 milliseconds
+
+181
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35523 milliseconds
+
+182
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34962 milliseconds
+
+183
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 33041 milliseconds
+
+184
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35199 milliseconds
+
+185
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35693 milliseconds
+
+186
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36291 milliseconds
+
+187
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34482 milliseconds
+
+188
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 33771 milliseconds
+
+189
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 34053 milliseconds
+
+190
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 33399 milliseconds
+
+191
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35349 milliseconds
+
+192
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34722 milliseconds
+
+193
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34073 milliseconds
+
+194
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35012 milliseconds
+
+195
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 33864 milliseconds
+
+196
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34485 milliseconds
+
+197
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35201 milliseconds
+
+198
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35477 milliseconds
+
+199
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34266 milliseconds
+
+200
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34403 milliseconds
+
+201
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33929 milliseconds
+
+202
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34369 milliseconds
+
+203
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33868 milliseconds
+
+204
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35483 milliseconds
+
+205
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35970 milliseconds
+
+206
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 31755 milliseconds
+
+207
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34184 milliseconds
+
+208
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35146 milliseconds
+
+209
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 32830 milliseconds
+
+210
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 37058 milliseconds
+
+211
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 37811 milliseconds
+
+212
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36968 milliseconds
+
+213
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36638 milliseconds
+
+214
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35877 milliseconds
+
+215
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35740 milliseconds
+
+216
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36937 milliseconds
+
+217
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 37461 milliseconds
+
+218
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 36940 milliseconds
+
+219
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 35382 milliseconds
+
+220
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36044 milliseconds
+
+221
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35860 milliseconds
+
+222
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35507 milliseconds
+
+223
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36104 milliseconds
+
+224
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35960 milliseconds
+
+225
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 37004 milliseconds
+
+226
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35265 milliseconds
+
+227
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 36625 milliseconds
+
+228
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 35383 milliseconds
+
+229
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 34848 milliseconds
+
+230
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33621 milliseconds
+
+231
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33755 milliseconds
+
+232
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33628 milliseconds
+
+233
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35229 milliseconds
+
+234
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34919 milliseconds
+
+235
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 35021 milliseconds
+
+236
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34444 milliseconds
+
+237
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34255 milliseconds
+
+238
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 34688 milliseconds
+
+239
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 33749 milliseconds
+
+240
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130771 milliseconds
+
+241
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 131466 milliseconds
+
+242
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 132288 milliseconds
+
+243
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 132199 milliseconds
+
+244
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133628 milliseconds
+
+245
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 132552 milliseconds
+
+246
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 132088 milliseconds
+
+247
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133576 milliseconds
+
+248
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133472 milliseconds
+
+249
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 131516 milliseconds
+
+250
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 130762 milliseconds
+
+251
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 131166 milliseconds
+
+252
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 132887 milliseconds
+
+253
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 129919 milliseconds
+
+254
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 129465 milliseconds
+
+255
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 131410 milliseconds
+
+256
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 132132 milliseconds
+
+257
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 131793 milliseconds
+
+258
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 130854 milliseconds
+
+259
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 131534 milliseconds
+
+260
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130571 milliseconds
+
+261
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129988 milliseconds
+
+262
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129692 milliseconds
+
+263
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131231 milliseconds
+
+264
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129712 milliseconds
+
+265
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131116 milliseconds
+
+266
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131291 milliseconds
+
+267
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130790 milliseconds
+
+268
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129485 milliseconds
+
+269
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130589 milliseconds
+
+270
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107663 milliseconds
+
+271
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107422 milliseconds
+
+272
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107525 milliseconds
+
+273
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106700 milliseconds
+
+274
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106797 milliseconds
+
+275
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 108267 milliseconds
+
+276
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106251 milliseconds
+
+277
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 105950 milliseconds
+
+278
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106894 milliseconds
+
+279
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106917 milliseconds
+
+280
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102464 milliseconds
+
+281
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 98923 milliseconds
+
+282
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 103357 milliseconds
+
+283
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 98120 milliseconds
+
+284
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102141 milliseconds
+
+285
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100874 milliseconds
+
+286
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 98943 milliseconds
+
+287
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 101098 milliseconds
+
+288
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 99285 milliseconds
+
+289
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 99668 milliseconds
+
+290
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 98630 milliseconds
+
+291
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100862 milliseconds
+
+292
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100623 milliseconds
+
+293
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100381 milliseconds
+
+294
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 101350 milliseconds
+
+295
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 98689 milliseconds
+
+296
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100694 milliseconds
+
+297
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 99534 milliseconds
+
+298
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 97214 milliseconds
+
+299
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 99961 milliseconds
+
+300
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 108241 milliseconds
+
+301
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 108482 milliseconds
+
+302
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 110430 milliseconds
+
+303
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 111400 milliseconds
+
+304
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106666 milliseconds
+
+305
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 109253 milliseconds
+
+306
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106286 milliseconds
+
+307
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106001 milliseconds
+
+308
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 109869 milliseconds
+
+309
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 105937 milliseconds
+
+310
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93873 milliseconds
+
+311
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 92235 milliseconds
+
+312
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94601 milliseconds
+
+313
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96017 milliseconds
+
+314
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96415 milliseconds
+
+315
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94823 milliseconds
+
+316
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 92593 milliseconds
+
+317
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100127 milliseconds
+
+318
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94913 milliseconds
+
+319
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96589 milliseconds
+
+320
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 89021 milliseconds
+
+321
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87094 milliseconds
+
+322
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 92907 milliseconds
+
+323
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 90488 milliseconds
+
+324
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87451 milliseconds
+
+325
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88226 milliseconds
+
+326
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 89830 milliseconds
+
+327
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 92105 milliseconds
+
+328
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87320 milliseconds
+
+329
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 90573 milliseconds
+
+330
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 122812 milliseconds
+
+331
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 120295 milliseconds
+
+332
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 125604 milliseconds
+
+333
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 122013 milliseconds
+
+334
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 122515 milliseconds
+
+335
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 126262 milliseconds
+
+336
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 120473 milliseconds
+
+337
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 119900 milliseconds
+
+338
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 125211 milliseconds
+
+339
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 119723 milliseconds
+
+340
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102486 milliseconds
+
+341
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100936 milliseconds
+
+342
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96349 milliseconds
+
+343
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 98666 milliseconds
+
+344
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96340 milliseconds
+
+345
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 97835 milliseconds
+
+346
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 96357 milliseconds
+
+347
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94159 milliseconds
+
+348
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 92306 milliseconds
+
+349
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 104785 milliseconds
+
+350
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91357 milliseconds
+
+351
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91334 milliseconds
+
+352
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91862 milliseconds
+
+353
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87962 milliseconds
+
+354
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 94258 milliseconds
+
+355
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91635 milliseconds
+
+356
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91709 milliseconds
+
+357
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 92312 milliseconds
+
+358
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 95153 milliseconds
+
+359
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 92355 milliseconds
+
+360
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 137138 milliseconds
+
+361
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 135205 milliseconds
+
+362
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 136986 milliseconds
+
+363
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 136753 milliseconds
+
+364
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 135144 milliseconds
+
+365
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 134884 milliseconds
+
+366
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 136806 milliseconds
+
+367
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 137456 milliseconds
+
+368
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 135850 milliseconds
+
+369
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 134336 milliseconds
+
+370
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135457 milliseconds
+
+371
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136468 milliseconds
+
+372
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 137565 milliseconds
+
+373
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136588 milliseconds
+
+374
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135758 milliseconds
+
+375
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136676 milliseconds
+
+376
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136750 milliseconds
+
+377
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 137248 milliseconds
+
+378
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136064 milliseconds
+
+379
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135472 milliseconds
+
+380
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 133202 milliseconds
+
+381
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134991 milliseconds
+
+382
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 136260 milliseconds
+
+383
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134343 milliseconds
+
+384
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134969 milliseconds
+
+385
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 135510 milliseconds
+
+386
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134310 milliseconds
+
+387
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134172 milliseconds
+
+388
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 136265 milliseconds
+
+389
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 135112 milliseconds
+
+390
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107170 milliseconds
+
+391
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107307 milliseconds
+
+392
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106631 milliseconds
+
+393
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 108766 milliseconds
+
+394
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 105090 milliseconds
+
+395
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107462 milliseconds
+
+396
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106478 milliseconds
+
+397
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 109469 milliseconds
+
+398
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106117 milliseconds
+
+399
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 109108 milliseconds
+
+400
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102010 milliseconds
+
+401
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102839 milliseconds
+
+402
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 103353 milliseconds
+
+403
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102220 milliseconds
+
+404
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100289 milliseconds
+
+405
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100705 milliseconds
+
+406
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102206 milliseconds
+
+407
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 104839 milliseconds
+
+408
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 100244 milliseconds
+
+409
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 102388 milliseconds
+
+410
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 101012 milliseconds
+
+411
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100322 milliseconds
+
+412
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 101852 milliseconds
+
+413
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 99003 milliseconds
+
+414
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 99696 milliseconds
+
+415
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 98146 milliseconds
+
+416
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100269 milliseconds
+
+417
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 102557 milliseconds
+
+418
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 100504 milliseconds
+
+419
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 101224 milliseconds
+
+420
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 100835 milliseconds
+
+421
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107203 milliseconds
+
+422
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 105302 milliseconds
+
+423
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 105360 milliseconds
+
+424
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106304 milliseconds
+
+425
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 107625 milliseconds
+
+426
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 103178 milliseconds
+
+427
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 97426 milliseconds
+
+428
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 106248 milliseconds
+
+429
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 103357 milliseconds
+
+430
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94483 milliseconds
+
+431
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94900 milliseconds
+
+432
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 94159 milliseconds
+
+433
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93388 milliseconds
+
+434
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 90668 milliseconds
+
+435
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93018 milliseconds
+
+436
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 89459 milliseconds
+
+437
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93283 milliseconds
+
+438
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 90929 milliseconds
+
+439
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93984 milliseconds
+
+440
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88023 milliseconds
+
+441
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 86248 milliseconds
+
+442
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87924 milliseconds
+
+443
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 86907 milliseconds
+
+444
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 87504 milliseconds
+
+445
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 89556 milliseconds
+
+446
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 89469 milliseconds
+
+447
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 85543 milliseconds
+
+448
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 90431 milliseconds
+
+449
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88350 milliseconds
+
+450
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 114453 milliseconds
+
+451
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 113565 milliseconds
+
+452
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 114374 milliseconds
+
+453
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 112964 milliseconds
+
+454
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 117679 milliseconds
+
+455
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 116314 milliseconds
+
+456
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 111322 milliseconds
+
+457
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 118977 milliseconds
+
+458
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 116141 milliseconds
+
+459
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 116607 milliseconds
+
+460
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93285 milliseconds
+
+461
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93112 milliseconds
+
+462
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 92658 milliseconds
+
+463
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 91126 milliseconds
+
+464
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 99373 milliseconds
+
+465
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93175 milliseconds
+
+466
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 93428 milliseconds
+
+467
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 95899 milliseconds
+
+468
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 89945 milliseconds
+
+469
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 91424 milliseconds
+
+470
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91103 milliseconds
+
+471
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 90826 milliseconds
+
+472
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 91421 milliseconds
+
+473
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88832 milliseconds
+
+474
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88939 milliseconds
+
+475
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 86416 milliseconds
+
+476
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 90688 milliseconds
+
+477
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 88720 milliseconds
+
+478
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 89499 milliseconds
+
+479
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 86953 milliseconds
+
+480
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49109 milliseconds
+
+481
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49613 milliseconds
+
+482
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49668 milliseconds
+
+483
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49357 milliseconds
+
+484
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49891 milliseconds
+
+485
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49355 milliseconds
+
+486
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49172 milliseconds
+
+487
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48962 milliseconds
+
+488
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49180 milliseconds
+
+489
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49637 milliseconds
+
+490
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50335 milliseconds
+
+491
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50170 milliseconds
+
+492
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 52682 milliseconds
+
+493
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50850 milliseconds
+
+494
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50944 milliseconds
+
+495
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51807 milliseconds
+
+496
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51943 milliseconds
+
+497
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 53119 milliseconds
+
+498
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51541 milliseconds
+
+499
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51756 milliseconds
+
+500
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53760 milliseconds
+
+501
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53615 milliseconds
+
+502
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54058 milliseconds
+
+503
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53451 milliseconds
+
+504
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53766 milliseconds
+
+505
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53961 milliseconds
+
+506
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53639 milliseconds
+
+507
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52777 milliseconds
+
+508
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51787 milliseconds
+
+509
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51910 milliseconds
+
+510
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49041 milliseconds
+
+511
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47475 milliseconds
+
+512
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49388 milliseconds
+
+513
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46925 milliseconds
+
+514
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47416 milliseconds
+
+515
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46481 milliseconds
+
+516
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48368 milliseconds
+
+517
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47318 milliseconds
+
+518
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47604 milliseconds
+
+519
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47380 milliseconds
+
+520
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49862 milliseconds
+
+521
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50050 milliseconds
+
+522
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48101 milliseconds
+
+523
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49647 milliseconds
+
+524
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 46528 milliseconds
+
+525
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49637 milliseconds
+
+526
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47174 milliseconds
+
+527
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49859 milliseconds
+
+528
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48778 milliseconds
+
+529
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49012 milliseconds
+
+530
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51144 milliseconds
+
+531
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49056 milliseconds
+
+532
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48752 milliseconds
+
+533
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49940 milliseconds
+
+534
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50677 milliseconds
+
+535
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50357 milliseconds
+
+536
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50327 milliseconds
+
+537
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49613 milliseconds
+
+538
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51289 milliseconds
+
+539
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50274 milliseconds
+
+540
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51724 milliseconds
+
+541
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49321 milliseconds
+
+542
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51312 milliseconds
+
+543
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50641 milliseconds
+
+544
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 52945 milliseconds
+
+545
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51252 milliseconds
+
+546
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51323 milliseconds
+
+547
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51008 milliseconds
+
+548
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50948 milliseconds
+
+549
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50819 milliseconds
+
+550
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50455 milliseconds
+
+551
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51386 milliseconds
+
+552
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49837 milliseconds
+
+553
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50294 milliseconds
+
+554
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49537 milliseconds
+
+555
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50565 milliseconds
+
+556
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50427 milliseconds
+
+557
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51039 milliseconds
+
+558
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50837 milliseconds
+
+559
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51130 milliseconds
+
+560
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51726 milliseconds
+
+561
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50484 milliseconds
+
+562
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48489 milliseconds
+
+563
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50682 milliseconds
+
+564
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51653 milliseconds
+
+565
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52259 milliseconds
+
+566
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51825 milliseconds
+
+567
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50930 milliseconds
+
+568
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50632 milliseconds
+
+569
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49815 milliseconds
+
+570
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 58838 milliseconds
+
+571
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 60746 milliseconds
+
+572
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 60205 milliseconds
+
+573
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 59321 milliseconds
+
+574
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 60500 milliseconds
+
+575
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 59311 milliseconds
+
+576
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 58422 milliseconds
+
+577
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 60335 milliseconds
+
+578
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 58728 milliseconds
+
+579
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 60769 milliseconds
+
+580
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 58919 milliseconds
+
+581
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 55369 milliseconds
+
+582
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 55785 milliseconds
+
+583
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 57243 milliseconds
+
+584
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 54913 milliseconds
+
+585
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56903 milliseconds
+
+586
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56568 milliseconds
+
+587
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 55849 milliseconds
+
+588
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56741 milliseconds
+
+589
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56924 milliseconds
+
+590
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 55556 milliseconds
+
+591
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 57960 milliseconds
+
+592
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 55335 milliseconds
+
+593
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 56258 milliseconds
+
+594
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 56434 milliseconds
+
+595
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54258 milliseconds
+
+596
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 55354 milliseconds
+
+597
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 56691 milliseconds
+
+598
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 55775 milliseconds
+
+599
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54217 milliseconds
+
+600
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49584 milliseconds
+
+601
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49072 milliseconds
+
+602
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49553 milliseconds
+
+603
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48693 milliseconds
+
+604
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49849 milliseconds
+
+605
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48401 milliseconds
+
+606
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48389 milliseconds
+
+607
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49738 milliseconds
+
+608
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49322 milliseconds
+
+609
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50481 milliseconds
+
+610
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50780 milliseconds
+
+611
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50763 milliseconds
+
+612
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50501 milliseconds
+
+613
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51565 milliseconds
+
+614
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50377 milliseconds
+
+615
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50243 milliseconds
+
+616
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51827 milliseconds
+
+617
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51623 milliseconds
+
+618
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 51982 milliseconds
+
+619
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50679 milliseconds
+
+620
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51557 milliseconds
+
+621
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51040 milliseconds
+
+622
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54482 milliseconds
+
+623
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52234 milliseconds
+
+624
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53173 milliseconds
+
+625
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52993 milliseconds
+
+626
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52058 milliseconds
+
+627
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53124 milliseconds
+
+628
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53117 milliseconds
+
+629
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53023 milliseconds
+
+630
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47058 milliseconds
+
+631
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46583 milliseconds
+
+632
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46283 milliseconds
+
+633
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47482 milliseconds
+
+634
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 45791 milliseconds
+
+635
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 47279 milliseconds
+
+636
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46022 milliseconds
+
+637
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46218 milliseconds
+
+638
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 46386 milliseconds
+
+639
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 45946 milliseconds
+
+640
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47349 milliseconds
+
+641
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49632 milliseconds
+
+642
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48818 milliseconds
+
+643
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 46227 milliseconds
+
+644
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47510 milliseconds
+
+645
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47225 milliseconds
+
+646
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47602 milliseconds
+
+647
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48681 milliseconds
+
+648
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 46518 milliseconds
+
+649
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 46964 milliseconds
+
+650
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49080 milliseconds
+
+651
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49069 milliseconds
+
+652
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50023 milliseconds
+
+653
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48512 milliseconds
+
+654
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49887 milliseconds
+
+655
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48766 milliseconds
+
+656
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49667 milliseconds
+
+657
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49114 milliseconds
+
+658
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48897 milliseconds
+
+659
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48985 milliseconds
+
+660
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50885 milliseconds
+
+661
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49013 milliseconds
+
+662
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 48260 milliseconds
+
+663
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50480 milliseconds
+
+664
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49939 milliseconds
+
+665
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49752 milliseconds
+
+666
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51293 milliseconds
+
+667
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 50734 milliseconds
+
+668
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 51322 milliseconds
+
+669
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 49449 milliseconds
+
+670
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48919 milliseconds
+
+671
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49769 milliseconds
+
+672
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 50125 milliseconds
+
+673
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49439 milliseconds
+
+674
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49059 milliseconds
+
+675
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48975 milliseconds
+
+676
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 47941 milliseconds
+
+677
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 48320 milliseconds
+
+678
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49904 milliseconds
+
+679
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 49671 milliseconds
+
+680
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48786 milliseconds
+
+681
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51247 milliseconds
+
+682
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49305 milliseconds
+
+683
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49699 milliseconds
+
+684
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 49305 milliseconds
+
+685
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 47523 milliseconds
+
+686
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48309 milliseconds
+
+687
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48883 milliseconds
+
+688
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 48830 milliseconds
+
+689
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 50058 milliseconds
+
+690
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 56563 milliseconds
+
+691
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 57700 milliseconds
+
+692
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 58419 milliseconds
+
+693
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 56332 milliseconds
+
+694
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 57425 milliseconds
+
+695
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 57545 milliseconds
+
+696
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 57261 milliseconds
+
+697
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 59100 milliseconds
+
+698
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 57805 milliseconds
+
+699
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 56378 milliseconds
+
+700
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56101 milliseconds
+
+701
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56219 milliseconds
+
+702
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 57711 milliseconds
+
+703
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 56590 milliseconds
+
+704
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 57283 milliseconds
+
+705
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 54935 milliseconds
+
+706
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 55086 milliseconds
+
+707
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 57722 milliseconds
+
+708
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 54628 milliseconds
+
+709
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 55985 milliseconds
+
+710
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 52938 milliseconds
+
+711
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54123 milliseconds
+
+712
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54148 milliseconds
+
+713
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 55273 milliseconds
+
+714
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54176 milliseconds
+
+715
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53276 milliseconds
+
+716
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 51621 milliseconds
+
+717
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 54984 milliseconds
+
+718
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 56499 milliseconds
+
+719
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 53686 milliseconds
+
+720
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 140634 milliseconds
+
+721
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 138293 milliseconds
+
+722
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 139487 milliseconds
+
+723
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141755 milliseconds
+
+724
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141559 milliseconds
+
+725
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 139242 milliseconds
+
+726
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141838 milliseconds
+
+727
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 138103 milliseconds
+
+728
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 137929 milliseconds
+
+729
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 139693 milliseconds
+
+730
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 140380 milliseconds
+
+731
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 139439 milliseconds
+
+732
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 140584 milliseconds
+
+733
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 139068 milliseconds
+
+734
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 139187 milliseconds
+
+735
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 139383 milliseconds
+
+736
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 138633 milliseconds
+
+737
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 139250 milliseconds
+
+738
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 141212 milliseconds
+
+739
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 140747 milliseconds
+
+740
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141163 milliseconds
+
+741
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 139343 milliseconds
+
+742
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 139456 milliseconds
+
+743
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 139051 milliseconds
+
+744
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141379 milliseconds
+
+745
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 140406 milliseconds
+
+746
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141489 milliseconds
+
+747
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 142159 milliseconds
+
+748
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141427 milliseconds
+
+749
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 140237 milliseconds
+
+750
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130906 milliseconds
+
+751
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130549 milliseconds
+
+752
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 129458 milliseconds
+
+753
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130697 milliseconds
+
+754
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 131417 milliseconds
+
+755
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130035 milliseconds
+
+756
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 131801 milliseconds
+
+757
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133574 milliseconds
+
+758
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133085 milliseconds
+
+759
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 130562 milliseconds
+
+760
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 126199 milliseconds
+
+761
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 124630 milliseconds
+
+762
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 130397 milliseconds
+
+763
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 124985 milliseconds
+
+764
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 129029 milliseconds
+
+765
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 119699 milliseconds
+
+766
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 126519 milliseconds
+
+767
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 129864 milliseconds
+
+768
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 123680 milliseconds
+
+769
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 125812 milliseconds
+
+770
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 125400 milliseconds
+
+771
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 127251 milliseconds
+
+772
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131065 milliseconds
+
+773
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 126364 milliseconds
+
+774
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129008 milliseconds
+
+775
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 127404 milliseconds
+
+776
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129798 milliseconds
+
+777
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130017 milliseconds
+
+778
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128389 milliseconds
+
+779
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128565 milliseconds
+
+780
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 152352 milliseconds
+
+781
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142499 milliseconds
+
+782
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143243 milliseconds
+
+783
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 148328 milliseconds
+
+784
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 151698 milliseconds
+
+785
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143320 milliseconds
+
+786
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 151810 milliseconds
+
+787
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142762 milliseconds
+
+788
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 150038 milliseconds
+
+789
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 145404 milliseconds
+
+790
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135820 milliseconds
+
+791
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134142 milliseconds
+
+792
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136092 milliseconds
+
+793
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136502 milliseconds
+
+794
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 133834 milliseconds
+
+795
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135577 milliseconds
+
+796
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 133867 milliseconds
+
+797
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 136176 milliseconds
+
+798
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 135143 milliseconds
+
+799
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134839 milliseconds
+
+800
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134439 milliseconds
+
+801
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 137513 milliseconds
+
+802
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129471 milliseconds
+
+803
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 137835 milliseconds
+
+804
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131487 milliseconds
+
+805
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 131206 milliseconds
+
+806
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 135139 milliseconds
+
+807
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128877 milliseconds
+
+808
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 135259 milliseconds
+
+809
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129781 milliseconds
+
+810
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 211008 milliseconds
+
+811
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 210677 milliseconds
+
+812
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 213204 milliseconds
+
+813
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 204822 milliseconds
+
+814
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 198587 milliseconds
+
+815
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 209658 milliseconds
+
+816
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 211992 milliseconds
+
+817
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 209654 milliseconds
+
+818
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 213267 milliseconds
+
+819
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 202643 milliseconds
+
+820
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 168126 milliseconds
+
+821
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 169043 milliseconds
+
+822
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 162762 milliseconds
+
+823
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 162343 milliseconds
+
+824
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 165678 milliseconds
+
+825
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 173124 milliseconds
+
+826
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 169374 milliseconds
+
+827
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 165234 milliseconds
+
+828
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 167927 milliseconds
+
+829
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 170675 milliseconds
+
+830
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 153634 milliseconds
+
+831
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 148277 milliseconds
+
+832
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 149844 milliseconds
+
+833
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 149303 milliseconds
+
+834
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 146898 milliseconds
+
+835
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 155024 milliseconds
+
+836
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 146679 milliseconds
+
+837
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 145818 milliseconds
+
+838
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 153464 milliseconds
+
+839
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 156161 milliseconds
+
+840
+2
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141325 milliseconds
+
+841
+2
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142396 milliseconds
+
+842
+2
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142972 milliseconds
+
+843
+2
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143819 milliseconds
+
+844
+2
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141722 milliseconds
+
+845
+2
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143640 milliseconds
+
+846
+2
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141413 milliseconds
+
+847
+2
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142022 milliseconds
+
+848
+2
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 142538 milliseconds
+
+849
+2
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143257 milliseconds
+
+850
+2
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 141304 milliseconds
+
+851
+2
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 143580 milliseconds
+
+852
+2
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 142839 milliseconds
+
+853
+2
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 142533 milliseconds
+
+854
+2
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 143842 milliseconds
+
+855
+2
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 140160 milliseconds
+
+856
+2
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 141374 milliseconds
+
+857
+2
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 143808 milliseconds
+
+858
+2
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 141664 milliseconds
+
+859
+2
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 141703 milliseconds
+
+860
+2
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143941 milliseconds
+
+861
+2
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 142593 milliseconds
+
+862
+2
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141052 milliseconds
+
+863
+2
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143419 milliseconds
+
+864
+2
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144808 milliseconds
+
+865
+2
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144107 milliseconds
+
+866
+2
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144769 milliseconds
+
+867
+2
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143229 milliseconds
+
+868
+2
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143093 milliseconds
+
+869
+2
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144577 milliseconds
+
+870
+4
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128356 milliseconds
+
+871
+4
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128907 milliseconds
+
+872
+4
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128418 milliseconds
+
+873
+4
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128473 milliseconds
+
+874
+4
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 129898 milliseconds
+
+875
+4
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128011 milliseconds
+
+876
+4
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 128394 milliseconds
+
+877
+4
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 129749 milliseconds
+
+878
+4
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 129150 milliseconds
+
+879
+4
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 133266 milliseconds
+
+880
+4
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 125456 milliseconds
+
+881
+4
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 125837 milliseconds
+
+882
+4
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 127193 milliseconds
+
+883
+4
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 126900 milliseconds
+
+884
+4
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 122831 milliseconds
+
+885
+4
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 124737 milliseconds
+
+886
+4
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 126403 milliseconds
+
+887
+4
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 125057 milliseconds
+
+888
+4
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 126863 milliseconds
+
+889
+4
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 127804 milliseconds
+
+890
+4
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 124300 milliseconds
+
+891
+4
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128760 milliseconds
+
+892
+4
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 122775 milliseconds
+
+893
+4
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 126327 milliseconds
+
+894
+4
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130421 milliseconds
+
+895
+4
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 126690 milliseconds
+
+896
+4
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 127636 milliseconds
+
+897
+4
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128340 milliseconds
+
+898
+4
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129512 milliseconds
+
+899
+4
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130744 milliseconds
+
+900
+8
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141304 milliseconds
+
+901
+8
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141794 milliseconds
+
+902
+8
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141910 milliseconds
+
+903
+8
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141108 milliseconds
+
+904
+8
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143242 milliseconds
+
+905
+8
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143172 milliseconds
+
+906
+8
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 138787 milliseconds
+
+907
+8
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 141521 milliseconds
+
+908
+8
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 146585 milliseconds
+
+909
+8
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 143108 milliseconds
+
+910
+8
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 138690 milliseconds
+
+911
+8
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 133661 milliseconds
+
+912
+8
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 140982 milliseconds
+
+913
+8
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134023 milliseconds
+
+914
+8
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134646 milliseconds
+
+915
+8
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134044 milliseconds
+
+916
+8
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 130119 milliseconds
+
+917
+8
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 130216 milliseconds
+
+918
+8
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134765 milliseconds
+
+919
+8
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 134953 milliseconds
+
+920
+8
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 133163 milliseconds
+
+921
+8
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 130895 milliseconds
+
+922
+8
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 127382 milliseconds
+
+923
+8
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 126793 milliseconds
+
+924
+8
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 128319 milliseconds
+
+925
+8
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 132525 milliseconds
+
+926
+8
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 134012 milliseconds
+
+927
+8
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 129205 milliseconds
+
+928
+8
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 132324 milliseconds
+
+929
+8
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 124142 milliseconds
+
+930
+16
+128 MIN_DELAY
+Test 0 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 189596 milliseconds
+
+931
+16
+128 MIN_DELAY
+Test 1 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 189027 milliseconds
+
+932
+16
+128 MIN_DELAY
+Test 2 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 184985 milliseconds
+
+933
+16
+128 MIN_DELAY
+Test 3 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 197555 milliseconds
+
+934
+16
+128 MIN_DELAY
+Test 4 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 189149 milliseconds
+
+935
+16
+128 MIN_DELAY
+Test 5 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 193075 milliseconds
+
+936
+16
+128 MIN_DELAY
+Test 6 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 193318 milliseconds
+
+937
+16
+128 MIN_DELAY
+Test 7 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 192593 milliseconds
+
+938
+16
+128 MIN_DELAY
+Test 8 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 189042 milliseconds
+
+939
+16
+128 MIN_DELAY
+Test 9 for TRMIPolka: 128 MIN_DELAY
+
+Time of execution: 191300 milliseconds
+
+940
+16
+256 MIN_DELAY
+Test 0 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 159875 milliseconds
+
+941
+16
+256 MIN_DELAY
+Test 1 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 153692 milliseconds
+
+942
+16
+256 MIN_DELAY
+Test 2 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 153203 milliseconds
+
+943
+16
+256 MIN_DELAY
+Test 3 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 148525 milliseconds
+
+944
+16
+256 MIN_DELAY
+Test 4 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 162209 milliseconds
+
+945
+16
+256 MIN_DELAY
+Test 5 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 160576 milliseconds
+
+946
+16
+256 MIN_DELAY
+Test 6 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 156242 milliseconds
+
+947
+16
+256 MIN_DELAY
+Test 7 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 161221 milliseconds
+
+948
+16
+256 MIN_DELAY
+Test 8 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 161841 milliseconds
+
+949
+16
+256 MIN_DELAY
+Test 9 for TRMIPolka: 256 MIN_DELAY
+
+Time of execution: 158239 milliseconds
+
+950
+16
+512 MIN_DELAY
+Test 0 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141136 milliseconds
+
+951
+16
+512 MIN_DELAY
+Test 1 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144042 milliseconds
+
+952
+16
+512 MIN_DELAY
+Test 2 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 135867 milliseconds
+
+953
+16
+512 MIN_DELAY
+Test 3 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 147028 milliseconds
+
+954
+16
+512 MIN_DELAY
+Test 4 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 141124 milliseconds
+
+955
+16
+512 MIN_DELAY
+Test 5 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143397 milliseconds
+
+956
+16
+512 MIN_DELAY
+Test 6 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 144767 milliseconds
+
+957
+16
+512 MIN_DELAY
+Test 7 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 136459 milliseconds
+
+958
+16
+512 MIN_DELAY
+Test 8 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 142472 milliseconds
+
+959
+16
+512 MIN_DELAY
+Test 9 for TRMIPolka: 512 MIN_DELAY
+
+Time of execution: 143402 milliseconds
+
+960
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:5
+[43.42, 35.85, 34.74, 36.93]
+CM PARAM CONFIG: 128 MIN_DELAY
+[44.15, 36.39, 34.33, 36.09]
+CM PARAM CONFIG: 256 MIN_DELAY
+[44.88, 37.37, 34.42, 35.14]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:5
+[44.14, 35.81, 34.9, 36.68]
+CM PARAM CONFIG: 128 MIN_DELAY
+[44.83, 36.33, 34.58, 35.86]
+CM PARAM CONFIG: 256 MIN_DELAY
+[45.51, 37.17, 34.19, 34.33]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 100, Percentage of writes: 20 %, Objects per transaction:20
+[132.36, 107.04, 108.26, 122.48]
+CM PARAM CONFIG: 128 MIN_DELAY
+[131.19, 100.49, 95.22, 98.02]
+CM PARAM CONFIG: 256 MIN_DELAY
+[130.45, 99.79, 89.5, 91.99]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 500, Percentage of writes: 20 %, Objects per transaction:20
+[136.06, 107.36, 104.28, 115.24]
+CM PARAM CONFIG: 128 MIN_DELAY
+[136.4, 102.11, 92.83, 93.34]
+CM PARAM CONFIG: 256 MIN_DELAY
+[134.91, 100.46, 88.0, 89.34]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:5
+[49.39, 47.74, 51.13, 59.72]
+CM PARAM CONFIG: 128 MIN_DELAY
+[51.51, 48.86, 50.55, 56.52]
+CM PARAM CONFIG: 256 MIN_DELAY
+[53.27, 50.14, 50.85, 55.78]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:5
+[49.31, 46.5, 50.11, 57.45]
+CM PARAM CONFIG: 128 MIN_DELAY
+[51.03, 47.65, 49.21, 56.23]
+CM PARAM CONFIG: 256 MIN_DELAY
+[52.68, 49.2, 49.19, 54.07]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 100, Percentage of writes: 50 %, Objects per transaction:20
+[139.85, 131.21, 147.15, 208.55]
+CM PARAM CONFIG: 128 MIN_DELAY
+[139.79, 126.08, 135.2, 167.43]
+CM PARAM CONFIG: 256 MIN_DELAY
+[140.61, 128.33, 133.1, 150.51]
+CM PARAM CONFIG: 512 MIN_DELAY
+Objects per server: 500, Percentage of writes: 50 %, Objects per transaction:20
+[142.51, 129.26, 142.25, 190.96]
+CM PARAM CONFIG: 128 MIN_DELAY
+[142.28, 125.91, 134.61, 157.56]
+CM PARAM CONFIG: 256 MIN_DELAY
+[143.56, 127.55, 129.88, 141.97]
+CM PARAM CONFIG: 512 MIN_DELAY
+8
