@@ -17,6 +17,9 @@ aborts = []
 for cm in contention_managers:
     dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results.txt"
 
+    if cm == "Passive" or cm == "Karma":
+        dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results_new.txt"
+
     lines = open(dht_tests_filename, "r").readlines()
 
     for line in lines:
@@ -154,8 +157,8 @@ for wp in writes_percentage:
 
 print(counts)
 
-if not os.path.exists("Plots"):
-    os.makedirs("Plots")
+if not os.path.exists("PlotsNew"):
+    os.makedirs("PlotsNew")
 
 multiply_factor = 1.05
 
@@ -234,7 +237,7 @@ for wp in writes_percentage:
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
-            fig.savefig(f"Plots/NOBJSERVER_{ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
+            fig.savefig(f"PlotsNew/NOBJSERVER_{ops}, WRITES: {wp}, NOBJTRANS:{opt}.png")
             n+=1
             i+=1
 
