@@ -17,7 +17,7 @@ aborts = []
 for cm in contention_managers:
     dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results.txt"
 
-    if cm == "Passive" or cm == "Karma":
+    if cm == "Passive" or cm == "Karma" or cm == "Polka":
         dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results_new.txt"
 
     lines = open(dht_tests_filename, "r").readlines()
@@ -160,7 +160,7 @@ print(counts)
 if not os.path.exists("PlotsNew"):
     os.makedirs("PlotsNew")
 
-multiply_factor = 1.05
+multiply_factor = 1.08
 
 i = 0
 n = 0
