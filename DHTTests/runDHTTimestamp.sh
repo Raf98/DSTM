@@ -68,8 +68,8 @@ do
         # and then move to a case in which there are 10000 keys available and a lower number of entries but of a prime number
         # which would render less collisions and, thus, lower contention
         NKEYS=10000
-        NHTENTRIES=512
-        for NHTENTRIES in $(seq 512 285 797);
+        NHTENTRIES=256
+        for NHTENTRIES in $(seq 256 1311 1567);
         do
             echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
             NCLIENT=2

@@ -9,7 +9,7 @@ fi
 
 if [ -z $2 ]
 then
-	NKEYS=1000
+	NKEYS=10000
 else NKEYS=$2
 fi
 
@@ -46,7 +46,7 @@ fi
 
 if [ -z $7 ]
 then
-	NHTENTRIES=128
+	NHTENTRIES=1567
 else
 	NHTENTRIES=$7
 fi
