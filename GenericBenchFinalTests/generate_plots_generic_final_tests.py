@@ -17,7 +17,7 @@ aborts = []
 for cm in contention_managers:
     dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results.txt"
 
-    if cm == "Passive" or cm == "Karma" or cm == "Polka":
+    if cm == "Passive" or cm == "Karma" or cm == "Polka" or cm == "Less":
         dht_tests_filename = f"tests_results/{cm.lower()}_final_tests_results_new.txt"
 
     lines = open(dht_tests_filename, "r").readlines()
