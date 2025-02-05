@@ -34,7 +34,7 @@ fi
 
 if [ -z $4 ]
 then
-	DELAY_INTERVAL=512
+	DELAY_INTERVAL=256
 else
 	DELAY_INTERVAL=$4
 fi

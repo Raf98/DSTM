@@ -1,0 +1,8139 @@
+40
+1600
+1600
+1600
+1600
+{'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: [], 4: [], 8: [], 16: []}, 'Less': {2: [], 4: [], 8: [], 16: []}, 'Karma': {2: [], 4: [], 8: [], 16: []}, 'Passive': {2: [], 4: [], 8: [], 16: []}, 'Polka': {2: [], 4: [], 8: [], 16: []}}}
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 17989 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 17799 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 17984 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 18004 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 17950 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 17845 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 17938 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 17907 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 17942 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 17988 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 10119 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 10085 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 10134 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 10147 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 10120 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 10165 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 10157 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 10165 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 10061 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 10221 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 5769 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 5675 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 5734 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 5700 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 5724 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 5707 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 5764 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5742 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5753 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 5715 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 3540 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 3574 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 3593 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 3535 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 3561 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 3538 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 3609 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 3585 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 3551 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 3593 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 17862 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 17411 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 17552 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 17834 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 17641 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 17694 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 17623 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 17650 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 17712 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 17698 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 9896 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 9969 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 9971 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 9983 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 9880 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 10058 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 9916 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 9983 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 9982 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 9992 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 5594 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 5646 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 5644 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 5643 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 5694 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 5782 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 5711 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5695 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5762 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 5724 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 3535 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 3494 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 3520 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 3476 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 3533 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 3546 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 3499 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 3568 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 3526 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 3577 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 20870 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 21133 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 20894 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 21181 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 21004 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 20946 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 20902 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 20742 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 20987 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 20841 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 12442 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 12675 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 12443 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 12353 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 12441 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 12657 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 12597 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 12389 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 12270 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 12344 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 7718 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 7519 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 7568 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 7681 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 7666 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 7743 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 7513 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 7658 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 7724 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 7749 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 5166 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 5068 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 5132 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 5085 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 5178 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 5138 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 5046 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5109 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5106 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 4899 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 20071 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 20230 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 20292 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 20188 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 20284 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 20154 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 20010 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 20216 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 20249 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 20467 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 11858 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 12111 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 12184 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 12238 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 12036 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 12054 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 12157 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 12028 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 12121 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 12161 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 7379 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 7315 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 7380 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 7464 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 7358 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 7398 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 7400 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 7316 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 7418 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 7454 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 4709 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 4782 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 4760 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 4787 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 4722 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 4797 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 4727 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 4813 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 4726 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 4786 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 17974 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 17880 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 17858 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 18093 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 18001 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 17976 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 18230 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 17958 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 18023 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 18211 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 9757 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 9744 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 9880 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 9820 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 9938 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 9758 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 9935 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 9858 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 9783 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 9788 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 5457 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 5401 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 5463 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 5477 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 5412 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 5417 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 5478 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5497 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5433 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 5515 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 3454 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 3461 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 3445 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 3507 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 3419 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 3400 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 3500 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 3479 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 3463 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 3445 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 17722 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 17789 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 17882 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 17826 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 17918 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 17890 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 17885 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 17842 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 18064 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 17747 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 9626 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 9739 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 9852 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 9662 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 9725 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 9725 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 9841 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 9843 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 9755 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 9730 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 5365 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 5458 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 5391 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 5330 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 5433 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 5389 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 5391 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5423 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5346 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 5442 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 3322 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 3356 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 3366 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 3394 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 3368 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 3324 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 3406 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 3374 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 3365 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 3316 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 21820 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 22025 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 22007 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 21824 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 21908 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 21876 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 21891 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 21951 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 21795 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 21881 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 12256 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 12456 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 12235 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 12168 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 12280 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 12424 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 12133 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 12163 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 12375 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 12391 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 7631 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 7444 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 7484 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 7417 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 7541 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 7551 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 7416 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 7421 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 7534 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 7426 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 4947 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 4877 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 4856 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 4997 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 4888 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 4963 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 4902 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 5037 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 5050 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 4951 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 20663 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 20437 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 20595 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 20558 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 20795 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 20654 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 20632 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 20599 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 20580 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 20530 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 11557 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 11700 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 11571 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 11583 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 11736 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 11545 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 11705 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 11838 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 11600 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 11959 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 7010 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 7016 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 7030 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 7048 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 7080 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 7244 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 7080 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 7075 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 7100 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 7046 milliseconds
+
+Aggressive
+Test 0 for TRMIAgressive
+
+Time of execution: 4560 milliseconds
+
+Aggressive
+Test 1 for TRMIAgressive
+
+Time of execution: 4650 milliseconds
+
+Aggressive
+Test 2 for TRMIAgressive
+
+Time of execution: 4623 milliseconds
+
+Aggressive
+Test 3 for TRMIAgressive
+
+Time of execution: 4570 milliseconds
+
+Aggressive
+Test 4 for TRMIAgressive
+
+Time of execution: 4693 milliseconds
+
+Aggressive
+Test 5 for TRMIAgressive
+
+Time of execution: 4618 milliseconds
+
+Aggressive
+Test 6 for TRMIAgressive
+
+Time of execution: 4553 milliseconds
+
+Aggressive
+Test 7 for TRMIAgressive
+
+Time of execution: 4659 milliseconds
+
+Aggressive
+Test 8 for TRMIAgressive
+
+Time of execution: 4602 milliseconds
+
+Aggressive
+Test 9 for TRMIAgressive
+
+Time of execution: 4579 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 18072 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 17875 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 18009 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 17889 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 17774 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 17800 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 17899 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 18035 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 17956 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 17884 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 9924 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 10016 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 9859 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 10008 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 10098 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 10233 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 10126 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 10099 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 10067 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 10070 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5678 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5767 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 5747 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 5617 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 5644 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5736 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 5779 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 5709 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 5816 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 5695 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 3560 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 3539 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 3531 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 3649 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 3549 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 3571 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 3619 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 3594 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 3600 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 3565 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 17699 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 17684 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 17738 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 17692 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 17583 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 17656 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 17627 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 17644 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 17676 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 17780 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 10078 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 10039 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 9959 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 9901 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 9834 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 9931 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 10021 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 10031 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 9997 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 10089 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5642 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5616 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 5638 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 5630 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 5653 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5696 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 5636 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 5686 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 5607 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 5617 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 3559 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 3562 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 3531 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 3520 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 3525 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 3485 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 3547 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 3567 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 3526 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 3535 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 21055 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 20956 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 21148 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 20839 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 20806 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 20928 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 21092 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 21058 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 20944 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 21074 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 12504 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 12567 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 12440 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 12531 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 12501 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 12562 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 12477 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 12455 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 12424 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 12408 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 7651 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 7736 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 7741 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 7609 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 7651 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 7945 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 7610 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 7598 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 7598 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 7650 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5068 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5171 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 5120 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 4979 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 5018 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5080 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 5050 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 5039 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 5084 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 5083 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 20097 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 20335 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 20267 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 20318 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 20384 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 20162 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 20417 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 20225 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 20233 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 20419 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 12060 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 11943 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 12080 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 12000 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 12142 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 12074 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 11956 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 12076 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 12218 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 12130 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 7410 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 7424 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 7392 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 7331 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 7346 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 7384 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 7310 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 7352 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 7355 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 7283 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 4710 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 4769 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 4830 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 4759 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 4711 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 4668 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 4787 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 4702 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 4681 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 4722 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 18137 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 18172 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 18098 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 18104 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 18081 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 18231 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 18006 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 18086 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 17935 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 18134 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 9857 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 9731 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 9846 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 9841 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 9844 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 9746 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 9807 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 9776 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 9774 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 9752 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5410 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5433 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 5420 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 5552 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 5468 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5407 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 5408 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 5438 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 5482 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 5367 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 3419 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 3424 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 3427 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 3442 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 3460 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 3463 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 3442 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 3490 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 3447 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 3484 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 17796 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 17981 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 18083 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 17888 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 17786 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 17780 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 17756 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 17764 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 17872 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 17796 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 9640 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 9820 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 9799 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 9814 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 9789 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 9764 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 9643 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 9700 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 9784 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 9889 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5341 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5434 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 5471 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 5337 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 5451 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5406 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 5430 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 5307 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 5362 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 5406 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 3331 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 3352 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 3345 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 3369 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 3327 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 3383 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 3338 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 3364 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 3353 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 3352 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 21907 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 21656 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 21943 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 21904 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 21854 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 22004 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 21765 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 21866 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 21835 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 21730 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 12273 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 12476 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 12218 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 12184 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 12213 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 12082 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 12218 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 12385 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 12199 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 12175 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 7418 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 7466 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 7699 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 7549 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 7349 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 7632 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 7620 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 7796 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 7506 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 7414 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 5029 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 5081 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 4998 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 4941 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 4919 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 5028 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 4884 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 4933 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 4867 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 4963 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 20583 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 20602 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 20578 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 20716 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 20680 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 20204 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 20501 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 20658 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 20880 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 20574 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 11532 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 11810 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 11733 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 11635 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 11711 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 11805 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 11746 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 11721 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 11781 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 11694 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 7168 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 7171 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 7075 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 7252 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 7116 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 7114 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 7001 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 7138 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 7128 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 7060 milliseconds
+
+Less
+Test 0 for TRMILess
+
+Time of execution: 4562 milliseconds
+
+Less
+Test 1 for TRMILess
+
+Time of execution: 4565 milliseconds
+
+Less
+Test 2 for TRMILess
+
+Time of execution: 4623 milliseconds
+
+Less
+Test 3 for TRMILess
+
+Time of execution: 4518 milliseconds
+
+Less
+Test 4 for TRMILess
+
+Time of execution: 4579 milliseconds
+
+Less
+Test 5 for TRMILess
+
+Time of execution: 4651 milliseconds
+
+Less
+Test 6 for TRMILess
+
+Time of execution: 4558 milliseconds
+
+Less
+Test 7 for TRMILess
+
+Time of execution: 4592 milliseconds
+
+Less
+Test 8 for TRMILess
+
+Time of execution: 4649 milliseconds
+
+Less
+Test 9 for TRMILess
+
+Time of execution: 4628 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 17981 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 17983 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 17882 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 17743 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 18007 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 17719 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 17819 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 17873 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 18006 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 17765 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 10089 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 10042 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 10074 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 9958 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 9998 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 9981 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 10008 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 10048 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 10137 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 10113 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 5808 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 5697 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 5737 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 5714 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 5727 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 5745 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5784 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 5729 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 5762 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 5696 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 3606 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 3547 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 3590 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 3536 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 3656 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 3631 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 3885 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 3540 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 3624 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 3623 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 17652 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 17868 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 17719 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 17713 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 17735 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 17742 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 17823 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 17755 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 17547 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 17551 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 9996 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 10080 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 9989 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 9912 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 10004 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 9981 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 9891 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 9958 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 9964 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 9901 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 5656 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 5716 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 5659 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 5690 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 5655 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 5665 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5689 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 5646 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 5594 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 5663 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 3521 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 3489 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 3509 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 3523 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 3532 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 3492 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 3539 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 3547 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 3500 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 3544 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 20923 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 20881 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 20796 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 20896 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 21187 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 20755 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 21046 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 21171 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 21103 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 21142 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 12465 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 12391 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 12664 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 12359 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 12508 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 12729 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 12443 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 12568 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 13207 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 12551 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 7674 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 7681 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 9214 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 9277 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 8577 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 8650 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 10478 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 7816 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 9481 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7914 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 5186 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 6580 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 7931 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 8235 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 7667 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 6354 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5720 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 7178 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 8154 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7371 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 20187 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 20136 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 20428 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 20040 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 20103 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 20118 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 20225 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 20337 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 20312 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 20425 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 11918 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 12071 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 12247 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 12104 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 12084 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 12287 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 12616 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 12152 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 12081 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 11986 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 8210 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 7449 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 7404 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 7891 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 7723 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 7655 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 7430 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 7572 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 8189 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7284 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 4743 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 6544 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 6186 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 6894 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 4706 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 6580 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5375 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 4739 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 7179 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 4784 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 17928 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 17967 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 18233 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 18023 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 18092 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 18045 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 18012 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 17883 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 17814 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 17658 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 9690 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 9788 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 9794 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 9810 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 9744 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 9761 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 9808 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 9720 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 9862 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 9954 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 5411 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 5428 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 5471 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 5464 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 5482 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 5435 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5415 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 5377 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 5468 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 5394 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 3464 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 3469 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 3480 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 3459 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 3448 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 3428 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 3451 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 3479 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 3386 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 3459 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 17876 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 17759 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 17655 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 17731 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 17944 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 17605 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 17941 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 17837 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 17722 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 17806 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 9696 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 9832 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 9738 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 9853 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 9687 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 9759 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 9704 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 9703 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 9709 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 9712 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 5407 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 5378 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 5355 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 5450 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 5341 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 5331 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 5432 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 5354 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 5355 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 5401 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 3371 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 3377 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 3375 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 3308 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 3344 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 3324 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 3339 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 3319 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 3335 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 3315 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 21690 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 21957 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 21725 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 21863 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 21756 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 22731 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 22062 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 22431 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 21945 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 21711 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 12088 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 12236 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 12401 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 12180 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 12854 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 12365 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 12371 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 12252 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 12589 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 12385 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 7507 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 7579 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 9406 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 7713 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 9336 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 7635 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 7916 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 7445 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 7544 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7743 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 7558 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 6664 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 7921 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 8149 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 6667 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 6779 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 7394 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 6951 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 6363 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7148 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 20625 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 21079 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 20521 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 20697 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 20571 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 20977 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 20608 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 20733 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 20738 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 20669 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 11697 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 11800 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 11664 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 11628 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 12004 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 11766 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 11502 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 11581 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 11681 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 11684 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 8895 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 7088 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 7140 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 7440 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 7057 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 8004 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 7032 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 8679 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 7572 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 7065 milliseconds
+
+Karma
+Test 0 for TRMIKarma
+
+Time of execution: 6048 milliseconds
+
+Karma
+Test 1 for TRMIKarma
+
+Time of execution: 5184 milliseconds
+
+Karma
+Test 2 for TRMIKarma
+
+Time of execution: 6301 milliseconds
+
+Karma
+Test 3 for TRMIKarma
+
+Time of execution: 6166 milliseconds
+
+Karma
+Test 4 for TRMIKarma
+
+Time of execution: 6373 milliseconds
+
+Karma
+Test 5 for TRMIKarma
+
+Time of execution: 6437 milliseconds
+
+Karma
+Test 6 for TRMIKarma
+
+Time of execution: 4698 milliseconds
+
+Karma
+Test 7 for TRMIKarma
+
+Time of execution: 5981 milliseconds
+
+Karma
+Test 8 for TRMIKarma
+
+Time of execution: 6732 milliseconds
+
+Karma
+Test 9 for TRMIKarma
+
+Time of execution: 6874 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 17652 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 17909 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 17808 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 17735 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 17897 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 17929 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 17900 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 17798 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 17869 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 17987 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 10033 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 9939 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 13848 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 9948 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 10153 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 10138 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 10077 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 10135 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 10097 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 10074 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 5660 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 5789 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 5740 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 5742 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 5748 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 5663 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 5765 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 5728 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 5636 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 5692 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 3577 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 3605 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 3626 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 3608 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 3568 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 3557 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 3617 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 3584 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 3571 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 3598 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 17428 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 17785 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 17536 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 17756 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 17514 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 17667 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 17626 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 17527 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 17598 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 17760 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 9865 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 9964 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 9956 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 9928 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 9972 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 10033 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 9920 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 10026 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 9969 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 9981 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 5618 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 5662 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 5695 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 5672 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 5650 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 5667 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 5679 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 5673 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 5645 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 5700 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 3555 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 3468 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 3577 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 3514 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 3476 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 3536 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 3530 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 3529 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 3591 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 3564 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 20986 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 20653 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 20858 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 21002 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 20801 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 20815 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 21110 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 20864 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 20936 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 20796 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 12195 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 12459 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 12418 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 12392 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 12526 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 12391 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 12489 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 12361 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 12487 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 20736 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 7627 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 7698 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 7680 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 7705 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 7611 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 23983 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 7665 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 22038 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 7602 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 7821 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 49919 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 4926 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 4925 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 4915 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 27125 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 4934 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 4904 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 4912 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 28816 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 4930 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 20316 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 20175 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 20092 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 20455 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 20103 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 20120 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 20032 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 20409 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 20163 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 20216 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 11861 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 12258 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 12125 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 12359 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 12229 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 12046 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 12031 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 12077 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 12239 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 11976 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 7375 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 7293 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 7429 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 7433 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 7420 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 7533 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 7358 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 7280 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 7377 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 7396 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 4660 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 4657 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 4692 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 4729 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 4724 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 4674 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 4719 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 4693 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 4687 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 4704 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 18115 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 18036 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 18053 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 17905 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 17882 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 17949 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 17962 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 18023 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 17966 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 18157 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 9740 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 9767 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 9744 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 9748 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 9824 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 9752 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 9900 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 9886 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 9819 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 9773 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 5442 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 5464 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 5363 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 5423 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 5468 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 5507 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 5431 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 5425 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 5451 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 5507 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 3462 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 3456 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 3436 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 3448 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 3569 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 3460 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 3476 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 3497 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 3483 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 3480 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 17897 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 17875 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 17692 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 17568 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 17725 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 17687 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 17672 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 17769 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 17868 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 17913 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 9686 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 9796 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 9820 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 9685 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 9752 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 9839 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 9618 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 9676 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 9768 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 9757 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 5339 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 5382 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 5332 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 5364 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 5332 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 5313 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 5396 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 5277 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 5343 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 5371 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 3350 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 3363 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 3335 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 3354 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 3320 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 3333 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 3434 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 3319 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 3324 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 3359 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 21635 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 21785 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 21735 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 21570 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 22084 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 21803 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 21857 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 21965 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 26300 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 21908 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 12196 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 12459 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 12400 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 12411 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 12118 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 12281 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 12257 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 12336 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 25097 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 20905 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 7460 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 7438 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 7614 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 7417 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 23307 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 7449 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 7469 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 7437 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 22878 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 7490 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 4787 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 4875 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 4933 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 4915 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 4809 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 4753 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 35531 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 4825 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 4831 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 35134 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 20546 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 20627 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 20685 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 20683 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 20748 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 20679 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 20562 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 20552 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 20741 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 20744 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 11684 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 11743 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 11619 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 11664 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 11608 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 11665 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 11731 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 11702 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 11610 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 11673 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 7108 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 7177 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 7080 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 7177 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 7146 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 7036 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 7092 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 7071 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 7045 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 7178 milliseconds
+
+Passive
+Test 0 for TRMIPassive
+
+Time of execution: 4689 milliseconds
+
+Passive
+Test 1 for TRMIPassive
+
+Time of execution: 4562 milliseconds
+
+Passive
+Test 2 for TRMIPassive
+
+Time of execution: 4586 milliseconds
+
+Passive
+Test 3 for TRMIPassive
+
+Time of execution: 4626 milliseconds
+
+Passive
+Test 4 for TRMIPassive
+
+Time of execution: 4560 milliseconds
+
+Passive
+Test 5 for TRMIPassive
+
+Time of execution: 4602 milliseconds
+
+Passive
+Test 6 for TRMIPassive
+
+Time of execution: 4534 milliseconds
+
+Passive
+Test 7 for TRMIPassive
+
+Time of execution: 4581 milliseconds
+
+Passive
+Test 8 for TRMIPassive
+
+Time of execution: 4581 milliseconds
+
+Passive
+Test 9 for TRMIPassive
+
+Time of execution: 4650 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 17998 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 17888 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 17987 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 17810 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 17882 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 17734 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 17924 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 17877 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 17980 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 17923 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 9998 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 10078 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 10170 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 10121 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 9981 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 10088 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 9953 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 10020 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 10081 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 10102 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5732 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 5764 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 5738 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 5769 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 5753 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 5786 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5695 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 5794 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 5758 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 5738 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 3580 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 3632 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 3602 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 3598 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 3581 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 3606 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 3599 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 3600 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 3579 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 3549 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 17727 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 17746 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 17720 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 17737 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 17850 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 17661 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 17804 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 17678 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 17659 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 17630 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 10075 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 10119 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 9880 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 10011 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 10022 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 10012 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 10060 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 9895 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 9961 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 10139 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5791 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 5717 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 5792 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 5631 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 5685 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 5664 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5678 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 5720 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 5693 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 5639 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 3554 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 3509 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 3553 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 3506 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 3507 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 3525 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 3614 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 3548 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 3525 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 3582 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 20805 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 21072 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 21332 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 20855 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 21071 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 20859 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 20886 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 20797 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 21135 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 21087 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 14997 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 12700 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 12471 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 12645 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 12509 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 12385 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 12847 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 12568 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 12479 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 13701 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 7877 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 7653 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 8236 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7711 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 7724 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 7842 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 7679 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 9181 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 7956 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 9129 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 6090 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 6384 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 6967 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7153 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 8665 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 6797 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 6468 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 7283 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 7154 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 5301 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 20208 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 20394 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 20816 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 20304 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 20943 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 20320 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 20490 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 20514 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 20233 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 20487 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 11978 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 12186 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 12409 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 12173 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 12157 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 12012 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 12037 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 11973 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 11905 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 12067 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 7567 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 7452 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 7493 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7418 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 8131 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 7522 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 8241 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 7376 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 7474 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 7589 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5395 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 6209 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 4979 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7147 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 4734 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 5435 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5010 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 4899 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 6150 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 6750 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 17987 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 18076 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 17946 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 18080 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 18023 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 17812 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 18156 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 18035 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 18144 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 17971 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 9813 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 9737 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 9759 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 9907 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 9841 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 9899 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 9922 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 9698 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 9763 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 9776 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5435 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 5383 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 5408 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 5467 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 5526 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 5394 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5468 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 5408 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 5437 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 5409 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 3408 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 3453 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 3456 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 3472 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 3422 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 3482 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 3470 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 3452 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 3426 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 3471 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 17908 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 18037 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 17823 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 17951 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 17798 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 17879 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 17762 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 17870 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 17712 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 17875 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 9623 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 9732 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 9964 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 9944 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 9760 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 9777 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 9660 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 9909 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 9826 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 9700 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5358 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 5372 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 5451 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 5381 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 5402 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 5433 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5297 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 5335 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 5337 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 5343 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 3344 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 3348 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 3320 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 3376 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 3372 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 3362 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 3327 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 3421 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 3378 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 3361 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 22763 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 21818 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 21739 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 22900 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 21747 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 21881 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 21958 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 22017 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 22013 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 21761 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 12226 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 12274 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 12477 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 12278 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 13966 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 12377 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 12141 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 12316 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 12936 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 14145 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 9217 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 7556 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 7851 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7773 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 7696 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 8454 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 9777 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 7816 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 9144 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 7592 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 5016 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 6341 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 5374 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 6990 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 6866 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 6994 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 7059 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 6659 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 7613 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 6578 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 20744 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 20789 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 21200 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 20531 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 20678 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 20729 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 20896 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 20727 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 20679 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 20700 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 11781 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 11560 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 11724 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 11828 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 11778 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 11689 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 11950 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 11907 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 11676 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 12104 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 7245 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 7073 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 7285 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 7105 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 7123 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 7101 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 8471 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 7013 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 7200 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 7140 milliseconds
+
+Polka
+Test 0 for TRMIPolka
+
+Time of execution: 7039 milliseconds
+
+Polka
+Test 1 for TRMIPolka
+
+Time of execution: 6048 milliseconds
+
+Polka
+Test 2 for TRMIPolka
+
+Time of execution: 6556 milliseconds
+
+Polka
+Test 3 for TRMIPolka
+
+Time of execution: 4756 milliseconds
+
+Polka
+Test 4 for TRMIPolka
+
+Time of execution: 5843 milliseconds
+
+Polka
+Test 5 for TRMIPolka
+
+Time of execution: 6100 milliseconds
+
+Polka
+Test 6 for TRMIPolka
+
+Time of execution: 5721 milliseconds
+
+Polka
+Test 7 for TRMIPolka
+
+Time of execution: 6098 milliseconds
+
+Polka
+Test 8 for TRMIPolka
+
+Time of execution: 6157 milliseconds
+
+Polka
+Test 9 for TRMIPolka
+
+Time of execution: 6060 milliseconds
+
+{'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: [17989, 17799, 17984, 18004, 17950, 17845, 17938, 17907, 17942, 17988], 4: [10119, 10085, 10134, 10147, 10120, 10165, 10157, 10165, 10061, 10221], 8: [5769, 5675, 5734, 5700, 5724, 5707, 5764, 5742, 5753, 5715], 16: [3540, 3574, 3593, 3535, 3561, 3538, 3609, 3585, 3551, 3593]}, 'Less': {2: [18072, 17875, 18009, 17889, 17774, 17800, 17899, 18035, 17956, 17884], 4: [9924, 10016, 9859, 10008, 10098, 10233, 10126, 10099, 10067, 10070], 8: [5678, 5767, 5747, 5617, 5644, 5736, 5779, 5709, 5816, 5695], 16: [3560, 3539, 3531, 3649, 3549, 3571, 3619, 3594, 3600, 3565]}, 'Karma': {2: [17981, 17983, 17882, 17743, 18007, 17719, 17819, 17873, 18006, 17765], 4: [10089, 10042, 10074, 9958, 9998, 9981, 10008, 10048, 10137, 10113], 8: [5808, 5697, 5737, 5714, 5727, 5745, 5784, 5729, 5762, 5696], 16: [3606, 3547, 3590, 3536, 3656, 3631, 3885, 3540, 3624, 3623]}, 'Passive': {2: [17652, 17909, 17808, 17735, 17897, 17929, 17900, 17798, 17869, 17987], 4: [10033, 9939, 13848, 9948, 10153, 10138, 10077, 10135, 10097, 10074], 8: [5660, 5789, 5740, 5742, 5748, 5663, 5765, 5728, 5636, 5692], 16: [3577, 3605, 3626, 3608, 3568, 3557, 3617, 3584, 3571, 3598]}, 'Polka': {2: [17998, 17888, 17987, 17810, 17882, 17734, 17924, 17877, 17980, 17923], 4: [9998, 10078, 10170, 10121, 9981, 10088, 9953, 10020, 10081, 10102], 8: [5732, 5764, 5738, 5769, 5753, 5786, 5695, 5794, 5758, 5738], 16: [3580, 3632, 3602, 3598, 3581, 3606, 3599, 3600, 3579, 3549]}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: [17862, 17411, 17552, 17834, 17641, 17694, 17623, 17650, 17712, 17698], 4: [9896, 9969, 9971, 9983, 9880, 10058, 9916, 9983, 9982, 9992], 8: [5594, 5646, 5644, 5643, 5694, 5782, 5711, 5695, 5762, 5724], 16: [3535, 3494, 3520, 3476, 3533, 3546, 3499, 3568, 3526, 3577]}, 'Less': {2: [17699, 17684, 17738, 17692, 17583, 17656, 17627, 17644, 17676, 17780], 4: [10078, 10039, 9959, 9901, 9834, 9931, 10021, 10031, 9997, 10089], 8: [5642, 5616, 5638, 5630, 5653, 5696, 5636, 5686, 5607, 5617], 16: [3559, 3562, 3531, 3520, 3525, 3485, 3547, 3567, 3526, 3535]}, 'Karma': {2: [17652, 17868, 17719, 17713, 17735, 17742, 17823, 17755, 17547, 17551], 4: [9996, 10080, 9989, 9912, 10004, 9981, 9891, 9958, 9964, 9901], 8: [5656, 5716, 5659, 5690, 5655, 5665, 5689, 5646, 5594, 5663], 16: [3521, 3489, 3509, 3523, 3532, 3492, 3539, 3547, 3500, 3544]}, 'Passive': {2: [17428, 17785, 17536, 17756, 17514, 17667, 17626, 17527, 17598, 17760], 4: [9865, 9964, 9956, 9928, 9972, 10033, 9920, 10026, 9969, 9981], 8: [5618, 5662, 5695, 5672, 5650, 5667, 5679, 5673, 5645, 5700], 16: [3555, 3468, 3577, 3514, 3476, 3536, 3530, 3529, 3591, 3564]}, 'Polka': {2: [17727, 17746, 17720, 17737, 17850, 17661, 17804, 17678, 17659, 17630], 4: [10075, 10119, 9880, 10011, 10022, 10012, 10060, 9895, 9961, 10139], 8: [5791, 5717, 5792, 5631, 5685, 5664, 5678, 5720, 5693, 5639], 16: [3554, 3509, 3553, 3506, 3507, 3525, 3614, 3548, 3525, 3582]}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: [20870, 21133, 20894, 21181, 21004, 20946, 20902, 20742, 20987, 20841], 4: [12442, 12675, 12443, 12353, 12441, 12657, 12597, 12389, 12270, 12344], 8: [7718, 7519, 7568, 7681, 7666, 7743, 7513, 7658, 7724, 7749], 16: [5166, 5068, 5132, 5085, 5178, 5138, 5046, 5109, 5106, 4899]}, 'Less': {2: [21055, 20956, 21148, 20839, 20806, 20928, 21092, 21058, 20944, 21074], 4: [12504, 12567, 12440, 12531, 12501, 12562, 12477, 12455, 12424, 12408], 8: [7651, 7736, 7741, 7609, 7651, 7945, 7610, 7598, 7598, 7650], 16: [5068, 5171, 5120, 4979, 5018, 5080, 5050, 5039, 5084, 5083]}, 'Karma': {2: [20923, 20881, 20796, 20896, 21187, 20755, 21046, 21171, 21103, 21142], 4: [12465, 12391, 12664, 12359, 12508, 12729, 12443, 12568, 13207, 12551], 8: [7674, 7681, 9214, 9277, 8577, 8650, 10478, 7816, 9481, 7914], 16: [5186, 6580, 7931, 8235, 7667, 6354, 5720, 7178, 8154, 7371]}, 'Passive': {2: [20986, 20653, 20858, 21002, 20801, 20815, 21110, 20864, 20936, 20796], 4: [12195, 12459, 12418, 12392, 12526, 12391, 12489, 12361, 12487, 20736], 8: [7627, 7698, 7680, 7705, 7611, 23983, 7665, 22038, 7602, 7821], 16: [49919, 4926, 4925, 4915, 27125, 4934, 4904, 4912, 28816, 4930]}, 'Polka': {2: [20805, 21072, 21332, 20855, 21071, 20859, 20886, 20797, 21135, 21087], 4: [14997, 12700, 12471, 12645, 12509, 12385, 12847, 12568, 12479, 13701], 8: [7877, 7653, 8236, 7711, 7724, 7842, 7679, 9181, 7956, 9129], 16: [6090, 6384, 6967, 7153, 8665, 6797, 6468, 7283, 7154, 5301]}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: [20071, 20230, 20292, 20188, 20284, 20154, 20010, 20216, 20249, 20467], 4: [11858, 12111, 12184, 12238, 12036, 12054, 12157, 12028, 12121, 12161], 8: [7379, 7315, 7380, 7464, 7358, 7398, 7400, 7316, 7418, 7454], 16: [4709, 4782, 4760, 4787, 4722, 4797, 4727, 4813, 4726, 4786]}, 'Less': {2: [20097, 20335, 20267, 20318, 20384, 20162, 20417, 20225, 20233, 20419], 4: [12060, 11943, 12080, 12000, 12142, 12074, 11956, 12076, 12218, 12130], 8: [7410, 7424, 7392, 7331, 7346, 7384, 7310, 7352, 7355, 7283], 16: [4710, 4769, 4830, 4759, 4711, 4668, 4787, 4702, 4681, 4722]}, 'Karma': {2: [20187, 20136, 20428, 20040, 20103, 20118, 20225, 20337, 20312, 20425], 4: [11918, 12071, 12247, 12104, 12084, 12287, 12616, 12152, 12081, 11986], 8: [8210, 7449, 7404, 7891, 7723, 7655, 7430, 7572, 8189, 7284], 16: [4743, 6544, 6186, 6894, 4706, 6580, 5375, 4739, 7179, 4784]}, 'Passive': {2: [20316, 20175, 20092, 20455, 20103, 20120, 20032, 20409, 20163, 20216], 4: [11861, 12258, 12125, 12359, 12229, 12046, 12031, 12077, 12239, 11976], 8: [7375, 7293, 7429, 7433, 7420, 7533, 7358, 7280, 7377, 7396], 16: [4660, 4657, 4692, 4729, 4724, 4674, 4719, 4693, 4687, 4704]}, 'Polka': {2: [20208, 20394, 20816, 20304, 20943, 20320, 20490, 20514, 20233, 20487], 4: [11978, 12186, 12409, 12173, 12157, 12012, 12037, 11973, 11905, 12067], 8: [7567, 7452, 7493, 7418, 8131, 7522, 8241, 7376, 7474, 7589], 16: [5395, 6209, 4979, 7147, 4734, 5435, 5010, 4899, 6150, 6750]}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: [17974, 17880, 17858, 18093, 18001, 17976, 18230, 17958, 18023, 18211], 4: [9757, 9744, 9880, 9820, 9938, 9758, 9935, 9858, 9783, 9788], 8: [5457, 5401, 5463, 5477, 5412, 5417, 5478, 5497, 5433, 5515], 16: [3454, 3461, 3445, 3507, 3419, 3400, 3500, 3479, 3463, 3445]}, 'Less': {2: [18137, 18172, 18098, 18104, 18081, 18231, 18006, 18086, 17935, 18134], 4: [9857, 9731, 9846, 9841, 9844, 9746, 9807, 9776, 9774, 9752], 8: [5410, 5433, 5420, 5552, 5468, 5407, 5408, 5438, 5482, 5367], 16: [3419, 3424, 3427, 3442, 3460, 3463, 3442, 3490, 3447, 3484]}, 'Karma': {2: [17928, 17967, 18233, 18023, 18092, 18045, 18012, 17883, 17814, 17658], 4: [9690, 9788, 9794, 9810, 9744, 9761, 9808, 9720, 9862, 9954], 8: [5411, 5428, 5471, 5464, 5482, 5435, 5415, 5377, 5468, 5394], 16: [3464, 3469, 3480, 3459, 3448, 3428, 3451, 3479, 3386, 3459]}, 'Passive': {2: [18115, 18036, 18053, 17905, 17882, 17949, 17962, 18023, 17966, 18157], 4: [9740, 9767, 9744, 9748, 9824, 9752, 9900, 9886, 9819, 9773], 8: [5442, 5464, 5363, 5423, 5468, 5507, 5431, 5425, 5451, 5507], 16: [3462, 3456, 3436, 3448, 3569, 3460, 3476, 3497, 3483, 3480]}, 'Polka': {2: [17987, 18076, 17946, 18080, 18023, 17812, 18156, 18035, 18144, 17971], 4: [9813, 9737, 9759, 9907, 9841, 9899, 9922, 9698, 9763, 9776], 8: [5435, 5383, 5408, 5467, 5526, 5394, 5468, 5408, 5437, 5409], 16: [3408, 3453, 3456, 3472, 3422, 3482, 3470, 3452, 3426, 3471]}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: [17722, 17789, 17882, 17826, 17918, 17890, 17885, 17842, 18064, 17747], 4: [9626, 9739, 9852, 9662, 9725, 9725, 9841, 9843, 9755, 9730], 8: [5365, 5458, 5391, 5330, 5433, 5389, 5391, 5423, 5346, 5442], 16: [3322, 3356, 3366, 3394, 3368, 3324, 3406, 3374, 3365, 3316]}, 'Less': {2: [17796, 17981, 18083, 17888, 17786, 17780, 17756, 17764, 17872, 17796], 4: [9640, 9820, 9799, 9814, 9789, 9764, 9643, 9700, 9784, 9889], 8: [5341, 5434, 5471, 5337, 5451, 5406, 5430, 5307, 5362, 5406], 16: [3331, 3352, 3345, 3369, 3327, 3383, 3338, 3364, 3353, 3352]}, 'Karma': {2: [17876, 17759, 17655, 17731, 17944, 17605, 17941, 17837, 17722, 17806], 4: [9696, 9832, 9738, 9853, 9687, 9759, 9704, 9703, 9709, 9712], 8: [5407, 5378, 5355, 5450, 5341, 5331, 5432, 5354, 5355, 5401], 16: [3371, 3377, 3375, 3308, 3344, 3324, 3339, 3319, 3335, 3315]}, 'Passive': {2: [17897, 17875, 17692, 17568, 17725, 17687, 17672, 17769, 17868, 17913], 4: [9686, 9796, 9820, 9685, 9752, 9839, 9618, 9676, 9768, 9757], 8: [5339, 5382, 5332, 5364, 5332, 5313, 5396, 5277, 5343, 5371], 16: [3350, 3363, 3335, 3354, 3320, 3333, 3434, 3319, 3324, 3359]}, 'Polka': {2: [17908, 18037, 17823, 17951, 17798, 17879, 17762, 17870, 17712, 17875], 4: [9623, 9732, 9964, 9944, 9760, 9777, 9660, 9909, 9826, 9700], 8: [5358, 5372, 5451, 5381, 5402, 5433, 5297, 5335, 5337, 5343], 16: [3344, 3348, 3320, 3376, 3372, 3362, 3327, 3421, 3378, 3361]}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: [21820, 22025, 22007, 21824, 21908, 21876, 21891, 21951, 21795, 21881], 4: [12256, 12456, 12235, 12168, 12280, 12424, 12133, 12163, 12375, 12391], 8: [7631, 7444, 7484, 7417, 7541, 7551, 7416, 7421, 7534, 7426], 16: [4947, 4877, 4856, 4997, 4888, 4963, 4902, 5037, 5050, 4951]}, 'Less': {2: [21907, 21656, 21943, 21904, 21854, 22004, 21765, 21866, 21835, 21730], 4: [12273, 12476, 12218, 12184, 12213, 12082, 12218, 12385, 12199, 12175], 8: [7418, 7466, 7699, 7549, 7349, 7632, 7620, 7796, 7506, 7414], 16: [5029, 5081, 4998, 4941, 4919, 5028, 4884, 4933, 4867, 4963]}, 'Karma': {2: [21690, 21957, 21725, 21863, 21756, 22731, 22062, 22431, 21945, 21711], 4: [12088, 12236, 12401, 12180, 12854, 12365, 12371, 12252, 12589, 12385], 8: [7507, 7579, 9406, 7713, 9336, 7635, 7916, 7445, 7544, 7743], 16: [7558, 6664, 7921, 8149, 6667, 6779, 7394, 6951, 6363, 7148]}, 'Passive': {2: [21635, 21785, 21735, 21570, 22084, 21803, 21857, 21965, 26300, 21908], 4: [12196, 12459, 12400, 12411, 12118, 12281, 12257, 12336, 25097, 20905], 8: [7460, 7438, 7614, 7417, 23307, 7449, 7469, 7437, 22878, 7490], 16: [4787, 4875, 4933, 4915, 4809, 4753, 35531, 4825, 4831, 35134]}, 'Polka': {2: [22763, 21818, 21739, 22900, 21747, 21881, 21958, 22017, 22013, 21761], 4: [12226, 12274, 12477, 12278, 13966, 12377, 12141, 12316, 12936, 14145], 8: [9217, 7556, 7851, 7773, 7696, 8454, 9777, 7816, 9144, 7592], 16: [5016, 6341, 5374, 6990, 6866, 6994, 7059, 6659, 7613, 6578]}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: [20663, 20437, 20595, 20558, 20795, 20654, 20632, 20599, 20580, 20530], 4: [11557, 11700, 11571, 11583, 11736, 11545, 11705, 11838, 11600, 11959], 8: [7010, 7016, 7030, 7048, 7080, 7244, 7080, 7075, 7100, 7046], 16: [4560, 4650, 4623, 4570, 4693, 4618, 4553, 4659, 4602, 4579]}, 'Less': {2: [20583, 20602, 20578, 20716, 20680, 20204, 20501, 20658, 20880, 20574], 4: [11532, 11810, 11733, 11635, 11711, 11805, 11746, 11721, 11781, 11694], 8: [7168, 7171, 7075, 7252, 7116, 7114, 7001, 7138, 7128, 7060], 16: [4562, 4565, 4623, 4518, 4579, 4651, 4558, 4592, 4649, 4628]}, 'Karma': {2: [20625, 21079, 20521, 20697, 20571, 20977, 20608, 20733, 20738, 20669], 4: [11697, 11800, 11664, 11628, 12004, 11766, 11502, 11581, 11681, 11684], 8: [8895, 7088, 7140, 7440, 7057, 8004, 7032, 8679, 7572, 7065], 16: [6048, 5184, 6301, 6166, 6373, 6437, 4698, 5981, 6732, 6874]}, 'Passive': {2: [20546, 20627, 20685, 20683, 20748, 20679, 20562, 20552, 20741, 20744], 4: [11684, 11743, 11619, 11664, 11608, 11665, 11731, 11702, 11610, 11673], 8: [7108, 7177, 7080, 7177, 7146, 7036, 7092, 7071, 7045, 7178], 16: [4689, 4562, 4586, 4626, 4560, 4602, 4534, 4581, 4581, 4650]}, 'Polka': {2: [20744, 20789, 21200, 20531, 20678, 20729, 20896, 20727, 20679, 20700], 4: [11781, 11560, 11724, 11828, 11778, 11689, 11950, 11907, 11676, 12104], 8: [7245, 7073, 7285, 7105, 7123, 7101, 8471, 7013, 7200, 7140], 16: [7039, 6048, 6556, 4756, 5843, 6100, 5721, 6098, 6157, 6060]}}}
+{'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: {'avg': 17.93, 'min': 17.8, 'max': 18.0, 'lower_bound': 0.14, 'upper_bound': 0.07}, 4: {'avg': 10.14, 'min': 10.06, 'max': 10.22, 'lower_bound': 0.08, 'upper_bound': 0.08}, 8: {'avg': 5.73, 'min': 5.67, 'max': 5.77, 'lower_bound': 0.05, 'upper_bound': 0.04}, 16: {'avg': 3.57, 'min': 3.54, 'max': 3.61, 'lower_bound': 0.03, 'upper_bound': 0.04}}, 'Less': {2: {'avg': 17.92, 'min': 17.77, 'max': 18.07, 'lower_bound': 0.15, 'upper_bound': 0.15}, 4: {'avg': 10.05, 'min': 9.86, 'max': 10.23, 'lower_bound': 0.19, 'upper_bound': 0.18}, 8: {'avg': 5.72, 'min': 5.62, 'max': 5.82, 'lower_bound': 0.1, 'upper_bound': 0.1}, 16: {'avg': 3.58, 'min': 3.53, 'max': 3.65, 'lower_bound': 0.05, 'upper_bound': 0.07}}, 'Karma': {2: {'avg': 17.88, 'min': 17.72, 'max': 18.01, 'lower_bound': 0.16, 'upper_bound': 0.13}, 4: {'avg': 10.04, 'min': 9.96, 'max': 10.14, 'lower_bound': 0.09, 'upper_bound': 0.09}, 8: {'avg': 5.74, 'min': 5.7, 'max': 5.81, 'lower_bound': 0.04, 'upper_bound': 0.07}, 16: {'avg': 3.62, 'min': 3.54, 'max': 3.88, 'lower_bound': 0.09, 'upper_bound': 0.26}}, 'Passive': {2: {'avg': 17.85, 'min': 17.65, 'max': 17.99, 'lower_bound': 0.2, 'upper_bound': 0.14}, 4: {'avg': 10.44, 'min': 9.94, 'max': 13.85, 'lower_bound': 0.51, 'upper_bound': 3.4}, 8: {'avg': 5.72, 'min': 5.64, 'max': 5.79, 'lower_bound': 0.08, 'upper_bound': 0.07}, 16: {'avg': 3.59, 'min': 3.56, 'max': 3.63, 'lower_bound': 0.03, 'upper_bound': 0.03}}, 'Polka': {2: {'avg': 17.9, 'min': 17.73, 'max': 18.0, 'lower_bound': 0.17, 'upper_bound': 0.1}, 4: {'avg': 10.06, 'min': 9.95, 'max': 10.17, 'lower_bound': 0.11, 'upper_bound': 0.11}, 8: {'avg': 5.75, 'min': 5.7, 'max': 5.79, 'lower_bound': 0.06, 'upper_bound': 0.04}, 16: {'avg': 3.59, 'min': 3.55, 'max': 3.63, 'lower_bound': 0.04, 'upper_bound': 0.04}}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:5': {'Aggressive': {2: {'avg': 17.67, 'min': 17.41, 'max': 17.86, 'lower_bound': 0.26, 'upper_bound': 0.19}, 4: {'avg': 9.96, 'min': 9.88, 'max': 10.06, 'lower_bound': 0.08, 'upper_bound': 0.1}, 8: {'avg': 5.69, 'min': 5.59, 'max': 5.78, 'lower_bound': 0.1, 'upper_bound': 0.09}, 16: {'avg': 3.53, 'min': 3.48, 'max': 3.58, 'lower_bound': 0.05, 'upper_bound': 0.05}}, 'Less': {2: {'avg': 17.68, 'min': 17.58, 'max': 17.78, 'lower_bound': 0.09, 'upper_bound': 0.1}, 4: {'avg': 9.99, 'min': 9.83, 'max': 10.09, 'lower_bound': 0.15, 'upper_bound': 0.1}, 8: {'avg': 5.64, 'min': 5.61, 'max': 5.7, 'lower_bound': 0.04, 'upper_bound': 0.05}, 16: {'avg': 3.54, 'min': 3.48, 'max': 3.57, 'lower_bound': 0.05, 'upper_bound': 0.03}}, 'Karma': {2: {'avg': 17.71, 'min': 17.55, 'max': 17.87, 'lower_bound': 0.16, 'upper_bound': 0.16}, 4: {'avg': 9.97, 'min': 9.89, 'max': 10.08, 'lower_bound': 0.08, 'upper_bound': 0.11}, 8: {'avg': 5.66, 'min': 5.59, 'max': 5.72, 'lower_bound': 0.07, 'upper_bound': 0.05}, 16: {'avg': 3.52, 'min': 3.49, 'max': 3.55, 'lower_bound': 0.03, 'upper_bound': 0.03}}, 'Passive': {2: {'avg': 17.62, 'min': 17.43, 'max': 17.79, 'lower_bound': 0.19, 'upper_bound': 0.17}, 4: {'avg': 9.96, 'min': 9.87, 'max': 10.03, 'lower_bound': 0.1, 'upper_bound': 0.07}, 8: {'avg': 5.67, 'min': 5.62, 'max': 5.7, 'lower_bound': 0.05, 'upper_bound': 0.03}, 16: {'avg': 3.53, 'min': 3.47, 'max': 3.59, 'lower_bound': 0.07, 'upper_bound': 0.06}}, 'Polka': {2: {'avg': 17.72, 'min': 17.63, 'max': 17.85, 'lower_bound': 0.09, 'upper_bound': 0.13}, 4: {'avg': 10.02, 'min': 9.88, 'max': 10.14, 'lower_bound': 0.14, 'upper_bound': 0.12}, 8: {'avg': 5.7, 'min': 5.63, 'max': 5.79, 'lower_bound': 0.07, 'upper_bound': 0.09}, 16: {'avg': 3.54, 'min': 3.51, 'max': 3.61, 'lower_bound': 0.04, 'upper_bound': 0.07}}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: {'avg': 20.95, 'min': 20.74, 'max': 21.18, 'lower_bound': 0.21, 'upper_bound': 0.23}, 4: {'avg': 12.46, 'min': 12.27, 'max': 12.68, 'lower_bound': 0.19, 'upper_bound': 0.21}, 8: {'avg': 7.65, 'min': 7.51, 'max': 7.75, 'lower_bound': 0.14, 'upper_bound': 0.1}, 16: {'avg': 5.09, 'min': 4.9, 'max': 5.18, 'lower_bound': 0.19, 'upper_bound': 0.09}}, 'Less': {2: {'avg': 20.99, 'min': 20.81, 'max': 21.15, 'lower_bound': 0.18, 'upper_bound': 0.16}, 4: {'avg': 12.49, 'min': 12.41, 'max': 12.57, 'lower_bound': 0.08, 'upper_bound': 0.08}, 8: {'avg': 7.68, 'min': 7.6, 'max': 7.95, 'lower_bound': 0.08, 'upper_bound': 0.27}, 16: {'avg': 5.07, 'min': 4.98, 'max': 5.17, 'lower_bound': 0.09, 'upper_bound': 0.1}}, 'Karma': {2: {'avg': 20.99, 'min': 20.75, 'max': 21.19, 'lower_bound': 0.23, 'upper_bound': 0.2}, 4: {'avg': 12.59, 'min': 12.36, 'max': 13.21, 'lower_bound': 0.23, 'upper_bound': 0.62}, 8: {'avg': 8.68, 'min': 7.67, 'max': 10.48, 'lower_bound': 1.0, 'upper_bound': 1.8}, 16: {'avg': 7.04, 'min': 5.19, 'max': 8.23, 'lower_bound': 1.85, 'upper_bound': 1.2}}, 'Passive': {2: {'avg': 20.88, 'min': 20.65, 'max': 21.11, 'lower_bound': 0.23, 'upper_bound': 0.23}, 4: {'avg': 13.25, 'min': 12.2, 'max': 20.74, 'lower_bound': 1.05, 'upper_bound': 7.49}, 8: {'avg': 10.74, 'min': 7.6, 'max': 23.98, 'lower_bound': 3.14, 'upper_bound': 13.24}, 16: {'avg': 14.03, 'min': 4.9, 'max': 49.92, 'lower_bound': 9.13, 'upper_bound': 35.89}}, 'Polka': {2: {'avg': 20.99, 'min': 20.8, 'max': 21.33, 'lower_bound': 0.19, 'upper_bound': 0.34}, 4: {'avg': 12.93, 'min': 12.38, 'max': 15.0, 'lower_bound': 0.55, 'upper_bound': 2.07}, 8: {'avg': 8.1, 'min': 7.65, 'max': 9.18, 'lower_bound': 0.45, 'upper_bound': 1.08}, 16: {'avg': 6.83, 'min': 5.3, 'max': 8.66, 'lower_bound': 1.53, 'upper_bound': 1.84}}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 20, NOBJTRANS:20': {'Aggressive': {2: {'avg': 20.22, 'min': 20.01, 'max': 20.47, 'lower_bound': 0.21, 'upper_bound': 0.25}, 4: {'avg': 12.09, 'min': 11.86, 'max': 12.24, 'lower_bound': 0.24, 'upper_bound': 0.14}, 8: {'avg': 7.39, 'min': 7.32, 'max': 7.46, 'lower_bound': 0.07, 'upper_bound': 0.08}, 16: {'avg': 4.76, 'min': 4.71, 'max': 4.81, 'lower_bound': 0.05, 'upper_bound': 0.05}}, 'Less': {2: {'avg': 20.29, 'min': 20.1, 'max': 20.42, 'lower_bound': 0.19, 'upper_bound': 0.13}, 4: {'avg': 12.07, 'min': 11.94, 'max': 12.22, 'lower_bound': 0.12, 'upper_bound': 0.15}, 8: {'avg': 7.36, 'min': 7.28, 'max': 7.42, 'lower_bound': 0.08, 'upper_bound': 0.07}, 16: {'avg': 4.73, 'min': 4.67, 'max': 4.83, 'lower_bound': 0.07, 'upper_bound': 0.1}}, 'Karma': {2: {'avg': 20.23, 'min': 20.04, 'max': 20.43, 'lower_bound': 0.19, 'upper_bound': 0.2}, 4: {'avg': 12.15, 'min': 11.92, 'max': 12.62, 'lower_bound': 0.24, 'upper_bound': 0.46}, 8: {'avg': 7.68, 'min': 7.28, 'max': 8.21, 'lower_bound': 0.4, 'upper_bound': 0.53}, 16: {'avg': 5.77, 'min': 4.71, 'max': 7.18, 'lower_bound': 1.07, 'upper_bound': 1.41}}, 'Passive': {2: {'avg': 20.21, 'min': 20.03, 'max': 20.45, 'lower_bound': 0.18, 'upper_bound': 0.25}, 4: {'avg': 12.12, 'min': 11.86, 'max': 12.36, 'lower_bound': 0.26, 'upper_bound': 0.24}, 8: {'avg': 7.39, 'min': 7.28, 'max': 7.53, 'lower_bound': 0.11, 'upper_bound': 0.14}, 16: {'avg': 4.69, 'min': 4.66, 'max': 4.73, 'lower_bound': 0.04, 'upper_bound': 0.04}}, 'Polka': {2: {'avg': 20.47, 'min': 20.21, 'max': 20.94, 'lower_bound': 0.26, 'upper_bound': 0.47}, 4: {'avg': 12.09, 'min': 11.9, 'max': 12.41, 'lower_bound': 0.18, 'upper_bound': 0.32}, 8: {'avg': 7.63, 'min': 7.38, 'max': 8.24, 'lower_bound': 0.25, 'upper_bound': 0.61}, 16: {'avg': 5.67, 'min': 4.73, 'max': 7.15, 'lower_bound': 0.94, 'upper_bound': 1.48}}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: {'avg': 18.02, 'min': 17.86, 'max': 18.23, 'lower_bound': 0.16, 'upper_bound': 0.21}, 4: {'avg': 9.83, 'min': 9.74, 'max': 9.94, 'lower_bound': 0.08, 'upper_bound': 0.11}, 8: {'avg': 5.46, 'min': 5.4, 'max': 5.51, 'lower_bound': 0.05, 'upper_bound': 0.06}, 16: {'avg': 3.46, 'min': 3.4, 'max': 3.51, 'lower_bound': 0.06, 'upper_bound': 0.05}}, 'Less': {2: {'avg': 18.1, 'min': 17.93, 'max': 18.23, 'lower_bound': 0.16, 'upper_bound': 0.13}, 4: {'avg': 9.8, 'min': 9.73, 'max': 9.86, 'lower_bound': 0.07, 'upper_bound': 0.06}, 8: {'avg': 5.44, 'min': 5.37, 'max': 5.55, 'lower_bound': 0.07, 'upper_bound': 0.11}, 16: {'avg': 3.45, 'min': 3.42, 'max': 3.49, 'lower_bound': 0.03, 'upper_bound': 0.04}}, 'Karma': {2: {'avg': 17.97, 'min': 17.66, 'max': 18.23, 'lower_bound': 0.31, 'upper_bound': 0.27}, 4: {'avg': 9.79, 'min': 9.69, 'max': 9.95, 'lower_bound': 0.1, 'upper_bound': 0.16}, 8: {'avg': 5.43, 'min': 5.38, 'max': 5.48, 'lower_bound': 0.06, 'upper_bound': 0.05}, 16: {'avg': 3.45, 'min': 3.39, 'max': 3.48, 'lower_bound': 0.07, 'upper_bound': 0.03}}, 'Passive': {2: {'avg': 18.0, 'min': 17.88, 'max': 18.16, 'lower_bound': 0.12, 'upper_bound': 0.15}, 4: {'avg': 9.8, 'min': 9.74, 'max': 9.9, 'lower_bound': 0.06, 'upper_bound': 0.1}, 8: {'avg': 5.45, 'min': 5.36, 'max': 5.51, 'lower_bound': 0.09, 'upper_bound': 0.06}, 16: {'avg': 3.48, 'min': 3.44, 'max': 3.57, 'lower_bound': 0.04, 'upper_bound': 0.09}}, 'Polka': {2: {'avg': 18.02, 'min': 17.81, 'max': 18.16, 'lower_bound': 0.21, 'upper_bound': 0.13}, 4: {'avg': 9.81, 'min': 9.7, 'max': 9.92, 'lower_bound': 0.11, 'upper_bound': 0.11}, 8: {'avg': 5.43, 'min': 5.38, 'max': 5.53, 'lower_bound': 0.05, 'upper_bound': 0.09}, 16: {'avg': 3.45, 'min': 3.41, 'max': 3.48, 'lower_bound': 0.04, 'upper_bound': 0.03}}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:5': {'Aggressive': {2: {'avg': 17.86, 'min': 17.72, 'max': 18.06, 'lower_bound': 0.13, 'upper_bound': 0.21}, 4: {'avg': 9.75, 'min': 9.63, 'max': 9.85, 'lower_bound': 0.12, 'upper_bound': 0.1}, 8: {'avg': 5.4, 'min': 5.33, 'max': 5.46, 'lower_bound': 0.07, 'upper_bound': 0.06}, 16: {'avg': 3.36, 'min': 3.32, 'max': 3.41, 'lower_bound': 0.04, 'upper_bound': 0.05}}, 'Less': {2: {'avg': 17.85, 'min': 17.76, 'max': 18.08, 'lower_bound': 0.09, 'upper_bound': 0.23}, 4: {'avg': 9.76, 'min': 9.64, 'max': 9.89, 'lower_bound': 0.12, 'upper_bound': 0.12}, 8: {'avg': 5.39, 'min': 5.31, 'max': 5.47, 'lower_bound': 0.09, 'upper_bound': 0.08}, 16: {'avg': 3.35, 'min': 3.33, 'max': 3.38, 'lower_bound': 0.02, 'upper_bound': 0.03}}, 'Karma': {2: {'avg': 17.79, 'min': 17.61, 'max': 17.94, 'lower_bound': 0.18, 'upper_bound': 0.16}, 4: {'avg': 9.74, 'min': 9.69, 'max': 9.85, 'lower_bound': 0.05, 'upper_bound': 0.11}, 8: {'avg': 5.38, 'min': 5.33, 'max': 5.45, 'lower_bound': 0.05, 'upper_bound': 0.07}, 16: {'avg': 3.34, 'min': 3.31, 'max': 3.38, 'lower_bound': 0.03, 'upper_bound': 0.04}}, 'Passive': {2: {'avg': 17.77, 'min': 17.57, 'max': 17.91, 'lower_bound': 0.2, 'upper_bound': 0.15}, 4: {'avg': 9.74, 'min': 9.62, 'max': 9.84, 'lower_bound': 0.12, 'upper_bound': 0.1}, 8: {'avg': 5.34, 'min': 5.28, 'max': 5.4, 'lower_bound': 0.07, 'upper_bound': 0.05}, 16: {'avg': 3.35, 'min': 3.32, 'max': 3.43, 'lower_bound': 0.03, 'upper_bound': 0.08}}, 'Polka': {2: {'avg': 17.86, 'min': 17.71, 'max': 18.04, 'lower_bound': 0.15, 'upper_bound': 0.18}, 4: {'avg': 9.79, 'min': 9.62, 'max': 9.96, 'lower_bound': 0.17, 'upper_bound': 0.17}, 8: {'avg': 5.37, 'min': 5.3, 'max': 5.45, 'lower_bound': 0.07, 'upper_bound': 0.08}, 16: {'avg': 3.36, 'min': 3.32, 'max': 3.42, 'lower_bound': 0.04, 'upper_bound': 0.06}}}, 'NKEYS: 10000, NHTENTRIES: 256, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: {'avg': 21.9, 'min': 21.8, 'max': 22.02, 'lower_bound': 0.1, 'upper_bound': 0.13}, 4: {'avg': 12.29, 'min': 12.13, 'max': 12.46, 'lower_bound': 0.16, 'upper_bound': 0.17}, 8: {'avg': 7.49, 'min': 7.42, 'max': 7.63, 'lower_bound': 0.07, 'upper_bound': 0.14}, 16: {'avg': 4.95, 'min': 4.86, 'max': 5.05, 'lower_bound': 0.09, 'upper_bound': 0.1}}, 'Less': {2: {'avg': 21.85, 'min': 21.66, 'max': 22.0, 'lower_bound': 0.19, 'upper_bound': 0.16}, 4: {'avg': 12.24, 'min': 12.08, 'max': 12.48, 'lower_bound': 0.16, 'upper_bound': 0.23}, 8: {'avg': 7.54, 'min': 7.35, 'max': 7.8, 'lower_bound': 0.2, 'upper_bound': 0.25}, 16: {'avg': 4.96, 'min': 4.87, 'max': 5.08, 'lower_bound': 0.1, 'upper_bound': 0.12}}, 'Karma': {2: {'avg': 21.99, 'min': 21.69, 'max': 22.73, 'lower_bound': 0.3, 'upper_bound': 0.74}, 4: {'avg': 12.37, 'min': 12.09, 'max': 12.85, 'lower_bound': 0.28, 'upper_bound': 0.48}, 8: {'avg': 7.98, 'min': 7.45, 'max': 9.41, 'lower_bound': 0.54, 'upper_bound': 1.42}, 16: {'avg': 7.16, 'min': 6.36, 'max': 8.15, 'lower_bound': 0.8, 'upper_bound': 0.99}}, 'Passive': {2: {'avg': 22.26, 'min': 21.57, 'max': 26.3, 'lower_bound': 0.69, 'upper_bound': 4.04}, 4: {'avg': 14.45, 'min': 12.12, 'max': 25.1, 'lower_bound': 2.33, 'upper_bound': 10.65}, 8: {'avg': 10.6, 'min': 7.42, 'max': 23.31, 'lower_bound': 3.18, 'upper_bound': 12.71}, 16: {'avg': 10.94, 'min': 4.75, 'max': 35.53, 'lower_bound': 6.19, 'upper_bound': 24.59}}, 'Polka': {2: {'avg': 22.06, 'min': 21.74, 'max': 22.9, 'lower_bound': 0.32, 'upper_bound': 0.84}, 4: {'avg': 12.71, 'min': 12.14, 'max': 14.14, 'lower_bound': 0.57, 'upper_bound': 1.43}, 8: {'avg': 8.29, 'min': 7.56, 'max': 9.78, 'lower_bound': 0.73, 'upper_bound': 1.49}, 16: {'avg': 6.55, 'min': 5.02, 'max': 7.61, 'lower_bound': 1.53, 'upper_bound': 1.06}}}, 'NKEYS: 10000, NHTENTRIES: 1567, WRITES: 50, NOBJTRANS:20': {'Aggressive': {2: {'avg': 20.6, 'min': 20.44, 'max': 20.8, 'lower_bound': 0.17, 'upper_bound': 0.19}, 4: {'avg': 11.68, 'min': 11.54, 'max': 11.96, 'lower_bound': 0.13, 'upper_bound': 0.28}, 8: {'avg': 7.07, 'min': 7.01, 'max': 7.24, 'lower_bound': 0.06, 'upper_bound': 0.17}, 16: {'avg': 4.61, 'min': 4.55, 'max': 4.69, 'lower_bound': 0.06, 'upper_bound': 0.08}}, 'Less': {2: {'avg': 20.6, 'min': 20.2, 'max': 20.88, 'lower_bound': 0.39, 'upper_bound': 0.28}, 4: {'avg': 11.72, 'min': 11.53, 'max': 11.81, 'lower_bound': 0.18, 'upper_bound': 0.09}, 8: {'avg': 7.12, 'min': 7.0, 'max': 7.25, 'lower_bound': 0.12, 'upper_bound': 0.13}, 16: {'avg': 4.59, 'min': 4.52, 'max': 4.65, 'lower_bound': 0.07, 'upper_bound': 0.06}}, 'Karma': {2: {'avg': 20.72, 'min': 20.52, 'max': 21.08, 'lower_bound': 0.2, 'upper_bound': 0.36}, 4: {'avg': 11.7, 'min': 11.5, 'max': 12.0, 'lower_bound': 0.2, 'upper_bound': 0.3}, 8: {'avg': 7.6, 'min': 7.03, 'max': 8.89, 'lower_bound': 0.57, 'upper_bound': 1.3}, 16: {'avg': 6.08, 'min': 4.7, 'max': 6.87, 'lower_bound': 1.38, 'upper_bound': 0.79}}, 'Passive': {2: {'avg': 20.66, 'min': 20.55, 'max': 20.75, 'lower_bound': 0.11, 'upper_bound': 0.09}, 4: {'avg': 11.67, 'min': 11.61, 'max': 11.74, 'lower_bound': 0.06, 'upper_bound': 0.07}, 8: {'avg': 7.11, 'min': 7.04, 'max': 7.18, 'lower_bound': 0.08, 'upper_bound': 0.07}, 16: {'avg': 4.6, 'min': 4.53, 'max': 4.69, 'lower_bound': 0.06, 'upper_bound': 0.09}}, 'Polka': {2: {'avg': 20.77, 'min': 20.53, 'max': 21.2, 'lower_bound': 0.24, 'upper_bound': 0.43}, 4: {'avg': 11.8, 'min': 11.56, 'max': 12.1, 'lower_bound': 0.24, 'upper_bound': 0.3}, 8: {'avg': 7.28, 'min': 7.01, 'max': 8.47, 'lower_bound': 0.26, 'upper_bound': 1.2}, 16: {'avg': 6.04, 'min': 4.76, 'max': 7.04, 'lower_bound': 1.28, 'upper_bound': 1.0}}}}
+[[], [], [], [], [], [], [], []]
+[[[17.93, 10.14, 5.73, 3.57], [17.92, 10.05, 5.72, 3.58], [17.88, 10.04, 5.74, 3.62], [17.85, 10.44, 5.72, 3.59], [17.9, 10.06, 5.75, 3.59]], [[17.67, 9.96, 5.69, 3.53], [17.68, 9.99, 5.64, 3.54], [17.71, 9.97, 5.66, 3.52], [17.62, 9.96, 5.67, 3.53], [17.72, 10.02, 5.7, 3.54]], [[20.95, 12.46, 7.65, 5.09], [20.99, 12.49, 7.68, 5.07], [20.99, 12.59, 8.68, 7.04], [20.88, 13.25, 10.74, 14.03], [20.99, 12.93, 8.1, 6.83]], [[20.22, 12.09, 7.39, 4.76], [20.29, 12.07, 7.36, 4.73], [20.23, 12.15, 7.68, 5.77], [20.21, 12.12, 7.39, 4.69], [20.47, 12.09, 7.63, 5.67]], [[18.02, 9.83, 5.46, 3.46], [18.1, 9.8, 5.44, 3.45], [17.97, 9.79, 5.43, 3.45], [18.0, 9.8, 5.45, 3.48], [18.02, 9.81, 5.43, 3.45]], [[17.86, 9.75, 5.4, 3.36], [17.85, 9.76, 5.39, 3.35], [17.79, 9.74, 5.38, 3.34], [17.77, 9.74, 5.34, 3.35], [17.86, 9.79, 5.37, 3.36]], [[21.9, 12.29, 7.49, 4.95], [21.85, 12.24, 7.54, 4.96], [21.99, 12.37, 7.98, 7.16], [22.26, 14.45, 10.6, 10.94], [22.06, 12.71, 8.29, 6.55]], [[20.6, 11.68, 7.07, 4.61], [20.6, 11.72, 7.12, 4.59], [20.72, 11.7, 7.6, 6.08], [20.66, 11.67, 7.11, 4.6], [20.77, 11.8, 7.28, 6.04]]]
+NKEYS: 10000, NHTENTRIES: 256, Percentage of writes: 20 %, Objects per transaction:5
+[17.93, 10.14, 5.73, 3.57]
+[17.92, 10.05, 5.72, 3.58]
+[17.88, 10.04, 5.74, 3.62]
+[17.85, 10.44, 5.72, 3.59]
+[17.9, 10.06, 5.75, 3.59]
+Aggressive
+[17.93, 10.14, 5.73, 3.57]
+Less
+[17.92, 10.05, 5.72, 3.58]
+Karma
+[17.88, 10.04, 5.74, 3.62]
+Passive
+[17.85, 10.44, 5.72, 3.59]
+Polka
+[17.9, 10.06, 5.75, 3.59]
+NKEYS: 10000, NHTENTRIES: 1567, Percentage of writes: 20 %, Objects per transaction:5
+[17.67, 9.96, 5.69, 3.53]
+[17.68, 9.99, 5.64, 3.54]
+[17.71, 9.97, 5.66, 3.52]
+[17.62, 9.96, 5.67, 3.53]
+[17.72, 10.02, 5.7, 3.54]
+Aggressive
+[17.67, 9.96, 5.69, 3.53]
+Less
+[17.68, 9.99, 5.64, 3.54]
+Karma
+[17.71, 9.97, 5.66, 3.52]
+Passive
+[17.62, 9.96, 5.67, 3.53]
+Polka
+[17.72, 10.02, 5.7, 3.54]
+NKEYS: 10000, NHTENTRIES: 256, Percentage of writes: 20 %, Objects per transaction:20
+[20.95, 12.46, 7.65, 5.09]
+[20.99, 12.49, 7.68, 5.07]
+[20.99, 12.59, 8.68, 7.04]
+[20.88, 13.25, 10.74, 14.03]
+[20.99, 12.93, 8.1, 6.83]
+Aggressive
+[20.95, 12.46, 7.65, 5.09]
+Less
+[20.99, 12.49, 7.68, 5.07]
+Karma
+[20.99, 12.59, 8.68, 7.04]
+Passive
+[20.88, 13.25, 10.74, 14.03]
+Polka
+[20.99, 12.93, 8.1, 6.83]
+NKEYS: 10000, NHTENTRIES: 1567, Percentage of writes: 20 %, Objects per transaction:20
+[20.22, 12.09, 7.39, 4.76]
+[20.29, 12.07, 7.36, 4.73]
+[20.23, 12.15, 7.68, 5.77]
+[20.21, 12.12, 7.39, 4.69]
+[20.47, 12.09, 7.63, 5.67]
+Aggressive
+[20.22, 12.09, 7.39, 4.76]
+Less
+[20.29, 12.07, 7.36, 4.73]
+Karma
+[20.23, 12.15, 7.68, 5.77]
+Passive
+[20.21, 12.12, 7.39, 4.69]
+Polka
+[20.47, 12.09, 7.63, 5.67]
+NKEYS: 10000, NHTENTRIES: 256, Percentage of writes: 50 %, Objects per transaction:5
+[18.02, 9.83, 5.46, 3.46]
+[18.1, 9.8, 5.44, 3.45]
+[17.97, 9.79, 5.43, 3.45]
+[18.0, 9.8, 5.45, 3.48]
+[18.02, 9.81, 5.43, 3.45]
+Aggressive
+[18.02, 9.83, 5.46, 3.46]
+Less
+[18.1, 9.8, 5.44, 3.45]
+Karma
+[17.97, 9.79, 5.43, 3.45]
+Passive
+[18.0, 9.8, 5.45, 3.48]
+Polka
+[18.02, 9.81, 5.43, 3.45]
+NKEYS: 10000, NHTENTRIES: 1567, Percentage of writes: 50 %, Objects per transaction:5
+[17.86, 9.75, 5.4, 3.36]
+[17.85, 9.76, 5.39, 3.35]
+[17.79, 9.74, 5.38, 3.34]
+[17.77, 9.74, 5.34, 3.35]
+[17.86, 9.79, 5.37, 3.36]
+Aggressive
+[17.86, 9.75, 5.4, 3.36]
+Less
+[17.85, 9.76, 5.39, 3.35]
+Karma
+[17.79, 9.74, 5.38, 3.34]
+Passive
+[17.77, 9.74, 5.34, 3.35]
+Polka
+[17.86, 9.79, 5.37, 3.36]
+NKEYS: 10000, NHTENTRIES: 256, Percentage of writes: 50 %, Objects per transaction:20
+[21.9, 12.29, 7.49, 4.95]
+[21.85, 12.24, 7.54, 4.96]
+[21.99, 12.37, 7.98, 7.16]
+[22.26, 14.45, 10.6, 10.94]
+[22.06, 12.71, 8.29, 6.55]
+Aggressive
+[21.9, 12.29, 7.49, 4.95]
+Less
+[21.85, 12.24, 7.54, 4.96]
+Karma
+[21.99, 12.37, 7.98, 7.16]
+Passive
+[22.26, 14.45, 10.6, 10.94]
+Polka
+[22.06, 12.71, 8.29, 6.55]
+NKEYS: 10000, NHTENTRIES: 1567, Percentage of writes: 50 %, Objects per transaction:20
+[20.6, 11.68, 7.07, 4.61]
+[20.6, 11.72, 7.12, 4.59]
+[20.72, 11.7, 7.6, 6.08]
+[20.66, 11.67, 7.11, 4.6]
+[20.77, 11.8, 7.28, 6.04]
+Aggressive
+[20.6, 11.68, 7.07, 4.61]
+Less
+[20.6, 11.72, 7.12, 4.59]
+Karma
+[20.72, 11.7, 7.6, 6.08]
+Passive
+[20.66, 11.67, 7.11, 4.6]
+Polka
+[20.77, 11.8, 7.28, 6.04]
+8

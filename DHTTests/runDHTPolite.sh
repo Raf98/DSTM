@@ -36,7 +36,7 @@ fi
 
 if [ -z $4 ]
 then
-	MIN_DELAY=128
+	MIN_DELAY=64
 else
 	MIN_DELAY=$4
 fi
