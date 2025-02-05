@@ -5,8 +5,7 @@ from matplotlib import pyplot as plt
 import math
 import os
 
-contention_managers = ["Aggressive", "Less", "Karma", "Passive", "Polka"]
-#["Aggressive", "Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
+contention_managers = ["Aggressive", "Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
 use_cases = []
 tests_cms = []
