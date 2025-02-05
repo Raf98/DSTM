@@ -20,7 +20,7 @@ public class Aggressive extends ContentionManager {
         // an enemy attempted to complete itself after conflicting and, if it passes this limit,
         // the enemy is set to defunct, so that it can be aborted, since both its attempts and
         // defunct flag would be reset whenever it opens a new transactional object
-        if (!other.getConflictList().contains(me.hashCode()) || other.getDefunct()) {
+        /*if (!other.getConflictList().contains(me.hashCode()) || other.getDefunct()) {
             other.abort();
             me.getConflictList().add(other.hashCode());
         } else {
@@ -30,7 +30,8 @@ public class Aggressive extends ContentionManager {
             }
             me.abort();
             throw new AbortedException();
-        }
+        }*/
+        other.abort();
     }
 
     @Override
