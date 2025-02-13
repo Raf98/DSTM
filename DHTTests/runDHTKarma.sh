@@ -34,7 +34,7 @@ fi
 
 if [ -z $4 ]
 then
-	DELAY=2048
+	DELAY=512
 else
 	DELAY=$4
 fi
@@ -62,7 +62,7 @@ do
         # which would render less collisions and, thus, lower contention
         NKEYS=10000
         NHTENTRIES=128
-        for NHTENTRIES in $(seq 1024 543 1567);
+        for NHTENTRIES in $(seq 128 1439 1567);
         do
             echo "NKEYS: $NKEYS NHTENTRIES: $NHTENTRIES WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
             NCLIENT=2
