@@ -26,9 +26,9 @@ public class Polka extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-        // System.out.println("OTHER: " + other.getPriority());
-        // System.out.println("ME: " + me.getPriority());
-        // System.out.println(attempts);
+        /*System.out.println(other.hashCode() + " OTHER: " + other.getPriority() + " ;TIMESTAMP: " + other.getTimestamp());
+        System.out.println(me.hashCode() + " ME: " + me.getPriority() + " ;TIMESTAMP: " + me.getTimestamp());
+        System.out.println("ATTEMPTS: " + attempts);*/
         if (me.getPriority() > other.getPriority()) {
             attempts = 0;
             delay = MIN_DELAY;

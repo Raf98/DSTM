@@ -195,8 +195,8 @@ class DHTTransaction implements ExecuteTransaction {
         int port = 1700;
         String bucketName = "bucket0";
 
-        serverNum = rng.nextInt(nServers);
-        port = 1700 + serverNum;
+        //serverNum = rng.nextInt(nServers);
+        //port = 1700 + serverNum;
 
         int bound = numberOfKeys;
         HashSet<Integer> keysGenerated = new HashSet<>();
@@ -204,8 +204,8 @@ class DHTTransaction implements ExecuteTransaction {
         INode<Integer>[] bucketsHeads = new INode[nObjectsPerTransaction];
 
         for (int i = 0; i < nObjectsPerTransaction; i++) {
-            //serverNum = rng.nextInt(nServers);
-            //port = 1700 + serverNum;
+            serverNum = rng.nextInt(nServers);
+            port = 1700 + serverNum;
 
             // min + rng.nextInt(max - min);
             // Limits the key generation within the bounds of the minimum and the maximum
@@ -234,6 +234,8 @@ class DHTTransaction implements ExecuteTransaction {
                         //System.out.println("INSERT " + i);
                         bucketsHeads[i].insert(keys[i], values[i]);
                     }
+
+                    //System.out.println("INSERTION FINISHED!");
                 }
 
                 if (op == 1) {
