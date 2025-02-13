@@ -67,15 +67,19 @@ class DHTProcessData implements ProcessData {
 
         // System.out.println("after list!");
 
-        for (int i = 0; i < numberOfServers; i++) {
+        TMObj<INode<Integer>> tmobjBucket;
+        INode<Integer> bucket;
+
+        /*for (int i = 0; i < numberOfServers; i++) {
             String port = String.valueOf(1700 + i);
-            String nodeName = "ht" + i;
-            htServer = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
-            commitsrts += htServer.getCommits();
-            aborts += htServer.getAborts();
+            tmobjBucket = (TMObj<INode<Integer>>) Naming.lookup("rmi://localhost:" + port + "/bucket0");
+            //bucket = tmobjBucket.openRead();
+            commitsrts += tmobjBucket.getCommits();
+            aborts += bucket.getAborts();
             System.out.printf("Current commits: %d\n", commitsrts);
             System.out.printf("Current aborts: %d\n", aborts);
-        }
+        }*/
+
         System.out.printf("Total of commits: %d (Expected: %d)\n", commits, commitsrts);
         System.out.printf("Total of inserts: %d \n", inserts);
         System.out.printf("Total of gets: %d \n", gets);

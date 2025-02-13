@@ -219,19 +219,27 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
           return result;
         }
       } catch (AbortedException e) {
-        transactionTimestamp = me.timestamp.get();
+        /*transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
         //transactionConflictList = me.conflictList;
         transactionAborts = me.transactionAborts.incrementAndGet();
+        System.out.println("TRANSACTION ABORTS:" + transactionAborts);*/
       } catch (InterruptedException e) {
         myThread.interrupt();
+        System.out.println("INTERRUPTED!");
       } catch (Exception e) {
+        System.out.println("PANIC!");
         e.printStackTrace();
         throw new PanicException(e);
       }
+      transactionTimestamp = me.timestamp.get();
+      transactionPriority = me.priority.get();
+      transactionAborts = me.transactionAborts.incrementAndGet();
+      System.out.println("TRANSACTION ABORTS:" + transactionAborts);
+
       aborts.getAndIncrement();
-      //System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, transactionAborts);
-      //System.out.println("ABORTED: " + aborts.get());
+      System.out.printf("THREAD: %d; TRANSACTION: %d; ABORTED: %d\n", myThread.hashCode(), transactionNum, transactionAborts);
+      System.out.println("ABORTED: " + aborts.get());
     }
     throw new InterruptedException();
   }

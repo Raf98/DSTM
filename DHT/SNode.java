@@ -9,7 +9,7 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     int key;
     T value;
     String name;
-    TMObjServer<INode<T>> next;
+    INode<T> next;
 
     public SNode() throws RemoteException {}
     public SNode(int key, T value) throws RemoteException {
@@ -36,9 +36,9 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
     }
 
     @Override
-    public TMObjServer<INode<T>> getNext() { return next; }
+    public INode<T> getNext() { return next; }
     @Override
-    public void setNext(TMObjServer<INode<T>> next) { this.next = next; }
+    public void setNext(INode<T> next) { this.next = next; }
     @Override
     public void copyTo(INode<T> target) throws RemoteException {
         ((INode<T>)target).setNext(next);
@@ -51,20 +51,16 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
         return "{ KEY: " + getKey() + ", VALUE: " + getValue() /*+ ", NEXT: " + getNext()*/ + " }";
     }
 
-    /*@Override
+    @Override
     public boolean contains(int key) throws Exception {
         if (this.getNext() == null) {
             return false;
         }
 
-        for (TMObjServer<INode<T>> tmObjServerNode = this.next; tmObjServerNode != null; ) {
-            INode<T> node;
-                node = tmObjServerNode.openRead();
-                if (node.getKey() == key) {
-                    return true;
-                }
-
-                tmObjServerNode = node.getNext();
+        for (INode<T> tempNode = this.next; tempNode != null; tempNode = tempNode.getNext()) {
+            if (tempNode.getKey() == key) {
+                return true;
+            }
         }
 
         return false;
@@ -72,67 +68,59 @@ public class SNode<T>  extends UnicastRemoteObject implements INode<T> {
 
     @SuppressWarnings({ "rawtypes", "unchecked" })
     @Override
-    public TMObjServer<INode<T>> insert(int machineId, int key, int value) throws Exception {
-        if (this.contains(key)) {
+    public INode<T> insert(int key, T value) throws Exception {
+        /*if (this.contains(key)) {
             return this.get(key);
-        }
+        }*/
 
         /*System.out.println(getKey());
         System.out.println(getItem());
         System.out.println("NAME: " + getName());
         System.out.println(getNext());*/
 
-        /*String newNodeName =  this.name + "_key" + key;
-        System.out.println("NEW NODE NAME: " + newNodeName);
-        SNode<T> newNode = new SNode(key, value, newNodeName);
+        SNode<T> newNode = new SNode(key, value);
         //System.out.println(name);
 
-        Integer port = 1700 + machineId;
+        /*Integer port = 1700 + machineId;
         Registry registry = LocateRegistry.getRegistry(port);
         Remote newNodeRemote = new TMObjServer<>(newNode);
         registry.rebind(newNodeName, newNodeRemote);
 
-        TMObjServer<INode<T>> newTmObjServerNode =  TMObjServer.lookupTMObjServer("rmi://localhost:" + port + "/" + newNodeName);
+        TMObjServer<INode<T>> newTmObjServerNode =  TMObjServer.lookupTMObjServer("rmi://localhost:" + port + "/" + newNodeName);*/
          
 
-        System.out.println("LOOKED UP");
-
         if (this.next == null) {
-            System.out.println("FIRST INSERT");
-            this.setNext(newTmObjServerNode);
+            //System.out.println("FIRST INSERT: " + newNode.toString());
+            this.setNext(newNode);
             //System.out.println("FIRST:" + newNode.toString());
         } else {
-            for (TMObjServer<INode<T>> tmObjServerNode = this.next; ;) {
-                INode<T> node;
-                node = tmObjServerNode.openRead();
-    
-                System.out.println("CURRENT NODE:" + node.toString());
-                System.out.println("CURRENT NODE:" + node.getName());
-                if (node.getNext() == null) {
-                    System.out.println("NEXT INSERT");
-                    node = tmObjServerNode.openWrite();
-                    node.setNext(newTmObjServerNode);
+            for (INode<T> tempNode = this.next; ; tempNode = tempNode.getNext()) {    
+                //System.out.println("CURRENT NODE:" + tempNode.toString());
+
+                if (tempNode.getKey() == key) {
+                    //System.out.printf("KEY %d; UPDATING VALUE FROM %d TO %d!\n", key, (int) tempNode.getValue(), (int) value);
+                    tempNode.setValue(value);
+                    break;
+                } else if (tempNode.getNext() == null) {
+                    /*System.out.printf("KEY %d; INDEX %d; SERVER %s: INSERTING %d!\n", 
+                                        keys[i], keys[i] % numberHTEntries, addressName, values[i]);*/
+                    tempNode.setNext(newNode);
                     break;
                 }
-                tmObjServerNode = node.getNext();
             }
         }
 
-        return newTmObjServerNode;
+        return newNode;
     }
     @Override
-    public TMObjServer<INode<T>> get(int key) throws Exception {
+    public INode<T> get(int key) throws Exception {
 
-        for (TMObjServer<INode<T>> tmObjServerNode = this.next; tmObjServerNode != null; ) {
-            INode<T> node;
-                node = tmObjServerNode.openRead();
-                if (node.getKey() == key) {
-                    return tmObjServerNode;
-                }
-
-                tmObjServerNode = node.getNext();
+        for (INode<T> tempNode = this.next; tempNode != null; tempNode = tempNode.getNext()) {
+            if (tempNode.getKey() == key) {
+                return tempNode;
+            }
         }
 
         return null;
-    }*/
+    }
 }

@@ -3,41 +3,65 @@ package DHT;
 import java.io.FileWriter;
 import java.rmi.Naming;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
 import TinyTM.Transaction;
+import TinyTM.contention.CMEnum;
+import TinyTM.ofree.TMObj;
 
 public class DHTClient {
     public static void main(String[] args) throws Exception {
-        //System.out.println("começa");
+        // System.out.println("começa");
 
-        int clientid = Integer.parseInt(args[0]);               // i in NCLIENT
-        int servers = Integer.parseInt(args[1]);                // NSERVER
-        int numberOfKeys = Integer.parseInt(args[2]);           // NKEYS
-        int writes = Integer.parseInt(args[3]);                 // WRITES
-        int transactions = Integer.parseInt(args[4]);           // NTRANS
-        int objectsPerTransaction = Integer.parseInt(args[5]);  // NOBJTRANS
-        int hashTablesEntries = Integer.parseInt(args[6]);      // NHTENTRIES
+        int clientid = Integer.parseInt(args[0]); // i in NCLIENT
+        int servers = Integer.parseInt(args[1]); // NSERVER
+        int numberOfKeys = Integer.parseInt(args[2]); // NKEYS
+        int writes = Integer.parseInt(args[3]); // WRITES
+        int transactions = Integer.parseInt(args[4]); // NTRANS
+        int objectsPerTransaction = Integer.parseInt(args[5]); // NOBJTRANS
+        int hashTablesEntries = Integer.parseInt(args[6]); // NHTENTRIES
+        int contentionManager = args.length > 7 ? Integer.parseInt(args[7]) : 0; // CM
+
+        int maxAborts_minDelay_delay = 64;
+        int maxDelay_intervals = 256;
+
+        // If CM is not Less or Agressive, that have no settable parameters
+        if (args.length > 8 && contentionManager < 6) {
+            maxAborts_minDelay_delay = Integer.parseInt(args[7]);
+
+            if (args.length > 8) {
+                maxDelay_intervals = Integer.parseInt(args[8]);
+            }
+        }
+
+        System.out.println("Contention Manager Dynamic Parameters:");
+        System.out.println("maxAborts/minDelay/delay: " + maxAborts_minDelay_delay);
+        System.out.println("maxDelay_intervals: " + maxDelay_intervals);
+        System.out.println("CONTENTION MANAGER: " + CMEnum.fromId(contentionManager));
+        Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
 
         DHTTransaction transaction = new DHTTransaction();
 
         var saveData = new DHTSaveData();
-        //var cs = new MyChoiceOfObjects();
+        // var cs = new MyChoiceOfObjects();
 
         IDBarrier barrier = AppCoordinator.connectToBarrier("barrier"); // (IDBarrier) Naming.lookup("barrier");
         barrier.await();
 
         RObject[] robjects;
         int op;
-        
+
         // the shuffling should be done for each table, before operating over them
         // since a transaction is done over one hash table/server only
-        // however, since each transaction writes either 5 or 20 key-value pairs under one machine
+        // however, since each transaction writes either 5 or 20 key-value pairs under
+        // one machine
         // it will probably fill a handful of those tables before reading from them
         // so, it isn't much of an issue
 
@@ -45,9 +69,9 @@ public class DHTClient {
         Integer[] shuffledOps = opsShuffler.shuffledArray(transactions, writes);
 
         for (int i = 0; i < transactions; i++) {
-            //robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
-            op = shuffledOps[i]; //cop.chooseOP(writes, random);
-            //transaction.execTransaction(robjects, op);
+            // robjects = cs.chooseObjects(servers, objects, objectsPerTransaction, random);
+            op = shuffledOps[i]; // cop.chooseOP(writes, random);
+            // transaction.execTransaction(robjects, op);
             transaction.execTransaction(servers, numberOfKeys, objectsPerTransaction, hashTablesEntries, op);
         }
 
@@ -83,7 +107,7 @@ class DHTSaveData implements NewSaveData {
                 Arrays.asList("commitsrts", Transaction.commits.get() + ""),
                 Arrays.asList("aborts", Transaction.aborts.get() + ""));
 
-        //System.out.println("gravando arquivo");
+        // System.out.println("gravando arquivo");
 
         FileWriter csvWriter = new FileWriter("client" + clientid + ".out");
 
@@ -113,174 +137,127 @@ class DHTTransaction implements ExecuteTransaction {
         gets = new AtomicInteger(0);
     }
 
-
-   /* public void execTransaction(RObject[] robjects, int op) throws Exception {
-
-
-        TMObj<IHTMachine>[] TMObjects = new TMObj[robjects.length];
-        for (int i = 0; i < TMObjects.length; i++) {
-            TMObjects[i] = (TMObj<IHTMachine>) TMObj.lookupTMObj("rmi://localhost:" + robjects[i].getPort() + "/" + robjects[i].getAddress());
-        }
-
-        int donewithdraw = 0;
-
-        donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
-            public Integer call() throws Exception {
-                int localwithdraw = 0;
-                Random rng = new Random();
-                if (op == 0) {
-                    IHTMachine iht = TMObjects[0].openWrite();
-                    iht.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
-                }
-
-                if (op == 2) {
-                    IHTMachine iht = TMObjects[0].openRead();
-                    iht.get(rng.nextInt(10*100));
-                }
-                return localwithdraw;
-            }
-        });
-
-        // SANITY CHECK:
-        commits.getAndIncrement();
-
-        if (op == 0) {
-            inserts.getAndIncrement();
-        }
-
-        if (op == 1) {
-            gets.getAndIncrement();
-        }
-    }*/ 
+    /*
+     * public void execTransaction(RObject[] robjects, int op) throws Exception {
+     * 
+     * 
+     * TMObj<IHTMachine>[] TMObjects = new TMObj[robjects.length];
+     * for (int i = 0; i < TMObjects.length; i++) {
+     * TMObjects[i] = (TMObj<IHTMachine>) TMObj.lookupTMObj("rmi://localhost:" +
+     * robjects[i].getPort() + "/" + robjects[i].getAddress());
+     * }
+     * 
+     * int donewithdraw = 0;
+     * 
+     * donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
+     * public Integer call() throws Exception {
+     * int localwithdraw = 0;
+     * Random rng = new Random();
+     * if (op == 0) {
+     * IHTMachine iht = TMObjects[0].openWrite();
+     * iht.insert(rng.nextInt(10*100), rng.nextInt(Integer.MAX_VALUE));
+     * }
+     * 
+     * if (op == 2) {
+     * IHTMachine iht = TMObjects[0].openRead();
+     * iht.get(rng.nextInt(10*100));
+     * }
+     * return localwithdraw;
+     * }
+     * });
+     * 
+     * // SANITY CHECK:
+     * commits.getAndIncrement();
+     * 
+     * if (op == 0) {
+     * inserts.getAndIncrement();
+     * }
+     * 
+     * if (op == 1) {
+     * gets.getAndIncrement();
+     * }
+     * }
+     */
 
     @SuppressWarnings("unchecked")
     @Override
-    public void execTransaction(int nServers, int numberOfKeys, int nObjectsPerTransaction, int hashTablesEntries, int op) throws Exception {
+    public void execTransaction(int nServers, int numberOfKeys, int nObjectsPerTransaction, int hashTablesEntries,
+            int op) throws Exception {
         Random rng = new Random();
-        /*IHashTable[] machinesForOps = new IHashTable[nServers];
 
-        // Lookup for Hash Tables within their machines/ servers in the network
-        for (int i = 0; i < machinesForOps.length; i++) {
-            String port = String.valueOf(1700 + i);
-            String nodeName = "ht" + i;
-
-            //System.out.println("NODE NAME: " + nodeName);
-            //System.out.println("rmi://localhost:" + port + "/" + nodeName);
-
-            machinesForOps[i] = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
-        }
-
-        // Iterate and calculate the machineId needed for each operation within the Distributed Hash Table
-        int[] machinesIds = new int[nObjects];*/
-        int[] keys = new int[nObjectsPerTransaction];//[TMObjects.length];
+        // Iterate and calculate the machineId needed for each operation within the
+        // Distributed Hash Table
+        // int[] machinesIds = new int[nObjects];
+        int[] keys = new int[nObjectsPerTransaction];// [TMObjects.length];
         int[] values = new int[nObjectsPerTransaction];
 
-        int serverNum = rng.nextInt(nServers);
-        String port = String.valueOf(1700 + serverNum);
-        String nodeName = "ht" + serverNum;
-        IHashTable serverForOps = (IHashTable) Naming.lookup("rmi://localhost:" + port + "/" + nodeName);
+        int serverNum = 0;
+        int port = 1700;
+        String bucketName = "bucket0";
 
+        serverNum = rng.nextInt(nServers);
+        port = 1700 + serverNum;
 
-        /*for (int i = 0; i < nObjects; i++) {
-            int bound = 1000;
-            keys[i] = rng.nextInt(bound);
-            values[i] = rng.nextInt(Integer.MAX_VALUE);
-
-            
-            int inc = bound / nServers;
-            int count = 0;
-            int j = 0;
-            for (; j < nServers; j++) {
-                count += inc;
-                if(keys[i] < count) {
-                    break;
-                }
-            }
-
-            int machineNum = j; // esquema de descobrir máquina deve ser repensado?
-            machinesIds[i] = machineNum;
-        }*/
+        int bound = numberOfKeys;
+        HashSet<Integer> keysGenerated = new HashSet<>();
+        TMObj<INode<Integer>>[] TMOBuckets = new TMObj[nObjectsPerTransaction];
+        INode<Integer>[] bucketsHeads = new INode[nObjectsPerTransaction];
 
         for (int i = 0; i < nObjectsPerTransaction; i++) {
-            int bound = numberOfKeys;
-            //min + rng.nextInt(max - min);
-            // Limits the key generation within the bounds of the minimum and the maximum values for the current server
-            keys[i] = (bound / nServers) * serverNum + rng.nextInt((bound / nServers) * (serverNum + 1) - (bound / nServers) * serverNum);
+            //serverNum = rng.nextInt(nServers);
+            //port = 1700 + serverNum;
+
+            // min + rng.nextInt(max - min);
+            // Limits the key generation within the bounds of the minimum and the maximum
+            // values for the current server
+            do {
+                keys[i] = (bound / nServers) * serverNum
+                    + rng.nextInt((bound / nServers) * (serverNum + 1) - (bound / nServers) * serverNum);
+            } while (keysGenerated.contains(keys[i]));
+            
+            bucketName = "bucket" + keys[i] % hashTablesEntries;
+            values[i] = rng.nextInt(Integer.MAX_VALUE);
+            TMOBuckets[i] = (TMObj<INode<Integer>>) TMObj.lookupTMObj("rmi://localhost:" + port + "/" + bucketName);
         }
 
-        if (op == 0) {
-            /*for (int i = 0; i < nObjects; i++) {
-                IHashTable iHashTable = machinesForOps[machinesIds[i]];
-                //System.out.println("TRANSACTION CLIENT ID " + clientId);
-                //System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                iHashTable.insert(keys[i], values[i]);
-                inserts.getAndIncrement();
-                commits.getAndIncrement();
-                //System.out.println("INSERTS: " + inserts.get());
-            }*/
-            for (int i = 0; i < nObjectsPerTransaction; i++) {
-                values[i] = rng.nextInt(Integer.MAX_VALUE);
-            }
-            serverForOps.insertMultiple(keys, values);
-            inserts.getAndIncrement();
-            commits.getAndIncrement();
-            //System.out.println("INSERTS: " + inserts.get());
-        } else {
-            /*for (int i = 0; i < nObjects; i++) {
-                IHashTable iHashTable = machinesForOps[machinesIds[i]];
-                //System.out.println("TRANSACTION CLIENT ID " + clientId);
-                //System.out.println("READING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                iHashTable.get(keys[i]);
-                gets.getAndIncrement();
-                commits.getAndIncrement();
-                //System.out.println("GETS: " + gets.get());
-            }*/
-            serverForOps.getMultiple(keys);
-            gets.getAndIncrement();
-            commits.getAndIncrement();
-            //System.out.println("GETS: " + gets.get());
-        }
+        INode<Integer>[] results = Transaction.atomic(new Callable<INode<Integer>[]>() {
+            public INode<Integer>[] call() throws Exception {
+                INode<Integer>[] nodesFound = new INode[keys.length];
 
-        /*int donewithdraw = 0;
-
-        donewithdraw = (int) Transaction.atomic(0, new Callable<Integer>() {
-            public Integer call() throws Exception {
-                int localwithdraw = 0;
-                Random rng = new Random();
                 if (op == 0) {
 
-                    for (int i = 0; i < TMObjects.length; i++) {
-                        INode<Integer> iNode = TMObjects[i].openWrite();
-                        //System.out.println("TRANSACTION CLIENT ID " + clientId);
-                        System.out.println("WRITING..." + i + ", KEY: " + keys[i] + ", " + "MACHINE: " + machinesIds[i]);
-                        iNode.insert(machinesIds[i], keys[i], rng.nextInt(Integer.MAX_VALUE));
-                        inserts.getAndIncrement();
-                        System.out.println("INSERTS: " + inserts.get());
+                    for (int i = 0; i < nObjectsPerTransaction; i++) {
+                        bucketsHeads[i] = TMOBuckets[i].openWrite();
                     }
 
-                } else if (op == 1) {
-                    
-                    for (int i = 0; i < TMObjects.length; i++) {
-                        INode<Integer> iNode = TMObjects[i].openRead();
-                        System.out.println("READING...");
-                        iNode.get(keys[i]);
-                        gets.getAndIncrement();
+                    for (int i = 0; i < nObjectsPerTransaction; i++) {
+                        //System.out.println("INSERT " + i);
+                        bucketsHeads[i].insert(keys[i], values[i]);
                     }
-
                 }
-                return localwithdraw;
+
+                if (op == 1) {
+                    for (int i = 0; i < nObjectsPerTransaction; i++) {
+                        bucketsHeads[i] = TMOBuckets[i].openRead();
+                    }
+
+                    for (int i = 0; i < nObjectsPerTransaction; i++) {
+                        //System.out.println("GET " + i);
+                        bucketsHeads[i].get(keys[i]);
+                    }
+                }
+                return nodesFound;
             }
         });
 
-        // SANITY CHECK:
         commits.getAndIncrement();
 
-        /*if (op == 0) {
+        if (op == 0) {
             inserts.getAndIncrement();
         }
 
         if (op == 1) {
             gets.getAndIncrement();
-        }*/
+        }
     }
 }
