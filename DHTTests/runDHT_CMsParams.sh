@@ -83,13 +83,13 @@ do
   	printf "CM ID:\t$CM\t"
   	for i in $(seq 0 $(($NSERVER - 1)));
   	do
-		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES $CM $MAXABORTS_MINDELAY_DELAY $MAXDELAY_INTERVALS &
+		taskset -c $(($i+$NCLIENT)) java DHT.DHTServer $i $NHTENTRIES &
   	done
 
   	for i in $(seq 0 $(($NCLIENT-1)));
   	do
 		#-Djava.rmi.server.logCalls=true
-		taskset -c $i java DHT.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES &
+		taskset -c $i java DHT.DHTClient $i $NSERVER $NKEYS $WRITES $NTRANS $NOBJTRANS $NHTENTRIES $CM $MAXABORTS_MINDELAY_DELAY $MAXDELAY_INTERVALS &
  	done
  	wait $pid
 done
