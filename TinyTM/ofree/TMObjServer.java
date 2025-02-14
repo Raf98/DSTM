@@ -57,7 +57,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
   public T openWriteRemote(ITransaction tx) throws RemoteException {
 
     Locator locator = start.get();
-    if (locator.owner.hashCode() == tx.hashCode()) {
+    if (locator.owner.get().hashCode() == tx.hashCode()) {
       tx.setEnemyAttempts(0);     // reset transaction's enemies attempts whenever when opening an object to write
       tx.setDefunct(false);           // if it performs any transaction-related operation, defunct should be reset
       return (T) locator.newVersion;
