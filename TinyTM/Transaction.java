@@ -53,7 +53,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   public AtomicInteger priority = new AtomicInteger(0);
   public AtomicLong timestamp;
   public AtomicBoolean defunct = new AtomicBoolean(false);
-  public HashSet<Integer> conflictList = new HashSet<>();
+  public AtomicReference<HashSet<Integer>> conflictList = new AtomicReference<HashSet<Integer>>(new HashSet<>());
   public AtomicInteger transactionAborts = new AtomicInteger(0);
   public AtomicInteger enemyAttempts = new AtomicInteger(0);
   public static IGlobalClock globalClock;
@@ -197,9 +197,10 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         me.timestamp.set(transactionTimestamp);
       }
       me.transactionAborts.set(transactionAborts);
-      /*if (transactionConflictList != null) {
-        me.conflictList = transactionConflictList;
-      }*/
+
+      if (transactionConflictList != null) {
+        me.conflictList.set(transactionConflictList);
+      }
 
       /*if (transactionAborts > 0 && transactionAborts % 8 == 0 && cmName.equals(CMEnum.Kindergarten)) {
         currentDelay *= 2;
@@ -221,7 +222,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       } catch (AbortedException e) {
         transactionTimestamp = me.timestamp.get();
         transactionPriority = me.priority.get();
-        //transactionConflictList = me.conflictList;
+        transactionConflictList = me.conflictList.get();
         transactionAborts = me.transactionAborts.incrementAndGet();
       } catch (InterruptedException e) {
         myThread.interrupt();
@@ -357,7 +358,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
 
   @Override
   public HashSet<Integer> getConflictList() throws RemoteException {
-    return conflictList;
+    return conflictList.get();
   }
 
   @Override

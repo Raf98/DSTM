@@ -16,28 +16,38 @@ public class Kindergarten extends ContentionManager {
 
     // ELIMINATE INTERVALS, INTEGRATE IT TO DELAY (FIXED INTERVAL)
     public Kindergarten(int delay) {
-        //System.out.println("KINDERGARTEN INITIALIZED!");
+        // System.out.println("KINDERGARTEN INITIALIZED!");
         this.delayInterval = delay;
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
-       if (me.conflictList.contains(other.hashCode())) {
-            /*System.out.println("HIT AGAIN! ABORT ENEMY...");
-            System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
-            System.out.println("ENEMY TRANSACTION: " + other.hashCode());*/
 
-            me.conflictList.remove(other.hashCode());
+        if (backedOff) {
+            //System.out.println("ATTACKING BACKED OFF! ABORT IT...");
+            backedOff = false;
+            me.abort();
+            throw new AbortedException();
+        } else if (me.getConflictList().contains(other.hashCode())) {
+            /*
+             * System.out.println("HIT AGAIN! ABORT ENEMY...");
+             * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
+             * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
+             */
+
+            me.getConflictList().remove(other.hashCode());
             other.abort();
         } else {
 
-            /*System.out.println("FIRST HIT! BACK OFF ATTACKING...");
-            System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
-            System.out.println("ENEMY TRANSACTION: " + other.hashCode());*/
-            
-            me.conflictList.add(other.hashCode());
+            /*
+             * System.out.println("FIRST HIT! BACK OFF ATTACKING...");
+             * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
+             * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
+             */
+
+            me.getConflictList().add(other.hashCode());
             try {
                 Thread.sleep(delayInterval);
-                //backedOff = true;
+                backedOff = true;
                 //me.abort();
                 //throw new AbortedException();
             } catch (InterruptedException e) {
