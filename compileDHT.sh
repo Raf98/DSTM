@@ -10,7 +10,9 @@ javac TinyTM/exceptions/*.java
 javac TinyTM/ofree/*.java
 rm DHT/*.class
 rm DHT/DHTLocks/*.class
+rm DHT/DHTBuckets/*.class
 rm DSTMBenchmark/*.class
 javac DSTMBenchmark/*.java
 javac -Xlint:unchecked DHT/*.java
 javac DHT/DHTLocks/*.java
+javac DHT/DHTBuckets/*.java
