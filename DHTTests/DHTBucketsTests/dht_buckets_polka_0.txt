@@ -1,0 +1,2100 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43131 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 1 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 42689 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 19 
+Test 2 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 42412 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 13 
+Test 3 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43136 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 39 
+Test 4 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42256 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 5 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42775 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 12 
+Test 6 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42890 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 90 
+Test 7 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 42945 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 25 
+Test 8 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43052 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 43 
+Test 9 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 42422 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 13 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000
+Time of execution: 26951 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 37 
+Test 1 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 26950 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 2 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 26942 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 32 
+Test 3 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 26917 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 4 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512maxDelay_intervals: 512
+
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: PolkaCONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 26848 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 77 
+Test 5 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+Time of execution: 27079 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 36 
+Test 6 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27330 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 53 
+Test 7 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 27888 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 45 
+Test 8 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27604 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 48 
+Test 9 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 27739 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 52 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+WRITES: 125
+READS: 500READS: 500
+READS: 500READS: 500READS: 500
+
+
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 22982 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 105 
+Test 1 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+Time of execution: 22104 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 111 
+Test 2 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkamaxAborts/minDelay/delay: 3CONTENTION MANAGER: Polka
+
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22343 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 120 
+Test 3 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125READS: 500READS: 500
+
+
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22375 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 99 
+Test 4 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+CONTENTION MANAGER: Polka
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3CONTENTION MANAGER: Polka
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22705 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 112 
+Test 5 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 21796 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 105 
+Test 6 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkamaxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500WRITES: 125
+WRITES: 125READS: 500
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+
+READS: 500
+Time of execution: 22167 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 98 
+Test 7 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 21700 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 110 
+Test 8 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkamaxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500
+READS: 500READS: 500
+
+Time of execution: 22536 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 212 
+Test 9 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+WRITES: 125
+
+READS: 500WRITES: 125READS: 500READS: 500
+READS: 500
+
+READS: 500
+READS: 500
+
+
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23496 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 251 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 48873 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48096 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 49218 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47120 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 4 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47161 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48957 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46059 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 7 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47875 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47340 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 9 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47989 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 24 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 28304 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 67 
+Test 1 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+WRITES: 250
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+READS: 1000
+Time of execution: 28382 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 51 
+Test 2 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 27977 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28884 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 50 
+Test 4 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28410 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 33 
+Test 5 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28357 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000
+READS: 1000READS: 1000
+READS: 1000
+
+Time of execution: 28989 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 29 
+Test 7 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 28633 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 52 
+Test 8 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 28328 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 9 for TRMIPolka
+TRMIPolka	4	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28537 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 71 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+WRITES: 125
+WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23497 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 1 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+Time of execution: 23449 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 2 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23736 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 3 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500
+Time of execution: 23609 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 11 
+Test 4 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+CONTENTION MANAGER: PolkamaxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+Time of execution: 23601 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 42 
+Test 5 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: PolkamaxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23718 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 9 
+Test 6 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23217 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 7 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23645 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 8 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512CONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23256 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 17 
+Test 9 for TRMIPolka
+TRMIPolka	8	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxAborts/minDelay/delay: 3maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: PolkaCONTENTION MANAGER: Polka
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23778 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 188526 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2028 
+Test 1 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 3
+maxDelay_intervals: 512
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 192994 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2234 
+Test 2 for TRMIPolka
+TRMIPolka	2	CM ID:	3	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 3maxAborts/minDelay/delay: 3
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Polka
+CONTENTION MANAGER: Polka
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
