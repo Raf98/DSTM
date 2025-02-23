@@ -1,0 +1,2136 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42356 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 26 
+Test 1 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43912 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 75 
+Test 2 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43504 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 3 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42468 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 4 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44098 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 10 
+Test 5 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42872 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 6 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43149 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 12 
+Test 7 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43260 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 56 
+Test 8 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43551 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 94 
+Test 9 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42519 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+
+READS: 1000
+Time of execution: 27629 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 64 
+Test 1 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 28107 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 24 
+Test 2 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250READS: 1000
+
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 27891 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 59 
+Test 3 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 27948 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 124 
+Test 4 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 27468 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 18 
+Test 5 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 27874 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 57 
+Test 6 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250
+READS: 1000WRITES: 250
+
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 27960 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 57 
+Test 7 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 27451 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 33 
+Test 8 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250
+READS: 1000WRITES: 250
+
+READS: 1000
+WRITES: 250
+WRITES: 250READS: 1000
+
+READS: 1000
+Time of execution: 27926 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 93 
+Test 9 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 27534 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 31 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+
+READS: 500READS: 500READS: 500WRITES: 125
+
+READS: 500READS: 500
+
+
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23157 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 232 
+Test 1 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmamaxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 22793 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 119 
+Test 2 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 23408 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 88 
+Test 3 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22924 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 139 
+Test 4 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 22893 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 48 
+Test 5 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmamaxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+WRITES: 125
+WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22628 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 48 
+Test 6 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500WRITES: 125
+
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22417 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 173 
+Test 7 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500
+WRITES: 125
+
+WRITES: 125READS: 500
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23322 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 105 
+Test 8 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22693 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 74 
+Test 9 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+maxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23892 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 52 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 49032 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 1 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47250 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 2 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46847 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 36 
+Test 3 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 49141 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47931 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47050 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47416 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 49488 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47303 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47809 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 29044 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 29060 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 2 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 28750 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 29296 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 289 
+Test 4 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250READS: 1000READS: 1000
+
+
+
+READS: 1000READS: 1000
+
+Time of execution: 29086 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000READS: 1000
+
+Time of execution: 28773 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 11 
+Test 6 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 28707 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 7 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 28806 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2CONTENTION MANAGER: Karma
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 29681 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 9 for TRMIKarma
+TRMIKarma	4	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28775 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 125WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23180 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 1 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+CONTENTION MANAGER: KarmamaxDelay_intervals: 512
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+
+READS: 500
+Time of execution: 24382 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 100 
+Test 2 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500
+WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23955 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 11 
+Test 3 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmamaxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 24345 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 4 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 23406 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 5 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 23861 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxDelay_intervals: 512maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+CONTENTION MANAGER: Karma
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmamaxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23794 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 7 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmamaxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23535 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 8 
+Test 8 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxAborts/minDelay/delay: 2maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512CONTENTION MANAGER: Karma
+
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+WRITES: 125READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+Time of execution: 23764 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 9 
+Test 9 for TRMIKarma
+TRMIKarma	8	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+
+maxDelay_intervals: 512
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23849 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 248222 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 9445 
+Test 1 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 234315 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6251 
+Test 2 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 2maxAborts/minDelay/delay: 2
+
+maxDelay_intervals: 512maxDelay_intervals: 512
+
+CONTENTION MANAGER: KarmaCONTENTION MANAGER: Karma
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 692013 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 76114 
+Test 3 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 274163 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14070 
+Test 4 for TRMIKarma
+TRMIKarma	2	CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+maxAborts/minDelay/delay: 2
+maxDelay_intervals: 512
+CONTENTION MANAGER: Karma
+CONTENTION MANAGER: Karma
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+

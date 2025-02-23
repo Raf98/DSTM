@@ -1,0 +1,2100 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44773 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 391 
+Test 1 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42854 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 589 
+Test 2 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43574 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 91 
+Test 3 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42526 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 147 
+Test 4 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43447 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 99 
+Test 5 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43246 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 294 
+Test 6 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 44655 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 120 
+Test 7 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42005 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 84 
+Test 8 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43631 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 18 
+Test 9 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43393 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 16 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 31995 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2093 
+Test 1 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 26968 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 31 
+Test 2 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 26137 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 112 
+Test 3 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+CONTENTION MANAGER: Passive
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 30350 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 957 
+Test 4 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 29600 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 992 
+Test 5 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27320 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 428 
+Test 6 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 27321 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 118 
+Test 7 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 30103 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1852 
+Test 8 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 29032 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 686 
+Test 9 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27105 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 26 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+READS: 500
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 21927 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 301 
+Test 1 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23251 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 213 
+Test 2 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+CONTENTION MANAGER: PassivemaxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 22111 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 183 
+Test 3 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 21868 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 115 
+Test 4 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23427 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 852 
+Test 5 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+CONTENTION MANAGER: PassivemaxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500READS: 500WRITES: 125
+WRITES: 125
+
+WRITES: 125
+
+READS: 500READS: 500
+WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 27316 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2784 
+Test 6 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 24324 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1553 
+Test 7 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+Contention Manager Dynamic Parameters:maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23107 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 325 
+Test 8 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+CONTENTION MANAGER: PassivemaxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+WRITES: 125
+WRITES: 125WRITES: 125
+WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 24116 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 419 
+Test 9 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125
+READS: 500WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+Time of execution: 24111 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 529 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47630 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 53570 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1455 
+Test 2 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46684 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48721 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+READS: 2000
+
+READS: 2000
+Time of execution: 48287 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+Time of execution: 46889 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+READS: 2000
+
+READS: 2000
+Time of execution: 48246 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 48301 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 8 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47786 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 45773 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+CONTENTION MANAGER: Passive
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28502 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 28293 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 2 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28020 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 28367 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 4 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 28595 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28626 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28460 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 7 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 29767 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 759 
+Test 8 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 30896 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 977 
+Test 9 for TRMIPassive
+TRMIPassive	4	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28849 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+
+WRITES: 125
+WRITES: 125WRITES: 125READS: 500READS: 500READS: 500
+
+
+READS: 500READS: 500
+
+
+
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 23137 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 1 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxDelay_intervals: 8192maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23122 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 2 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0CONTENTION MANAGER: Passive
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500WRITES: 125WRITES: 125
+
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22991 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 3 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23470 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 4 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 23091 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 5 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23470 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500
+READS: 500
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23115 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+WRITES: 125
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23221 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxDelay_intervals: 8192
+
+
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: PassiveCONTENTION MANAGER: Passive
+
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 22834 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 29 
+Test 9 for TRMIPassive
+TRMIPassive	8	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0maxAborts/minDelay/delay: 0
+
+maxDelay_intervals: 8192maxDelay_intervals: 8192
+
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23342 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 1255831 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 223572 
+Test 1 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 2012514 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 569140 
+Test 2 for TRMIPassive
+TRMIPassive	2	CM ID:	0	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+maxAborts/minDelay/delay: 0
+maxDelay_intervals: 8192
+CONTENTION MANAGER: Passive
+CONTENTION MANAGER: Passive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+

@@ -1,0 +1,5008 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43171 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 1 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44294 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 8 
+Test 2 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43627 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 3 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42960 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 4 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42451 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 5 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43409 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44335 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 7 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42447 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 8 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43175 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 8 
+Test 9 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42983 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+WRITES: 250READS: 1000READS: 1000
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 26874 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 1 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 27540 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 2 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+
+WRITES: 250
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 26369 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 18 
+Test 3 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 27540 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 4 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27158 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 5 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 26476 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 12 
+Test 6 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 26667 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 7 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+
+WRITES: 250WRITES: 250
+
+WRITES: 250
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 27233 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 13 
+Test 8 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 26690 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 9 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 26682 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22410 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 37 
+Test 1 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+Time of execution: 21402 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 49 
+Test 2 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+READS: 500
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500READS: 500READS: 500
+
+
+Time of execution: 21687 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 37 
+Test 3 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 21607 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 39 
+Test 4 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+READS: 500WRITES: 125WRITES: 125
+
+READS: 500
+
+WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22646 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 49 
+Test 5 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+Time of execution: 22136 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 37 
+Test 6 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+CONTENTION MANAGER: Timestamp
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 21560 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 40 
+Test 7 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+Time of execution: 21700 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 39 
+Test 8 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500
+READS: 500
+READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 21506 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 39 
+Test 9 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 21763 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 30 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47046 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48641 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48656 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46960 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 4 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47493 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47943 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+Time of execution: 46749 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 46905 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48018 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46955 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+WRITES: 250WRITES: 250
+READS: 1000
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 28111 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28115 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 2 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28322 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 3 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 27635 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 4 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+WRITES: 250
+WRITES: 250WRITES: 250READS: 1000
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+Time of execution: 28527 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 5 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 28157 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000WRITES: 250READS: 1000
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 28824 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27905 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27800 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28258 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+
+
+READS: 500
+Time of execution: 23093 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 1 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+READS: 500
+
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+READS: 500
+
+READS: 500READS: 500
+
+Time of execution: 23295 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 2 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+Time of execution: 23272 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 3 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23211 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 4 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: TimestampmaxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125READS: 500WRITES: 125
+
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22760 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 5 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23929 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 6 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+WRITES: 125
+
+
+READS: 500WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23692 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 7 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32CONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+READS: 500WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23649 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 8 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23475 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 9 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 22859 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 170730 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 62 
+Test 1 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 171590 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 80 
+Test 2 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 174730 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 56 
+Test 3 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 170432 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 82 
+Test 4 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 168306 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 101 
+Test 5 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 172450 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 101 
+Test 6 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 169563 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 82 
+Test 7 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 168510 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 96 
+Test 8 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 170814 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 63 
+Test 9 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 173287 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 84 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000WRITES: 250
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 90764 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 331 
+Test 1 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 90998 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 253 
+Test 2 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 91270 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 297 
+Test 3 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 92011 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 323 
+Test 4 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 91561 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 274 
+Test 5 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 91679 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 304 
+Test 6 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 91762 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 299 
+Test 7 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000WRITES: 250
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 91661 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 288 
+Test 8 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 92105 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 280 
+Test 9 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 91584 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 297 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72067 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 842 
+Test 1 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 72481 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 764 
+Test 2 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72369 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 845 
+Test 3 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125WRITES: 125WRITES: 125
+
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 71925 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 825 
+Test 4 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+CONTENTION MANAGER: TimestampmaxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 73377 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 810 
+Test 5 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72221 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 803 
+Test 6 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 71451 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 806 
+Test 7 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72662 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 828 
+Test 8 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32CONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 72637 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 791 
+Test 9 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+WRITES: 125
+READS: 500
+Time of execution: 72986 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 763 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 191895 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 1 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 194835 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 2 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 188877 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 14 
+Test 3 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 198158 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 18 
+Test 4 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 193940 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 13 
+Test 5 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 194391 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 8 
+Test 6 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 191670 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 7 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 187322 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 8 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 191652 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 12 
+Test 9 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 193545 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 99117 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 25 
+Test 1 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 99444 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 2 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 98313 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 23 
+Test 3 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 98772 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 31 
+Test 4 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 98679 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 20 
+Test 5 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 98762 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 6 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 98335 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 38 
+Test 7 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 98273 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 21 
+Test 8 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 98304 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 32 
+Test 9 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 97945 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 25 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 73134 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 59 
+Test 1 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+CONTENTION MANAGER: Timestamp
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125READS: 500READS: 500
+
+
+READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+Time of execution: 72857 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 68 
+Test 2 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 73491 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 81 
+Test 3 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 74223 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 76 
+Test 4 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 73635 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 79 
+Test 5 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4Contention Manager Dynamic Parameters:
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72916 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 65 
+Test 6 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 72752 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 83 
+Test 7 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 125
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+Time of execution: 73235 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 68 
+Test 8 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 73814 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 66 
+Test 9 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500WRITES: 125READS: 500WRITES: 125
+
+
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 73210 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 81 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 50 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 44976 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 19 
+Test 1 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 45520 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 17 
+Test 2 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 46180 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 15 
+Test 3 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 44850 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 16 
+Test 4 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 44783 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 8 
+Test 5 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 44630 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 12 
+Test 6 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 46468 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 24 
+Test 7 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 45197 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 24 
+Test 8 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 45151 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 21 
+Test 9 for TRMITimestamp
+TRMITimestamp	2	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 1250WRITES: 1250
+
+READS: 1250READS: 1250
+
+Time of execution: 44751 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 14 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625
+
+WRITES: 625
+READS: 625READS: 625
+
+READS: 625
+WRITES: 625
+READS: 625
+Time of execution: 28261 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 65 
+Test 1 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 625WRITES: 625WRITES: 625
+
+
+WRITES: 625
+READS: 625READS: 625READS: 625READS: 625
+
+
+
+Time of execution: 27746 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 53 
+Test 2 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625
+
+WRITES: 625WRITES: 625
+
+READS: 625READS: 625
+
+READS: 625READS: 625
+
+Time of execution: 28509 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 52 
+Test 3 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625WRITES: 625WRITES: 625
+
+
+
+READS: 625READS: 625READS: 625READS: 625
+
+
+
+Time of execution: 28529 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 41 
+Test 4 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 625WRITES: 625WRITES: 625WRITES: 625
+
+
+
+READS: 625READS: 625READS: 625READS: 625
+
+
+
+Time of execution: 28024 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 56 
+Test 5 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625WRITES: 625
+
+
+READS: 625
+READS: 625READS: 625
+
+WRITES: 625
+READS: 625
+Time of execution: 28282 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 37 
+Test 6 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625
+READS: 625
+WRITES: 625WRITES: 625
+
+READS: 625READS: 625
+
+WRITES: 625
+READS: 625
+Time of execution: 27779 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 48 
+Test 7 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+CONTENTION MANAGER: TimestampmaxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625
+
+READS: 625READS: 625
+
+WRITES: 625
+WRITES: 625
+READS: 625
+READS: 625
+Time of execution: 28657 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 57 
+Test 8 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 625WRITES: 625
+
+WRITES: 625
+READS: 625READS: 625
+
+READS: 625
+WRITES: 625
+READS: 625
+Time of execution: 28378 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 60 
+Test 9 for TRMITimestamp
+TRMITimestamp	4	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32maxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+WRITES: 625WRITES: 625
+
+READS: 625READS: 625
+
+WRITES: 625WRITES: 625
+
+READS: 625READS: 625
+
+Time of execution: 28435 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2500 
+Total of gets: 2500 
+Total of aborts: 58 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312
+WRITES: 312
+WRITES: 312
+WRITES: 312
+
+READS: 313READS: 313
+
+READS: 313
+WRITES: 312WRITES: 312
+
+READS: 313
+READS: 313
+READS: 313
+READS: 313
+WRITES: 312
+READS: 313
+Time of execution: 22885 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 114 
+Test 1 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+WRITES: 312
+
+WRITES: 312
+READS: 313READS: 313READS: 313READS: 313
+
+
+
+
+WRITES: 312
+READS: 313
+WRITES: 312
+READS: 313
+READS: 313
+READS: 313
+Time of execution: 23947 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 117 
+Test 2 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+
+
+
+WRITES: 312
+WRITES: 312
+READS: 313READS: 313
+
+READS: 313
+READS: 313
+READS: 313
+READS: 313
+READS: 313
+WRITES: 312
+READS: 313
+Time of execution: 23019 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 130 
+Test 3 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampmaxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+
+
+
+WRITES: 312
+
+READS: 313
+READS: 313
+READS: 313READS: 313
+
+READS: 313
+READS: 313
+READS: 313
+WRITES: 312
+READS: 313
+Time of execution: 23092 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 142 
+Test 4 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+CONTENTION MANAGER: Timestamp
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+
+
+WRITES: 312
+WRITES: 312
+READS: 313READS: 313READS: 313
+
+
+READS: 313
+READS: 313
+WRITES: 312
+READS: 313
+WRITES: 312
+READS: 313
+READS: 313
+Time of execution: 24129 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 130 
+Test 5 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32
+maxDelay_intervals: 32
+
+maxAborts/minDelay/delay: 4
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampmaxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+
+
+
+WRITES: 312
+
+WRITES: 312
+READS: 313READS: 313
+READS: 313
+
+READS: 313READS: 313READS: 313READS: 313
+
+
+
+READS: 313
+Time of execution: 23877 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 131 
+Test 6 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxAborts/minDelay/delay: 4maxDelay_intervals: 32maxAborts/minDelay/delay: 4
+
+maxDelay_intervals: 32
+
+CONTENTION MANAGER: TimestampmaxDelay_intervals: 32
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+WRITES: 312WRITES: 312
+
+
+
+READS: 313
+WRITES: 312WRITES: 312
+READS: 313READS: 313READS: 313
+
+
+
+READS: 313READS: 313
+
+READS: 313
+READS: 313
+Time of execution: 24848 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 2496 
+Total of gets: 2504 
+Total of aborts: 148 
+Test 7 for TRMITimestamp
+TRMITimestamp	8	CM ID:	4	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+
+maxDelay_intervals: 32
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: TimestampCONTENTION MANAGER: Timestamp
+
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+CONTENTION MANAGER: Timestamp
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Timestamp
+maxAborts/minDelay/delay: 4
+maxDelay_intervals: 32
+CONTENTION MANAGER: Timestamp
+WRITES: 312WRITES: 312
+
+READS: 313READS: 313
+
+WRITES: 312WRITES: 312WRITES: 312WRITES: 312
+
+
+
+WRITES: 312
+READS: 313READS: 313
+
+READS: 313READS: 313
+
+READS: 313
+WRITES: 312
+READS: 313

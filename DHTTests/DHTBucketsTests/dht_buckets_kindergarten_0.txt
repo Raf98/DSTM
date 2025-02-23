@@ -1,0 +1,2100 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43208 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 44 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44017 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 15 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43141 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 8 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43594 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 25 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42580 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 79 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 43403 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42491 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 55 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 42151 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43247 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 38 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 41373 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 43 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 26346 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 59 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+Time of execution: 26665 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 76 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000READS: 1000
+
+Time of execution: 26944 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 55 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27088 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 26 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 27518 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 38 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 26863 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 63 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 26804 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 72 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+WRITES: 250READS: 1000READS: 1000
+
+
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 26611 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 32 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 27711 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 354 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250
+READS: 1000WRITES: 250
+WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 27121 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 22 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+
+maxDelay_intervals: 256CONTENTION MANAGER: Kindergarten
+
+maxAborts/minDelay/delay: 5
+CONTENTION MANAGER: Kindergarten
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 21683 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 121 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 23203 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 274 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5CONTENTION MANAGER: Kindergarten
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+
+READS: 500READS: 500
+
+READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+
+
+WRITES: 125
+READS: 500
+Time of execution: 21467 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 57 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22322 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 131 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500READS: 500READS: 500
+READS: 500
+
+
+
+READS: 500
+READS: 500READS: 500
+
+Time of execution: 21346 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 86 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenmaxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 24492 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 752 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 21606 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 72 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125WRITES: 125
+WRITES: 125
+
+WRITES: 125
+
+READS: 500READS: 500READS: 500
+
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 21720 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 57 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500READS: 500
+
+
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 21728 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 84 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500READS: 500
+READS: 500
+
+READS: 500
+Time of execution: 21928 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 50 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46395 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47028 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47645 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 26 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48264 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47239 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47904 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47841 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 56 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 46671 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48613 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 48896 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250READS: 1000READS: 1000
+
+
+
+READS: 1000READS: 1000
+
+Time of execution: 28498 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 30 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000READS: 1000
+
+
+WRITES: 250
+READS: 1000
+Time of execution: 28524 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28058 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28609 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 86 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28273 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 51 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28889 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28373 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 28402 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 40 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 27991 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	4	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 250
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000
+READS: 1000
+
+READS: 1000
+Time of execution: 28355 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 23379 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+READS: 500READS: 500READS: 500READS: 500
+READS: 500
+
+
+
+WRITES: 125
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+Time of execution: 22848 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5CONTENTION MANAGER: Kindergarten
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 22667 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 3 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+CONTENTION MANAGER: KindergartenmaxDelay_intervals: 256
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125READS: 500
+
+WRITES: 125WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23480 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 4 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23308 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 5 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23180 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 180 
+Test 6 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125
+WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 23222 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125WRITES: 125READS: 500
+
+
+READS: 500
+READS: 500READS: 500
+
+Time of execution: 23187 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 91 
+Test 8 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 5maxDelay_intervals: 256
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5CONTENTION MANAGER: Kindergarten
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+READS: 500
+WRITES: 125READS: 500READS: 500READS: 500
+READS: 500
+
+
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23449 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIKindergarten
+TRMIKindergarten	8	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256maxAborts/minDelay/delay: 5
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125
+
+WRITES: 125READS: 500
+
+READS: 500
+READS: 500
+Time of execution: 22893 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 22658437 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2865719 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5maxAborts/minDelay/delay: 5
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: KindergartenCONTENTION MANAGER: Kindergarten
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 3339053 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 368071 
+Test 2 for TRMIKindergarten
+TRMIKindergarten	2	CM ID:	5	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 5
+maxDelay_intervals: 256
+CONTENTION MANAGER: Kindergarten
+CONTENTION MANAGER: Kindergarten
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
