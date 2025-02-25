@@ -1,0 +1,2082 @@
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42613 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 1 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 45115 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 94 
+Test 2 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46052 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 969 
+Test 3 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46102 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1083 
+Test 4 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43900 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 290 
+Test 5 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46154 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1048 
+Test 6 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43089 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 191 
+Test 7 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 42034 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 28 
+Test 8 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 43786 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 418 
+Test 9 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 41581 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 21 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000
+READS: 1000READS: 1000
+
+
+Time of execution: 29809 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 82 
+Test 1 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 32958 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1275 
+Test 2 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 29760 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 426 
+Test 3 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000
+READS: 1000
+Time of execution: 29467 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 134 
+Test 4 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+READS: 1000
+READS: 1000
+Time of execution: 29035 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 353 
+Test 5 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 29540 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 281 
+Test 6 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000
+READS: 1000WRITES: 250
+
+READS: 1000
+READS: 1000
+Time of execution: 31901 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 724 
+Test 7 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28886 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 91 
+Test 8 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+WRITES: 250WRITES: 250
+
+WRITES: 250
+READS: 1000READS: 1000
+
+READS: 1000
+READS: 1000
+Time of execution: 29502 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 115 
+Test 9 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 29656 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 138 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 37118 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6328 
+Test 1 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64CONTENTION MANAGER: Aggressive
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+READS: 500
+READS: 500
+
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500
+Time of execution: 27278 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1200 
+Test 2 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125READS: 500READS: 500
+
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 27071 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 491 
+Test 3 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125WRITES: 125
+WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125READS: 500READS: 500
+
+
+READS: 500
+WRITES: 125
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 28598 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1505 
+Test 4 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+READS: 500READS: 500
+
+
+
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 49488 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 10718 
+Test 5 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+WRITES: 125
+
+
+
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500READS: 500READS: 500
+
+READS: 500
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 25388 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 167 
+Test 6 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Aggressive
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500READS: 500
+READS: 500READS: 500
+
+
+
+
+READS: 500
+Time of execution: 27655 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1332 
+Test 7 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+CONTENTION MANAGER: Aggressive
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+
+
+READS: 500READS: 500READS: 500READS: 500READS: 500
+
+
+READS: 500
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 25093 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 355 
+Test 8 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+WRITES: 125WRITES: 125
+READS: 500READS: 500
+READS: 500
+
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 26006 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 668 
+Test 9 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+Contention Manager Dynamic Parameters:
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500
+READS: 500
+
+
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+Time of execution: 35846 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5345 
+NKEYS: 10000 NHTENTRIES: 1567 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47301 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47605 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47803 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000
+READS: 2000
+Time of execution: 46348 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 47886 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 5 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 44437 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 6 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 46398 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 7 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 47811 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 46063 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 48329 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+READS: 1000
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250
+READS: 1000
+Time of execution: 32219 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 958 
+Test 1 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+Time of execution: 29637 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 57 
+Test 2 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 30315 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 506 
+Test 3 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 29055 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256maxDelay_intervals: 256
+
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+WRITES: 250WRITES: 250
+
+READS: 1000READS: 1000
+
+Time of execution: 29364 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 408 
+Test 5 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250
+
+
+READS: 1000READS: 1000READS: 1000
+
+
+WRITES: 250
+READS: 1000
+Time of execution: 28842 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 6 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 29198 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 29297 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 198 
+Test 8 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 28847 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 9 for TRMIAgressive
+TRMIAgressive	4	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+WRITES: 250WRITES: 250WRITES: 250WRITES: 250
+
+
+
+READS: 1000READS: 1000READS: 1000READS: 1000
+
+
+
+Time of execution: 31296 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 979 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64CONTENTION MANAGER: Aggressive
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 23995 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 1 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+
+
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+Time of execution: 24052 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 112 
+Test 2 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64CONTENTION MANAGER: Aggressive
+
+maxDelay_intervals: 256
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 24578 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 3 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+CONTENTION MANAGER: Aggressive
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+
+WRITES: 125
+
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500READS: 500READS: 500
+READS: 500
+
+
+
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 24546 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 4 
+Test 4 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64CONTENTION MANAGER: Aggressive
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+Time of execution: 24855 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 6 
+Test 5 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxAborts/minDelay/delay: 64
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256CONTENTION MANAGER: AggressivemaxDelay_intervals: 256
+
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125WRITES: 125
+
+READS: 500READS: 500
+
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500READS: 500
+
+Time of execution: 24374 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 6 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+
+
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+CONTENTION MANAGER: Aggressive
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500READS: 500
+
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 24382 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 18 
+Test 7 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64maxDelay_intervals: 256
+
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125
+
+WRITES: 125
+
+WRITES: 125
+WRITES: 125
+READS: 500READS: 500READS: 500READS: 500
+
+
+
+READS: 500READS: 500
+
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 23940 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 8 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256maxDelay_intervals: 256
+
+maxAborts/minDelay/delay: 64maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: AggressiveCONTENTION MANAGER: Aggressive
+
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 125WRITES: 125WRITES: 125
+
+
+WRITES: 125
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+Time of execution: 24420 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 7 
+Test 9 for TRMIAgressive
+TRMIAgressive	8	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+Contention Manager Dynamic Parameters:
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 125
+WRITES: 125
+WRITES: 125WRITES: 125
+
+WRITES: 125
+WRITES: 125WRITES: 125
+
+READS: 500
+READS: 500READS: 500
+
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 24476 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 5 
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 20
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
+Time of execution: 771311 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 122512 
+Test 1 for TRMIAgressive
+TRMIAgressive	2	CM ID:	7	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+maxAborts/minDelay/delay: 64
+maxDelay_intervals: 256
+CONTENTION MANAGER: Aggressive
+WRITES: 500WRITES: 500
+
+READS: 2000READS: 2000
+
