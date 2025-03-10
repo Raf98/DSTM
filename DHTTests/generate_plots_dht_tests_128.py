@@ -92,6 +92,10 @@ for wp in writes_percentage:
                 cm: {noc: {"avg": 0} for noc in number_of_clients} for cm in contention_managers
             }
 
+same_contention_makespan = {number_of_ht_entries[0]: 0, number_of_ht_entries[1]: 0}
+same_contention_same_client_makespan = {number_of_ht_entries[0]: {noc: 0 for noc in number_of_clients}, 
+                                        number_of_ht_entries[1]: {noc: 0 for noc in number_of_clients}}
+
 for wp in writes_percentage:
     for opt in objs_per_transaction:
         for nohte in number_of_ht_entries:
@@ -107,6 +111,10 @@ for wp in writes_percentage:
                     avg /= number_of_tests*1000
                     min_value /= 1000
                     max_value /= 1000
+
+                    same_contention_makespan[nohte] += avg
+                    same_contention_same_client_makespan[nohte][noc] += avg
+
                     test_cases_avgs_dict[f"NKEYS: {number_of_keys}, NHTENTRIES: {nohte}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["avg"] = round(avg, 2)
                     test_cases_avgs_dict[f"NKEYS: {number_of_keys}, NHTENTRIES: {nohte}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["min"] = round(min_value, 2)
                     test_cases_avgs_dict[f"NKEYS: {number_of_keys}, NHTENTRIES: {nohte}, WRITES: {wp}, NOBJTRANS:{opt}"][cm][noc]["max"] = round(max_value, 2)
@@ -237,6 +245,14 @@ for wp in writes_percentage:
             i+=1
 
 print(n)
+
+print("HIGH CONTENTION MAKESPAN AVERAGE: " + str(same_contention_makespan[number_of_ht_entries[0]] / (4 * 4 * 8)))
+print("LOW CONTENTION MAKESPAN AVERAGE: " + str(same_contention_makespan[number_of_ht_entries[1]] / (4 * 4 * 8)))
+
+for noc in number_of_clients:
+    print(str(noc) + " CLIENTS; HIGH CONTENTION MAKESPAN AVERAGE: " + str(same_contention_same_client_makespan[number_of_ht_entries[0]][noc] / (4 * 8)))
+    print(str(noc) + " CLIENTS; LOW CONTENTION MAKESPAN AVERAGE: " + str(same_contention_same_client_makespan[number_of_ht_entries[1]][noc] / (4 * 8)))
+
 plt.show()
 
 
