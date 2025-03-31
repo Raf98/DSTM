@@ -60,11 +60,14 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
     if (locator.owner.get().hashCode() == tx.hashCode()) {
       tx.setEnemyAttempts(0);     // reset transaction's enemies attempts whenever when opening an object to write
       tx.setDefunct(false);           // if it performs any transaction-related operation, defunct should be reset
+      tx.setPriority(tx.getPriority() + 1);
       return (T) locator.newVersion;
     }
     // System.out.println ("open write servidor");
     Locator newLocator = new Locator();
     newLocator.owner = new AtomicReference(tx);
+
+    //tx.setPriority(tx.getPriority() + 1);
 
     while (true) {
       Locator oldLocator = start.get();
@@ -75,19 +78,21 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
       switch (writer.getStatus()) {
         case COMMITTED:
-          tx.setPriority(0);     
+          //tx.setPriority(0);     
           // System.out.println("committed");
+          tx.setPriority(tx.getPriority() + 1);
           newLocator.oldVersion = oldLocator.newVersion;
           break;
         case ABORTED:
           //tx.setEnemyAttempts(0);
           //tx.setDefunct(false);
           // System.out.println("Abort");
+          tx.setPriority(tx.getPriority() + 1);
           newLocator.oldVersion = oldLocator.oldVersion;
           break;
         case ACTIVE: // tx.abort(); throw new AbortedException();
           // writer.abort();
-          tx.setPriority(tx.getPriority() + 1);     // increments priority when opening an object to write
+          //tx.setPriority(tx.getPriority() + 1);     // increments priority when opening an object to write
           tx.CMresolve(writer);                     // if writer is already working on the same object, call the CM
           continue;
         default:
@@ -149,6 +154,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     tx.setEnemyAttempts(0);    // reset transaction's enemies attempts whenever when opening an object to read
     tx.setDefunct(false);
+    tx.setPriority(tx.getPriority() + 1);
 
     if (locator.owner.get().hashCode() == tx.hashCode()) {
       return (T) locator.newVersion;
@@ -172,7 +178,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
         }
         break;
       case ACTIVE:
-        tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to read
+        //tx.setPriority(tx.getPriority() + 1);    // increments priority when opening an object to read
         version = (T) locator.oldVersion;
         break;
       default:
