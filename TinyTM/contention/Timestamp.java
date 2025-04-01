@@ -9,6 +9,7 @@ public class Timestamp extends ContentionManager {
     int delay;// = 64;
     int attempts;// = 0;
     int intervals;// = 32;
+    boolean wasSetDefunctBefore = false;
 
     public Timestamp() {
         delay = 64;
@@ -29,12 +30,18 @@ public class Timestamp extends ContentionManager {
         // other.hashCode());
         // System.out.println(me.getTimestamp() == other.getTimestamp());
 
+        if (wasSetDefunctBefore && !other.getDefunct()) {
+            attempts = 0;
+            wasSetDefunctBefore = false;
+        }
+
         if (me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())) {
             attempts = 0;
             other.abort();
         } else {
             if (attempts >= intervals / 2 && !other.getDefunct()) {
                 other.setDefunct(true);
+                wasSetDefunctBefore = true;
             }
             try {
                 Thread.sleep(delay);
