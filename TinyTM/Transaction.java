@@ -214,6 +214,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       try {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
+          me.setPriority(0);              // it should be reset whenever a transaction commits
           commits.getAndIncrement();
           //System.out.printf("THREAD: %d TRANSACTION %d; COMMITTED: %d\n", myThread.hashCode(), transactionNum, commits.get());
 
