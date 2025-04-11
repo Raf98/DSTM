@@ -12,6 +12,7 @@ public class Polka extends ContentionManager {
     Random random = new Random();
     int delay;// = 64;
     int attempts;// = 0;
+    int currentEnemyHashCode = Integer.MIN_VALUE;
 
     public Polka() {
         MIN_DELAY = 128;
@@ -26,6 +27,10 @@ public class Polka extends ContentionManager {
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
+        if (other.hashCode() != currentEnemyHashCode) {
+            currentEnemyHashCode = other.hashCode();
+            attempts = 0;
+        }
         // System.out.println("OTHER: " + other.getPriority());
         // System.out.println("ME: " + me.getPriority());
         // System.out.println(attempts);

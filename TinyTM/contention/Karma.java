@@ -8,6 +8,7 @@ import TinyTM.Transaction;
 public class Karma extends ContentionManager {
     int delay;//= 64;
     int attempts;// = 0;
+    int currentEnemyHashCode = Integer.MIN_VALUE;
 
     public Karma() {
         delay = 64;
@@ -23,6 +24,11 @@ public class Karma extends ContentionManager {
         // System.out.println("OTHER: " + other.getPriority());
         // System.out.println("ME: " + me.getPriority());
         // System.out.println(attempts);
+        if (other.hashCode() != currentEnemyHashCode) {
+            currentEnemyHashCode = other.hashCode();
+            attempts = 0;
+        }
+
         if(me.getPriority() > other.getPriority()) {
             attempts = 0;
             other.abort();
