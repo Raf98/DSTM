@@ -1,0 +1,3574 @@
+/home/rddsantos/DSTM
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 18093 milliseconds
+Current commits: 321
+Current aborts: 0
+Current commits: 645
+Current aborts: 0
+Current commits: 952
+Current aborts: 0
+Current commits: 1221
+Current aborts: 0
+Current commits: 1539
+Current aborts: 0
+Current commits: 1858
+Current aborts: 0
+Current commits: 2187
+Current aborts: 0
+Current commits: 2503
+Current aborts: 0
+Current commits: 2822
+Current aborts: 0
+Current commits: 3102
+Current aborts: 0
+Current commits: 3426
+Current aborts: 0
+Current commits: 3752
+Current aborts: 0
+Current commits: 4081
+Current aborts: 0
+Current commits: 4386
+Current aborts: 0
+Current commits: 4684
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 18336 milliseconds
+Current commits: 319
+Current aborts: 0
+Current commits: 626
+Current aborts: 0
+Current commits: 950
+Current aborts: 0
+Current commits: 1248
+Current aborts: 0
+Current commits: 1587
+Current aborts: 0
+Current commits: 1910
+Current aborts: 0
+Current commits: 2235
+Current aborts: 0
+Current commits: 2562
+Current aborts: 0
+Current commits: 2860
+Current aborts: 0
+Current commits: 3197
+Current aborts: 0
+Current commits: 3504
+Current aborts: 0
+Current commits: 3776
+Current aborts: 0
+Current commits: 4063
+Current aborts: 0
+Current commits: 4416
+Current aborts: 0
+Current commits: 4689
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 2 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18309 milliseconds
+Current commits: 315
+Current aborts: 0
+Current commits: 638
+Current aborts: 0
+Current commits: 917
+Current aborts: 0
+Current commits: 1221
+Current aborts: 0
+Current commits: 1515
+Current aborts: 0
+Current commits: 1817
+Current aborts: 0
+Current commits: 2133
+Current aborts: 0
+Current commits: 2457
+Current aborts: 0
+Current commits: 2808
+Current aborts: 0
+Current commits: 3160
+Current aborts: 0
+Current commits: 3468
+Current aborts: 0
+Current commits: 3782
+Current aborts: 0
+Current commits: 4108
+Current aborts: 0
+Current commits: 4409
+Current aborts: 0
+Current commits: 4709
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18241 milliseconds
+Current commits: 278
+Current aborts: 0
+Current commits: 609
+Current aborts: 0
+Current commits: 883
+Current aborts: 0
+Current commits: 1192
+Current aborts: 0
+Current commits: 1504
+Current aborts: 0
+Current commits: 1800
+Current aborts: 0
+Current commits: 2094
+Current aborts: 0
+Current commits: 2438
+Current aborts: 0
+Current commits: 2758
+Current aborts: 0
+Current commits: 3075
+Current aborts: 0
+Current commits: 3393
+Current aborts: 0
+Current commits: 3693
+Current aborts: 0
+Current commits: 4034
+Current aborts: 0
+Current commits: 4323
+Current aborts: 0
+Current commits: 4662
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18592 milliseconds
+Current commits: 291
+Current aborts: 0
+Current commits: 612
+Current aborts: 0
+Current commits: 924
+Current aborts: 0
+Current commits: 1267
+Current aborts: 0
+Current commits: 1601
+Current aborts: 0
+Current commits: 1893
+Current aborts: 0
+Current commits: 2189
+Current aborts: 0
+Current commits: 2463
+Current aborts: 0
+Current commits: 2766
+Current aborts: 0
+Current commits: 3067
+Current aborts: 0
+Current commits: 3378
+Current aborts: 0
+Current commits: 3708
+Current aborts: 0
+Current commits: 4021
+Current aborts: 0
+Current commits: 4356
+Current aborts: 0
+Current commits: 4678
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 5 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18324 milliseconds
+Current commits: 338
+Current aborts: 0
+Current commits: 640
+Current aborts: 0
+Current commits: 927
+Current aborts: 0
+Current commits: 1248
+Current aborts: 0
+Current commits: 1582
+Current aborts: 0
+Current commits: 1887
+Current aborts: 0
+Current commits: 2198
+Current aborts: 0
+Current commits: 2554
+Current aborts: 0
+Current commits: 2852
+Current aborts: 0
+Current commits: 3141
+Current aborts: 0
+Current commits: 3450
+Current aborts: 0
+Current commits: 3740
+Current aborts: 0
+Current commits: 4036
+Current aborts: 0
+Current commits: 4350
+Current aborts: 0
+Current commits: 4674
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18338 milliseconds
+Current commits: 318
+Current aborts: 0
+Current commits: 643
+Current aborts: 0
+Current commits: 968
+Current aborts: 0
+Current commits: 1295
+Current aborts: 0
+Current commits: 1606
+Current aborts: 0
+Current commits: 1916
+Current aborts: 0
+Current commits: 2249
+Current aborts: 0
+Current commits: 2565
+Current aborts: 0
+Current commits: 2857
+Current aborts: 0
+Current commits: 3183
+Current aborts: 0
+Current commits: 3457
+Current aborts: 0
+Current commits: 3785
+Current aborts: 1
+Current commits: 4103
+Current aborts: 1
+Current commits: 4420
+Current aborts: 1
+Current commits: 4721
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 7 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18381 milliseconds
+Current commits: 323
+Current aborts: 0
+Current commits: 679
+Current aborts: 0
+Current commits: 963
+Current aborts: 0
+Current commits: 1282
+Current aborts: 0
+Current commits: 1601
+Current aborts: 0
+Current commits: 1903
+Current aborts: 0
+Current commits: 2205
+Current aborts: 0
+Current commits: 2504
+Current aborts: 0
+Current commits: 2812
+Current aborts: 0
+Current commits: 3115
+Current aborts: 0
+Current commits: 3441
+Current aborts: 0
+Current commits: 3751
+Current aborts: 0
+Current commits: 4044
+Current aborts: 0
+Current commits: 4366
+Current aborts: 0
+Current commits: 4690
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18316 milliseconds
+Current commits: 321
+Current aborts: 0
+Current commits: 628
+Current aborts: 0
+Current commits: 953
+Current aborts: 0
+Current commits: 1263
+Current aborts: 0
+Current commits: 1574
+Current aborts: 0
+Current commits: 1855
+Current aborts: 0
+Current commits: 2169
+Current aborts: 0
+Current commits: 2486
+Current aborts: 0
+Current commits: 2810
+Current aborts: 0
+Current commits: 3132
+Current aborts: 0
+Current commits: 3429
+Current aborts: 0
+Current commits: 3747
+Current aborts: 0
+Current commits: 4056
+Current aborts: 0
+Current commits: 4370
+Current aborts: 0
+Current commits: 4665
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIPolka
+TRMIPolka	2	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000
+Time of execution: 18275 milliseconds
+Current commits: 288
+Current aborts: 0
+Current commits: 584
+Current aborts: 0
+Current commits: 914
+Current aborts: 0
+Current commits: 1224
+Current aborts: 0
+Current commits: 1529
+Current aborts: 0
+Current commits: 1873
+Current aborts: 0
+Current commits: 2181
+Current aborts: 0
+Current commits: 2489
+Current aborts: 0
+Current commits: 2805
+Current aborts: 0
+Current commits: 3113
+Current aborts: 0
+Current commits: 3443
+Current aborts: 0
+Current commits: 3731
+Current aborts: 0
+Current commits: 4062
+Current aborts: 0
+Current commits: 4351
+Current aborts: 0
+Current commits: 4655
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 4, transactions per client: 1250, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 10624 milliseconds
+Current commits: 282
+Current aborts: 0
+Current commits: 610
+Current aborts: 0
+Current commits: 926
+Current aborts: 1
+Current commits: 1240
+Current aborts: 1
+Current commits: 1527
+Current aborts: 1
+Current commits: 1848
+Current aborts: 1
+Current commits: 2163
+Current aborts: 1
+Current commits: 2518
+Current aborts: 1
+Current commits: 2824
+Current aborts: 1
+Current commits: 3125
+Current aborts: 1
+Current commits: 3427
+Current aborts: 1
+Current commits: 3748
+Current aborts: 1
+Current commits: 4068
+Current aborts: 2
+Current commits: 4379
+Current aborts: 2
+Current commits: 4704
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 1 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 10436 milliseconds
+Current commits: 323
+Current aborts: 0
+Current commits: 626
+Current aborts: 0
+Current commits: 935
+Current aborts: 0
+Current commits: 1258
+Current aborts: 0
+Current commits: 1568
+Current aborts: 0
+Current commits: 1875
+Current aborts: 0
+Current commits: 2171
+Current aborts: 0
+Current commits: 2481
+Current aborts: 0
+Current commits: 2807
+Current aborts: 0
+Current commits: 3112
+Current aborts: 0
+Current commits: 3429
+Current aborts: 1
+Current commits: 3758
+Current aborts: 1
+Current commits: 4052
+Current aborts: 1
+Current commits: 4372
+Current aborts: 1
+Current commits: 4711
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 2 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 10444 milliseconds
+Current commits: 304
+Current aborts: 1
+Current commits: 637
+Current aborts: 1
+Current commits: 973
+Current aborts: 1
+Current commits: 1279
+Current aborts: 1
+Current commits: 1589
+Current aborts: 1
+Current commits: 1950
+Current aborts: 1
+Current commits: 2263
+Current aborts: 1
+Current commits: 2575
+Current aborts: 1
+Current commits: 2878
+Current aborts: 1
+Current commits: 3174
+Current aborts: 1
+Current commits: 3475
+Current aborts: 1
+Current commits: 3794
+Current aborts: 1
+Current commits: 4065
+Current aborts: 1
+Current commits: 4376
+Current aborts: 1
+Current commits: 4732
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 3 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 10443 milliseconds
+Current commits: 326
+Current aborts: 0
+Current commits: 639
+Current aborts: 1
+Current commits: 924
+Current aborts: 1
+Current commits: 1243
+Current aborts: 1
+Current commits: 1545
+Current aborts: 1
+Current commits: 1860
+Current aborts: 1
+Current commits: 2178
+Current aborts: 1
+Current commits: 2519
+Current aborts: 1
+Current commits: 2813
+Current aborts: 1
+Current commits: 3105
+Current aborts: 1
+Current commits: 3400
+Current aborts: 1
+Current commits: 3718
+Current aborts: 1
+Current commits: 4021
+Current aborts: 1
+Current commits: 4344
+Current aborts: 1
+Current commits: 4682
+Current aborts: 2
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 4 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 10244 milliseconds
+Current commits: 322
+Current aborts: 0
+Current commits: 657
+Current aborts: 0
+Current commits: 948
+Current aborts: 0
+Current commits: 1276
+Current aborts: 0
+Current commits: 1575
+Current aborts: 0
+Current commits: 1910
+Current aborts: 0
+Current commits: 2195
+Current aborts: 0
+Current commits: 2521
+Current aborts: 0
+Current commits: 2849
+Current aborts: 0
+Current commits: 3159
+Current aborts: 0
+Current commits: 3485
+Current aborts: 0
+Current commits: 3752
+Current aborts: 0
+Current commits: 4085
+Current aborts: 0
+Current commits: 4371
+Current aborts: 0
+Current commits: 4681
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 5 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 10169 milliseconds
+Current commits: 288
+Current aborts: 0
+Current commits: 609
+Current aborts: 0
+Current commits: 930
+Current aborts: 0
+Current commits: 1221
+Current aborts: 0
+Current commits: 1534
+Current aborts: 0
+Current commits: 1828
+Current aborts: 0
+Current commits: 2165
+Current aborts: 0
+Current commits: 2438
+Current aborts: 0
+Current commits: 2767
+Current aborts: 0
+Current commits: 3067
+Current aborts: 0
+Current commits: 3400
+Current aborts: 0
+Current commits: 3718
+Current aborts: 0
+Current commits: 4030
+Current aborts: 0
+Current commits: 4361
+Current aborts: 0
+Current commits: 4681
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 6 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 10394 milliseconds
+Current commits: 306
+Current aborts: 0
+Current commits: 633
+Current aborts: 0
+Current commits: 958
+Current aborts: 0
+Current commits: 1276
+Current aborts: 0
+Current commits: 1581
+Current aborts: 1
+Current commits: 1891
+Current aborts: 1
+Current commits: 2176
+Current aborts: 1
+Current commits: 2450
+Current aborts: 1
+Current commits: 2783
+Current aborts: 1
+Current commits: 3103
+Current aborts: 1
+Current commits: 3404
+Current aborts: 1
+Current commits: 3755
+Current aborts: 1
+Current commits: 4077
+Current aborts: 1
+Current commits: 4375
+Current aborts: 1
+Current commits: 4669
+Current aborts: 1
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 7 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+READS: 1000
+Time of execution: 10391 milliseconds
+Current commits: 311
+Current aborts: 0
+Current commits: 636
+Current aborts: 0
+Current commits: 927
+Current aborts: 0
+Current commits: 1207
+Current aborts: 0
+Current commits: 1492
+Current aborts: 1
+Current commits: 1806
+Current aborts: 1
+Current commits: 2103
+Current aborts: 1
+Current commits: 2420
+Current aborts: 1
+Current commits: 2738
+Current aborts: 1
+Current commits: 3049
+Current aborts: 1
+Current commits: 3388
+Current aborts: 1
+Current commits: 3711
+Current aborts: 1
+Current commits: 4018
+Current aborts: 1
+Current commits: 4344
+Current aborts: 1
+Current commits: 4662
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 8 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 250
+WRITES: 250
+WRITES: 250
+READS: 1000
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 10270 milliseconds
+Current commits: 317
+Current aborts: 0
+Current commits: 622
+Current aborts: 0
+Current commits: 965
+Current aborts: 0
+Current commits: 1296
+Current aborts: 0
+Current commits: 1613
+Current aborts: 0
+Current commits: 1926
+Current aborts: 0
+Current commits: 2254
+Current aborts: 0
+Current commits: 2543
+Current aborts: 0
+Current commits: 2859
+Current aborts: 0
+Current commits: 3148
+Current aborts: 0
+Current commits: 3452
+Current aborts: 0
+Current commits: 3737
+Current aborts: 0
+Current commits: 4051
+Current aborts: 0
+Current commits: 4377
+Current aborts: 0
+Current commits: 4685
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIPolka
+TRMIPolka	4	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 250
+READS: 1000
+WRITES: 250
+WRITES: 250
+READS: 1000
+WRITES: 250
+READS: 1000
+READS: 1000
+Time of execution: 10290 milliseconds
+Current commits: 338
+Current aborts: 0
+Current commits: 682
+Current aborts: 0
+Current commits: 981
+Current aborts: 1
+Current commits: 1309
+Current aborts: 1
+Current commits: 1642
+Current aborts: 1
+Current commits: 1939
+Current aborts: 1
+Current commits: 2247
+Current aborts: 1
+Current commits: 2559
+Current aborts: 1
+Current commits: 2866
+Current aborts: 1
+Current commits: 3198
+Current aborts: 1
+Current commits: 3511
+Current aborts: 1
+Current commits: 3803
+Current aborts: 1
+Current commits: 4112
+Current aborts: 1
+Current commits: 4410
+Current aborts: 1
+Current commits: 4699
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+clients: 8, transactions per client: 625, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 5915 milliseconds
+Current commits: 320
+Current aborts: 0
+Current commits: 674
+Current aborts: 1
+Current commits: 973
+Current aborts: 1
+Current commits: 1262
+Current aborts: 1
+Current commits: 1547
+Current aborts: 1
+Current commits: 1849
+Current aborts: 1
+Current commits: 2149
+Current aborts: 1
+Current commits: 2481
+Current aborts: 1
+Current commits: 2794
+Current aborts: 1
+Current commits: 3091
+Current aborts: 1
+Current commits: 3424
+Current aborts: 1
+Current commits: 3728
+Current aborts: 1
+Current commits: 4043
+Current aborts: 1
+Current commits: 4347
+Current aborts: 1
+Current commits: 4684
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 5853 milliseconds
+Current commits: 325
+Current aborts: 0
+Current commits: 662
+Current aborts: 0
+Current commits: 972
+Current aborts: 0
+Current commits: 1308
+Current aborts: 0
+Current commits: 1615
+Current aborts: 0
+Current commits: 1913
+Current aborts: 0
+Current commits: 2219
+Current aborts: 0
+Current commits: 2518
+Current aborts: 0
+Current commits: 2828
+Current aborts: 0
+Current commits: 3140
+Current aborts: 0
+Current commits: 3473
+Current aborts: 0
+Current commits: 3764
+Current aborts: 1
+Current commits: 4098
+Current aborts: 1
+Current commits: 4385
+Current aborts: 1
+Current commits: 4687
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 2 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 5889 milliseconds
+Current commits: 313
+Current aborts: 0
+Current commits: 627
+Current aborts: 0
+Current commits: 943
+Current aborts: 0
+Current commits: 1247
+Current aborts: 0
+Current commits: 1556
+Current aborts: 0
+Current commits: 1872
+Current aborts: 0
+Current commits: 2185
+Current aborts: 0
+Current commits: 2485
+Current aborts: 0
+Current commits: 2780
+Current aborts: 0
+Current commits: 3104
+Current aborts: 0
+Current commits: 3413
+Current aborts: 0
+Current commits: 3732
+Current aborts: 0
+Current commits: 4059
+Current aborts: 0
+Current commits: 4341
+Current aborts: 0
+Current commits: 4647
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 3 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 6244 milliseconds
+Current commits: 334
+Current aborts: 0
+Current commits: 633
+Current aborts: 0
+Current commits: 955
+Current aborts: 0
+Current commits: 1253
+Current aborts: 0
+Current commits: 1566
+Current aborts: 0
+Current commits: 1913
+Current aborts: 0
+Current commits: 2205
+Current aborts: 0
+Current commits: 2503
+Current aborts: 0
+Current commits: 2779
+Current aborts: 1
+Current commits: 3072
+Current aborts: 1
+Current commits: 3394
+Current aborts: 1
+Current commits: 3705
+Current aborts: 1
+Current commits: 4021
+Current aborts: 1
+Current commits: 4357
+Current aborts: 1
+Current commits: 4670
+Current aborts: 1
+Current commits: 5000
+Current aborts: 2
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 4 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 6074 milliseconds
+Current commits: 302
+Current aborts: 0
+Current commits: 617
+Current aborts: 0
+Current commits: 945
+Current aborts: 0
+Current commits: 1280
+Current aborts: 0
+Current commits: 1594
+Current aborts: 0
+Current commits: 1913
+Current aborts: 0
+Current commits: 2239
+Current aborts: 0
+Current commits: 2549
+Current aborts: 0
+Current commits: 2856
+Current aborts: 0
+Current commits: 3160
+Current aborts: 0
+Current commits: 3460
+Current aborts: 1
+Current commits: 3743
+Current aborts: 1
+Current commits: 4057
+Current aborts: 1
+Current commits: 4384
+Current aborts: 2
+Current commits: 4689
+Current aborts: 2
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 5 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 5953 milliseconds
+Current commits: 330
+Current aborts: 0
+Current commits: 650
+Current aborts: 1
+Current commits: 970
+Current aborts: 1
+Current commits: 1280
+Current aborts: 2
+Current commits: 1569
+Current aborts: 2
+Current commits: 1879
+Current aborts: 2
+Current commits: 2190
+Current aborts: 2
+Current commits: 2499
+Current aborts: 2
+Current commits: 2827
+Current aborts: 2
+Current commits: 3148
+Current aborts: 2
+Current commits: 3463
+Current aborts: 2
+Current commits: 3800
+Current aborts: 2
+Current commits: 4120
+Current aborts: 2
+Current commits: 4389
+Current aborts: 2
+Current commits: 4695
+Current aborts: 2
+Current commits: 5000
+Current aborts: 3
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 3 
+Test 6 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 6010 milliseconds
+Current commits: 295
+Current aborts: 0
+Current commits: 603
+Current aborts: 0
+Current commits: 917
+Current aborts: 0
+Current commits: 1245
+Current aborts: 0
+Current commits: 1567
+Current aborts: 0
+Current commits: 1906
+Current aborts: 0
+Current commits: 2236
+Current aborts: 0
+Current commits: 2576
+Current aborts: 0
+Current commits: 2836
+Current aborts: 0
+Current commits: 3170
+Current aborts: 0
+Current commits: 3463
+Current aborts: 0
+Current commits: 3752
+Current aborts: 1
+Current commits: 4073
+Current aborts: 1
+Current commits: 4392
+Current aborts: 1
+Current commits: 4712
+Current aborts: 1
+Current commits: 5000
+Current aborts: 1
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 7 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 5786 milliseconds
+Current commits: 316
+Current aborts: 0
+Current commits: 628
+Current aborts: 0
+Current commits: 922
+Current aborts: 0
+Current commits: 1241
+Current aborts: 0
+Current commits: 1552
+Current aborts: 0
+Current commits: 1884
+Current aborts: 0
+Current commits: 2196
+Current aborts: 0
+Current commits: 2490
+Current aborts: 0
+Current commits: 2816
+Current aborts: 0
+Current commits: 3122
+Current aborts: 0
+Current commits: 3441
+Current aborts: 0
+Current commits: 3751
+Current aborts: 0
+Current commits: 4049
+Current aborts: 0
+Current commits: 4393
+Current aborts: 0
+Current commits: 4719
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 8 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+WRITES: 125
+READS: 500
+Time of execution: 5872 milliseconds
+Current commits: 301
+Current aborts: 0
+Current commits: 608
+Current aborts: 0
+Current commits: 947
+Current aborts: 0
+Current commits: 1232
+Current aborts: 0
+Current commits: 1524
+Current aborts: 0
+Current commits: 1863
+Current aborts: 0
+Current commits: 2171
+Current aborts: 0
+Current commits: 2471
+Current aborts: 0
+Current commits: 2788
+Current aborts: 0
+Current commits: 3069
+Current aborts: 0
+Current commits: 3364
+Current aborts: 0
+Current commits: 3694
+Current aborts: 0
+Current commits: 4046
+Current aborts: 0
+Current commits: 4371
+Current aborts: 0
+Current commits: 4694
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 9 for TRMIPolka
+TRMIPolka	8	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+WRITES: 125
+READS: 500
+WRITES: 125
+WRITES: 125
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+READS: 500
+Time of execution: 5752 milliseconds
+Current commits: 318
+Current aborts: 0
+Current commits: 627
+Current aborts: 0
+Current commits: 962
+Current aborts: 0
+Current commits: 1226
+Current aborts: 0
+Current commits: 1530
+Current aborts: 0
+Current commits: 1857
+Current aborts: 0
+Current commits: 2191
+Current aborts: 0
+Current commits: 2511
+Current aborts: 0
+Current commits: 2826
+Current aborts: 0
+Current commits: 3100
+Current aborts: 0
+Current commits: 3433
+Current aborts: 0
+Current commits: 3726
+Current aborts: 0
+Current commits: 4054
+Current aborts: 0
+Current commits: 4365
+Current aborts: 0
+Current commits: 4680
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+clients: 16, transactions per client: 312, NTTRANS: 5000
+Test 0 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+Time of execution: 3920 milliseconds
+Current commits: 355
+Current aborts: 0
+Current commits: 660
+Current aborts: 0
+Current commits: 967
+Current aborts: 0
+Current commits: 1318
+Current aborts: 1
+Current commits: 1671
+Current aborts: 1
+Current commits: 1966
+Current aborts: 1
+Current commits: 2270
+Current aborts: 1
+Current commits: 2599
+Current aborts: 1
+Current commits: 2873
+Current aborts: 1
+Current commits: 3165
+Current aborts: 1
+Current commits: 3471
+Current aborts: 1
+Current commits: 3787
+Current aborts: 1
+Current commits: 4106
+Current aborts: 1
+Current commits: 4380
+Current aborts: 1
+Current commits: 4675
+Current aborts: 1
+Current commits: 4992
+Current aborts: 1
+Total of commits: 4992 (Expected: 4992)
+Total of inserts: 992 
+Total of gets: 4000 
+Total of aborts: 1 
+Test 1 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+Test 2 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+Time of execution: 3862 milliseconds
+Current commits: 302
+Current aborts: 0
+Current commits: 620
+Current aborts: 0
+Current commits: 925
+Current aborts: 0
+Current commits: 1222
+Current aborts: 0
+Current commits: 1540
+Current aborts: 0
+Current commits: 1862
+Current aborts: 1
+Current commits: 2186
+Current aborts: 2
+Current commits: 2498
+Current aborts: 2
+Current commits: 2847
+Current aborts: 3
+Current commits: 3149
+Current aborts: 4
+Current commits: 3443
+Current aborts: 5
+Current commits: 3754
+Current aborts: 5
+Current commits: 4114
+Current aborts: 5
+Current commits: 4416
+Current aborts: 5
+Current commits: 4704
+Current aborts: 5
+Current commits: 4992
+Current aborts: 5
+Total of commits: 4992 (Expected: 4992)
+Total of inserts: 992 
+Total of gets: 4000 
+Total of aborts: 5 
+Test 3 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+Time of execution: 3701 milliseconds
+Current commits: 317
+Current aborts: 0
+Current commits: 625
+Current aborts: 0
+Current commits: 945
+Current aborts: 0
+Current commits: 1227
+Current aborts: 0
+Current commits: 1549
+Current aborts: 0
+Current commits: 1834
+Current aborts: 0
+Current commits: 2123
+Current aborts: 0
+Current commits: 2452
+Current aborts: 0
+Current commits: 2777
+Current aborts: 0
+Current commits: 3076
+Current aborts: 0
+Current commits: 3376
+Current aborts: 0
+Current commits: 3703
+Current aborts: 0
+Current commits: 4027
+Current aborts: 0
+Current commits: 4365
+Current aborts: 0
+Current commits: 4672
+Current aborts: 0
+Current commits: 4992
+Current aborts: 0
+Total of commits: 4992 (Expected: 4992)
+Total of inserts: 992 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 4 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+Time of execution: 3926 milliseconds
+Current commits: 330
+Current aborts: 0
+Current commits: 662
+Current aborts: 0
+Current commits: 986
+Current aborts: 1
+Current commits: 1283
+Current aborts: 1
+Current commits: 1566
+Current aborts: 1
+Current commits: 1895
+Current aborts: 1
+Current commits: 2214
+Current aborts: 1
+Current commits: 2497
+Current aborts: 1
+Current commits: 2782
+Current aborts: 1
+Current commits: 3065
+Current aborts: 1
+Current commits: 3398
+Current aborts: 1
+Current commits: 3728
+Current aborts: 1
+Current commits: 4026
+Current aborts: 1
+Current commits: 4348
+Current aborts: 1
+Current commits: 4665
+Current aborts: 1
+Current commits: 4992
+Current aborts: 2
+Total of commits: 4992 (Expected: 4992)
+Total of inserts: 992 
+Total of gets: 4000 
+Total of aborts: 2 
+Test 5 for TRMIPolka
+TRMIPolka	16	/home/rddsantos/DSTM
+CM ID:	3	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 160
+maxDelay_intervals: 160
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+WRITES: 62
+WRITES: 62
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+READS: 250
+WRITES: 62
+READS: 250
+Time of execution: 3906 milliseconds
+Current commits: 324
+Current aborts: 0
+Current commits: 626
+Current aborts: 1
+Current commits: 919
+Current aborts: 1
+Current commits: 1245
+Current aborts: 1
+Current commits: 1566
+Current aborts: 1
+Current commits: 1897
+Current aborts: 2
+Current commits: 2205
+Current aborts: 2
+Current commits: 2516
+Current aborts: 2
+Current commits: 2860
+Current aborts: 2
+Current commits: 3166
+Current aborts: 2
+Current commits: 3477
+Current aborts: 2
+Current commits: 3768
+Current aborts: 4
+Current commits: 4082
+Current aborts: 4
+Current commits: 4387
+Current aborts: 5
+Current commits: 4689
+Current aborts: 5
+Current commits: 4992
+Current aborts: 6
+Total of commits: 4992 (Expected: 4992)
+Total of inserts: 992 
+Total of gets: 4000 
+Total of aborts: 6 
