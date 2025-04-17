@@ -30,6 +30,7 @@ public class Polka extends ContentionManager {
         if (other.hashCode() != currentEnemyHashCode) {
             currentEnemyHashCode = other.hashCode();
             attempts = 0;
+            delay = MIN_DELAY;
         }
         // System.out.println("OTHER: " + other.getPriority());
         // System.out.println("ME: " + me.getPriority());
