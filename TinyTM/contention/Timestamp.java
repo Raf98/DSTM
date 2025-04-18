@@ -9,6 +9,7 @@ public class Timestamp extends ContentionManager {
     int delay;// = 64;
     int attempts;// = 0;
     int intervals;// = 32;
+    int currentEnemyHashCode = Integer.MIN_VALUE;
     boolean wasSetDefunctBefore = false;
 
     public Timestamp() {
@@ -29,6 +30,11 @@ public class Timestamp extends ContentionManager {
         // System.out.println("OTHER TIMESTAMP: " + other.getTimestamp() + ", HASH:" +
         // other.hashCode());
         // System.out.println(me.getTimestamp() == other.getTimestamp());
+
+        if (other.hashCode() != currentEnemyHashCode) {
+            currentEnemyHashCode = other.hashCode();
+            attempts = 0;
+        }
 
         if (wasSetDefunctBefore && !other.getDefunct()) {
             attempts = 0;

@@ -26,11 +26,12 @@ import java.rmi.*;
  * @author Maurice Herlihy
  */
 public class Polite extends ContentionManager {
-  private static /*final*/ int MIN_DELAY; //= 128;// 64;//32;
-  private static /*final*/ int MAX_DELAY; //= 4096;// 2048;//1024;
+  private static /* final */ int MIN_DELAY; // = 128;// 64;//32;
+  private static /* final */ int MAX_DELAY; // = 4096;// 2048;//1024;
   int delay;// = MIN_DELAY;
+  int currentEnemyHashCode = Integer.MIN_VALUE;
 
-  public Polite(){
+  public Polite() {
     MIN_DELAY = 128;
     MAX_DELAY = 4096;
     delay = MIN_DELAY;
@@ -43,6 +44,11 @@ public class Polite extends ContentionManager {
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
+    if (other.hashCode() != currentEnemyHashCode) {
+      currentEnemyHashCode = other.hashCode();
+      delay = MIN_DELAY;
+    }
+
     if (delay < MAX_DELAY) { // be patient
       try {
         Thread.sleep(delay);
