@@ -54,23 +54,23 @@ for cm in contention_managers:
             if "Time of execution" in line:
                 executions_time.append(line)
 
-    if cm in ['Karma', 'Polka']:
-        dht_tests_filename = f"tests_results/new_{cm.lower()}_attempts_reset_final_tests.txt"
+    #if cm in ['Karma', 'Polka']:
+    dht_tests_filename = f"tests_results/new_{cm.lower()}_attempts_reset_final_tests.txt"
 
-        lines = open(dht_tests_filename, "r").readlines()
+    lines = open(dht_tests_filename, "r").readlines()
 
-        for line in lines:
-            if line.startswith("NOBJSERVER:"):
-                use_cases.append(line)
-            elif line.startswith("Total of aborts"):
-                aborts.append(line)
-            elif line.startswith("Test"):
-                tests_cms.append(line)
-            else:
-                if line.startswith("TRMI"):
-                    cm_clients.append(line)
-                if "Time of execution" in line:
-                    executions_time.append(line)
+    for line in lines:
+        if line.startswith("NOBJSERVER:"):
+            use_cases.append(line)
+        elif line.startswith("Total of aborts"):
+            aborts.append(line)
+        elif line.startswith("Test"):
+            tests_cms.append(line)
+        else:
+            if line.startswith("TRMI"):
+                cm_clients.append(line)
+            if "Time of execution" in line:
+                executions_time.append(line)
 
     # print(len(use_cases))
     # print(len(tests_cms))
@@ -101,7 +101,7 @@ number_of_tests = 10
 test_cases_dict = {}
 
 contention_managers = ["Karma", "KarmaNew", "KarmaNewAttemptsReset",  "Polka", "PolkaNew", "PolkaNewAttemptsReset",
-                       "Timestamp", "TimestampNew"]
+                       "Timestamp", "TimestampNew", "TimestampNewAttemptsReset"]
 
 for wp in writes_percentage:
     for opt in objs_per_transaction:
