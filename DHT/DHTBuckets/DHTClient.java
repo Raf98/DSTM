@@ -35,10 +35,10 @@ public class DHTClient {
 
         // If CM is not Less or Agressive, that have no settable parameters
         if (args.length > 8 && contentionManager < 6) {
-            maxAborts_minDelay_delay = Integer.parseInt(args[7]);
+            maxAborts_minDelay_delay = Integer.parseInt(args[8]);
 
             if (args.length > 8) {
-                maxDelay_intervals = Integer.parseInt(args[8]);
+                maxDelay_intervals = Integer.parseInt(args[9]);
             }
         }
 
