@@ -37,7 +37,7 @@ public class DHTClient {
         if (args.length > 8 && contentionManager < 6) {
             maxAborts_minDelay_delay = Integer.parseInt(args[8]);
 
-            if (args.length > 8) {
+            if (args.length > 9) {
                 maxDelay_intervals = Integer.parseInt(args[9]);
             }
         }
