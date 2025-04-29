@@ -7,7 +7,7 @@ import os
 
 #contention_managers = ["Aggressive", "Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
-contention_managers = ["Karma", "Passive", "Polite", "Polka"]
+contention_managers = ["Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka"]
 
 use_cases = []
 tests_cms = []
