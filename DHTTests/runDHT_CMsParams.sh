@@ -65,11 +65,11 @@ else
 	MAXABORTS_MINDELAY_DELAY=$9
 fi
 
-if [ -z $10 ]
+if [ -z ${10} ]
 then
 	MAXDELAY_INTERVALS=256
 else
-	MAXDELAY_INTERVALS=$10
+	MAXDELAY_INTERVALS=${10}
 fi
 
 # Moves to previous directory to run and use the DHT .class files
