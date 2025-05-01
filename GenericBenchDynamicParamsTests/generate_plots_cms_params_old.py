@@ -75,8 +75,8 @@ if "; " in cm_params_configs[0]:
     two_params = cm_params_configs[0].split("; ")
     param0 = two_params[0]
     param1 = two_params[1]
-    param0_title = param0.split(" ")[1]
-    param1_title = param1.split(" ")[1]
+    param0_title = param0.split(" ")[1].replace("MIN_DELAY", "minDelay")
+    param1_title = param1.split(" ")[1].replace("MAX_DELAY", "maxDelay")
 else:
     param0 = cm_params_configs[0].split(" ")
     param0_title = param0[0]
@@ -101,6 +101,9 @@ else:
         if maxaborts_mindelay_delay not in maxaborts_mindelay_delay_arr:
             maxaborts_mindelay_delay_arr.append(maxaborts_mindelay_delay)
 
+if contention_manager == 'Polite':
+    for i in range(len(cm_params_configs)):
+        cm_params_configs[i] = cm_params_configs[i].replace("min_delay", "minDelay").replace("max_delay", "maxDelay")
 
 # print(param0_title)
 # print(maxaborts_mindelay_delay_arr)
@@ -216,7 +219,7 @@ if not os.path.exists("10Tests"):
 if not os.path.exists("10Tests/" + contention_manager):
     os.makedirs("10Tests/" + contention_manager)
 
-multiply_factor = 1.15 if maxdelay_intervals == 0 else 1.08 
+multiply_factor = 1.05 if maxdelay_intervals == 0 else 1.07
 
 i = 0
 n = 0
@@ -285,13 +288,14 @@ for wp in writes_percentage:
                 multiplier += 1
 
             # Add some text for labels, title and custom x-axis tick labels, etc.
-            ax.set_ylabel('Time (seconds)', fontsize=20)
-            ax.set_title(f"{contention_manager}\nObjects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
+            ax.set_ylabel('Time (seconds)', fontsize=24)
+            ax.set_xlabel('Number of clients', fontsize=24)
+            ax.set_title(f"Objects per server: {ops}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=24)
             ax.set_xticks(x + width, number_of_clients)
-            ax.legend(loc='upper right', ncols=1, prop={'size': 18})
+            ax.legend(loc='upper right', ncols=2, prop={'size': 24})
             ax.set_ylim(0, max)
-            ax.tick_params(axis='x', labelsize=20)
-            ax.tick_params(axis='y', labelsize=20)
+            ax.tick_params(axis='x', labelsize=24)
+            ax.tick_params(axis='y', labelsize=24)
             ax.grid(zorder=0)
 
             fig.set_figheight(10)

@@ -7,7 +7,7 @@ import os
 
 #contention_managers = ["Aggressive", "Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
-contention_managers = ["Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka"]
+contention_managers = ["Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
 use_cases = []
 tests_cms = []
@@ -164,7 +164,7 @@ print(counts)
 if not os.path.exists("Plots"):
     os.makedirs("Plots")
 
-multiply_factor = 1.16
+multiply_factor = 1.025
 
 i = 0
 n = 0
@@ -233,7 +233,7 @@ for wp in writes_percentage:
             ax.set_ylabel('Time (seconds)', fontsize=20)
             ax.set_title(f"DHT\nNumber of keys: {number_of_keys}, Number of HT entries: {nohte}, Percentage of writes: {wp} %, Objects per transaction:{opt}", fontsize=20)
             ax.set_xticks(x + width, number_of_clients)
-            ax.legend(loc='upper right', ncols=1, prop={'size': 18})
+            ax.legend(loc='upper right', ncols=2, prop={'size': 18})
             ax.set_ylim(0, max)
             ax.tick_params(axis='x', labelsize=20)
             ax.tick_params(axis='y', labelsize=20)
