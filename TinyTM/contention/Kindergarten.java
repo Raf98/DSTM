@@ -22,12 +22,12 @@ public class Kindergarten extends ContentionManager {
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
 
-        /*if (backedOff) {
+        if (backedOff) {
             //System.out.println("ATTACKING BACKED OFF! ABORT IT...");
-            backedOff = false;
+            //backedOff = false;
             me.abort();
             throw new AbortedException();
-        } else*/ 
+        }
          
         if (me.getConflictList().contains(other.hashCode())) {
             /*
@@ -49,7 +49,7 @@ public class Kindergarten extends ContentionManager {
             me.getConflictList().add(other.hashCode());
             try {
                 Thread.sleep(delayInterval);
-                //backedOff = true;
+                backedOff = true;
                 //me.abort();
                 //throw new AbortedException();
             } catch (InterruptedException e) {
