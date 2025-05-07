@@ -220,7 +220,7 @@ if not os.path.exists("10Tests"):
 if not os.path.exists("10Tests/" + contention_manager + "_new"):
     os.makedirs("10Tests/" + contention_manager + "_new")
 
-multiply_factor = 1.05 if maxdelay_intervals == 0 else 1.07
+multiply_factor = 1.07 if maxdelay_intervals == 0 else 1.07
 
 i = 0
 n = 0
