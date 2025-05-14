@@ -24,7 +24,7 @@ public class Kindergarten extends ContentionManager {
 
         if (backedOff) {
             //System.out.println("ATTACKING BACKED OFF! ABORT IT...");
-            //backedOff = false;
+            backedOff = false;
             me.abort();
             throw new AbortedException();
         }
