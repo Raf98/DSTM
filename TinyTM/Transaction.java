@@ -336,7 +336,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         cm = new Karma(maxAborts_minDelay_delay);
         break;
       case Polka:
-        cm = new Polka(maxAborts_minDelay_delay);
+        cm = new Polka(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Timestamp:
         cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_intervals);

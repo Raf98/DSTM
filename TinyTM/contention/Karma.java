@@ -6,18 +6,16 @@ import TinyTM.ITransaction;
 import TinyTM.Transaction;
 
 public class Karma extends ContentionManager {
-    int delay;//= 64;
-    int attempts;// = 0;
+    int delay;
+    int attempts = 0;
     int currentEnemyHashCode = Integer.MIN_VALUE;
 
     public Karma() {
         delay = 64;
-        attempts = 0;
     }
 
     public Karma(int delay) {
         this.delay = delay;
-        attempts = 0;
     }
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
@@ -29,30 +27,28 @@ public class Karma extends ContentionManager {
             attempts = 0;
         }
 
-        if(me.getPriority() > other.getPriority()) {
+        if ((me.getPriority() > other.getPriority()) || 
+            ((attempts + me.getPriority()) > other.getPriority())) {
             attempts = 0;
             other.abort();
+            return;
         }
-        else if (attempts <= other.getPriority() - me.getPriority()) {
-            try {
-                Thread.sleep(delay);
-            } catch (InterruptedException ex) {
-                Thread.currentThread().interrupt();
-            }
-            ++attempts;
-        } else {
-            other.abort();
-            attempts = 0;
+
+        try {
+            Thread.sleep(delay);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
         }
+        ++attempts;
     }
 
-  @Override
-  public int getFirstParam() {
-    return delay;
-  }
+    @Override
+    public int getFirstParam() {
+        return delay;
+    }
 
-  @Override
-  public void setFirstParam(int firstParam) {
-    delay = firstParam;
-  }
+    @Override
+    public void setFirstParam(int firstParam) {
+        delay = firstParam;
+    }
 }
