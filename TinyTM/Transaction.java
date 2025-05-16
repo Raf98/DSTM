@@ -97,11 +97,6 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     cm = chooseCM();
-    if (globalClock == null) {
-      globalClock = (IGlobalClock) Naming.lookup("globalclock");
-    }
-    //System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
-    timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 
   private Transaction(Transaction.Status myStatus) throws RemoteException {
@@ -178,9 +173,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     T result;
     Transaction me;
     Thread myThread = Thread.currentThread();
-    long transactionTimestamp = -1;
-    int transactionPriority = -1;
-    HashSet<Integer> transactionConflictList = null;
+
+    if (globalClock == null) {
+      globalClock = (IGlobalClock) Naming.lookup("globalclock");
+    }
+    //System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
+
+    long transactionTimestamp = globalClock.getCurrentTime();
+    int transactionPriority = 0;
+    HashSet<Integer> transactionConflictList = new HashSet<>();
 
     int transactionNum = transactionId.incrementAndGet();
     int transactionAborts = 0;
@@ -190,15 +191,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       me = new Transaction();
       Transaction.setLocal(me);
 
-      if (transactionPriority != -1) {
-        me.priority.set(transactionPriority);
-      }
-      if (transactionTimestamp != -1) {
-        me.timestamp.set(transactionTimestamp);
-      }
+      me.timestamp.set(transactionTimestamp);
       me.transactionAborts.set(transactionAborts);
+      me.priority.set(transactionPriority);
 
-      if (transactionConflictList != null) {
+      if (transactionConflictList.size() > 0) {
         me.conflictList.set(transactionConflictList);
       }
 
