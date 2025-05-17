@@ -44,7 +44,7 @@ do
         # that is a power of 2, for more collision, thus, greater contention
         # and then move to a case in which there are 10000 keys available and a lower number of entries but of a prime number
         # which would render less collisions and, thus, lower contention
-        NKEYS=10000
+        NKEYS=20000
         NHTENTRIES=128
         for NHTENTRIES in $(seq 128 1439 1567);
         do

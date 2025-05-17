@@ -47,7 +47,7 @@ for WRITES in $(seq 20 30 50);
 do
     #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
     NOBJSERVER=50
-        for NOBJSERVER in $(seq 50 450 500);
+    for NOBJSERVER in $(seq 50 450 500);
     do
         # LOW CONTENTION??? - should loop first through 100 then through 500
         NOBJSERVER=100
