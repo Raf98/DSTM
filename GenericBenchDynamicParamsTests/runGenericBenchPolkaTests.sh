@@ -51,9 +51,9 @@ do
     NOBJTRANS=5
     for NOBJTRANS in $(seq 5 15 20);
     do
-        # LOW CONTENTION??? - should loop first through 100 then through 500
-        NOBJSERVER=100
-        for NOBJSERVER in $(seq 100 400 500);
+        # LOW CONTENTION??? - should loop first through 50 (higher contention) then through 500 (lower contention)
+        NOBJSERVER=50
+        for NOBJSERVER in $(seq 50 450 500);
         do
 
            echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
@@ -66,11 +66,16 @@ do
                 min_delay=128
                 while [[ $min_delay -le 512 ]];
                 do
-                    for i in $(seq 0 9);
+                    max_delay=2048
+                    while [[ $max_delay -le 8192 ]];
                     do
-                        echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
-                        printf "TRMIPolka\t$NCLIENT\t"
-                        ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $min_delay
+                        for i in $(seq 0 9);
+                        do
+                            echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
+                            printf "TRMIPolka\t$NCLIENT\t"
+                            ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $min_delay $max_delay
+                        done
+                        let "max_delay*=2"
                     done
                     let "min_delay*=2" #64 128 256
                 done
