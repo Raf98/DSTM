@@ -22,12 +22,12 @@ public class Kindergarten extends ContentionManager {
 
     public void resolve(Transaction me, ITransaction other) throws RemoteException {
 
-        if (backedOff) {
+        /*if (backedOff) {
             //System.out.println("ATTACKING BACKED OFF! ABORT IT...");
             backedOff = false;
             me.abort();
             throw new AbortedException();
-        }
+        }*/
          
         if (me.getConflictList().contains(other.hashCode())) {
             /*
@@ -38,23 +38,23 @@ public class Kindergarten extends ContentionManager {
 
             me.getConflictList().remove(other.hashCode());
             other.abort();
-        } else {
+            return;
+        }
 
-            /*
-             * System.out.println("FIRST HIT! BACK OFF ATTACKING...");
-             * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
-             * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
-             */
-
-            me.getConflictList().add(other.hashCode());
-            try {
-                Thread.sleep(delayInterval);
-                backedOff = true;
-                //me.abort();
-                //throw new AbortedException();
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
+        /*
+         * System.out.println("FIRST HIT! BACK OFF ATTACKING...");
+         * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
+         * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
+         */
+        me.getConflictList().add(other.hashCode());
+        
+        try {
+            Thread.sleep(delayInterval);
+            //backedOff = true;
+            //me.abort();
+            //throw new AbortedException();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
     }
 

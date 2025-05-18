@@ -44,18 +44,21 @@ public class Timestamp extends ContentionManager {
         if (me.getTimestamp() < other.getTimestamp() || (attempts >= intervals && other.getDefunct())) {
             attempts = 0;
             other.abort();
-        } else {
-            if (attempts >= intervals / 2 && !other.getDefunct()) {
-                other.setDefunct(true);
-                wasSetDefunctBefore = true;
-            }
-            try {
-                Thread.sleep(delay);
-            } catch (InterruptedException ex) {
-                Thread.currentThread().interrupt();
-            }
-            ++attempts;
+            return;
+        } 
+        
+        
+        if (attempts >= intervals / 2 && !other.getDefunct()) {
+            other.setDefunct(true);
+            wasSetDefunctBefore = true;
         }
+
+        try {
+            Thread.sleep(delay);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+        ++attempts;
     }
 
     @Override
