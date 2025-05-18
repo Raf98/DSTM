@@ -71,7 +71,7 @@ do
                     do
                         for i in $(seq 0 9);
                         do
-                            echo "Test $i for TRMIPolka: $min_delay MIN_DELAY"
+                            echo "Test $i for TRMIPolka: $min_delay minDelay; $max_delay maxDelay"
                             printf "TRMIPolka\t$NCLIENT\t"
                             ./runGenericBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $min_delay $max_delay
                         done
