@@ -114,6 +114,7 @@ class GenericTransaction implements ExecTransaction {
     
     Transaction.setContentionManager(contentionManager, maxAborts_minDelay_delay, maxDelay_intervals);
 
+    //try{
     donewithdraw = (int) Transaction.atomic(new Callable<Integer>() {
       public Integer call() throws Exception {
         int localwithdraw = 0;
@@ -191,7 +192,10 @@ class GenericTransaction implements ExecTransaction {
 
         return localwithdraw;
       }
-    });
+    });}
+    /*catch(Exception e) {
+      e.printStackTrace();
+    }*/
 
     // SANITY CHECK:
     commits.getAndIncrement();

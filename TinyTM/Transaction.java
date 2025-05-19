@@ -51,7 +51,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   static public final AtomicInteger transactionId = new AtomicInteger(0);
 
   public AtomicInteger priority = new AtomicInteger(0);
-  public AtomicLong timestamp;
+  public AtomicLong timestamp = new AtomicLong(0);
   public AtomicBoolean defunct = new AtomicBoolean(false);
   public AtomicReference<HashSet<Integer>> conflictList = new AtomicReference<HashSet<Integer>>(new HashSet<>());
   public AtomicInteger transactionAborts = new AtomicInteger(0);
