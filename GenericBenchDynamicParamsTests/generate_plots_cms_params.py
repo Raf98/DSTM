@@ -8,7 +8,10 @@ import sys
 
 print(sys.argv)
 cm_selected = sys.argv[1]
-dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests_new_maxdelay.txt"
+dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests_new.txt"
+
+if (cm_selected == "polka"):
+    dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests_new_maxdelay.txt"
 
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
@@ -223,6 +226,9 @@ if not os.path.exists("10Tests/" + contention_manager + "_new_maxdelay"):
     os.makedirs("10Tests/" + contention_manager + "_new_maxdelay")
 
 multiply_factor = 1.07 if maxdelay_intervals == 0 else 1.07
+
+if cm_selected == "polka":
+    objs_per_server = [50, 500]
 
 i = 0
 n = 0
