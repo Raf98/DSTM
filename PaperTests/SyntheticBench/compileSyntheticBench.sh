@@ -15,3 +15,6 @@ rm DSTMBenchmark/*.class
 rm DSTMBenchmark/GenericDSTM/*.class
 javac DSTMBenchmark/*.java
 javac DSTMBenchmark/GenericDSTM/*.java
+
+# Moves back to PaperTests/SyntheticBench
+cd PaperTests/SyntheticBench

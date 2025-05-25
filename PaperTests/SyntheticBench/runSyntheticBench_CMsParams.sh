@@ -65,8 +65,8 @@ else
 	MAXDELAY_INTERVALS=$9
 fi
 
-echo "Compiling all files needed for the generic benchmark..."
-./compileSyntheticBench.sh
+# Moves to parent directories to run .java files
+cd ../..
 
 for i in $(seq 0 0);
 do

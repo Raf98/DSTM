@@ -36,17 +36,20 @@ fi
 
 if [ -z $4 ]
 then
-	DELAY=64
+	DELAY=32
 else
 	DELAY=$4
 fi
 
 if [ -z $5 ]
 then
-	INTERVALS=32
+	INTERVALS=64
 else
 	INTERVALS=$5
 fi
+
+echo "Compiling all files needed for the generic benchmark..."
+./compileSyntheticBench.sh
 
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
