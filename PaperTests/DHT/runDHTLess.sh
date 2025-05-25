@@ -32,6 +32,9 @@ else
 	NMAXCLIENTS=$3
 fi
 
+echo "Compiling all files needed for the generic benchmark..."
+./compileDHT.sh
+
 # WRITES - should loop first through 20 then through 50
 #WRITES=20
 for WRITES in $(seq 20 30 50); 

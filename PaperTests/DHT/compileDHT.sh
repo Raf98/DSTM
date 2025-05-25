@@ -19,3 +19,6 @@ javac DSTMBenchmark/*.java
 javac -Xlint:unchecked DHT/*.java
 javac DHT/DHTLocks/*.java
 javac DHT/DHTBuckets/*.java
+
+# Moves back to PaperTests/DHT
+cd PaperTests/DHT

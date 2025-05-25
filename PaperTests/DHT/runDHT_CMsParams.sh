@@ -72,8 +72,8 @@ else
 	MAXDELAY_INTERVALS=${10}
 fi
 
-echo "Compiling all files needed for the generic benchmark..."
-./compileDHT.sh
+# Moves to parent directories to run .java files
+cd ../..
 
 for i in $(seq 0 0);
 do
