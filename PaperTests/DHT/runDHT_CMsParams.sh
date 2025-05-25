@@ -73,7 +73,7 @@ else
 fi
 
 echo "Compiling all files needed for the generic benchmark..."
-./compileSyntheticBench.sh
+./compileDHT.sh
 
 for i in $(seq 0 0);
 do
