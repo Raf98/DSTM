@@ -36,14 +36,14 @@ fi
 
 if [ -z $4 ]
 then
-	MIN_DELAY=128
+	MIN_DELAY=64
 else
 	MIN_DELAY=$4
 fi
 
 if [ -z $5 ]
 then
-	MAX_DELAY=4096
+	MAX_DELAY=8192
 else
 	MAX_DELAY=$5
 fi
