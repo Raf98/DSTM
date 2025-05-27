@@ -5,7 +5,8 @@ from matplotlib import pyplot as plt
 import math
 import os
 
-contention_managers = ["Aggressive", "Less", "Karma", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
+# "Less", "Karma", 
+contention_managers = ["Aggressive", "Kindergarten", "Passive", "Polite", "Polka", "Timestamp"]
 
 use_cases = []
 tests_cms = []
@@ -32,6 +33,7 @@ for cm in contention_managers:
             if "Time of execution" in line:
                 executions_time.append(line)
 
+    print(len(tests_cms))
 
 print(len(use_cases))
 print(len(tests_cms))
@@ -255,5 +257,3 @@ for noc in number_of_clients:
     print(str(noc) + " CLIENTS; LOW CONTENTION MAKESPAN AVERAGE: " + str(same_contention_same_client_makespan[number_of_ht_entries[1]][noc] / (4 * 8)))
 
 plt.show()
-
-

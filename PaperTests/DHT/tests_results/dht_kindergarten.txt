@@ -31381,7 +31381,8 @@ Total of commits: 4992 (Expected: 4992)
 Total of inserts: 2496 
 Total of gets: 2496 
 Total of aborts: 149 
-Exception in thread "main" Test 1 for TRMIKindergarten
+Exception in thread "main" 
+Test 1 for TRMIKindergarten
 TRMIKindergarten	16	java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
 	java.io.EOFException
 	at java.rmi/sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:255)

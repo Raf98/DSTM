@@ -63,7 +63,7 @@ do
                 NTRANS=$(($NTTRANS/$NCLIENT))
                 echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
-                delay=128 #32 is not working well anymore, it is too low, so the minimum fixed delay should be 128
+                delay=32 #128 #32 is not working well anymore, it is too low, so the minimum fixed delay should be 128
                 while [[ $delay -le 512 ]];
                 do
                     for i in $(seq 0 9);
