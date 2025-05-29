@@ -342,7 +342,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         cm = new Kindergarten(maxAborts_minDelay_delay);
         break;
       case Less:
-        cm = new Less();
+        cm = new Less(maxAborts_minDelay_delay);
         break;
       case Aggressive:
         cm = new Aggressive();
@@ -364,13 +364,18 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return this.transactionAborts.get();
   }
 
-@Override
-public int getEnemyAttempts() throws RemoteException {
-  return this.enemyAttempts.get();
-}
+  @Override
+  public void setTransactionAborts(int transactionAborts) throws RemoteException {
+    this.transactionAborts.set(transactionAborts);
+  }
 
-@Override
-public void setEnemyAttempts(int attempts) throws RemoteException {
-  this.enemyAttempts.set(attempts);
-}
+  @Override
+  public int getEnemyAttempts() throws RemoteException {
+    return this.enemyAttempts.get();
+  }
+
+  @Override
+  public void setEnemyAttempts(int attempts) throws RemoteException {
+    this.enemyAttempts.set(attempts);
+  }
 }
