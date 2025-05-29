@@ -36,7 +36,7 @@ fi
 
 if [ -z $4 ]
 then
-	DELAY=512
+	DELAY=32 #512
 else
 	DELAY=$4
 fi
