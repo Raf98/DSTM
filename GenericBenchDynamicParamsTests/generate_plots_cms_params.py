@@ -13,6 +13,9 @@ dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out
 if (cm_selected == "polka"):
     dynamic_cm_params_test_filename = "tests_results/generic_" + cm_selected + "_out_10tests_new_maxdelay.txt"
 
+if (cm_selected == "karma"):
+    dynamic_cm_params_test_filename = "tests_results/" + cm_selected + "_5delays.txt"
+
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
 contention_managers = ["Kindergarten", "Timestamp", "Polka", "Karma", "Polite", "Passive"]
@@ -222,8 +225,10 @@ if not os.path.exists("10Tests"):
     os.makedirs("10Tests")
 if not os.path.exists("10Tests/" + contention_manager + "_new"):
     os.makedirs("10Tests/" + contention_manager + "_new")
-if not os.path.exists("10Tests/" + contention_manager + "_new_maxdelay"):
+if cm_selected == "polka" and not os.path.exists("10Tests/" + contention_manager + "_new_maxdelay"):
     os.makedirs("10Tests/" + contention_manager + "_new_maxdelay")
+if cm_selected == "karma" and not os.path.exists("10Tests/" + contention_manager + "_5delays"):
+    os.makedirs("10Tests/" + contention_manager + "_5delays")
 
 multiply_factor = 1.07 if maxdelay_intervals == 0 else 1.07
 
@@ -312,6 +317,8 @@ for wp in writes_percentage:
             
             if (contention_manager == "Polka"):
                 fig.savefig(f"10Tests/{contention_manager}_new_maxdelay/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
+            elif (contention_manager == "Karma"):
+                fig.savefig(f"10Tests/{contention_manager}_5delays/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
             else:
                 fig.savefig(f"10Tests/{contention_manager}_new/NOBJSERVER_{ops},WRITES_{wp},NOBJTRANS_{opt}.png")
             n+=1
