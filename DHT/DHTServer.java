@@ -7,6 +7,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 import DSTMBenchmark.AppCoordinator;
 import DSTMBenchmark.IDBarrier;
+import TinyTM.contention.CMEnum;
 
 public class DHTServer {
     // args[0] == Server ID: starts from zero
@@ -21,8 +22,8 @@ public class DHTServer {
         int maxAborts_minDelay_delay = 64;
         int maxDelay_intervals = 256;
 
-        // If CM is not Less or Agressive, that have no settable parameters
-        if (args.length > 3 && contentionManager < 6) {
+        // If CM is not Agressive, that have no settable parameters
+        if (args.length > 3 && contentionManager != CMEnum.Aggressive.getId()) {
             maxAborts_minDelay_delay = Integer.parseInt(args[3]);
 
             System.out.println("Contention Manager Dynamic Parameters:");
