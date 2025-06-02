@@ -32,6 +32,13 @@ else
 	NMAXCLIENTS=$3
 fi
 
+if [ -z $4 ]
+then
+	MAX_ABORTS=4096
+else
+	MAX_ABORTS=$4
+fi
+
 echo "Compiling all files needed for the generic benchmark..."
 ./compileDHT.sh
 
@@ -60,7 +67,7 @@ do
                     do
                         echo "Test $i for TRMILess"
                         printf "TRMILess\t$NCLIENT\t"
-                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 6 $NHTENTRIES
+                        ./runDHT_CMsParams.sh $NSERVER $NKEYS $NCLIENT $WRITES $NTRANS $NOBJTRANS 6 $NHTENTRIES $MAX_ABORTS
                     done
                 let "NCLIENT*=2"
             done

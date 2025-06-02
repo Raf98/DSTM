@@ -34,6 +34,13 @@ else
 	NMAXCLIENTS=$3
 fi
 
+if [ -z $4 ]
+then
+	MAX_ABORTS=4096
+else
+	MAX_ABORTS=$4
+fi
+
 echo "Compiling all files needed for the generic benchmark..."
 ./compileSyntheticBench.sh
 
@@ -61,7 +68,7 @@ do
                 do
                     echo "Test $i for TRMILess"
                     printf "TRMILess\t$NCLIENT\t"
-                    ./runSyntheticBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 6
+                    ./runSyntheticBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 6 $MAX_ABORTS
                 done
                 
                 let "NCLIENT*=2"

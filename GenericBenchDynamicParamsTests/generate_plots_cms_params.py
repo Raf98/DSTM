@@ -16,9 +16,12 @@ if (cm_selected == "polka"):
 if (cm_selected == "karma"):
     dynamic_cm_params_test_filename = "tests_results/" + cm_selected + "_5delays.txt"
 
+if (cm_selected == "less"):
+    dynamic_cm_params_test_filename = "tests_results/" + cm_selected + "_5maxaborts.txt"
+
 lines = open(dynamic_cm_params_test_filename, "r").readlines()
 
-contention_managers = ["Kindergarten", "Timestamp", "Polka", "Karma", "Polite", "Passive"]
+contention_managers = ["Kindergarten", "Timestamp", "Polka", "Karma", "Polite", "Passive", "Less"]
 use_cases = []
 tests_cms = []
 cm_clients = []
