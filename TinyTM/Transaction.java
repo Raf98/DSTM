@@ -31,6 +31,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import TinyTM.contention.Aggressive;
 import TinyTM.contention.CMEnum;
 import TinyTM.contention.ContentionManager;
+import TinyTM.contention.Greedy;
 import TinyTM.contention.Karma;
 import TinyTM.contention.Kindergarten;
 import TinyTM.contention.Less;
@@ -50,12 +51,14 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   static public final AtomicInteger aborts = new AtomicInteger(0);
   static public final AtomicInteger transactionId = new AtomicInteger(0);
 
+  // New fields added to support multiple CMs
   public AtomicInteger priority = new AtomicInteger(0);
   public AtomicLong timestamp = new AtomicLong(0);
   public AtomicBoolean defunct = new AtomicBoolean(false);
   public AtomicReference<HashSet<Integer>> conflictList = new AtomicReference<HashSet<Integer>>(new HashSet<>());
   public AtomicInteger transactionAborts = new AtomicInteger(0);
   public AtomicInteger enemyAttempts = new AtomicInteger(0);
+  private AtomicBoolean waiting = new AtomicBoolean(false);
   public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
@@ -347,6 +350,9 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       case Aggressive:
         cm = new Aggressive();
         break;
+      case Greedy:
+        cm = new Greedy(maxAborts_minDelay_delay);
+        break;
       default:
         cm = new Passive(maxAborts_minDelay_delay);
         break;
@@ -377,5 +383,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   @Override
   public void setEnemyAttempts(int attempts) throws RemoteException {
     this.enemyAttempts.set(attempts);
+  }
+
+  @Override
+  public boolean isWaiting() throws RemoteException {
+    return waiting.get();
+  }
+
+  @Override
+  public void setWaiting(boolean waiting) throws RemoteException {
+    this.waiting.set(waiting);
   }
 }

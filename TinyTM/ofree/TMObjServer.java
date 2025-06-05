@@ -81,6 +81,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
           //tx.setPriority(0);     
           // System.out.println("committed");
           tx.setPriority(tx.getPriority() + 1);
+          tx.setWaiting(false);
           newLocator.oldVersion = oldLocator.newVersion;
           break;
         case ABORTED:
@@ -88,6 +89,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
           //tx.setDefunct(false);
           // System.out.println("Abort");
           tx.setPriority(tx.getPriority() + 1);
+          tx.setWaiting(false);
           newLocator.oldVersion = oldLocator.oldVersion;
           break;
         case ACTIVE: // tx.abort(); throw new AbortedException();
