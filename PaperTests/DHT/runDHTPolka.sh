@@ -41,7 +41,7 @@ fi
 
 if [ -z $5 ]
 then
-	MAX_DELAY=2048
+	MAX_DELAY=1024
 else
 	MAX_DELAY=$5
 fi
