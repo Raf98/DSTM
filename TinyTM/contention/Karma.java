@@ -34,11 +34,7 @@ public class Karma extends ContentionManager {
             return;
         }
 
-        try {
-            Thread.sleep(delay);
-        } catch (InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
+        backOff(delay);
         ++attempts;
     }
 

@@ -48,14 +48,15 @@ public class Kindergarten extends ContentionManager {
          */
         me.getConflictList().add(other.hashCode());
         
-        try {
-            Thread.sleep(delayInterval);
-            //backedOff = true;
-            //me.abort();
-            //throw new AbortedException();
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+        // try {
+        //     Thread.sleep(delayInterval);
+        //     //backedOff = true;
+        //     //me.abort();
+        //     //throw new AbortedException();
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+        backOff(delayInterval);
     }
 
     @Override

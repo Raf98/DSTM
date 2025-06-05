@@ -25,20 +25,16 @@ public class Greedy extends ContentionManager {
             attacking.setWaiting(true);
         }
         
-        try {
-           Thread.sleep(delay);
-        } catch (InterruptedException ex) {
-           Thread.currentThread().interrupt();
-        }
+        backOff(delay);
     }
 
   @Override
   public int getFirstParam() {
-    return delay;
+      return delay;
   }
 
   @Override
   public void setFirstParam(int firstParam) {
-    delay = firstParam;
+      delay = firstParam;
   }
 }

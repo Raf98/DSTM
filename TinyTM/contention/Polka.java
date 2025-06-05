@@ -43,11 +43,7 @@ public class Polka extends ContentionManager {
             return;
         }
 
-        try {
-            Thread.sleep(delay);
-        } catch (InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
+        backOff(delay);
         ++attempts;
 
         if (delay < maxDelay) {

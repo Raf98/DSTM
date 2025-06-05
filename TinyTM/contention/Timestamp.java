@@ -53,11 +53,7 @@ public class Timestamp extends ContentionManager {
             wasSetDefunctBefore = true;
         }
 
-        try {
-            Thread.sleep(delay);
-        } catch (InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
+        backOff(delay);
         ++attempts;
     }
 

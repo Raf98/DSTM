@@ -55,11 +55,7 @@ public class Polite extends ContentionManager {
       return;
     }
 
-    try {
-      Thread.sleep(delay);
-    } catch (InterruptedException ex) {
-      Thread.currentThread().interrupt();
-    }
+    backOff(delay);
     delay *= 2;
   }
 
