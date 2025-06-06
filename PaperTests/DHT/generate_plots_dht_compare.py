@@ -5,12 +5,8 @@ from matplotlib import pyplot as plt
 import math
 import os
 
-#contention_managers = ["Aggressive", "Karma", "Kindergarten", "Less", "Passive", 
-#                       "Polite", "Polite_new", "Polka", "Polka_new", "Timestamp"]
-
 contention_managers = ["Aggressive", "Karma", "Kindergarten", "Less", "Passive", 
-                       "Polite", "Polka", "Timestamp"]
-
+                       "Polite", "Polite_new", "Polka", "Polka_new", "Timestamp"]
 
 use_cases = []
 tests_cms = []
@@ -21,9 +17,6 @@ aborts = []
 
 for cm in contention_managers:
     dht_tests_filename = "tests_results/dht_" + cm.lower() + ".txt"
-
-    if (cm == 'Polite' or cm == 'Polka'):
-        dht_tests_filename = "tests_results/dht_" + cm.lower() + "_new.txt"
 
     lines = open(dht_tests_filename, "r").readlines()
 
@@ -171,6 +164,8 @@ print(counts)
 
 if not os.path.exists("Plots"):
     os.makedirs("Plots")
+if not os.path.exists("Plots/Compare"):
+    os.makedirs("Plots/Compare")
 
 multiply_factor = 1.1
 
@@ -250,7 +245,7 @@ for wp in writes_percentage:
 
             fig.set_figheight(10)
             fig.set_figwidth(19)
-            fig.savefig(f"Plots/NKEYS: {number_of_keys}, NHTENTRIES: {nohte}, WRITES: {wp}, NOBJTRANS:{opt}.png")
+            fig.savefig(f"Plots/Compare/NKEYS: {number_of_keys}, NHTENTRIES: {nohte}, WRITES: {wp}, NOBJTRANS:{opt}.png")
             n+=1
             i+=1
 
