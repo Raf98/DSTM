@@ -6,7 +6,8 @@ import math
 import os
 
 # "Less", "Karma", 
-contention_managers = ["Aggressive", "Karma", "Kindergarten", "Less", "Passive", "Polite", "Polka", "Timestamp"]
+contention_managers = ["Aggressive", "Karma", "Kindergarten", "Less", "Passive", 
+                       "Polite", "Polite_new", "Polka", "Polka_new", "Timestamp"]
 
 use_cases = []
 tests_cms = []
