@@ -54,7 +54,7 @@ do
     do
         # LOW CONTENTION??? - should loop first through 100 then through 500
         NOBJSERVER=50
-        for NOBJSERVER in $(seq 50 450 500);
+        for NOBJSERVER in $(seq 100 400 500);
         do
 
             echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
