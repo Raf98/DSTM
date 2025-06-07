@@ -17,6 +17,12 @@ aborts = []
 for cm in contention_managers:
     dht_tests_filename = f"tests_results/synthetic_{cm.lower()}.txt"
 
+    if cm != 'Karma':
+        dht_tests_filename = f"../../GenericBenchFinalTests/tests_results/{cm.lower()}_final_tests_results"
+        if cm == "Passive" or cm == "Polka" or cm == "Less":
+            dht_tests_filename += '_new'
+        dht_tests_filename += '.txt'
+
     lines = open(dht_tests_filename, "r").readlines()
 
     for line in lines:
@@ -54,8 +60,8 @@ for use_case in use_cases:
 print("FINISHED PRINTING USE CASES")
 
 writes_percentage = [20, 50]
-objs_per_transaction = [20, 50]
-objs_per_server = [50, 500]
+objs_per_transaction = [5, 20]
+objs_per_server = [100, 500] #[50, 500]
 number_of_clients = [2, 4, 8, 16]
 number_of_tests = 10
 test_cases_dict = {}
