@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=2
 else
 	NSERVER=$1
 fi
@@ -55,32 +55,32 @@ echo "Compiling all files needed for the generic benchmark..."
 #WRITES=20
 for WRITES in $(seq 20 30 50); 
 do
-    #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
-    NOBJSERVER=50
-    for NOBJSERVER in $(seq 50 450 500);
+   #SHORT CASE?? 5 OBJECTS - should loop first through 5 OBJS (SHORT) then through 10 OBJS (LONG)
+    NOBJTRANS=5
+    for NOBJTRANS in $(seq 5 15 20);
     do
         # LOW CONTENTION??? - should loop first through 100 then through 500
         NOBJSERVER=100
         for NOBJSERVER in $(seq 100 400 500);
         do
-    
-            echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
-            NCLIENT=2
-            while [[ $NCLIENT -le $NMAXCLIENTS ]];
-            do
+
+           echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
+           NCLIENT=2
+           while [[ $NCLIENT -le $NMAXCLIENTS ]];
+           do
                 NTRANS=$(($NTTRANS/$NCLIENT))
                 echo "clients: $NCLIENT, transactions per client: $NTRANS, NTTRANS: $NTTRANS"
 
                 for i in $(seq 0 9);
                 do
-                    echo "Test $i for TRMIPolite: $MIN_DELAY min_delay; $MAX_DELAY max_delay"
+                    echo "Test $i for TRMIPolite: $MIN_DELAY minDelay; $MAX_DELAY maxDelay"
                     printf "TRMIPolite\t$NCLIENT\t"
                     ./runSyntheticBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 1 $MIN_DELAY $MAX_DELAY
                 done
 
                 let "NCLIENT*=2"
-            done
-    
+           done
+
         done
     done
 done

@@ -11,7 +11,7 @@
 # NSERVER SHOULD BE 32
 if [ -z $1 ]
 then
-	NSERVER=16
+	NSERVER=2
 else
 	NSERVER=$1
 fi
@@ -60,7 +60,7 @@ do
     for NOBJTRANS in $(seq 5 15 20);
     do
         # LOW CONTENTION??? - should loop first through 100 then through 500
-        NOBJSERVER=50
+        NOBJSERVER=100
         for NOBJSERVER in $(seq 100 400 500);
         do
 
@@ -73,7 +73,7 @@ do
 
                 for i in $(seq 0 9);
                 do
-                    echo "Test $i for TRMIPolka: $MIN_DELAY MIN_DELAY"
+                    echo "Test $i for TRMIPolka: $MIN_DELAY minDelay; $MAX_DELAY maxDelay"
                     printf "TRMIPolka\t$NCLIENT\t"
                     ./runSyntheticBench_CMsParams.sh $NSERVER $NOBJSERVER $NCLIENT $WRITES $NTRANS $NOBJTRANS 3 $MIN_DELAY $MAX_DELAY
                 done

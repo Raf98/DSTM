@@ -53,8 +53,8 @@ do
     for NOBJTRANS in $(seq 5 15 20);
     do
         # LOW CONTENTION??? - should loop first through 100 then through 500
-        NOBJSERVER=50
-        for NOBJSERVER in $(seq 50 450 500);
+        NOBJSERVER=100
+        for NOBJSERVER in $(seq 100 400 500);
         do
 
             echo "NOBJSERVER: $NOBJSERVER WRITES: $WRITES NOBJTRANS: $NOBJTRANS"
