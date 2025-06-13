@@ -17,9 +17,9 @@ aborts = []
 for cm in contention_managers:
     dht_tests_filename = f"tests_results/synthetic_{cm.lower()}.txt"
 
-    if cm != 'Karma' and cm != 'Polka' and cm != "Polite" and cm != "Less":
+    if cm != 'Karma' and cm != 'Polka' and cm != "Polite" and cm != "Less" and cm != "Timestamp":
         dht_tests_filename = f"../../GenericBenchFinalTests/tests_results/{cm.lower()}_final_tests_results"
-        if cm == "Passive" or cm == "Less":
+        if cm == "Passive":
             dht_tests_filename += '_new'
         dht_tests_filename += '.txt'
 
