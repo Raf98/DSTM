@@ -1,0 +1,100 @@
+/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+Compiling all files needed for the generic benchmark...
+NOBJSERVER: 100 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKarma: 512 delay
+TRMIKarma	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+Time of execution: 54652 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 156 
+Total of set minus: 706 
+Total of set plus: 962 
+Total of gets: 20000 
+Total of transfer: 1038 
+Total of operations: 22706
+Total value of fields: 3225600 (Expected: 3225600)
+Test 1 for TRMIKarma: 512 delay
+TRMIKarma	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 53091 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 57 
+Total of set minus: 719 
+Total of set plus: 1000 
+Total of gets: 20000 
+Total of transfer: 1000 
+Total of operations: 22719
+Total value of fields: 3228100 (Expected: 3228100)
+Test 2 for TRMIKarma: 512 delay
+TRMIKarma	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 51640 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 245 
+Total of set minus: 686 
+Total of set plus: 972 
+Total of gets: 20000 
+Total of transfer: 1028 
+Total of operations: 22686
+Total value of fields: 3228600 (Expected: 3228600)
+Test 3 for TRMIKarma: 512 delay
+TRMIKarma	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	2	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+Time of execution: 56597 milliseconds
+Total of commits: 5000 (Expected: 5000)
+Total of aborts: 83 
+Total of set minus: 769 
+Total of set plus: 1042 
+Total of gets: 20000 
+Total of transfer: 958 
+Total of operations: 22769
+Total value of fields: 3227300 (Expected: 3227300)
+Test 4 for TRMIKarma: 512 delay
+TRMIKarma	2	/home/rafael/Documentos/PPGC/Mestrado/Dissertacao/DSTM
+CM ID:	2	Contention Manager Dynamic Parameters:Contention Manager Dynamic Parameters:
+
+maxAborts/minDelay/delay: 512
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 512
+WRITES: 500
+READS: 2000
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000

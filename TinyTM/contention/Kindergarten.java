@@ -27,7 +27,7 @@ public class Kindergarten extends ContentionManager {
             backedOff = false;
             me.abort();
             throw new AbortedException();
-        } else*/ 
+        }*/
          
         if (me.getConflictList().contains(other.hashCode())) {
             /*
@@ -38,24 +38,25 @@ public class Kindergarten extends ContentionManager {
 
             me.getConflictList().remove(other.hashCode());
             other.abort();
-        } else {
-
-            /*
-             * System.out.println("FIRST HIT! BACK OFF ATTACKING...");
-             * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
-             * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
-             */
-
-            me.getConflictList().add(other.hashCode());
-            try {
-                Thread.sleep(delayInterval);
-                //backedOff = true;
-                //me.abort();
-                //throw new AbortedException();
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
+            return;
         }
+
+        /*
+         * System.out.println("FIRST HIT! BACK OFF ATTACKING...");
+         * System.out.println("ATTACKING TRANSACTION: " + me.hashCode());
+         * System.out.println("ENEMY TRANSACTION: " + other.hashCode());
+         */
+        me.getConflictList().add(other.hashCode());
+        
+        // try {
+        //     Thread.sleep(delayInterval);
+        //     //backedOff = true;
+        //     //me.abort();
+        //     //throw new AbortedException();
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+        backOff(delayInterval);
     }
 
     @Override

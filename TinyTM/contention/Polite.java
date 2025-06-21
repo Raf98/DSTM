@@ -26,43 +26,46 @@ import java.rmi.*;
  * @author Maurice Herlihy
  */
 public class Polite extends ContentionManager {
-  private static /*final*/ int MIN_DELAY; //= 128;// 64;//32;
-  private static /*final*/ int MAX_DELAY; //= 4096;// 2048;//1024;
-  int delay;// = MIN_DELAY;
+  private int minDelay; // = 128;// 64;//32;
+  private int maxDelay; // = 4096;// 2048;//1024;
+  int delay;
+  int currentEnemyHashCode = Integer.MIN_VALUE;
 
-  public Polite(){
-    MIN_DELAY = 128;
-    MAX_DELAY = 4096;
-    delay = MIN_DELAY;
+  public Polite() {
+    minDelay = 64;
+    maxDelay = 4096;
+    delay = minDelay;
   }
 
   public Polite(final int minDelay, final int maxDelay) {
-    MIN_DELAY = minDelay;
-    MAX_DELAY = maxDelay;
-    delay = MIN_DELAY;
+    this.minDelay = minDelay;
+    this.maxDelay = maxDelay;
+    delay = minDelay;
   }
 
   public void resolve(Transaction me, ITransaction other) throws RemoteException {
-    if (delay < MAX_DELAY) { // be patient
-      try {
-        Thread.sleep(delay);
-      } catch (InterruptedException ex) {
-        Thread.currentThread().interrupt();
-      }
-      delay = 2 * delay;
-    } else { // patience exhausted
-      other.abort();
-      delay = MIN_DELAY;
+    if (other.hashCode() != currentEnemyHashCode) {
+      currentEnemyHashCode = other.hashCode();
+      delay = minDelay;
     }
+
+    if (delay >= maxDelay) {
+      other.abort();
+      delay = minDelay;
+      return;
+    }
+
+    backOff(delay);
+    delay *= 2;
   }
 
   @Override
   public int getFirstParam() {
-    return MIN_DELAY;
+    return minDelay;
   }
 
   @Override
   public void setFirstParam(int firstParam) {
-    MIN_DELAY = firstParam;
+    minDelay = firstParam;
   }
 }

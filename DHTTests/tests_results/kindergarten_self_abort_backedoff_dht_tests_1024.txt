@@ -1,0 +1,149 @@
+/home/rddsantos/DSTM
+Compiling all files needed for the DHT benchmark...
+NKEYS: 10000 NHTENTRIES: 128 WRITES: 20 NOBJTRANS: 5
+clients: 2, transactions per client: 2500, NTTRANS: 5000
+Test 0 for TRMIKindergarten
+TRMIKindergarten	2	/home/rddsantos/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+WRITES: 500
+READS: 2000
+WRITES: 500
+READS: 2000
+Time of execution: 18315 milliseconds
+Current commits: 298
+Current aborts: 0
+Current commits: 644
+Current aborts: 0
+Current commits: 983
+Current aborts: 0
+Current commits: 1271
+Current aborts: 0
+Current commits: 1562
+Current aborts: 0
+Current commits: 1888
+Current aborts: 0
+Current commits: 2187
+Current aborts: 0
+Current commits: 2513
+Current aborts: 0
+Current commits: 2827
+Current aborts: 0
+Current commits: 3127
+Current aborts: 0
+Current commits: 3434
+Current aborts: 0
+Current commits: 3753
+Current aborts: 0
+Current commits: 4055
+Current aborts: 0
+Current commits: 4363
+Current aborts: 0
+Current commits: 4703
+Current aborts: 0
+Current commits: 5000
+Current aborts: 0
+Total of commits: 5000 (Expected: 5000)
+Total of inserts: 1000 
+Total of gets: 4000 
+Total of aborts: 0 
+Test 1 for TRMIKindergarten
+TRMIKindergarten	2	/home/rddsantos/DSTM
+CM ID:	5	Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+Contention Manager Dynamic Parameters:
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+maxAborts/minDelay/delay: 1024
+maxDelay_intervals: 256
+WRITES: 500
+WRITES: 500
+READS: 2000
+READS: 2000

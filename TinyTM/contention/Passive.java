@@ -10,6 +10,7 @@ public class Passive extends ContentionManager {
   private static /* final */ int MAX_ABORTS;
   private int aborts;
   // private boolean abortEnemy = false;
+  int currentEnemyHashCode = Integer.MIN_VALUE;
 
   public Passive() {
     this.aborts = 0;
@@ -37,7 +38,11 @@ public class Passive extends ContentionManager {
      * throw new AbortedException();
      * }
      */
-
+    if (other.hashCode() != currentEnemyHashCode) {
+      currentEnemyHashCode = other.hashCode();
+      aborts = 0;
+    }
+    
     if (me.getTransactionAborts() < MAX_ABORTS) {
       aborts++;
       //System.out.printf("%d ABORT ATTACKING %d \n", me.getTransactionAborts(), me.hashCode());

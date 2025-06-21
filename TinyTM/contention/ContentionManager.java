@@ -26,7 +26,8 @@ import java.rmi.*;
  * From "The Art of Multiprocessor Programming",
  * by Maurice Herlihy and Nir Shavit.
  *
- * This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.
+ * This work is licensed under a Creative Commons Attribution-Share Alike 3.0
+ * United States License.
  * http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png
  *
  * @author Maurice Herlihy
@@ -40,7 +41,7 @@ public abstract class ContentionManager {
     @Override
     protected ContentionManager initialValue() {
       try {
-        return (ContentionManager) new Passive();//Defaults.MANAGER.newInstance();
+        return (ContentionManager) new Passive();// Defaults.MANAGER.newInstance();
       } catch (Exception ex) {
         throw new PanicException(ex);
       }
@@ -48,6 +49,17 @@ public abstract class ContentionManager {
   };
 
   public abstract void resolve(Transaction me, ITransaction other) throws RemoteException;
+
+  public void backOff(int delay) {
+    // long end = System.currentTimeMillis() + 512;
+    // while (System.currentTimeMillis() < end);
+    //// {for (int i = 0; i < 100; i++);}
+    try {
+      Thread.sleep(delay);
+    } catch (InterruptedException ex) {
+      Thread.currentThread().interrupt();
+    }
+  }
 
   public static ContentionManager getLocal() {
     return local.get();
@@ -58,5 +70,6 @@ public abstract class ContentionManager {
   }
 
   public abstract int getFirstParam();
+
   public abstract void setFirstParam(int firstParam);
 }

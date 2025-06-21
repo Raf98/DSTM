@@ -8,6 +8,7 @@ import DSTMBenchmark.ChooseOP;
 import DSTMBenchmark.ChooseObjects;
 import DSTMBenchmark.IDBarrier;
 import DSTMBenchmark.RObject;
+import TinyTM.contention.CMEnum;
 
 public class ClientApp {
 
@@ -30,8 +31,8 @@ public class ClientApp {
                 int maxDelay_intervals = 256;
                 boolean usesDynamicParams = false;
         
-                // If CM is not Less or Agressive, that have no settable parameters
-                if (args.length > 7 && contentionManager < 6) {
+                // If CM is not Agressive, that have no settable parameters
+                if (args.length > 7 && contentionManager != CMEnum.Aggressive.getId()) {
                     maxAborts_minDelay_delay = Integer.parseInt(args[7]);
                     usesDynamicParams = true;
                     

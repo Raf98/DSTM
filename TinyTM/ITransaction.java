@@ -64,9 +64,15 @@ public interface ITransaction extends Remote {
 
   public int getTransactionAborts() throws RemoteException;
 
+  public void setTransactionAborts(int transactionAborts) throws RemoteException;
+
   public int getEnemyAttempts() throws RemoteException;
 
   public void setEnemyAttempts(int enemyAttempts) throws RemoteException;
+
+  public boolean isWaiting() throws RemoteException;
+
+  public void setWaiting(boolean waiting) throws RemoteException;
   
   public int getAborts() throws RemoteException;
 

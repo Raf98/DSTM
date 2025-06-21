@@ -31,6 +31,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import TinyTM.contention.Aggressive;
 import TinyTM.contention.CMEnum;
 import TinyTM.contention.ContentionManager;
+import TinyTM.contention.Greedy;
 import TinyTM.contention.Karma;
 import TinyTM.contention.Kindergarten;
 import TinyTM.contention.Less;
@@ -50,12 +51,14 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
   static public final AtomicInteger aborts = new AtomicInteger(0);
   static public final AtomicInteger transactionId = new AtomicInteger(0);
 
+  // New fields added to support multiple CMs
   public AtomicInteger priority = new AtomicInteger(0);
-  public AtomicLong timestamp;
+  public AtomicLong timestamp = new AtomicLong(0);
   public AtomicBoolean defunct = new AtomicBoolean(false);
   public AtomicReference<HashSet<Integer>> conflictList = new AtomicReference<HashSet<Integer>>(new HashSet<>());
   public AtomicInteger transactionAborts = new AtomicInteger(0);
   public AtomicInteger enemyAttempts = new AtomicInteger(0);
+  private AtomicBoolean waiting = new AtomicBoolean(false);
   public static IGlobalClock globalClock;
 
   public static final Transaction COMMITTED = initCOMMITTED();
@@ -97,11 +100,6 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     status = new AtomicReference<Status>(Status.ACTIVE);
 
     cm = chooseCM();
-    if (globalClock == null) {
-      globalClock = (IGlobalClock) Naming.lookup("globalclock");
-    }
-    //System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
-    timestamp = new AtomicLong(globalClock.getCurrentTime());
   }
 
   private Transaction(Transaction.Status myStatus) throws RemoteException {
@@ -178,9 +176,15 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     T result;
     Transaction me;
     Thread myThread = Thread.currentThread();
-    long transactionTimestamp = -1;
-    int transactionPriority = -1;
-    HashSet<Integer> transactionConflictList = null;
+
+    if (globalClock == null) {
+      globalClock = (IGlobalClock) Naming.lookup("globalclock");
+    }
+    //System.out.println("TRANSACTION: " + this.hashCode() + " - GLOBAL CLOCK: " + globalClock.hashCode());
+
+    long transactionTimestamp = globalClock.getCurrentTime();
+    int transactionPriority = 0;
+    HashSet<Integer> transactionConflictList = new HashSet<>();
 
     int transactionNum = transactionId.incrementAndGet();
     int transactionAborts = 0;
@@ -190,15 +194,11 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       me = new Transaction();
       Transaction.setLocal(me);
 
-      if (transactionPriority != -1) {
-        me.priority.set(transactionPriority);
-      }
-      if (transactionTimestamp != -1) {
-        me.timestamp.set(transactionTimestamp);
-      }
+      me.timestamp.set(transactionTimestamp);
       me.transactionAborts.set(transactionAborts);
+      me.priority.set(transactionPriority);
 
-      if (transactionConflictList != null) {
+      if (transactionConflictList.size() > 0) {
         me.conflictList.set(transactionConflictList);
       }
 
@@ -214,6 +214,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       try {
         result = xaction.call();
         if (me.validateReadSet() && me.commit()) {
+          me.setPriority(0);              // it should be reset whenever a transaction commits
           commits.getAndIncrement();
           //System.out.printf("THREAD: %d TRANSACTION %d; COMMITTED: %d\n", myThread.hashCode(), transactionNum, commits.get());
 
@@ -335,7 +336,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         cm = new Karma(maxAborts_minDelay_delay);
         break;
       case Polka:
-        cm = new Polka(maxAborts_minDelay_delay);
+        cm = new Polka(maxAborts_minDelay_delay, maxDelay_intervals);
         break;
       case Timestamp:
         cm = new Timestamp(maxAborts_minDelay_delay, maxDelay_intervals);
@@ -344,10 +345,13 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
         cm = new Kindergarten(maxAborts_minDelay_delay);
         break;
       case Less:
-        cm = new Less();
+        cm = new Less(maxAborts_minDelay_delay);
         break;
       case Aggressive:
         cm = new Aggressive();
+        break;
+      case Greedy:
+        cm = new Greedy(maxAborts_minDelay_delay);
         break;
       default:
         cm = new Passive(maxAborts_minDelay_delay);
@@ -366,13 +370,28 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
     return this.transactionAborts.get();
   }
 
-@Override
-public int getEnemyAttempts() throws RemoteException {
-  return this.enemyAttempts.get();
-}
+  @Override
+  public void setTransactionAborts(int transactionAborts) throws RemoteException {
+    this.transactionAborts.set(transactionAborts);
+  }
 
-@Override
-public void setEnemyAttempts(int attempts) throws RemoteException {
-  this.enemyAttempts.set(attempts);
-}
+  @Override
+  public int getEnemyAttempts() throws RemoteException {
+    return this.enemyAttempts.get();
+  }
+
+  @Override
+  public void setEnemyAttempts(int attempts) throws RemoteException {
+    this.enemyAttempts.set(attempts);
+  }
+
+  @Override
+  public boolean isWaiting() throws RemoteException {
+    return waiting.get();
+  }
+
+  @Override
+  public void setWaiting(boolean waiting) throws RemoteException {
+    this.waiting.set(waiting);
+  }
 }

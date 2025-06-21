@@ -56,6 +56,8 @@ public class DHTClient {
 
         saveData.saveData(clientid, transaction);
 
+        try {
+
         // waits for all cleints do save data
         barrier.await();
         // waits for all servers to process data
@@ -66,6 +68,10 @@ public class DHTClient {
         // now it is time to save data for sanity check
 
         // saveData(clientid,transaction);
+        
+        } catch (Exception e) {
+            
+        }
 
         System.exit(0);
     }
