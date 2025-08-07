@@ -7,7 +7,7 @@ This version supports multiple Contention Managers through the dynamic loading o
 To run the synthetic benchmark using TRMI's DTM under different contention managers, do the following:
 
 - Open a terminal in the main folder, and enter ```cd GenericBenchFinalTests```
-- Then, chose of the 8 shell scripts, where each of these run the synthetic bench under different scenarios in a single contention manager
+- Then, choose one of the 8 shell scripts, where each of these run the synthetic bench under different scenarios in a single contention manager
 - To run one of these shell files, enter ```./runGenericBench{CM}FinalTests.sh```, where ```{CM}``` is the name of the Contention Manager with which the tests will be run. 
 - For instance, if you want to run the synth bench using the **Karma** CM, you would enter ```./runGenericBenchKarmaFinalTests.sh```.
 
@@ -17,6 +17,6 @@ Check this script file to see which scenarios are run.
 
 To run the tests on the DHT application, the steps are:
 - Open a terminal in the main folder, and enter ```cd DHTTests```
-- Then, chose of the 8 shell scripts, where each of these run the synthetic bench under different scenarios in a single contention manager
+- Then, choose one of the 8 shell scripts, where each of these run the synthetic bench under different scenarios in a single contention manager
 - To run one of these shell files, enter ```./runDHT{CM}.sh```, where ```{CM}``` is the name of the Contention Manager with which the tests will be run. 
 - For instance, if you want to run the synth bench using the **Polite** CM, you would enter ```./runDHTPolite.sh```.
