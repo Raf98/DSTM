@@ -16,6 +16,7 @@ public class Greedy extends ContentionManager {
 
     public void resolve(Transaction attacking, ITransaction enemy) throws RemoteException {
         if(attacking.getTimestamp() < enemy.getTimestamp() || enemy.isWaiting()) {
+            enemy.setWaiting(false);
             enemy.abort();
             //attacking.setWaiting(false);
             return;

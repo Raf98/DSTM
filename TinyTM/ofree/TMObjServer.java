@@ -168,12 +168,14 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     switch (writer.getStatus()) {
       case COMMITTED:
+        tx.setWaiting(false);
         version = (T) locator.newVersion;
         if (writer != Transaction.COMMITTED) {
           locator.owner.compareAndSet(writer, Transaction.COMMITTED);
         }
         break;
       case ABORTED:
+        tx.setWaiting(false);
         version = (T) locator.oldVersion;
         if (writer != Transaction.ABORTED) {
           locator.owner.compareAndSet(writer, Transaction.ABORTED);
