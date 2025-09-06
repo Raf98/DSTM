@@ -157,6 +157,7 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
     tx.setEnemyAttempts(0);    // reset transaction's enemies attempts whenever when opening an object to read
     tx.setDefunct(false);
     tx.setPriority(tx.getPriority() + 1);
+    tx.setWaiting(false);
 
     if (locator.owner.get().hashCode() == tx.hashCode()) {
       return (T) locator.newVersion;
@@ -168,14 +169,12 @@ public class TMObjServer<T extends Copyable<T>> extends UnicastRemoteObject impl
 
     switch (writer.getStatus()) {
       case COMMITTED:
-        tx.setWaiting(false);
         version = (T) locator.newVersion;
         if (writer != Transaction.COMMITTED) {
           locator.owner.compareAndSet(writer, Transaction.COMMITTED);
         }
         break;
       case ABORTED:
-        tx.setWaiting(false);
         version = (T) locator.oldVersion;
         if (writer != Transaction.ABORTED) {
           locator.owner.compareAndSet(writer, Transaction.ABORTED);

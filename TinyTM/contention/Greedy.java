@@ -18,11 +18,11 @@ public class Greedy extends ContentionManager {
         if(attacking.getTimestamp() < enemy.getTimestamp() || enemy.isWaiting()) {
             enemy.setWaiting(false);
             enemy.abort();
-            //attacking.setWaiting(false);
+            attacking.setWaiting(false);
             return;
         }
 
-        if (!attacking.isWaiting()) {
+        if (!enemy.isWaiting()) {
             attacking.setWaiting(true);
         }
         

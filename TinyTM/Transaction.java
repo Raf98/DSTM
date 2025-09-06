@@ -197,6 +197,7 @@ public class Transaction extends UnicastRemoteObject implements ITransaction {
       me.timestamp.set(transactionTimestamp);
       me.transactionAborts.set(transactionAborts);
       me.priority.set(transactionPriority);
+      me.waiting.set(false);
 
       if (transactionConflictList.size() > 0) {
         me.conflictList.set(transactionConflictList);
